@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-01-06T09:33:37.052Z\n"
-"PO-Revision-Date: 2020-01-06 11:11+0000\n"
+"PO-Revision-Date: 2020-01-08 02:15+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.stg.fedoraproject.org/projects/"
-"cockpit-composer/cockpit-composer/sk/>\n"
+"cockpit-composer/master/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -372,7 +372,7 @@ msgstr "Skontrolovať SSL certifikát"
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
 msgid "Clear All Filters"
-msgstr ""
+msgstr "Vyčistiť všetky filtre"
 
 #. [components.Modal.2324218928]
 #. defaultMessage is:
@@ -1153,7 +1153,7 @@ msgstr ""
 #: build/messages/components/Modal/CreateImage.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "Select one"
-msgstr ""
+msgstr "Vyberte jedno"
 
 #. [components.ListView.selectedTabTitle]
 #. defaultMessage is:
