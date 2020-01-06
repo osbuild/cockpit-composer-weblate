@@ -1,15 +1,17 @@
 # Pavel Borecki <pavel.borecki@gmail.com>, 2019. #zanata
-#, fuzzy
+# Matej Marusak <mmarusak@redhat.com>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-01-06T09:33:37.052Z\n"
-"PO-Revision-Date: 2019-12-17 05:59+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech\n"
+"PO-Revision-Date: 2020-01-08 02:15+0000\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
+"Language-Team: Czech <https://translate.stg.fedoraproject.org/projects/"
+"cockpit-composer/master/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -872,7 +874,7 @@ msgstr "Zpráva"
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/pages/blueprints/index.json
 msgid "Modify your filter criteria to get results."
-msgstr "Abyste obdrželi výsledky, upravte vámi zadané filtry"
+msgstr "Abyste obdrželi výsledky, upravte vámi zadané filtry."
 
 #. [components.Modal.636461959]
 #. defaultMessage is:
@@ -936,7 +938,7 @@ msgstr "Žádné výsledky odpovídající podmínkám filtru"
 #. No images have been created from this blueprint.
 #: build/messages/pages/blueprint/index.json
 msgid "No images have been created from this blueprint."
-msgstr "Z tohoto plánku nebyly vytvořeny žádné obrazy"
+msgstr "Z tohoto plánku nebyly vytvořeny žádné obrazy."
 
 #. [components.ListView.1893974769]
 #. defaultMessage is:
@@ -1268,7 +1270,7 @@ msgstr ""
 #. Specify a new blueprint name.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Specify a new blueprint name."
-msgstr "Zadejte název plánku"
+msgstr "Zadejte název plánku."
 
 #. [components.EmptyState.errorInactivePrimary]
 #. defaultMessage is:
