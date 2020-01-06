@@ -1,16 +1,17 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
-# Matej Marusak <mmarusak@redhat.com>, 2019. #zanata
-#, fuzzy
+# Matej Marusak <mmarusak@redhat.com>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-01-06T09:33:37.052Z\n"
-"PO-Revision-Date: 2019-12-18 07:47+0000\n"
+"PO-Revision-Date: 2020-01-06 11:11+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
-"Language-Team: Slovak\n"
+"Language-Team: Slovak <https://translate.stg.fedoraproject.org/projects/"
+"cockpit-composer/cockpit-composer/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -724,7 +725,7 @@ msgstr ""
 #. Filter By Name...
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Filter By Name..."
-msgstr "Filtrovať podľa mena"
+msgstr "Filtrovať podľa mena..."
 
 #. [components.Modal.1182120637]
 #. defaultMessage is:
@@ -908,7 +909,7 @@ msgstr ""
 #. No Dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "No Dependencies"
-msgstr ""
+msgstr "Žiadne závislosti"
 
 #. [pages.blueprint.noImagesTitle]
 #. defaultMessage is:
@@ -1644,7 +1645,7 @@ msgstr "Domovská stránka"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "metalink"
-msgstr "metalink"
+msgstr "metaodkaz"
 
 #. [components.ListView.mirrorlist]
 #. defaultMessage is:
@@ -1655,7 +1656,7 @@ msgstr "metalink"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
-msgstr "mirrorlist"
+msgstr "zoznam zrkadiel"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:
