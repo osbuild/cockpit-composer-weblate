@@ -1,18 +1,19 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 # Tony Fu <tfu@redhat.com>, 2019. #zanata
-#, fuzzy
+# Pany <geekpany@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-01-06T09:33:37.052Z\n"
-"PO-Revision-Date: 2019-10-08 12:17+0000\n"
-"Last-Translator: Tony Fu <tfu@redhat.com>\n"
-"Language-Team: Chinese (China)\n"
+"PO-Revision-Date: 2020-01-08 02:15+0000\n"
+"Last-Translator: Pany <geekpany@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.stg.fedoraproject.org/"
+"projects/cockpit-composer/master/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -33,7 +34,7 @@ msgstr "1 构建进行中"
 #. A blueprint name is required.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "A blueprint name is required."
-msgstr "需要一个蓝图（blueprint）名"
+msgstr "需要一个蓝图（blueprint）名称。"
 
 #. [components.Modal.2310857819]
 #. defaultMessage is:
