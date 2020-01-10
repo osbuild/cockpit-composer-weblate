@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-06T09:33:37.052Z\n"
+"POT-Creation-Date: 2020-01-08T14:47:00.417Z\n"
 "PO-Revision-Date: 2019-10-10 12:48+0000\n"
 "Last-Translator: Eun-Ju Kim <eukim@redhat.com>\n"
 "Language-Team: Korean\n"

@@ -2,7 +2,7 @@
 # Larry Letelier <geek@xofica.cl>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-06T09:33:37.052Z\n"
+"POT-Creation-Date: 2020-01-08T14:47:00.417Z\n"
 "PO-Revision-Date: 2020-01-10 16:15+0000\n"
 "Last-Translator: Larry Letelier <geek@xofica.cl>\n"
 "Language-Team: Spanish <https://translate.stg.fedoraproject.org/projects/"
