@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-08T14:47:00.417Z\n"
+"POT-Creation-Date: 2020-01-16T01:09:07.826Z\n"
 "PO-Revision-Date: 2020-01-15 06:47+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.stg.fedoraproject.org/projects/"
@@ -519,7 +519,9 @@ msgstr "ユーザーアカウントの作成"
 msgid ""
 "Create a blueprint to define the contents that will be included in the "
 "images you create. Images can be produced in a variety of output formats."
-msgstr "作成するイメージに含むコンテンツを定義するためにブループリントを作成します。イメージは、様々な出力フォーマットで作成可能です。"
+msgstr ""
+"作成するイメージに含むコンテンツを定義するためにブループリントを作成します。"
+"イメージは、様々な出力フォーマットで作成可能です。"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
