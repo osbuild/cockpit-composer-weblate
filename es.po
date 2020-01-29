@@ -3,7 +3,7 @@
 # Dennis Tobar <DENNIS.TOBAR@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-16T01:09:07.826Z\n"
+"POT-Creation-Date: 2020-01-24T03:27:37.794Z\n"
 "PO-Revision-Date: 2020-01-22 11:15+0000\n"
 "Last-Translator: Dennis Tobar <DENNIS.TOBAR@gmail.com>\n"
 "Language-Team: Spanish <https://translate.stg.fedoraproject.org/projects/"
