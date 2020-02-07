@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-01-24T03:27:37.794Z\n"
-"PO-Revision-Date: 2020-01-29 01:16+0000\n"
+"PO-Revision-Date: 2020-02-08 06:16+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. (most recent first)
 #: build/messages/components/Modal/PendingChanges.json
 msgid "(most recent first)"
-msgstr "(les plus récents d'abord)"
+msgstr "(les plus récents d’abord)"
 
 #. [components.Modal.485442669]
 #. defaultMessage is:
