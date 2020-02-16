@@ -5,11 +5,11 @@
 # Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-31T04:33:26.681Z\n"
+"POT-Creation-Date: 2020-02-10T12:16:15.012Z\n"
 "PO-Revision-Date: 2020-02-16 09:38+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/master/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1282,8 +1282,8 @@ msgid ""
 msgstr ""
 "Les sources sont utilisées pour résoudre les dépendances des plans d’images "
 "et pour composer les images. Lors de l’ajout de sources personnalisées, vous "
-"devez vous assurer que les paquets du source n’entrent pas en conflit avec d’"
-"autres sources de paquets, sinon la résolution des dépendances et la "
+"devez vous assurer que les paquets du source n’entrent pas en conflit avec "
+"d’autres sources de paquets, sinon la résolution des dépendances et la "
 "composition des images échoueront."
 
 #. [components.Modal.540971304]
@@ -1466,8 +1466,8 @@ msgid ""
 "This process can take a while. Images are built in the order they are "
 "started."
 msgstr ""
-"Le processus peut prendre un moment. Les images sont construites dans l’"
-"ordre par lequel elles ont été créées."
+"Le processus peut prendre un moment. Les images sont construites dans "
+"l’ordre par lequel elles ont été créées."
 
 #. [components.Modal.2969976976]
 #. defaultMessage is:
@@ -1831,6 +1831,12 @@ msgstr "{heading} de cette liste à ajouter au modèle."
 #: build/messages/components/Pagination/Pagination.json
 msgid "{startNumber} - {endNumber} of {totalNumber}"
 msgstr "{startNumber} - {endNumber} de {totalNumber}"
+
+#: public/manifest.json
+#, fuzzy
+#| msgid "Create Image"
+msgid "Creating system images"
+msgstr "Créer une image"
 
 #: public/manifest.json
 msgid "Image Builder"

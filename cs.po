@@ -2,7 +2,7 @@
 # Matej Marusak <mmarusak@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-31T04:33:26.681Z\n"
+"POT-Creation-Date: 2020-02-10T12:16:15.012Z\n"
 "PO-Revision-Date: 2020-01-08 02:15+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Czech <https://translate.stg.fedoraproject.org/projects/"
@@ -1805,6 +1805,12 @@ msgstr "{selectComponents} v tomto seznamu pro přidání do plánku."
 #: build/messages/components/Pagination/Pagination.json
 msgid "{startNumber} - {endNumber} of {totalNumber}"
 msgstr "{startNumber} - {endNumber} z {totalNumber}"
+
+#: public/manifest.json
+#, fuzzy
+#| msgid "Create Image"
+msgid "Creating system images"
+msgstr "Vytvořit obraz"
 
 #: public/manifest.json
 msgid "Image Builder"
