@@ -1,7 +1,7 @@
 # Ahmad Haghighi <haghighi.ahmad@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-02-10T12:16:15.012Z\n"
+"POT-Creation-Date: 2020-02-17T12:46:19.361Z\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
