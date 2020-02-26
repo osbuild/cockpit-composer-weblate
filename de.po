@@ -2,7 +2,7 @@
 # Mike FABIAN <mfabian@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-02-17T12:46:19.361Z\n"
+"POT-Creation-Date: 2020-02-26T07:06:49.258Z\n"
 "PO-Revision-Date: 2020-01-15 06:47+0000\n"
 "Last-Translator: Mike FABIAN <mfabian@redhat.com>\n"
 "Language-Team: German <https://translate.stg.fedoraproject.org/projects/"

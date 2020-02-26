@@ -2,7 +2,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-02-17T12:46:19.361Z\n"
+"POT-Creation-Date: 2020-02-26T07:06:49.258Z\n"
 "PO-Revision-Date: 2019-11-18 03:55+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Russian\n"

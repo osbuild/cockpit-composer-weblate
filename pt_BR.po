@@ -2,7 +2,7 @@
 # Eliane Pereira <elirpereira@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-02-17T12:46:19.361Z\n"
+"POT-Creation-Date: 2020-02-26T07:06:49.258Z\n"
 "PO-Revision-Date: 2020-02-26 13:38+0000\n"
 "Last-Translator: Eliane Pereira <elirpereira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -239,7 +239,8 @@ msgstr "Componentes do Blueprint"
 #. Blueprint names cannot contain spaces or the character: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces or the character: {invalidChar}"
-msgstr "Nome da referência não pode conter espaços ou o caracter: {invalidChar}"
+msgstr ""
+"Nome da referência não pode conter espaços ou o caracter: {invalidChar}"
 
 #. [components.Modal.1134732033]
 #. defaultMessage is:
