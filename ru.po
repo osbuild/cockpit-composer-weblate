@@ -1,10 +1,11 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2020.
+# Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-03-18T16:51:59.689Z\n"
 "PO-Revision-Date: 2020-04-01 11:38+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"Last-Translator: Petr Molodyk <pamolodyk@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/ru/>\n"
 "Language: ru\n"
@@ -425,7 +426,7 @@ msgstr "Сохранить"
 #. Commit and Create
 #: build/messages/components/Modal/CreateImage.json
 msgid "Commit and Create"
-msgstr "Commit and Create"
+msgstr "Завершить и создать"
 
 #. [pages.blueprint.3540308269]
 #. defaultMessage is:
@@ -1380,20 +1381,22 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
+"Имя пользователя может содержать только буквы a-z, цифры, точки, дефисы и "
+"символы подчеркивания."
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
 #. The user {userName} is not permitted to start services.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "The user {userName} is not permitted to start services."
-msgstr ""
+msgstr "Пользователю {userName} запрещено запускать сервисы."
 
 #. [components.Form.2330477961]
 #. defaultMessage is:
 #. The values entered for password do not match.
 #: build/messages/components/Form/Password.json
 msgid "The values entered for password do not match."
-msgstr ""
+msgstr "Указанные пароли не совпадают."
 
 #. [pages.blueprint.emptyBlueprintMessage]
 #. defaultMessage is:
@@ -1439,7 +1442,7 @@ msgstr "Этот проект пуст."
 #. This component has no dependencies.
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "This component has no dependencies."
-msgstr ""
+msgstr "У этого компонента зависимостей нет."
 
 #. [components.Modal.infotip]
 #. defaultMessage is:
@@ -1457,28 +1460,28 @@ msgstr ""
 #. This source name already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source name already exists."
-msgstr ""
+msgstr "Это имя уже использовано."
 
 #. [components.Modal.1932541555]
 #. defaultMessage is:
 #. This source path already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source path already exists."
-msgstr ""
+msgstr "Этот путь к источнику уже использован."
 
 #. [components.Modal.3707489178]
 #. defaultMessage is:
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
 msgid "This user name already exists."
-msgstr ""
+msgstr "Это имя пользователя уже использовано."
 
 #. [components.EmptyState.errorInactiveSecondary]
 #. defaultMessage is:
 #. Troubleshoot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Troubleshoot"
-msgstr ""
+msgstr "Диагностика проблем"
 
 #. [components.ListView.1952810469]
 #. defaultMessage is:
@@ -1504,7 +1507,7 @@ msgstr "Тип"
 #. Type {sourceType}
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Type {sourceType}"
-msgstr ""
+msgstr "Тип {sourceType}"
 
 #. [components.ListView.1324178587]
 #. defaultMessage is:
@@ -1518,7 +1521,7 @@ msgstr "Ссылка (URL)"
 #. Undo Last Change
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Undo Last Change"
-msgstr ""
+msgstr "Отменить последнее изменение"
 
 #. [components.Modal.1458938618]
 #. defaultMessage is:
@@ -1532,7 +1535,7 @@ msgstr "Обновить"
 #. Update Source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Update Source"
-msgstr ""
+msgstr "Обновить источник"
 
 #. [components.Modal.562988552] - Identifies the change as a component that was updated
 #. defaultMessage is:
@@ -1546,56 +1549,56 @@ msgstr "Обновлено"
 #. Upload complete
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload complete"
-msgstr ""
+msgstr "Загрузка завершена"
 
 #. [components.ListView.uploadStatusFailed] - Upload status when process failed
 #. defaultMessage is:
 #. Upload failed
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload failed"
-msgstr ""
+msgstr "Ошибка загрузки"
 
 #. [components.ListView.uploadStatusRunning] - Upload status when process is in progress
 #. defaultMessage is:
 #. Upload in progress
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload in progress"
-msgstr ""
+msgstr "Идет загрузка"
 
 #. [components.ListView.uploadStatusWaiting] - Upload status when process is waiting
 #. defaultMessage is:
 #. Upload pending
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload pending"
-msgstr ""
+msgstr "Ожидание загрузки"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
 #. Upload type
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload type"
-msgstr ""
+msgstr "Тип загрузки"
 
 #. [pages.blueprint.userKebab]
 #. defaultMessage is:
 #. User Account Actions
 #: build/messages/pages/blueprint/index.json
 msgid "User Account Actions"
-msgstr ""
+msgstr "Действия над аккаунтом пользователя"
 
 #. [components.Modal.529605439]
 #. defaultMessage is:
 #. User name
 #: build/messages/components/Modal/UserAccount.json
 msgid "User name"
-msgstr ""
+msgstr "Имя пользователя"
 
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -1605,6 +1608,8 @@ msgid ""
 "Valid characters for hostname are letters from a to z, the digits from 0 to "
 "9, and the hyphen (-). A hostname may not start with a hyphen."
 msgstr ""
+"Название узла может содержать буквы от a до z, цифры от 0 до 9 и дефис (-), "
+"но не может начинаться с дефиса."
 
 #. [components.ListView.602883748]
 #. defaultMessage is:
@@ -1633,14 +1638,14 @@ msgstr "Просмотр"
 #: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "actions"
-msgstr ""
+msgstr "действия"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. details
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "details"
-msgstr ""
+msgstr "подробности"
 
 #. [components.Modal.2755325844]
 #. defaultMessage is:
@@ -1665,7 +1670,7 @@ msgstr "главная страница"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "metalink"
-msgstr ""
+msgstr "мета-ссылка"
 
 #. [components.ListView.mirrorlist]
 #. defaultMessage is:
@@ -1676,7 +1681,7 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
-msgstr ""
+msgstr "список зеркал"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:
@@ -1694,7 +1699,7 @@ msgstr "в"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "yum repository"
-msgstr ""
+msgstr "репозиторий yum"
 
 #. [data.4273735599]
 #. defaultMessage is:
@@ -1729,7 +1734,7 @@ msgstr "{blueprint} Не удалось создать изображение."
 #. {blueprint} Image creation has been added to the {queue}.
 #: build/messages/data/NotificationsApi.json
 msgid "{blueprint} Image creation has been added to the {queue}."
-msgstr ""
+msgstr "Создание изображения {blueprint} было добавлено в {queue}."
 
 #. [data.1726548071]
 #. defaultMessage is:
@@ -1812,11 +1817,9 @@ msgid "{startNumber} - {endNumber} of {totalNumber}"
 msgstr "{startNumber} - {endNumber} из {totalNumber}"
 
 #: public/manifest.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Creating system images"
-msgstr "Создать изображение"
+msgstr "Создание образов системы"
 
 #: public/manifest.json
 msgid "Image Builder"
-msgstr "Image Builder"
+msgstr "Создание Образов"
