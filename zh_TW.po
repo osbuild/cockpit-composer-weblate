@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-03-18T16:51:59.689Z\n"
+"POT-Creation-Date: 2020-03-25T18:20:33.456Z\n"
 "PO-Revision-Date: 2019-12-17 03:27+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Chinese (Taiwan)\n"
@@ -169,9 +169,9 @@ msgstr "您確定要停止構建過程嗎？ {blueprintName}？"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
-#. Automatically start lorax-composer on boot
+#. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "Automatically start lorax-composer on boot"
+msgid "Automatically start osbuild-composer on boot"
 msgstr ""
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
@@ -1355,9 +1355,9 @@ msgstr "您要查找的頁面不存在或發生了其他錯誤。"
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
 #. defaultMessage is:
-#. The service lorax-composer was not started.
+#. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "The service lorax-composer was not started."
+msgid "The service osbuild-composer was not started."
 msgstr ""
 
 #. [components.Modal.2405281428]

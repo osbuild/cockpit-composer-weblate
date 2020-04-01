@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-03-18T16:51:59.689Z\n"
+"POT-Creation-Date: 2020-03-25T18:20:33.456Z\n"
 "PO-Revision-Date: 2020-01-15 06:47+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.stg.fedoraproject.org/projects/"
@@ -174,9 +174,11 @@ msgstr "{blueprintName} のビルドプロセスを終了してもよろしい�
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
-#. Automatically start lorax-composer on boot
+#. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "Automatically start lorax-composer on boot"
+#, fuzzy
+#| msgid "Automatically start lorax-composer on boot"
+msgid "Automatically start osbuild-composer on boot"
 msgstr "起動時に lorax-composer を自動開始"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
@@ -1371,9 +1373,11 @@ msgstr "お探しのページは削除されたか、別のエラーが発生し
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
 #. defaultMessage is:
-#. The service lorax-composer was not started.
+#. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "The service lorax-composer was not started."
+#, fuzzy
+#| msgid "The service lorax-composer was not started."
+msgid "The service osbuild-composer was not started."
 msgstr "サービス lorax-composer は開始しませんでした。"
 
 #. [components.Modal.2405281428]

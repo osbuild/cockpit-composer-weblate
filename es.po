@@ -3,7 +3,7 @@
 # Dennis Tobar <DENNIS.TOBAR@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-03-18T16:51:59.689Z\n"
+"POT-Creation-Date: 2020-03-25T18:20:33.456Z\n"
 "PO-Revision-Date: 2020-01-22 11:15+0000\n"
 "Last-Translator: Dennis Tobar <DENNIS.TOBAR@gmail.com>\n"
 "Language-Team: Spanish <https://translate.stg.fedoraproject.org/projects/"
@@ -173,9 +173,9 @@ msgstr ""
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
-#. Automatically start lorax-composer on boot
+#. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "Automatically start lorax-composer on boot"
+msgid "Automatically start osbuild-composer on boot"
 msgstr ""
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
@@ -1362,9 +1362,9 @@ msgstr "La página que está buscando no existe o se ha producido otro error."
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
 #. defaultMessage is:
-#. The service lorax-composer was not started.
+#. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "The service lorax-composer was not started."
+msgid "The service osbuild-composer was not started."
 msgstr ""
 
 #. [components.Modal.2405281428]

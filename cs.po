@@ -2,7 +2,7 @@
 # Matej Marusak <mmarusak@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-03-18T16:51:59.689Z\n"
+"POT-Creation-Date: 2020-03-25T18:20:33.456Z\n"
 "PO-Revision-Date: 2020-02-18 14:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
@@ -170,9 +170,11 @@ msgstr "Opravdu chcete zastavit sestavování {blueprintName}?"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
-#. Automatically start lorax-composer on boot
+#. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "Automatically start lorax-composer on boot"
+#, fuzzy
+#| msgid "Automatically start lorax-composer on boot"
+msgid "Automatically start osbuild-composer on boot"
 msgstr "lorax-composer spouštět při startu systému"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
@@ -1362,9 +1364,11 @@ msgstr "Stránka kterou hledáte neexistuje nebo došlo k jiné chybě."
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
 #. defaultMessage is:
-#. The service lorax-composer was not started.
+#. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "The service lorax-composer was not started."
+#, fuzzy
+#| msgid "The service lorax-composer was not started."
+msgid "The service osbuild-composer was not started."
 msgstr "Služba lorax-composer nebyla spuštěna."
 
 #. [components.Modal.2405281428]

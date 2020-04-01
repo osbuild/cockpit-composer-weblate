@@ -2,7 +2,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-03-18T16:51:59.689Z\n"
+"POT-Creation-Date: 2020-03-25T18:20:33.456Z\n"
 "PO-Revision-Date: 2019-05-27 09:01+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Hungarian\n"
@@ -166,9 +166,9 @@ msgstr "Biztos, hogy leállítja a(z) {blueprintName} összeállítási folyamat
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
-#. Automatically start lorax-composer on boot
+#. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "Automatically start lorax-composer on boot"
+msgid "Automatically start osbuild-composer on boot"
 msgstr ""
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
@@ -1356,9 +1356,9 @@ msgstr "A keresett oldal nem létezik, vagy más hiba történt."
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
 #. defaultMessage is:
-#. The service lorax-composer was not started.
+#. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-msgid "The service lorax-composer was not started."
+msgid "The service osbuild-composer was not started."
 msgstr ""
 
 #. [components.Modal.2405281428]
