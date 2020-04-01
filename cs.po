@@ -3,15 +3,15 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-03-25T18:20:33.456Z\n"
-"PO-Revision-Date: 2020-02-18 14:38+0000\n"
+"PO-Revision-Date: 2020-04-02 20:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -172,10 +172,8 @@ msgstr "Opravdu chcete zastavit sestavování {blueprintName}?"
 #. defaultMessage is:
 #. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-#, fuzzy
-#| msgid "Automatically start lorax-composer on boot"
 msgid "Automatically start osbuild-composer on boot"
-msgstr "lorax-composer spouštět při startu systému"
+msgstr "Automaticky spouštět osbuild-composer při startu systému"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
 #. defaultMessage is:
@@ -1366,10 +1364,8 @@ msgstr "Stránka kterou hledáte neexistuje nebo došlo k jiné chybě."
 #. defaultMessage is:
 #. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-#, fuzzy
-#| msgid "The service lorax-composer was not started."
 msgid "The service osbuild-composer was not started."
-msgstr "Služba lorax-composer nebyla spuštěna."
+msgstr "Služba osbuild-composer nebyla spuštěna."
 
 #. [components.Modal.2405281428]
 #. defaultMessage is:
