@@ -2,16 +2,16 @@
 # Laszlo Pal <vlad@vlad.hu>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-04-02T17:17:44.524Z\n"
+"POT-Creation-Date: 2020-04-09T18:06:25.170Z\n"
 "PO-Revision-Date: 2020-04-07 17:40+0000\n"
 "Last-Translator: Laszlo Pal <vlad@vlad.hu>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.11.3\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:

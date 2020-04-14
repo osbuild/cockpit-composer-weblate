@@ -5,7 +5,7 @@
 # Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-04-02T17:17:44.524Z\n"
+"POT-Creation-Date: 2020-04-09T18:06:25.170Z\n"
 "PO-Revision-Date: 2020-04-03 05:34+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
