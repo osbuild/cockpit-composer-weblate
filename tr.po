@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-04-09T18:06:25.170Z\n"
-"PO-Revision-Date: 2020-04-14 09:40+0000\n"
+"PO-Revision-Date: 2020-04-15 18:42+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -182,7 +182,7 @@ msgstr "osbuild-composer'ı başlangıçta otomatik olarak başlat"
 #. Available Components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Available Components"
-msgstr "Mevcut Bileşenler"
+msgstr "Kullanılabilir Bileşenler"
 
 #. [pages.blueprint.3126044146]
 #. defaultMessage is:
@@ -725,7 +725,7 @@ msgstr "Farklı dışa aktar"
 #. Filter Available Components by Name
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Filter Available Components by Name"
-msgstr "Mevcut Bileşenleri İsme Göre Filtrele"
+msgstr "Kullanılabilir Bileşenleri İsme Göre Filtrele"
 
 #. [pages.blueprintEdit.filterByPlaceholder]
 #. defaultMessage is:
@@ -950,7 +950,7 @@ msgstr "Bu plandan hiç kalıp oluşturulmadı."
 #. No log available
 #: build/messages/components/ListView/ListItemImages.json
 msgid "No log available"
-msgstr "Günlük mevcut değil"
+msgstr "Kullanılabilir günlük kaydı yok"
 
 #. [components.Modal.1475836573]
 #. defaultMessage is:
