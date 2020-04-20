@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-04-09T18:06:25.170Z\n"
-"PO-Revision-Date: 2020-04-18 18:40+0000\n"
+"PO-Revision-Date: 2020-04-21 18:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/tr/>\n"
@@ -124,7 +124,7 @@ msgid ""
 "try again."
 msgstr ""
 "Kaynak kaydedilirken bir hata oluştu. Konumun geçerli olup olmadığını "
-"kontrol edin ve tekrar deneyin."
+"denetleyin ve tekrar deneyin."
 
 #. [components.ListView.emptyStateErrorMessage]
 #. defaultMessage is:
@@ -351,14 +351,14 @@ msgstr ""
 #. Check GPG key
 #: build/messages/components/Modal/ManageSources.json
 msgid "Check GPG key"
-msgstr "GPG anahtarını kontrol et"
+msgstr "GPG anahtarını denetle"
 
 #. [components.Modal.check_ssl]
 #. defaultMessage is:
 #. Check SSL certificate
 #: build/messages/components/Modal/ManageSources.json
 msgid "Check SSL certificate"
-msgstr "SSL sertifikasını kontrol et"
+msgstr "SSL sertifikasını denetle"
 
 #. [components.ListView.1312249312]
 #. defaultMessage is:
