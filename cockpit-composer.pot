@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-04-23T02:02:12.544Z\n"
+"POT-Creation-Date: 2020-05-05T00:28:27.513Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,13 @@ msgstr ""
 #. defaultMessage is:
 #. A password is not defined for this account.
 msgid "A password is not defined for this account."
+msgstr ""
+
+#: build/messages/components/Modal/CreateImageUpload.json
+#. [components.Modal.warningSizeEmpty]
+#. defaultMessage is:
+#. A value is required.
+msgid "A value is required."
 msgstr ""
 
 #: build/messages/components/ListView/ListItemImages.json
@@ -830,6 +837,13 @@ msgstr ""
 msgid "Image name"
 msgstr ""
 
+#: build/messages/components/Modal/CreateImageUpload.json
+#. [components.Modal.1905943231]
+#. defaultMessage is:
+#. Image size
+msgid "Image size"
+msgstr ""
+
 #: build/messages/components/ListView/ListItemImages.json
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -874,6 +888,13 @@ msgstr ""
 #. defaultMessage is:
 #. Message
 msgid "Message"
+msgstr ""
+
+#: build/messages/components/Modal/CreateImageUpload.json
+#. [components.Modal.warningSizeSmall]
+#. defaultMessage is:
+#. Minimum size is {size} GB.
+msgid "Minimum size is {size} GB."
 msgstr ""
 
 #: build/messages/components/ListView/BlueprintContents.json
@@ -1118,10 +1139,6 @@ msgstr ""
 #. [components.Modal.128739785]
 #. defaultMessage is:
 #. Required information is missing.
-#: build/messages/components/Modal/CreateImageUpload.json
-#. [components.Modal.warningMissingFields]
-#. defaultMessage is:
-#. Required information is missing.
 msgid "Required information is missing."
 msgstr ""
 
@@ -1217,6 +1234,13 @@ msgstr ""
 msgid "Set Password"
 msgstr ""
 
+#: build/messages/components/Modal/CreateImageUpload.json
+#. [components.Modal.imageSizePopover]
+#. defaultMessage is:
+#. Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size.
+msgid "Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size."
+msgstr ""
+
 #: build/messages/components/ListView/ComponentSummaryList.json
 #. [components.ListView.1256153657]
 #. defaultMessage is:
@@ -1308,13 +1332,6 @@ msgstr ""
 msgid "Started"
 msgstr ""
 
-#: build/messages/components/ListView/ListItemImages.json
-#. [components.ListView.2989081855]
-#. defaultMessage is:
-#. Stop
-msgid "Stop"
-msgstr ""
-
 #: build/messages/components/Modal/StopBuild.json
 #. [components.Modal.1162993432]
 #. defaultMessage is:
@@ -1386,6 +1403,13 @@ msgstr ""
 msgid "The service osbuild-composer was not started."
 msgstr ""
 
+#: build/messages/components/Modal/CreateImageUpload.json
+#. [components.Modal.warningSizeLarge]
+#. defaultMessage is:
+#. The size specified is large. We recommend that you check whether your target destination has any restrictions on image size.
+msgid "The size specified is large. We recommend that you check whether your target destination has any restrictions on image size."
+msgstr ""
+
 #: build/messages/components/Modal/UserAccount.json
 #. [components.Modal.2405281428]
 #. defaultMessage is:
@@ -1412,6 +1436,13 @@ msgstr ""
 #. defaultMessage is:
 #. There are no components listed in the blueprint. Edit the blueprint to add components.
 msgid "There are no components listed in the blueprint. Edit the blueprint to add components."
+msgstr ""
+
+#: build/messages/components/Modal/CreateImageUpload.json
+#. [components.Modal.warningReview]
+#. defaultMessage is:
+#. There are one or more fields that require your attention.
+msgid "There are one or more fields that require your attention."
 msgstr ""
 
 #: build/messages/components/Modal/DeleteBlueprint.json
