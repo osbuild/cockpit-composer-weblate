@@ -1,19 +1,20 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 # Larry Letelier <geek@xofica.cl>, 2020.
 # Dennis Tobar <DENNIS.TOBAR@gmail.com>, 2020.
+# Álvaro Castillo <sincorchetes@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-04-09T18:06:25.170Z\n"
-"PO-Revision-Date: 2020-01-22 11:15+0000\n"
-"Last-Translator: Dennis Tobar <DENNIS.TOBAR@gmail.com>\n"
-"Language-Team: Spanish <https://translate.stg.fedoraproject.org/projects/"
+"PO-Revision-Date: 2020-05-10 09:40+0000\n"
+"Last-Translator: Álvaro Castillo <sincorchetes@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -41,7 +42,7 @@ msgstr "Se requiere un nombre de plano."
 #. A password is defined for this account.
 #: build/messages/components/Modal/UserAccount.json
 msgid "A password is defined for this account."
-msgstr "Una contraseña ya esta definida para esta cuenta."
+msgstr "Una contraseña ya está definida para esta cuenta."
 
 #. [components.Modal.2362836873]
 #. defaultMessage is:
@@ -86,14 +87,14 @@ msgstr "Agregar componentes de planos"
 #. Add Source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Add Source"
-msgstr "Agregar Fuente"
+msgstr "Agregar fuente"
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
 #. Add latest version
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Add latest version"
-msgstr "Agregar última versión"
+msgstr "Añadir última versión"
 
 # translation auto-copied from project Drools Workbench, version 6.0.0, document org.drools/drools-wb-guided-rule-editor-client/org/drools/workbench/screens/guided/rule/client/resources/i18n/Constants, author angela.garcia
 #. [components.Modal.1362724042] - Identifies the change as a component that was added
@@ -101,7 +102,7 @@ msgstr "Agregar última versión"
 #. Added
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Added"
-msgstr "Agregado"
+msgstr "Añadido"
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -126,6 +127,8 @@ msgid ""
 "An error occurred when saving the source. Check that the path is valid and "
 "try again."
 msgstr ""
+"Ha ocurrido un error cuando se guardaba el origen. Compruebe que la ruta es "
+"válida e inténtelo otra vez."
 
 #. [components.ListView.emptyStateErrorMessage]
 #. defaultMessage is:
@@ -146,7 +149,7 @@ msgstr "Se ha producido un error al intentar obtener las fuentes."
 #. Apply Change
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Apply Change"
-msgstr "Aplicar Cambiar"
+msgstr "Aplicar cambio"
 
 #. [components.Modal.4140003068]
 #. defaultMessage is:
@@ -160,7 +163,7 @@ msgstr "¿Estás seguro de que quieres borrar el plano{name}?"
 #. Are you sure you want to delete the image for {blueprintName}?
 #: build/messages/components/Modal/DeleteImage.json
 msgid "Are you sure you want to delete the image for {blueprintName}?"
-msgstr "¿Está seguro de que desea eliminar la imagen de{blueprintName}?"
+msgstr "¿Está seguro de que desea eliminar la imagen de {blueprintName}?"
 
 #. [components.Modal.234116272]
 #. defaultMessage is:
@@ -168,8 +171,8 @@ msgstr "¿Está seguro de que desea eliminar la imagen de{blueprintName}?"
 #: build/messages/components/Modal/StopBuild.json
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
 msgstr ""
-"¿Estás seguro de que quieres detener el proceso de construcción "
-"de{blueprintName}?"
+"¿Estás seguro de que quieres detener el proceso de construcción de "
+"{blueprintName}?"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
