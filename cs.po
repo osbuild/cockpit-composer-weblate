@@ -3,15 +3,15 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-05T00:28:27.513Z\n"
-"PO-Revision-Date: 2020-04-02 20:38+0000\n"
+"PO-Revision-Date: 2020-05-11 19:40+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -45,10 +45,8 @@ msgstr "Pro tento účet není definováno heslo."
 #. defaultMessage is:
 #. A value is required.
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "A blueprint name is required."
 msgid "A value is required."
-msgstr "Je třeba uvést název plánku."
+msgstr "Je třeba zadat hodnotu."
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -106,10 +104,8 @@ msgstr "Přidáno"
 #. defaultMessage is:
 #. All fields are required.
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "The fields marked with {val} are required."
 msgid "All fields are required."
-msgstr "Kolonky označené {val} jsou povinné."
+msgstr "Je třeba vyplnit všechny kolonky."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -198,7 +194,7 @@ msgstr "Součásti k dispozici"
 #. Back
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Back"
-msgstr ""
+msgstr "Zpět"
 
 #. [pages.blueprint.3126044146]
 #. defaultMessage is:
@@ -434,8 +430,6 @@ msgstr "Odeslat"
 #. defaultMessage is:
 #. Commit and create
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and create"
 msgstr "Odeslat a vytvořit"
 
@@ -443,10 +437,8 @@ msgstr "Odeslat a vytvořit"
 #. defaultMessage is:
 #. Commit and next
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and next"
-msgstr "Odeslat a vytvořit"
+msgstr "Odeslat a další"
 
 #. [pages.blueprint.3540308269]
 #. defaultMessage is:
@@ -535,10 +527,8 @@ msgstr ""
 #. defaultMessage is:
 #. Create and upload image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create and upload image"
-msgstr "Vytvořit obraz"
+msgstr "Vytvořit a nahrát obraz"
 
 #. [components.Modal.title]
 #. defaultMessage is:
@@ -547,8 +537,6 @@ msgstr "Vytvořit obraz"
 #. defaultMessage is:
 #. Create image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create image"
 msgstr "Vytvořit obraz"
 
@@ -775,7 +763,7 @@ msgstr "Filtrovat podle názvu…"
 #. Finish
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Finish"
-msgstr ""
+msgstr "Dokončit"
 
 #. [components.Modal.1182120637]
 #. defaultMessage is:
@@ -866,10 +854,8 @@ msgstr "Název obrazu"
 #. defaultMessage is:
 #. Image size
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size"
-msgstr "Obrazy"
+msgstr "Velikost obrazu"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -922,7 +908,7 @@ msgstr "Zpráva"
 #. Minimum size is {size} GB.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Minimum size is {size} GB."
-msgstr ""
+msgstr "Nejmenší možná velikost je {size} GB."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -965,7 +951,7 @@ msgstr "Nové heslo"
 #. Next
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Next"
-msgstr ""
+msgstr "Další"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
@@ -1176,6 +1162,8 @@ msgid ""
 "Review the information below and click Finish to create the image and "
 "complete the tasks that were selected."
 msgstr ""
+"Zkontrolujte níže uvedené informace a kliknutím na Dokončit vytvořte obraz a "
+"dokončete úlohy, které byly vybrány."
 
 #. [components.Modal.106035384]
 #. defaultMessage is:
@@ -1271,6 +1259,9 @@ msgid ""
 "package size and target destination of your image should be considered when "
 "setting the image size."
 msgstr ""
+"Nastavte velikost, kterou chcete, aby obraz měl při vytvoření instance. Při "
+"nastavování velikosti obrazu by měla být brána v potaz celková velikost "
+"balíčku a cíl obrazu."
 
 #. [components.ListView.1256153657]
 #. defaultMessage is:
@@ -1453,6 +1444,8 @@ msgid ""
 "The size specified is large. We recommend that you check whether your target "
 "destination has any restrictions on image size."
 msgstr ""
+"Zadaná velikost je velká. Doporučujeme zkontrolovat, zda má cílové umístění "
+"nějaké omezení ohledně velikosti obrazu."
 
 #. [components.Modal.2405281428]
 #. defaultMessage is:
@@ -1493,7 +1486,7 @@ msgstr "V plánku nejsou uvedeny žádné součásti. Upravte ho a přidejte ně
 #. There are one or more fields that require your attention.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "There are one or more fields that require your attention."
-msgstr ""
+msgstr "Je zde jedna či více kolonek, které vyžaduje vaší pozornost."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
