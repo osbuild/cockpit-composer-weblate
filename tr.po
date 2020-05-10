@@ -2,16 +2,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-05T00:28:27.513Z\n"
-"PO-Revision-Date: 2020-04-21 18:40+0000\n"
+"PO-Revision-Date: 2020-05-11 19:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -45,10 +45,8 @@ msgstr "Bu hesap için bir şifre tanımlı değil."
 #. defaultMessage is:
 #. A value is required.
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "A blueprint name is required."
 msgid "A value is required."
-msgstr "Bir plan adı gerekli."
+msgstr "Bir değer gerekli."
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -106,10 +104,8 @@ msgstr "Eklendi"
 #. defaultMessage is:
 #. All fields are required.
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "The fields marked with {val} are required."
 msgid "All fields are required."
-msgstr "{val} ile işaretli alanlar zorunludur."
+msgstr "Tüm alanlar gereklidir."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -437,19 +433,15 @@ msgstr "İşle"
 #. defaultMessage is:
 #. Commit and create
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and create"
-msgstr "İşle ve Oluştur"
+msgstr "İşle ve oluştur"
 
 #. [components.Modal.552112481]
 #. defaultMessage is:
 #. Commit and next
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and next"
-msgstr "İşle ve Oluştur"
+msgstr "İşle ve ileri"
 
 #. [pages.blueprint.3540308269]
 #. defaultMessage is:
@@ -538,10 +530,8 @@ msgstr ""
 #. defaultMessage is:
 #. Create and upload image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create and upload image"
-msgstr "Kalıp Oluştur"
+msgstr "Kalıp oluştur ve karşıya yükle"
 
 #. [components.Modal.title]
 #. defaultMessage is:
@@ -550,10 +540,8 @@ msgstr "Kalıp Oluştur"
 #. defaultMessage is:
 #. Create image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create image"
-msgstr "Kalıp Oluştur"
+msgstr "Kalıp oluştur"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
@@ -778,7 +766,7 @@ msgstr "İsme Göre Filtrele..."
 #. Finish
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Finish"
-msgstr ""
+msgstr "Bitir"
 
 #. [components.Modal.1182120637]
 #. defaultMessage is:
@@ -871,10 +859,8 @@ msgstr "Kalıp adı"
 #. defaultMessage is:
 #. Image size
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size"
-msgstr "Kalıplar"
+msgstr "Kalıp boyutu"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -927,7 +913,7 @@ msgstr "Mesaj"
 #. Minimum size is {size} GB.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Minimum size is {size} GB."
-msgstr ""
+msgstr "Asgari boyut {size} GB'tır."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -970,7 +956,7 @@ msgstr "Yeni parola"
 #. Next
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Next"
-msgstr ""
+msgstr "İleri"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
@@ -1181,6 +1167,8 @@ msgid ""
 "Review the information below and click Finish to create the image and "
 "complete the tasks that were selected."
 msgstr ""
+"Aşağıdaki bilgileri inceleyin ve kalıbı oluşturmak ve seçilen görevleri "
+"tamamlamak için Bitir düğmesine tıklayın."
 
 #. [components.Modal.106035384]
 #. defaultMessage is:
@@ -1276,6 +1264,9 @@ msgid ""
 "package size and target destination of your image should be considered when "
 "setting the image size."
 msgstr ""
+"Bir örneği oluşturulduğunda kalıbın sahip olmasını istediğiniz boyutu "
+"belirleyin. Kalıp boyutu belirlenirken, toplam paket boyutu ve kalıbınızın "
+"hedef konumu dikkate alınmalıdır."
 
 #. [components.ListView.1256153657]
 #. defaultMessage is:
@@ -1456,6 +1447,8 @@ msgid ""
 "The size specified is large. We recommend that you check whether your target "
 "destination has any restrictions on image size."
 msgstr ""
+"Belirtilen boyut büyük. Hedef konumunuzun kalıp boyutu üzerinde herhangi bir "
+"kısıtlamaya sahip olup olmadığını kontrol etmenizi öneririz."
 
 #. [components.Modal.2405281428]
 #. defaultMessage is:
@@ -1497,7 +1490,7 @@ msgstr ""
 #. There are one or more fields that require your attention.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "There are one or more fields that require your attention."
-msgstr ""
+msgstr "İlgilenmenizi gerektiren bir veya daha fazla alan var."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
