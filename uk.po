@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-05T00:28:27.513Z\n"
-"PO-Revision-Date: 2020-04-02 20:38+0000\n"
+"PO-Revision-Date: 2020-05-11 19:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/uk/>\n"
@@ -11,9 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -47,10 +47,8 @@ msgstr "Для цього облікового запису не визначе�
 #. defaultMessage is:
 #. A value is required.
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "A blueprint name is required."
 msgid "A value is required."
-msgstr "Слід вказати назву проекту."
+msgstr "Слід вказати значення."
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -108,10 +106,8 @@ msgstr "Додано"
 #. defaultMessage is:
 #. All fields are required.
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "The fields marked with {val} are required."
 msgid "All fields are required."
-msgstr "Поля, які позначено {val}, є обов'язковими до заповнення."
+msgstr "Усі поля є обов'язковими до заповнення."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -200,7 +196,7 @@ msgstr "Доступні компоненти"
 #. Back
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #. [pages.blueprint.3126044146]
 #. defaultMessage is:
@@ -438,8 +434,6 @@ msgstr "Надіслати"
 #. defaultMessage is:
 #. Commit and create
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and create"
 msgstr "Надіслати і створити"
 
@@ -447,10 +441,8 @@ msgstr "Надіслати і створити"
 #. defaultMessage is:
 #. Commit and next
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and next"
-msgstr "Надіслати і створити"
+msgstr "Надіслати і перейти далі"
 
 #. [pages.blueprint.3540308269]
 #. defaultMessage is:
@@ -539,10 +531,8 @@ msgstr ""
 #. defaultMessage is:
 #. Create and upload image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create and upload image"
-msgstr "Створити зображення"
+msgstr "Створити і вивантажити образ"
 
 #. [components.Modal.title]
 #. defaultMessage is:
@@ -551,10 +541,8 @@ msgstr "Створити зображення"
 #. defaultMessage is:
 #. Create image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create image"
-msgstr "Створити зображення"
+msgstr "Створити образ"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
@@ -779,7 +767,7 @@ msgstr "Фільтрувати за назвою…"
 #. Finish
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Finish"
-msgstr ""
+msgstr "Завершити"
 
 #. [components.Modal.1182120637]
 #. defaultMessage is:
@@ -872,10 +860,8 @@ msgstr "Назва образу"
 #. defaultMessage is:
 #. Image size
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size"
-msgstr "Образи"
+msgstr "Розмір образу"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -928,7 +914,7 @@ msgstr "Повідомлення"
 #. Minimum size is {size} GB.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Minimum size is {size} GB."
-msgstr ""
+msgstr "Мінімальним розміром є {size} ГБ."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -971,7 +957,7 @@ msgstr "Новий пароль"
 #. Next
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Next"
-msgstr ""
+msgstr "Далі"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
@@ -1182,6 +1168,8 @@ msgid ""
 "Review the information below and click Finish to create the image and "
 "complete the tasks that were selected."
 msgstr ""
+"Перегляньте наведені нижче відомості і натисніть кнопку «Завершити», щоб "
+"створити образ і завершити вибрані завдання."
 
 #. [components.Modal.106035384]
 #. defaultMessage is:
@@ -1277,6 +1265,9 @@ msgid ""
 "package size and target destination of your image should be considered when "
 "setting the image size."
 msgstr ""
+"Виберіть розмір зображення при створенні екземпляра. При встановлення "
+"розміру образу слід врахувати загальний розмір пакунків та призначення "
+"вашого образу."
 
 #. [components.ListView.1256153657]
 #. defaultMessage is:
@@ -1458,6 +1449,8 @@ msgid ""
 "The size specified is large. We recommend that you check whether your target "
 "destination has any restrictions on image size."
 msgstr ""
+"Вказано надто великий розмір. Ми рекомендуємо визначитися із тим, чи є у "
+"системі призначення якісь обмеження на розмір образу."
 
 #. [components.Modal.2405281428]
 #. defaultMessage is:
@@ -1500,7 +1493,7 @@ msgstr ""
 #. There are one or more fields that require your attention.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "There are one or more fields that require your attention."
-msgstr ""
+msgstr "Вашої уваги потребує одне або декілька полів."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
