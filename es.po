@@ -3,11 +3,12 @@
 # Dennis Tobar <DENNIS.TOBAR@gmail.com>, 2020.
 # Álvaro Castillo <sincorchetes@gmail.com>, 2020.
 # Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-05T00:28:27.513Z\n"
 "PO-Revision-Date: 2020-05-14 04:22+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/es/>\n"
 "Language: es\n"
@@ -901,7 +902,7 @@ msgstr "Cargando"
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Logs"
-msgstr ""
+msgstr "Registros"
 
 #. [components.Modal.357938285] - User action for displaying the list of source repositories
 #. defaultMessage is:
@@ -915,7 +916,7 @@ msgstr "Gestionar fuentes"
 #. Message
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #. [components.Modal.warningSizeSmall]
 #. defaultMessage is:
@@ -1032,7 +1033,7 @@ msgstr "Oups, algo salió mal"
 #. Packages
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
-msgstr ""
+msgstr "Paquetes"
 
 # ctx::sourcefile::404 error page
 #. [pages.error.pageNotFoundMessage]
@@ -1064,14 +1065,14 @@ msgstr "Paginación"
 #. Password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #. [components.Form.rejectedPassword]
 #. defaultMessage is:
 #. Password is not acceptable
 #: build/messages/components/Form/Password.json
 msgid "Password is not acceptable"
-msgstr ""
+msgstr "La contraseña no es aceptable"
 
 #. [components.Form.weakPassword]
 #. defaultMessage is:
@@ -1203,7 +1204,7 @@ msgstr "Clave SSH"
 #: build/messages/components/Form/TextInlineEdit.json
 #: build/messages/components/Modal/EditDescription.json
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #. [components.Modal.1820273720]
 #. defaultMessage is:
@@ -1217,7 +1218,7 @@ msgstr "Guardar una fuente"
 #. Security
 #: build/messages/components/Modal/ManageSources.json
 msgid "Security"
-msgstr ""
+msgstr "Seguridad"
 
 #. [pages.blueprintEdit.1513086105]
 #. defaultMessage is:
@@ -1263,7 +1264,7 @@ msgstr "Establecer contraseña nueva"
 #. Set Password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Set Password"
-msgstr ""
+msgstr "Establecer contraseña"
 
 #. [components.Modal.imageSizePopover]
 #. defaultMessage is:
@@ -1369,7 +1370,7 @@ msgstr "Especifique un nuevo nombre de plano."
 #. Start
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Start"
-msgstr ""
+msgstr "Iniciar"
 
 #. [components.ListView.timeStarted] - A label for the date that an image upload was started
 #. defaultMessage is:
@@ -1470,6 +1471,8 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
+"El nombre de usuario sólo puede consistir de letras (a-z), dígitos, puntos, "
+"guiones y guiones bajos."
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
