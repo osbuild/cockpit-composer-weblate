@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
 "PO-Revision-Date: 2020-05-15 08:50+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/es/>\n"
 "Language: es\n"
@@ -1886,14 +1886,14 @@ msgstr "Acciones de cuenta de usuario"
 #. User name
 #: build/messages/components/Modal/UserAccount.json
 msgid "User name"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
