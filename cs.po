@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
-"PO-Revision-Date: 2020-05-11 19:40+0000\n"
+"PO-Revision-Date: 2020-05-15 08:50+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,35 +53,35 @@ msgstr "Je třeba zadat hodnotu."
 #. AWS help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS help"
-msgstr ""
+msgstr "Nápověda k AWS"
 
 #. [components.Modal.4193750875]
 #. defaultMessage is:
 #. AWS region
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS region"
-msgstr ""
+msgstr "region AWS"
 
 #. [region-help]
 #. defaultMessage is:
 #. AWS region help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS region help"
-msgstr ""
+msgstr "nápověda k regionu AWS"
 
 #. [components.Modal.1635272069]
 #. defaultMessage is:
 #. Access key ID
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Access key ID"
-msgstr ""
+msgstr "Identifikátor přístupového klíče"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "Nápověda k identifikátoru přístupového klíče"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -903,19 +903,15 @@ msgstr "Název obrazu"
 #. defaultMessage is:
 #. Image name help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image name"
 msgid "Image name help"
-msgstr "Název obrazu"
+msgstr "Nápověda k názvu obrazu"
 
 #. [components.Modal.1005710141]
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image uploads"
 msgid "Image output"
-msgstr "Nahrání obrazu"
+msgstr "Výstup obrazu"
 
 #. [components.Modal.1905943231]
 #. defaultMessage is:
@@ -928,17 +924,13 @@ msgstr "Velikost obrazu"
 #. defaultMessage is:
 #. Image size help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image size"
 msgid "Image size help"
-msgstr "Velikost obrazu"
+msgstr "Nápověda k velikosti obrazu"
 
 #. [components.Modal.1813441558]
 #. defaultMessage is:
 #. Image type
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image type"
 msgstr "Typ obrazu"
 
@@ -1169,7 +1161,7 @@ msgstr "Čekající změny"
 #. Process length help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Process length help"
-msgstr ""
+msgstr "Nápověda k délce procesu"
 
 #. [components.Modal.4277042358]
 #. defaultMessage is:
@@ -1177,7 +1169,7 @@ msgstr ""
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
-msgstr ""
+msgstr "Zadejte název souboru, který nahrát jako obraz."
 
 #. [components.Modal.2186792528]
 #. defaultMessage is:
