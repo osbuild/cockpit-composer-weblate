@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
-"PO-Revision-Date: 2020-05-14 04:22+0000\n"
+"PO-Revision-Date: 2020-05-15 08:50+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,35 +58,35 @@ msgstr "Se requiere un valor."
 #. AWS help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS help"
-msgstr ""
+msgstr "Ayuda con AWS"
 
 #. [components.Modal.4193750875]
 #. defaultMessage is:
 #. AWS region
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS region"
-msgstr ""
+msgstr "Región de AWS"
 
 #. [region-help]
 #. defaultMessage is:
 #. AWS region help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS region help"
-msgstr ""
+msgstr "Ayuda con las regiones de AWS"
 
 #. [components.Modal.1635272069]
 #. defaultMessage is:
 #. Access key ID
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Access key ID"
-msgstr ""
+msgstr "Id. de clave de acceso"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "Ayuda con los identificadores de clave de acceso"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -919,19 +919,15 @@ msgstr "Nombre de imagen"
 #. defaultMessage is:
 #. Image name help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image name"
 msgid "Image name help"
-msgstr "Nombre de imagen"
+msgstr "Ayuda con los nombres de imagen"
 
 #. [components.Modal.1005710141]
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image uploads"
 msgid "Image output"
-msgstr "Cargas de la imagen"
+msgstr "Salida de la imagen"
 
 #. [components.Modal.1905943231]
 #. defaultMessage is:
@@ -944,17 +940,13 @@ msgstr "Tamaño de la imagen"
 #. defaultMessage is:
 #. Image size help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image size"
 msgid "Image size help"
-msgstr "Tamaño de la imagen"
+msgstr "Ayuda con el tamaño de la imagen"
 
 #. [components.Modal.1813441558]
 #. defaultMessage is:
 #. Image type
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image type"
 msgstr "Tipo de imagen"
 
@@ -1647,14 +1639,14 @@ msgstr ""
 #. The user {userName} is not permitted to start services.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "The user {userName} is not permitted to start services."
-msgstr ""
+msgstr "{userName} no tiene permitido iniciar servicios."
 
 #. [components.Form.2330477961]
 #. defaultMessage is:
 #. The values entered for password do not match.
 #: build/messages/components/Form/Password.json
 msgid "The values entered for password do not match."
-msgstr ""
+msgstr "Las contraseñas no coinciden."
 
 #. [pages.blueprint.emptyBlueprintMessage]
 #. defaultMessage is:
@@ -1671,7 +1663,7 @@ msgstr ""
 #. There are one or more fields that require your attention.
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "There are one or more fields that require your attention."
-msgstr ""
+msgstr "Hay uno o más campos que precisan su atención."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
@@ -1707,7 +1699,7 @@ msgstr "Este plano está vacío."
 #. This component has no dependencies.
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "This component has no dependencies."
-msgstr ""
+msgstr "Este componente no tiene dependencias."
 
 #. [components.Modal.infotip]
 #. defaultMessage is:
@@ -1723,14 +1715,14 @@ msgstr "Las imágenes se construyen en el orden en que se inician."
 #. This source name already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source name already exists."
-msgstr ""
+msgstr "El nombre de la fuente ya existe."
 
 #. [components.Modal.1932541555]
 #. defaultMessage is:
 #. This source path already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source path already exists."
-msgstr ""
+msgstr "Esta ruta de la fuente ya existe."
 
 #. [components.Modal.2415751559]
 #. defaultMessage is:
@@ -1749,14 +1741,14 @@ msgstr ""
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
 msgid "This user name already exists."
-msgstr ""
+msgstr "Este nombre de usuario ya existe."
 
 #. [components.EmptyState.errorInactiveSecondary]
 #. defaultMessage is:
 #. Troubleshoot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Troubleshoot"
-msgstr ""
+msgstr "Solución de problemas"
 
 #. [components.ListView.1952810469]
 #. defaultMessage is:
@@ -1782,7 +1774,7 @@ msgstr "Tipo"
 #. Type {sourceType}
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Type {sourceType}"
-msgstr ""
+msgstr "Tipo {sourceType}"
 
 #. [components.ListView.1324178587]
 #. defaultMessage is:
@@ -1796,7 +1788,7 @@ msgstr "URL"
 #. Undo Last Change
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Undo Last Change"
-msgstr ""
+msgstr "Deshacer último cambio"
 
 #. [components.Modal.1458938618]
 #. defaultMessage is:
@@ -1810,7 +1802,7 @@ msgstr "Actualizar"
 #. Update Source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Update Source"
-msgstr ""
+msgstr "Actualizar fuente"
 
 #. [components.Modal.562988552] - Identifies the change as a component that was updated
 #. defaultMessage is:
@@ -1824,23 +1816,21 @@ msgstr "Actualizado"
 #. Upload complete
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload complete"
-msgstr ""
+msgstr "Carga completa"
 
 #. [components.ListView.uploadStatusFailed] - Upload status when process failed
 #. defaultMessage is:
 #. Upload failed
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload failed"
-msgstr ""
+msgstr "Falló la carga"
 
 #. [components.Modal.3057159632]
 #. defaultMessage is:
 #. Upload image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create and upload image"
 msgid "Upload image"
-msgstr "Crear y cargar imagen"
+msgstr "Cargar imagen"
 
 #. [upload-image-help]
 #. defaultMessage is:
@@ -1854,14 +1844,14 @@ msgstr ""
 #. Upload in progress
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload in progress"
-msgstr ""
+msgstr "Carga en curso"
 
 #. [components.ListView.uploadStatusWaiting] - Upload status when process is waiting
 #. defaultMessage is:
 #. Upload pending
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload pending"
-msgstr ""
+msgstr "Carga pendiente"
 
 #. [components.Modal.1426592721]
 #. defaultMessage is:
@@ -1882,14 +1872,14 @@ msgstr ""
 #. Upload type
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload type"
-msgstr ""
+msgstr "Tipo de carga"
 
 #. [pages.blueprint.userKebab]
 #. defaultMessage is:
 #. User Account Actions
 #: build/messages/pages/blueprint/index.json
 msgid "User Account Actions"
-msgstr ""
+msgstr "Acciones de cuenta de usuario"
 
 #. [components.Modal.529605439]
 #. defaultMessage is:
