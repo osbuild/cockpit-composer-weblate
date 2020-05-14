@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-05T00:28:27.513Z\n"
+"POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
 "PO-Revision-Date: 2020-01-15 06:47+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.stg.fedoraproject.org/projects/"
@@ -53,6 +53,41 @@ msgstr "このアカウント用にパスワードが定義されていません
 #| msgid "A blueprint name is required."
 msgid "A value is required."
 msgstr "ブループリント名が必要です。"
+
+#. [aws-help]
+#. defaultMessage is:
+#. AWS help
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "AWS help"
+msgstr ""
+
+#. [components.Modal.4193750875]
+#. defaultMessage is:
+#. AWS region
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "AWS region"
+msgstr ""
+
+#. [region-help]
+#. defaultMessage is:
+#. AWS region help
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "AWS region help"
+msgstr ""
+
+#. [components.Modal.1635272069]
+#. defaultMessage is:
+#. Access key ID
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Access key ID"
+msgstr ""
+
+#. [access-key-id-help]
+#. defaultMessage is:
+#. Access key ID help
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Access key ID help"
+msgstr ""
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -828,6 +863,20 @@ msgstr "ホスト名"
 msgid "If no hostname is provided, the hostname will be determined by the OS."
 msgstr "ホスト名が提供されない場合は、OS がホスト名を決定します。"
 
+#. [components.Modal.4131822949]
+#. defaultMessage is:
+#. Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete
+#.                       and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload
+#.                       the image can be found in the {console}.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"Image Builder can upload images you create to an {bucket} in AWS and then "
+"import them into EC2. When the image build is complete\n"
+"                      and the upload action is successful, the image file is "
+"available in the AMI section of EC2. Most of the values required to upload\n"
+"                      the image can be found in the {console}."
+msgstr ""
+
 #. [components.EmptyState.errorInactiveTitle]
 #. defaultMessage is:
 #. Image Building Service is Not Active
@@ -874,6 +923,24 @@ msgstr "イメージビルドを保留中"
 msgid "Image name"
 msgstr "イメージ名"
 
+#. [image-name-help]
+#. defaultMessage is:
+#. Image name help
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Image name help"
+msgstr "イメージ名"
+
+#. [components.Modal.1005710141]
+#. defaultMessage is:
+#. Image output
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Image uploads"
+msgid "Image output"
+msgstr "イメージのアップロード"
+
 # auto translated by TM merge from project: Openshift Enterprise Installation & Configuration, version: 3.9-Outsourced, DocId: week_1_2
 #. [components.Modal.1905943231]
 #. defaultMessage is:
@@ -883,6 +950,25 @@ msgstr "イメージ名"
 #| msgid "Images"
 msgid "Image size"
 msgstr "イメージ"
+
+# auto translated by TM merge from project: Openshift Enterprise Installation & Configuration, version: 3.9-Outsourced, DocId: week_1_2
+#. [image-size-help]
+#. defaultMessage is:
+#. Image size help
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Images"
+msgid "Image size help"
+msgstr "イメージ"
+
+#. [components.Modal.1813441558]
+#. defaultMessage is:
+#. Image type
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Image Type"
+msgid "Image type"
+msgstr "イメージタイプ"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -1107,6 +1193,46 @@ msgstr "公開 SSH 鍵ファイルの内容をここに貼り付けます。"
 msgid "Pending Changes"
 msgstr "変更を保留中"
 
+#. [provess-length-help]
+#. defaultMessage is:
+#. Process length help
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Process length help"
+msgstr ""
+
+#. [components.Modal.4277042358]
+#. defaultMessage is:
+#. Provide a file name to be used for the image file that will be uploaded.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"Provide a file name to be used for the image file that will be uploaded."
+msgstr ""
+
+#. [components.Modal.2186792528]
+#. defaultMessage is:
+#. Provide the AWS Region where you want to import your image. This must be the same region where the {bucket} exists.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"Provide the AWS Region where you want to import your image. This must be the "
+"same region where the {bucket} exists."
+msgstr ""
+
+#. [components.Modal.2822010101]
+#. defaultMessage is:
+#. Provide the S3 {bucket} name to which the image file will be uploaded before being imported into EC2. 
+#.                           The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
+#.                           {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"Provide the S3 {bucket} name to which the image file will be uploaded before "
+"being imported into EC2. \n"
+"                          The {bucket} must already exist in the Region "
+"where you want to import your image. You can find a list of {buckets} on "
+"the\n"
+"                          {bucketsPage} page in the {amazon} S3 storage "
+"service in the AWS console."
+msgstr ""
+
 #. [components.ListView.423140743]
 #. defaultMessage is:
 #. Release
@@ -1198,6 +1324,13 @@ msgstr ""
 msgid "Role"
 msgstr "ロール"
 
+#. [bucket-help]
+#. defaultMessage is:
+#. S3 Bucket help
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "S3 Bucket help"
+msgstr ""
+
 #. [components.Modal.229369250]
 #. defaultMessage is:
 #. SSH key
@@ -1222,6 +1355,20 @@ msgstr "保存"
 #: build/messages/components/Modal/ManageSources.json
 msgid "Saving source"
 msgstr "ソースの保存"
+
+#. [components.Modal.135579143]
+#. defaultMessage is:
+#. Secret access key
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Secret access key"
+msgstr ""
+
+#. [secret-access-key-help]
+#. defaultMessage is:
+#. Secret access key help
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Secret access key help"
+msgstr ""
 
 #. [components.Modal.security]
 #. defaultMessage is:
@@ -1399,6 +1546,27 @@ msgstr "ビルドを終了"
 msgid "Stopping"
 msgstr "終了中"
 
+#. [components.Modal.4127941395]
+#. defaultMessage is:
+#. Storage access key
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Storage access key"
+msgstr ""
+
+#. [components.Modal.1624497518]
+#. defaultMessage is:
+#. Storage account
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Storage account"
+msgstr ""
+
+#. [components.Modal.1249927125]
+#. defaultMessage is:
+#. Storage container
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Storage container"
+msgstr ""
+
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
 #. System source
@@ -1571,6 +1739,18 @@ msgstr "このソース名はすでに存在します。"
 msgid "This source path already exists."
 msgstr "このソースパスはすでに存在します。"
 
+#. [components.Modal.2415751559]
+#. defaultMessage is:
+#. This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can
+#.                       be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"This upload process requires that you have an {iam} role named {vmimport} to "
+"ensure that the image can\n"
+"                      be imported from the S3 {bucket} into EC2. For more "
+"details, refer to the {role}."
+msgstr ""
+
 #. [components.Modal.3707489178]
 #. defaultMessage is:
 #. This user name already exists.
@@ -1660,6 +1840,24 @@ msgstr "アップロードが完了しました"
 msgid "Upload failed"
 msgstr "アップロードに失敗しました"
 
+#. [components.Modal.3057159632]
+#. defaultMessage is:
+#. Upload image
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Upload failed"
+msgid "Upload image"
+msgstr "アップロードに失敗しました"
+
+#. [upload-image-help]
+#. defaultMessage is:
+#. Upload image help
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Upload complete"
+msgid "Upload image help"
+msgstr "アップロードが完了しました"
+
 #. [components.ListView.uploadStatusRunning] - Upload status when process is in progress
 #. defaultMessage is:
 #. Upload in progress
@@ -1673,6 +1871,22 @@ msgstr "アップロード中"
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload pending"
 msgstr "アップロードを保留中"
+
+#. [components.Modal.1426592721]
+#. defaultMessage is:
+#. Upload to Amazon
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid "Upload to Amazon"
+msgstr ""
+
+#. [components.Modal.2244258572]
+#. defaultMessage is:
+#. Upload to Azure
+#: build/messages/components/Modal/CreateImageUpload.json
+#, fuzzy
+#| msgid "Upload type"
+msgid "Upload to Azure"
+msgstr "アップロードタイプ"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
@@ -1730,6 +1944,24 @@ msgstr "バージョン"
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "View"
 msgstr "表示"
+
+#. [components.Modal.706264916]
+#. defaultMessage is:
+#. You can create and find existing Access key IDs on the {iam} page in the AWS console.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"You can create and find existing Access key IDs on the {iam} page in the AWS "
+"console."
+msgstr ""
+
+#. [components.Modal.4206409720]
+#. defaultMessage is:
+#. You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console.
+#: build/messages/components/Modal/CreateImageUpload.json
+msgid ""
+"You can view the Secret access key only when you create a new Access key ID "
+"on the {iam} page in the AWS console."
+msgstr ""
 
 #. [components.ListView.actions]
 #. defaultMessage is:
@@ -1922,9 +2154,6 @@ msgstr "イメージビルダー"
 
 #~ msgid "1 build is in progress"
 #~ msgstr "1 つのビルドが進行中"
-
-#~ msgid "Image Type"
-#~ msgstr "イメージタイプ"
 
 #~ msgid "Stop"
 #~ msgstr "停止"
