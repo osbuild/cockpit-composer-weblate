@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
-"PO-Revision-Date: 2020-05-11 19:40+0000\n"
+"PO-Revision-Date: 2020-05-15 08:50+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/uk/>\n"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
@@ -55,35 +55,35 @@ msgstr "Слід вказати значення."
 #. AWS help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS help"
-msgstr ""
+msgstr "Довідка з AWS"
 
 #. [components.Modal.4193750875]
 #. defaultMessage is:
 #. AWS region
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS region"
-msgstr ""
+msgstr "Регіон AWS"
 
 #. [region-help]
 #. defaultMessage is:
 #. AWS region help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "AWS region help"
-msgstr ""
+msgstr "Довідка з регіонів AWS"
 
 #. [components.Modal.1635272069]
 #. defaultMessage is:
 #. Access key ID
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Access key ID"
-msgstr ""
+msgstr "Ід. ключа доступу"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "Довідка з ід. ключа доступу"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -858,6 +858,11 @@ msgid ""
 "available in the AMI section of EC2. Most of the values required to upload\n"
 "                      the image can be found in the {console}."
 msgstr ""
+"Image Builder може вивантажувати створені вами образи до {bucket} в AWS, а "
+"потім імпортувати їх до EC2. Коли збирання образу буде завершено,\n"
+"                      а дія з вивантаження буде успішною, файл образу стане "
+"доступним у розділі AMI EC2. Доступ до більшості значень, потрібних для\n"
+"                      вивантаження образу, можна знайти у {console}."
 
 #. [components.EmptyState.errorInactiveTitle]
 #. defaultMessage is:
@@ -909,19 +914,15 @@ msgstr "Назва образу"
 #. defaultMessage is:
 #. Image name help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image name"
 msgid "Image name help"
-msgstr "Назва образу"
+msgstr "Довідка з назви образу"
 
 #. [components.Modal.1005710141]
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image uploads"
 msgid "Image output"
-msgstr "Вивантаження образів"
+msgstr "Виведення образу"
 
 #. [components.Modal.1905943231]
 #. defaultMessage is:
@@ -934,17 +935,13 @@ msgstr "Розмір образу"
 #. defaultMessage is:
 #. Image size help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image size"
 msgid "Image size help"
-msgstr "Розмір образу"
+msgstr "Довідка з розміру образу"
 
 #. [components.Modal.1813441558]
 #. defaultMessage is:
 #. Image type
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image type"
 msgstr "Тип образу"
 
@@ -1175,7 +1172,7 @@ msgstr "Додавання змін у чергу"
 #. Process length help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Process length help"
-msgstr ""
+msgstr "Довідка із тривалості процесу"
 
 #. [components.Modal.4277042358]
 #. defaultMessage is:
@@ -1184,6 +1181,8 @@ msgstr ""
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
 msgstr ""
+"Вкажіть назву файла, яку буде використано для файла образу, який буде "
+"вивантажено."
 
 #. [components.Modal.2186792528]
 #. defaultMessage is:
@@ -1193,6 +1192,8 @@ msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the {bucket} exists."
 msgstr ""
+"Вкажіть регіон AWS, до якого ви хочете імпортувати ваш образ. Це має бути "
+"той самий регіон, у якому існує {bucket}."
 
 #. [components.Modal.2822010101]
 #. defaultMessage is:
@@ -1209,6 +1210,12 @@ msgid ""
 "                          {bucketsPage} page in the {amazon} S3 storage "
 "service in the AWS console."
 msgstr ""
+"Вкажіть назву {bucket} S3, до якої буде вивантажено файл образу перед "
+"імпортуванням до EC2. \n"
+"                          {bucket} має існувати у регіоні, куди ви хочете "
+"імпортувати ваш образ. Список {buckets} можна знайти\n"
+"                          на сторінці {bucketsPage} у службі зберігання "
+"даних S3 {amazon} у консолі AWS."
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1308,7 +1315,7 @@ msgstr "Роль"
 #. S3 Bucket help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "S3 Bucket help"
-msgstr ""
+msgstr "Довідка з корзини S3"
 
 #. [components.Modal.229369250]
 #. defaultMessage is:
@@ -1340,14 +1347,14 @@ msgstr "Зберігаємо джерело"
 #. Secret access key
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Secret access key"
-msgstr ""
+msgstr "Секретний ключ доступу"
 
 #. [secret-access-key-help]
 #. defaultMessage is:
 #. Secret access key help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Secret access key help"
-msgstr ""
+msgstr "Довідка з секретного ключа доступу"
 
 #. [components.Modal.security]
 #. defaultMessage is:
@@ -1534,21 +1541,21 @@ msgstr "Припиняємо"
 #. Storage access key
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Storage access key"
-msgstr ""
+msgstr "Ключ доступу до сховища"
 
 #. [components.Modal.1624497518]
 #. defaultMessage is:
 #. Storage account
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Storage account"
-msgstr ""
+msgstr "Обліковий запис сховища"
 
 #. [components.Modal.1249927125]
 #. defaultMessage is:
 #. Storage container
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Storage container"
-msgstr ""
+msgstr "Контейнер сховища"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -1734,6 +1741,10 @@ msgid ""
 "                      be imported from the S3 {bucket} into EC2. For more "
 "details, refer to the {role}."
 msgstr ""
+"Цей процес вивантаження потребує наявності у вас ролі {iam} із назвою "
+"{vmimport} для забезпечення можливості\n"
+"                      імпортування образу з {bucket} S3 до EC2. Докладніше "
+"про це можна дізнатися з запису {role}."
 
 #. [components.Modal.3707489178]
 #. defaultMessage is:
@@ -1828,19 +1839,15 @@ msgstr "Невдала спроба вивантаження"
 #. defaultMessage is:
 #. Upload image
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Upload failed"
 msgid "Upload image"
-msgstr "Невдала спроба вивантаження"
+msgstr "Вивантажити образ"
 
 #. [upload-image-help]
 #. defaultMessage is:
 #. Upload image help
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Upload complete"
 msgid "Upload image help"
-msgstr "Вивантаження завершено"
+msgstr "Довідка з вивантаження образу"
 
 #. [components.ListView.uploadStatusRunning] - Upload status when process is in progress
 #. defaultMessage is:
@@ -1861,16 +1868,14 @@ msgstr "Очікування на вивантаження"
 #. Upload to Amazon
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Upload to Amazon"
-msgstr ""
+msgstr "Вивантажити на Amazon"
 
 #. [components.Modal.2244258572]
 #. defaultMessage is:
 #. Upload to Azure
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Upload type"
 msgid "Upload to Azure"
-msgstr "Тип вивантаження"
+msgstr "Вивантажити на Azure"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
@@ -1937,6 +1942,8 @@ msgid ""
 "You can create and find existing Access key IDs on the {iam} page in the AWS "
 "console."
 msgstr ""
+"Ви можете створити і знайти наявні ідентифікатори ключів доступу на сторінці "
+"{iam} у консолі AWS."
 
 #. [components.Modal.4206409720]
 #. defaultMessage is:
@@ -1946,6 +1953,8 @@ msgid ""
 "You can view the Secret access key only when you create a new Access key ID "
 "on the {iam} page in the AWS console."
 msgstr ""
+"Ви можете переглянути секретний ключ доступу лише після створення нового "
+"ідентифікатора ключа доступу на сторінці {iam} у консолі AWS."
 
 #. [components.ListView.actions]
 #. defaultMessage is:
