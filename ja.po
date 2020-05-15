@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
-"PO-Revision-Date: 2020-01-15 06:47+0000\n"
+"PO-Revision-Date: 2020-05-15 08:50+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: Japanese <https://translate.stg.fedoraproject.org/projects/"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -222,10 +222,8 @@ msgstr "{blueprintName} のビルドプロセスを終了してもよろしい�
 #. defaultMessage is:
 #. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-#, fuzzy
-#| msgid "Automatically start lorax-composer on boot"
 msgid "Automatically start osbuild-composer on boot"
-msgstr "起動時に lorax-composer を自動開始"
+msgstr "起動時に osbuild-composer を自動開始"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
 #. defaultMessage is:
@@ -1622,10 +1620,8 @@ msgstr "お探しのページは削除されたか、別のエラーが発生し
 #. defaultMessage is:
 #. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-#, fuzzy
-#| msgid "The service lorax-composer was not started."
 msgid "The service osbuild-composer was not started."
-msgstr "サービス lorax-composer は開始しませんでした。"
+msgstr "osbuild-composer サービスは開始しませんでした。"
 
 #. [components.Modal.warningSizeLarge]
 #. defaultMessage is:
@@ -2143,10 +2139,8 @@ msgid "{startNumber} - {endNumber} of {totalNumber}"
 msgstr "{startNumber} - {endNumber}/{totalNumber}"
 
 #: public/manifest.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Creating system images"
-msgstr "イメージの作成"
+msgstr "システムイメージの作成"
 
 #: public/manifest.json
 msgid "Image Builder"
