@@ -3,11 +3,12 @@
 # corina roe <croe@redhat.com>, 2019. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
 "PO-Revision-Date: 2020-05-19 10:40+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/fr/>\n"
 "Language: fr\n"
@@ -235,7 +236,7 @@ msgstr "Composants disponibles"
 #. Back
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Back"
-msgstr ""
+msgstr "Précédent"
 
 #. [pages.blueprint.3126044146]
 #. defaultMessage is:
