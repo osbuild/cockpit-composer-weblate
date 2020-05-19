@@ -2,11 +2,11 @@
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
+"POT-Creation-Date: 2020-05-19T08:26:39.556Z\n"
 "PO-Revision-Date: 2020-05-15 08:50+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1181,7 +1181,8 @@ msgstr "İşlem uzunluğu ile ilgili yardım"
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
-msgstr "Karşıya yüklenecek kalıp dosyası için kullanılacak bir dosya adı girin."
+msgstr ""
+"Karşıya yüklenecek kalıp dosyası için kullanılacak bir dosya adı girin."
 
 #. [components.Modal.2186792528]
 #. defaultMessage is:

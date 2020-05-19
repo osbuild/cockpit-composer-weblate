@@ -3,7 +3,7 @@
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-12T00:35:46.229Z\n"
+"POT-Creation-Date: 2020-05-19T08:26:39.556Z\n"
 "PO-Revision-Date: 2020-04-02 20:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
