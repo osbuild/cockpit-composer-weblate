@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-05-19T08:26:39.556Z\n"
-"PO-Revision-Date: 2020-05-19 10:40+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/fr/>\n"
+"PO-Revision-Date: 2020-05-27 01:40+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -871,6 +871,12 @@ msgid ""
 "available in the AMI section of EC2. Most of the values required to upload\n"
 "                      the image can be found in the {console}."
 msgstr ""
+"Image Builder peut téléverser des images sur un {bucket} dans AWS, puis les "
+"importer dans EC2. Lorsque la construction de l’image est\n"
+"                      complétée et que le téléversement a réussi, le fichier "
+"image est disponible dans la section AMI d’EC2. La plupart des valeurs\n"
+"                      requises pour le téléversement de l’image peuvent être "
+"trouvées dans la {console}."
 
 #. [components.EmptyState.errorInactiveTitle]
 #. defaultMessage is:
@@ -929,10 +935,8 @@ msgstr "Aide sur le nom de l’image"
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Modal/CreateImageUpload.json
-#, fuzzy
-#| msgid "Image uploads"
 msgid "Image output"
-msgstr "Téléchargement d’images"
+msgstr "Sortie de l’image"
 
 #. [components.Modal.1905943231]
 #. defaultMessage is:
@@ -1184,7 +1188,7 @@ msgstr "Changements en cours"
 #. Process length help
 #: build/messages/components/Modal/CreateImageUpload.json
 msgid "Process length help"
-msgstr ""
+msgstr "Aide sur la durée du processus"
 
 #. [components.Modal.4277042358]
 #. defaultMessage is:
@@ -1193,6 +1197,8 @@ msgstr ""
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
 msgstr ""
+"Veuillez fournir un nom de fichier à utiliser pour le fichier image qui sera "
+"téléversé."
 
 #. [components.Modal.2186792528]
 #. defaultMessage is:
@@ -1202,6 +1208,8 @@ msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the {bucket} exists."
 msgstr ""
+"Veuillez indiquer la région AWS où vous souhaitez importer votre image. Il "
+"doit s’agir de la même région que celle du {bucket}."
 
 #. [components.Modal.2822010101]
 #. defaultMessage is:
