@@ -2,7 +2,7 @@
 # Laszlo Pal <vlad@vlad.hu>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-19T08:26:39.556Z\n"
+"POT-Creation-Date: 2020-06-04T04:00:46.240Z\n"
 "PO-Revision-Date: 2020-04-07 17:40+0000\n"
 "Last-Translator: Laszlo Pal <vlad@vlad.hu>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"

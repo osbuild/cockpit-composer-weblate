@@ -4,7 +4,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-19T08:26:39.556Z\n"
+"POT-Creation-Date: 2020-06-04T04:00:46.240Z\n"
 "PO-Revision-Date: 2020-06-11 10:40+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -853,8 +853,10 @@ msgid ""
 "available in the AMI section of EC2. Most of the values required to upload\n"
 "                      the image can be found in the {console}."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入EC2。当镜像构建完成且\n"
-"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜像所需的多数值都可以在\n"
+"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入"
+"EC2。当镜像构建完成且\n"
+"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜"
+"像所需的多数值都可以在\n"
 "                      {console} 中找到。"
 
 #. [components.EmptyState.errorInactiveTitle]
@@ -1201,9 +1203,10 @@ msgid ""
 "service in the AWS console."
 msgstr ""
 "提供导入到 EC2 前镜像文件需要被上传到的 S3 {bucket} 的名称。 \n"
-"                          {bucket} 需要已存在于您要将镜像导入到的区域中。您可以在 AWS 控制台\n"
-"                          的 {amazon} S3 存储服务的 {bucketsPage} 页中找到 {buckets} "
-"列表。"
+"                          {bucket} 需要已存在于您要将镜像导入到的区域中。您可"
+"以在 AWS 控制台\n"
+"                          的 {amazon} S3 存储服务的 {bucketsPage} 页中找到 "
+"{buckets} 列表。"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1403,7 +1406,9 @@ msgid ""
 "Set the size that you want the image to be when instantiated. The total "
 "package size and target destination of your image should be considered when "
 "setting the image size."
-msgstr "设置实例化时镜像的大小。在设置镜像大小时，应考虑软件包的总大小以及镜像的目标位置。"
+msgstr ""
+"设置实例化时镜像的大小。在设置镜像大小时，应考虑软件包的总大小以及镜像的目标"
+"位置。"
 
 #. [components.ListView.1256153657]
 #. defaultMessage is:
@@ -1917,7 +1922,9 @@ msgstr "您可以在 AWS 控制台的 {iam} 页面中创建并找到现有的访
 msgid ""
 "You can view the Secret access key only when you create a new Access key ID "
 "on the {iam} page in the AWS console."
-msgstr "仅当您在 AWS 控制台中的 {iam} 页面中创建新的访问密钥 ID 时，才能查看秘密访问密钥。"
+msgstr ""
+"仅当您在 AWS 控制台中的 {iam} 页面中创建新的访问密钥 ID 时，才能查看秘密访问"
+"密钥。"
 
 #. [components.ListView.actions]
 #. defaultMessage is:
@@ -2081,7 +2088,8 @@ msgstr "{heading} {parenthetical}"
 #: build/messages/pages/blueprintEdit/index.json
 msgid ""
 "{pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}"
-msgstr "{pendingChanges, plural, one {# Pending Change} 其他 {# Pending Changes}}"
+msgstr ""
+"{pendingChanges, plural, one {# Pending Change} 其他 {# Pending Changes}}"
 
 #. [pages.blueprintEdit.3140434516]
 #. defaultMessage is:

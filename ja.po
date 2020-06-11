@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-19T08:26:39.556Z\n"
+"POT-Creation-Date: 2020-06-04T04:00:46.240Z\n"
 "PO-Revision-Date: 2020-06-11 10:40+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -862,10 +862,11 @@ msgid ""
 "available in the AMI section of EC2. Most of the values required to upload\n"
 "                      the image can be found in the {console}."
 msgstr ""
-"Image Builder は、作成したイメージを AWS の {bucket} にアップロードしてから、EC2 にインポートします。"
-"イメージのビルドが完了し\n"
-"                      アップロードアクションが成功すると、EC2 の AMI "
-"セクションでイメージファイルが利用可能になります。イメージのアップロードに必要な値の多くは、\n"
+"Image Builder は、作成したイメージを AWS の {bucket} にアップロードしてから、"
+"EC2 にインポートします。イメージのビルドが完了し\n"
+"                      アップロードアクションが成功すると、EC2 の AMI セクショ"
+"ンでイメージファイルが利用可能になります。イメージのアップロードに必要な値の"
+"多くは、\n"
 "            {console} にあります。"
 
 #. [components.EmptyState.errorInactiveTitle]
@@ -1196,7 +1197,9 @@ msgstr "アップロードするイメージファイルに使用するファイ
 msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the {bucket} exists."
-msgstr "イメージをインポートする AWS リージョンを指定します。これは、{bucket} が存在するリージョンと同じである必要があります。"
+msgstr ""
+"イメージをインポートする AWS リージョンを指定します。これは、{bucket} が存在"
+"するリージョンと同じである必要があります。"
 
 #. [components.Modal.2822010101]
 #. defaultMessage is:
@@ -1213,11 +1216,12 @@ msgid ""
 "                          {bucketsPage} page in the {amazon} S3 storage "
 "service in the AWS console."
 msgstr ""
-"EC2 にインポートされる前にアップロードされるイメージファイルに S3 {bucket} 名を指定します。\n"
-"                          {bucket} "
-"はイメージをインポートするリージョンにすでに存在している必要があります。{buckets} のリストは、\n"
-"                          AWS コンソールの {bucketsPage} S3 ストレージページの {amazon} "
-"ページにあります。"
+"EC2 にインポートされる前にアップロードされるイメージファイルに S3 {bucket} 名"
+"を指定します。\n"
+"                          {bucket} はイメージをインポートするリージョンにすで"
+"に存在している必要があります。{buckets} のリストは、\n"
+"                          AWS コンソールの {bucketsPage} S3 ストレージページ"
+"の {amazon} ページにあります。"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1301,7 +1305,9 @@ msgstr "必須情報が見つかりません。"
 msgid ""
 "Review the information below and click Finish to create the image and "
 "complete the tasks that were selected."
-msgstr "以下の情報を確認し、終了をクリックしてイメージを作成し、選択されたタスクを完了します。"
+msgstr ""
+"以下の情報を確認し、終了をクリックしてイメージを作成し、選択されたタスクを完"
+"了します。"
 
 #. [components.Modal.106035384]
 #. defaultMessage is:
@@ -1418,8 +1424,9 @@ msgid ""
 "package size and target destination of your image should be considered when "
 "setting the image size."
 msgstr ""
-"インスタンス化したときのイメージのサイズを設定します。イメージのサイズを設定するときは、イメージの合計パッケージサイズとターゲットの宛先を考慮する必要があ"
-"ります。"
+"インスタンス化したときのイメージのサイズを設定します。イメージのサイズを設定"
+"するときは、イメージの合計パッケージサイズとターゲットの宛先を考慮する必要が"
+"あります。"
 
 #. [components.ListView.1256153657]
 #. defaultMessage is:
@@ -1620,7 +1627,9 @@ msgstr "osbuild-composer サービスは開始しませんでした。"
 msgid ""
 "The size specified is large. We recommend that you check whether your target "
 "destination has any restrictions on image size."
-msgstr "サイズが少々大きく設定されています。ターゲットの宛先にイメージサイズの制限があるかどうかを確認することをお勧めします。"
+msgstr ""
+"サイズが少々大きく設定されています。ターゲットの宛先にイメージサイズの制限が"
+"あるかどうかを確認することをお勧めします。"
 
 #. [components.Modal.2405281428]
 #. defaultMessage is:
@@ -1736,9 +1745,10 @@ msgid ""
 "                      be imported from the S3 {bucket} into EC2. For more "
 "details, refer to the {role}."
 msgstr ""
-"このアップロードプロセスでは、{iam} ロールに {vmimport} という名前を付けて、\n"
-"                      イメージが S3 {bucket} から EC2 にインポートされるようにします。詳細は、{role} "
-"を参照してください。"
+"このアップロードプロセスでは、{iam} ロールに {vmimport} という名前を付け"
+"て、\n"
+"                      イメージが S3 {bucket} から EC2 にインポートされるよう"
+"にします。詳細は、{role} を参照してください。"
 
 #. [components.Modal.3707489178]
 #. defaultMessage is:
@@ -1935,7 +1945,9 @@ msgstr "表示"
 msgid ""
 "You can create and find existing Access key IDs on the {iam} page in the AWS "
 "console."
-msgstr "AWS コンソールの {iam} ページでは、アクセスキー ID の作成や既存の ID の検索を行うことができます。"
+msgstr ""
+"AWS コンソールの {iam} ページでは、アクセスキー ID の作成や既存の ID の検索を"
+"行うことができます。"
 
 #. [components.Modal.4206409720]
 #. defaultMessage is:
@@ -1944,7 +1956,9 @@ msgstr "AWS コンソールの {iam} ページでは、アクセスキー ID の
 msgid ""
 "You can view the Secret access key only when you create a new Access key ID "
 "on the {iam} page in the AWS console."
-msgstr "シークレットアクセスキーは、AWS コンソールの {iam} ページ上に新しいアクセスキー ID を作成するときにのみ表示できます。"
+msgstr ""
+"シークレットアクセスキーは、AWS コンソールの {iam} ページ上に新しいアクセス"
+"キー ID を作成するときにのみ表示できます。"
 
 #. [components.ListView.actions]
 #. defaultMessage is:
