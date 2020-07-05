@@ -4,19 +4,20 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-06-04T04:00:46.240Z\n"
-"PO-Revision-Date: 2020-06-11 10:40+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/fr/>\n"
+"PO-Revision-Date: 2020-07-06 08:27+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -200,7 +201,7 @@ msgstr "Appliquer le changement"
 #. Are you sure you want to delete the blueprint {name}?
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Are you sure you want to delete the blueprint {name}?"
-msgstr "Êtes-vous certain de vouloir supprimer le modèle  {version} ?"
+msgstr "Voulez-vous vraiment supprimer le modèle {version} ?"
 
 #. [components.Modal.1346739796]
 #. defaultMessage is:
@@ -1265,7 +1266,7 @@ msgstr "Retirer"
 #. Remove Component from Blueprint
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Remove Component from Blueprint"
-msgstr "Supprimer le composant  du modèle"
+msgstr "Supprimer le composant du modèle"
 
 #. [components.Modal.2822116526]
 #. defaultMessage is:
@@ -1609,14 +1610,14 @@ msgstr "Le processus de build ne peut pas reprendre une fois arrêté."
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Modal/UserAccount.json
 msgid "The fields marked with {val} are required."
-msgstr "Les champs comportant  {version} sont requis."
+msgstr "Les champs comportant {version} sont requis."
 
 #. [components.Modal.2580689893]
 #. defaultMessage is:
 #. The name {name} already exists.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "The name {name} already exists."
-msgstr "Le nom  {version} existe déjà."
+msgstr "Le nom {version} existe déjà."
 
 #. [pages.error.26562577]
 #. defaultMessage is:
