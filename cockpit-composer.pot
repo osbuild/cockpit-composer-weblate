@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-07-15T17:07:51.688Z\n"
+"POT-Creation-Date: 2020-07-23T03:36:24.576Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -623,20 +623,6 @@ msgstr ""
 msgid "Created"
 msgstr ""
 
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.2925773048] - Label for the string: 1–50 of 125; only visible to screen readers
-#. defaultMessage is:
-#. Current Items
-msgid "Current Items"
-msgstr ""
-
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.currentPage] - Label of form input for setting current page number
-#. defaultMessage is:
-#. Current Page
-msgid "Current Page"
-msgstr ""
-
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.customizationsTitle]
 #. defaultMessage is:
@@ -1245,13 +1231,6 @@ msgstr ""
 msgid "Page not found"
 msgstr ""
 
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.pagination]
-#. defaultMessage is:
-#. Pagination
-msgid "Pagination"
-msgstr ""
-
 #: build/messages/components/Wizard/ImageStep.json
 #. [components.Wizard.3070030782]
 #. defaultMessage is:
@@ -1594,20 +1573,6 @@ msgstr ""
 msgid "Show Less"
 msgstr ""
 
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.nextPage]
-#. defaultMessage is:
-#. Show Next Page
-msgid "Show Next Page"
-msgstr ""
-
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.previousPage]
-#. defaultMessage is:
-#. Show Previous Page
-msgid "Show Previous Page"
-msgstr ""
-
 #: build/messages/components/ListView/ListItemImages.json
 #. [components.ListView.imageSize] - A label for the size of an image file
 #. defaultMessage is:
@@ -1741,6 +1706,13 @@ msgstr ""
 #. defaultMessage is:
 #. Storage container
 msgid "Storage container"
+msgstr ""
+
+#: build/messages/components/Wizard/AzureDestinationStep.json
+#. [components.Wizard.storageContainer]
+#. defaultMessage is:
+#. Storage container help
+msgid "Storage container help"
 msgstr ""
 
 #: build/messages/components/ListView/SourcesListItem.json
@@ -2194,13 +2166,6 @@ msgstr ""
 msgid "mirrorlist"
 msgstr ""
 
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.storageContainer]
-#. defaultMessage is:
-#. storage container help
-msgid "storage container help"
-msgstr ""
-
 #: build/messages/components/Modal/PendingChanges.json
 #. [components.Modal.152217691]
 #. defaultMessage is:
@@ -2275,13 +2240,6 @@ msgstr ""
 msgid "{count} total components"
 msgstr ""
 
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.3506832526]
-#. defaultMessage is:
-#. {currentPage} of {totalPages}
-msgid "{currentPage} of {totalPages}"
-msgstr ""
-
 #: build/messages/components/Modal/PendingChanges.json
 #. [components.Modal.3908981070]
 #. defaultMessage is:
@@ -2315,13 +2273,6 @@ msgstr ""
 #. defaultMessage is:
 #. {selectComponents} in this list to add to the blueprint.
 msgid "{selectComponents} in this list to add to the blueprint."
-msgstr ""
-
-#: build/messages/components/Pagination/Pagination.json
-#. [components.Pagination.3363928156]
-#. defaultMessage is:
-#. {startNumber} - {endNumber} of {totalNumber}
-msgid "{startNumber} - {endNumber} of {totalNumber}"
 msgstr ""
 
 #: ./public/manifest.json
