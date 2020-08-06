@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-07-30T03:21:16.275Z\n"
+"POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -2016,14 +2016,11 @@ msgstr ""
 #. [components.Wizard.uploadAWS]
 #. defaultMessage is:
 #. Upload to AWS
-msgid "Upload to AWS"
-msgstr ""
-
 #: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1426592721]
+#. [components.Wizard.3235936248]
 #. defaultMessage is:
-#. Upload to Amazon
-msgid "Upload to Amazon"
+#. Upload to AWS
+msgid "Upload to AWS"
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
