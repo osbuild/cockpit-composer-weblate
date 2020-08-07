@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
-"PO-Revision-Date: 2020-07-07 18:27+0000\n"
+"PO-Revision-Date: 2020-08-09 16:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -932,12 +932,6 @@ msgstr ""
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to a Blob container in "
-#| "{azure}. When the image build is complete \n"
-#| "                    and the upload action is successful, the image file "
-#| "is available in the Storage account and Blob container that you specified."
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
 "When the image build is complete \n"
@@ -946,7 +940,7 @@ msgid ""
 msgstr ""
 "Kalıp Oluşturucu, oluşturduğunuz kalıpları {azure} üzerinde bir Blob "
 "konteynerine yükleyebilir. Kalıp oluşturma işlemi \n"
-"                    tamamlandığında ve karşıya yükleme işlemi başarılı "
+"                      tamamlandığında ve karşıya yükleme işlemi başarılı "
 "olduğunda kalıp dosyası Depolama hesabında ve belirttiğiniz Blob "
 "konteynerinde kullanılabilir."
 
@@ -962,14 +956,6 @@ msgstr ""
 #.                         the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an {bucket} in AWS and then "
 "import them into EC2. When the image build is complete\n"
@@ -980,9 +966,9 @@ msgid ""
 msgstr ""
 "Kalıp Oluşturucu, oluşturduğunuz kalıpları AWS'deki bir {bucket} içine "
 "yükleyebilir ve ardından bunları EC2'ye aktarabilir. Kalıp oluşturma\n"
-"                      işlemi tamamlandığında ve karşıya yükleme işlemi "
+"                        işlemi tamamlandığında ve karşıya yükleme işlemi "
 "başarılı olduğunda kalıp dosyası EC2'nin AMI bölümünde kullanılabilir.\n"
-"                      Kalıbı karşıya yüklemek için gereken değerlerin çoğu "
+"                        Kalıbı karşıya yüklemek için gereken değerlerin çoğu "
 "{console} içinde bulunabilir.."
 
 #. [components.EmptyState.errorInactiveTitle]
@@ -1392,15 +1378,6 @@ msgstr ""
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                          The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                          {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 {bucket} name to which the image file will be uploaded before "
 "being imported into EC2. \n"
@@ -1411,10 +1388,10 @@ msgid ""
 msgstr ""
 "EC2'ye aktarılmadan önce kalıp dosyasının yükleneceği S3 {bucket} adını "
 "girin.\n"
-"                          {bucket}, kalıbınızı aktarmak istediğiniz Bölge'de "
+"                        {bucket}, kalıbınızı aktarmak istediğiniz Bölge'de "
 "önceden mevcut olmalıdır. {buckets} ögelerinin bir listesini AWS "
 "konsolundaki\n"
-"                          {amazon} S3 depolama hizmetindeki {bucketsPage} "
+"                        {amazon} S3 depolama hizmetindeki {bucketsPage} "
 "sayfasında bulabilirsiniz."
 
 #. [components.Wizard.2706552502]
@@ -1847,10 +1824,8 @@ msgstr "Depolama konteyneri"
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "storage container help"
 msgid "Storage container help"
-msgstr "depolama konteyneri ile ilgili yardım"
+msgstr "Depolama konteyneri ile ilgili yardım"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2052,12 +2027,6 @@ msgstr "Bu kaynak konumu zaten mevcut."
 #.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "This upload process requires that you have an {iam} role named {vmimport} "
-#| "to ensure that the image can\n"
-#| "                      be imported from the S3 {bucket} into EC2. For more "
-#| "details, refer to the {role}."
 msgid ""
 "This upload process requires that you have an {iam} role named {vmimport} to "
 "ensure that the image can\n"
@@ -2066,8 +2035,8 @@ msgid ""
 msgstr ""
 "Bu karşıya yükleme işlemi, kalıbın S3 {bucket} alanından EC2'ye "
 "aktarılabilmesini sağlamak için {vmimport}\n"
-"                      adında bir {iam} rolünüzün olmasını gerektirmektedir. "
-"Daha fazla ayrıntı için {role} bölümüne bakın."
+"                        adında bir {iam} rolünüzün olmasını "
+"gerektirmektedir. Daha fazla ayrıntı için {role} bölümüne bakın."
 
 #. [components.Modal.3707489178]
 #. defaultMessage is:
