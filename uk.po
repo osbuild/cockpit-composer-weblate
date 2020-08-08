@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
-"PO-Revision-Date: 2020-07-07 18:27+0000\n"
+"PO-Revision-Date: 2020-08-09 16:29+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/uk/>\n"
@@ -931,12 +931,6 @@ msgstr ""
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to a Blob container in "
-#| "{azure}. When the image build is complete \n"
-#| "                    and the upload action is successful, the image file "
-#| "is available in the Storage account and Blob container that you specified."
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
 "When the image build is complete \n"
@@ -945,8 +939,8 @@ msgid ""
 msgstr ""
 "Image Builder може вивантажувати створені вами образи до бінарного "
 "контейнера в {azure}. Коли збирання образу буде завершено,\n"
-"                      а дія з вивантаження буде успішною, файл образу стане "
-"доступним на обліковому записі сховища та у вказаному вами бінарному "
+"                        а дія з вивантаження буде успішною, файл образу "
+"стане доступним на обліковому записі сховища та у вказаному вами бінарному "
 "контейнері."
 
 #. [components.Wizard.1007547894]
@@ -961,14 +955,6 @@ msgstr ""
 #.                         the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an {bucket} in AWS and then "
 "import them into EC2. When the image build is complete\n"
@@ -979,9 +965,10 @@ msgid ""
 msgstr ""
 "Image Builder може вивантажувати створені вами образи до {bucket} в AWS, а "
 "потім імпортувати їх до EC2. Коли збирання образу буде завершено,\n"
-"                      а дія з вивантаження буде успішною, файл образу стане "
-"доступним у розділі AMI EC2. Доступ до більшості значень, потрібних для\n"
-"                      вивантаження образу, можна знайти у {console}."
+"                             а дія з вивантаження буде успішною, файл образу "
+"стане доступним у розділі AMI EC2. Доступ до більшості значень, потрібних "
+"для\n"
+"                             вивантаження образу, можна знайти у {console}."
 
 #. [components.EmptyState.errorInactiveTitle]
 #. defaultMessage is:
@@ -1391,15 +1378,6 @@ msgstr ""
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                          The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                          {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 {bucket} name to which the image file will be uploaded before "
 "being imported into EC2. \n"
@@ -1410,9 +1388,9 @@ msgid ""
 msgstr ""
 "Вкажіть назву {bucket} S3, до якої буде вивантажено файл образу перед "
 "імпортуванням до EC2. \n"
-"                          {bucket} має існувати у регіоні, куди ви хочете "
+"                             {bucket} має існувати у регіоні, куди ви хочете "
 "імпортувати ваш образ. Список {buckets} можна знайти\n"
-"                          на сторінці {bucketsPage} у службі зберігання "
+"                             на сторінці {bucketsPage} у службі зберігання "
 "даних S3 {amazon} у консолі AWS."
 
 #. [components.Wizard.2706552502]
@@ -1846,10 +1824,8 @@ msgstr "Контейнер сховища"
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "storage container help"
 msgid "Storage container help"
-msgstr "довідка з контейнера сховища"
+msgstr "Довідка з контейнера сховища"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2053,12 +2029,6 @@ msgstr "Цей шлях до джерела вже використано."
 #.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "This upload process requires that you have an {iam} role named {vmimport} "
-#| "to ensure that the image can\n"
-#| "                      be imported from the S3 {bucket} into EC2. For more "
-#| "details, refer to the {role}."
 msgid ""
 "This upload process requires that you have an {iam} role named {vmimport} to "
 "ensure that the image can\n"
@@ -2067,8 +2037,8 @@ msgid ""
 msgstr ""
 "Цей процес вивантаження потребує наявності у вас ролі {iam} із назвою "
 "{vmimport} для забезпечення можливості\n"
-"                      імпортування образу з {bucket} S3 до EC2. Докладніше "
-"про це можна дізнатися з запису {role}."
+"                            імпортування образу з {bucket} S3 до EC2. "
+"Докладніше про це можна дізнатися з запису {role}."
 
 #. [components.Modal.3707489178]
 #. defaultMessage is:
