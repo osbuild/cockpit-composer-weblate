@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
-"PO-Revision-Date: 2020-08-07 17:29+0000\n"
+"PO-Revision-Date: 2020-08-09 16:29+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -926,12 +926,6 @@ msgstr "Pokud název hostitele není zadán, bude zjištěn operačním systéme
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to a Blob container in "
-#| "{azure}. When the image build is complete \n"
-#| "                    and the upload action is successful, the image file "
-#| "is available in the Storage account and Blob container that you specified."
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
 "When the image build is complete \n"
@@ -940,7 +934,7 @@ msgid ""
 msgstr ""
 "Nástroj pro sestavování obrazů může vzniklé obrazy nahrávat na Blob "
 "kontejner ve službě {azure}. Po dokončení sestavení obrazu\n"
-"                    a jeho úspěšném nahrání, soubor s obrazem bude k "
+"                     a jeho úspěšném nahrání, soubor s obrazem bude k "
 "dispozici v Účtu úložiště a Blob kontejneru, který jste zadali."
 
 #. [components.Wizard.1007547894]
@@ -955,14 +949,6 @@ msgstr ""
 #.                         the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an {bucket} in AWS and then "
 "import them into EC2. When the image build is complete\n"
@@ -973,9 +959,9 @@ msgid ""
 msgstr ""
 "Nástroj pro sestavování obrazů může vzniklé obrazy nahrávat na {bucket} ve "
 "službě AWS a a pak je importovat do EC2. Když je sestavení\n"
-"                       obrazu hotové a akce nahrání je úspěšná, soubor s "
+"                        obrazu hotové a akce nahrání je úspěšná, soubor s "
 "obrazem je k dispozici v AMI sekci EC2. Většinu hodnot, požadovaných pro\n"
-"                      nahrání obrazu je k nalezení v {console}."
+"                       nahrání obrazu je k nalezení v {console}."
 
 #. [components.EmptyState.errorInactiveTitle]
 #. defaultMessage is:
@@ -1383,15 +1369,6 @@ msgstr ""
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                          The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                          {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 {bucket} name to which the image file will be uploaded before "
 "being imported into EC2. \n"
@@ -1402,9 +1379,9 @@ msgid ""
 msgstr ""
 "Zadejte název S3 {bucket}, do kterého bude soubor s obrazem nahrán před "
 "importem do EC2. \n"
-"                          Je třeba, aby {bucket} už existoval v oblasti, do "
+"                         Je třeba, aby {bucket} už existoval v oblasti, do "
 "které chcete obraz importovat. Seznam {buckets} naleznete\n"
-"                          na stránce {bucketsPage} v {amazon} službě S3 "
+"                         na stránce {bucketsPage} v {amazon} službě S3 "
 "úložiště v AWS konzoli."
 
 #. [components.Wizard.2706552502]
@@ -1837,10 +1814,8 @@ msgstr "Kontejner úložiště"
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "storage container help"
 msgid "Storage container help"
-msgstr "nápověda k úložnému kontejneru"
+msgstr "Nápověda k úložnému kontejneru"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2042,12 +2017,6 @@ msgstr "Tento popis umístění zdroje už existuje."
 #.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "This upload process requires that you have an {iam} role named {vmimport} "
-#| "to ensure that the image can\n"
-#| "                      be imported from the S3 {bucket} into EC2. For more "
-#| "details, refer to the {role}."
 msgid ""
 "This upload process requires that you have an {iam} role named {vmimport} to "
 "ensure that the image can\n"
@@ -2056,7 +2025,7 @@ msgid ""
 msgstr ""
 "Tento proces nahrávání vyžaduje, abyste měli {iam} roli nazvanou {vmimport} "
 "a bylo tak zajištěno, že obraz\n"
-"                      může být importován z S3 {bucket} do EC2. Podrobnosti "
+"                       může být importován z S3 {bucket} do EC2. Podrobnosti "
 "viz {role}."
 
 #. [components.Modal.3707489178]
