@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
+"POT-Creation-Date: 2020-08-13T03:17:33.155Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -2161,6 +2161,13 @@ msgstr ""
 #. defaultMessage is:
 #. mirrorlist
 msgid "mirrorlist"
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.2454328248]
+#. defaultMessage is:
+#. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
+msgid "rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine"
 msgstr ""
 
 #: build/messages/components/Modal/PendingChanges.json
