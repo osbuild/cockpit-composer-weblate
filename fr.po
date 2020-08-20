@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
-"PO-Revision-Date: 2020-07-09 09:27+0000\n"
+"PO-Revision-Date: 2020-08-20 06:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -946,26 +946,16 @@ msgstr ""
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
 "When the image build is complete \n"
 "                      and the upload action is successful, the image file is "
 "available in the Storage account and Blob container that you specified."
 msgstr ""
-"Image Builder peut téléverser des images sur un {bucket} dans AWS, puis les "
-"importer dans EC2. Lorsque la construction de l’image est\n"
-"                      complétée et que le téléversement a réussi, le fichier "
-"image est disponible dans la section AMI d’EC2. La plupart des valeurs\n"
-"                      requises pour le téléversement de l’image peuvent être "
-"trouvées dans la {console}."
+"Image Builder peut téléverser des images sur un conteneur Blob dans {azure}. "
+"Lorsque la construction de l’image est complétée\n"
+"et que le téléversement a réussi, le fichier image est disponible dans le "
+"compte de Stockage et le conteneur Blob que vous avez spécifié."
 
 #. [components.Wizard.1007547894]
 #. defaultMessage is:
@@ -979,14 +969,6 @@ msgstr ""
 #.                         the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an {bucket} in AWS and then "
 "import them into EC2. When the image build is complete\n"
@@ -1317,7 +1299,7 @@ msgstr "Page non trouvée"
 #. Parent commit
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Parent commit"
-msgstr ""
+msgstr "Commit parent"
 
 #. [components.Modal.createPasswordOne]
 #. defaultMessage is:
