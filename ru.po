@@ -3,7 +3,7 @@
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
+"POT-Creation-Date: 2020-08-20T05:43:21.797Z\n"
 "PO-Revision-Date: 2020-04-02 20:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -2304,6 +2304,15 @@ msgstr "мета-ссылка"
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
 msgstr "список зеркал"
+
+#. [components.Wizard.2454328248]
+#. defaultMessage is:
+#. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
+"machine"
+msgstr ""
 
 #. [components.Modal.152217691]
 #. defaultMessage is:

@@ -2,11 +2,11 @@
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
+"POT-Creation-Date: 2020-08-20T05:43:21.797Z\n"
 "PO-Revision-Date: 2020-08-09 16:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2318,6 +2318,15 @@ msgstr "metalink"
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
 msgstr "ayna listesi"
+
+#. [components.Wizard.2454328248]
+#. defaultMessage is:
+#. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
+"machine"
+msgstr ""
 
 #. [components.Modal.152217691]
 #. defaultMessage is:

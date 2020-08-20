@@ -1,7 +1,7 @@
 # Ahmad Haghighi <haghighi.ahmad@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-06T03:50:16.790Z\n"
+"POT-Creation-Date: 2020-08-20T05:43:21.797Z\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2231,6 +2231,15 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
+msgstr ""
+
+#. [components.Wizard.2454328248]
+#. defaultMessage is:
+#. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
+"machine"
 msgstr ""
 
 #. [components.Modal.152217691]
