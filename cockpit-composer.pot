@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-20T05:43:21.797Z\n"
+"POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -243,6 +243,13 @@ msgstr ""
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
 msgstr ""
 
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.160751819]
+#. defaultMessage is:
+#. Authentication
+msgid "Authentication"
+msgstr ""
+
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
@@ -302,6 +309,10 @@ msgstr ""
 #. Blueprint
 #: build/messages/components/Modal/PendingChanges.json
 #. [components.Modal.blueprint]
+#. defaultMessage is:
+#. Blueprint
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.1281198655]
 #. defaultMessage is:
 #. Blueprint
 #: build/messages/pages/blueprint/index.json
@@ -696,6 +707,13 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.2515932130]
+#. defaultMessage is:
+#. Destination
+msgid "Destination"
+msgstr ""
+
 #: build/messages/components/ListView/ComponentDetailsView.json
 #. [components.ListView.details]
 #. defaultMessage is:
@@ -1013,6 +1031,10 @@ msgstr ""
 msgid "Image size help"
 msgstr ""
 
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.1813441558]
+#. defaultMessage is:
+#. Image type
 #: build/messages/components/Wizard/ReviewStep.json
 #. [components.Wizard.1813441558]
 #. defaultMessage is:
@@ -1426,6 +1448,13 @@ msgstr ""
 #. defaultMessage is:
 #. Required information is missing.
 msgid "Required information is missing."
+msgstr ""
+
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.3835894881]
+#. defaultMessage is:
+#. Review
+msgid "Review"
 msgstr ""
 
 #: build/messages/components/Wizard/ReviewStep.json
@@ -1925,6 +1954,10 @@ msgstr ""
 #. [components.Modal.type] - Type of source
 #. defaultMessage is:
 #. Type
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.type]
+#. defaultMessage is:
+#. Type
 msgid "Type"
 msgstr ""
 
@@ -2012,6 +2045,10 @@ msgstr ""
 msgid "Upload pending"
 msgstr ""
 
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.3235936248]
+#. defaultMessage is:
+#. Upload to AWS
 #: build/messages/components/Wizard/ImageStep.json
 #. [components.Wizard.uploadAWS]
 #. defaultMessage is:
@@ -2023,6 +2060,10 @@ msgstr ""
 msgid "Upload to AWS"
 msgstr ""
 
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.2244258572]
+#. defaultMessage is:
+#. Upload to Azure
 #: build/messages/components/Wizard/ImageStep.json
 #. [components.Wizard.uploadAzure]
 #. defaultMessage is:
