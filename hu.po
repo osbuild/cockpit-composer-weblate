@@ -2,7 +2,7 @@
 # Laszlo Pal <vlad@vlad.hu>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-20T05:43:21.797Z\n"
+"POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
 "PO-Revision-Date: 2020-04-07 17:40+0000\n"
 "Last-Translator: Laszlo Pal <vlad@vlad.hu>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -257,6 +257,13 @@ msgstr "Biztos, hogy törli a(z) {blueprintName} lemezképét?"
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
 msgstr "Biztos, hogy leállítja a(z) {blueprintName} összeállítási folyamatot?"
 
+#. [components.Wizard.160751819]
+#. defaultMessage is:
+#. Authentication
+#: build/messages/components/Wizard/CreateImageUpload.json
+msgid "Authentication"
+msgstr ""
+
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
 #. Automatically start osbuild-composer on boot
@@ -316,6 +323,9 @@ msgstr ""
 #. [components.Modal.blueprint]
 #. defaultMessage is:
 #. Blueprint
+#. [components.Wizard.1281198655]
+#. defaultMessage is:
+#. Blueprint
 #. [pages.blueprint.blueprint]
 #. defaultMessage is:
 #. Blueprint
@@ -324,6 +334,7 @@ msgstr ""
 #. Blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
 #: build/messages/components/Modal/PendingChanges.json
+#: build/messages/components/Wizard/ImageStep.json
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Blueprint"
@@ -731,6 +742,15 @@ msgstr "Függőségek"
 msgid "Description"
 msgstr "Leírás"
 
+#. [components.Wizard.2515932130]
+#. defaultMessage is:
+#. Destination
+#: build/messages/components/Wizard/CreateImageUpload.json
+#, fuzzy
+#| msgid "Description"
+msgid "Destination"
+msgstr "Leírás"
+
 #. [components.ListView.details]
 #. defaultMessage is:
 #. Details
@@ -1075,6 +1095,10 @@ msgstr "Lemezképek"
 #. [components.Wizard.1813441558]
 #. defaultMessage is:
 #. Image type
+#. [components.Wizard.1813441558]
+#. defaultMessage is:
+#. Image type
+#: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ReviewStep.json
 #, fuzzy
 #| msgid "Image Type"
@@ -1510,6 +1534,13 @@ msgstr ""
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Required information is missing."
 msgstr "Hiányzik a szükséges információ."
+
+#. [components.Wizard.3835894881]
+#. defaultMessage is:
+#. Review
+#: build/messages/components/Wizard/CreateImageUpload.json
+msgid "Review"
+msgstr ""
 
 #. [components.Wizard.review]
 #. defaultMessage is:
@@ -2038,10 +2069,14 @@ msgstr ""
 #. [components.Modal.type] - Type of source
 #. defaultMessage is:
 #. Type
+#. [components.Wizard.type]
+#. defaultMessage is:
+#. Type
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentTypeIcons.json
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/Modal/ManageSources.json
+#: build/messages/components/Wizard/ImageStep.json
 msgid "Type"
 msgstr "Típus"
 
@@ -2131,23 +2166,31 @@ msgstr ""
 msgid "Upload pending"
 msgstr ""
 
+#. [components.Wizard.3235936248]
+#. defaultMessage is:
+#. Upload to AWS
 #. [components.Wizard.uploadAWS]
 #. defaultMessage is:
 #. Upload to AWS
 #. [components.Wizard.3235936248]
 #. defaultMessage is:
 #. Upload to AWS
+#: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to AWS"
 msgstr ""
 
+#. [components.Wizard.2244258572]
+#. defaultMessage is:
+#. Upload to Azure
 #. [components.Wizard.uploadAzure]
 #. defaultMessage is:
 #. Upload to Azure
 #. [components.Wizard.2244258572]
 #. defaultMessage is:
 #. Upload to Azure
+#: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to Azure"
