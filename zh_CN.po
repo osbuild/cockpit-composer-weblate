@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
-"PO-Revision-Date: 2020-06-11 10:40+0000\n"
+"PO-Revision-Date: 2020-09-19 13:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-composer/master/zh_CN/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -37,7 +37,7 @@ msgstr "需要一个蓝图（blueprint）名称。"
 msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
-msgstr ""
+msgstr "一个小型镜像将被创建，它只带有支持所选镜像类型所必需的软件包。"
 
 #. [components.Modal.2310857819]
 #. defaultMessage is:
@@ -128,7 +128,7 @@ msgstr "操作"
 #. Active Filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Active Filters"
-msgstr ""
+msgstr "活跃的过滤器"
 
 #. [components.ListView.3099331554]
 #. defaultMessage is:
@@ -262,7 +262,7 @@ msgstr "您确定要停止 {blueprintName} 的构建过程?"
 #. Authentication
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Authentication"
-msgstr ""
+msgstr "验证"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
@@ -317,7 +317,7 @@ msgstr "返回到 {blueprint}"
 #. Blob service
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Blob service"
-msgstr ""
+msgstr "Blob 服务"
 
 #. [components.Modal.1281198655]
 #. defaultMessage is:
@@ -897,7 +897,7 @@ msgstr "根据名称过滤..."
 #. Filter by Version
 #: build/messages/components/Toolbar/FilterInput.json
 msgid "Filter by Version"
-msgstr ""
+msgstr "按版本过滤"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
@@ -1331,7 +1331,7 @@ msgstr "没有找到页"
 #. Parent commit
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Parent commit"
-msgstr ""
+msgstr "父提交"
 
 #. [components.Modal.createPasswordOne]
 #. defaultMessage is:
@@ -1400,6 +1400,8 @@ msgid ""
 "                    section of a storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
+"提供镜像文件要被上传到的 Blob 容器。您可以在存储账户的 {blobService} 项下                    找到容器。您可以在 "
+"{azure} 门户的 {storageAccounts} 页中找到存储账户。"
 
 #. [components.Wizard.1099888225]
 #. defaultMessage is:
@@ -1408,7 +1410,7 @@ msgstr ""
 msgid ""
 "Provide the ID of the latest commit in the updates repository for which this "
 "commit provides an update."
-msgstr ""
+msgstr "提供更新库中最新提交的 ID，该提交提供了一个更新。"
 
 #. [components.Wizard.1901372247]
 #. defaultMessage is:
@@ -1450,6 +1452,8 @@ msgid ""
 "                        page of the storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
+"提供所需存储账户的访问密钥。您可以在存储账户的 {accessKeys} 页中找到 \n"
+"                        访问密钥。您可以在 {azure} 门户的 {storageAccounts} 页中找到存储账户。"
 
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
@@ -1458,7 +1462,7 @@ msgstr ""
 msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "{storageAccounts} page in the {azure} portal."
-msgstr ""
+msgstr "提供存储账户的名称。您可以在 {azure} 门户的 {storageAccounts} 页上找到存储账户。"
 
 #. [components.Wizard.1476874820]
 #. defaultMessage is:
@@ -1467,14 +1471,14 @@ msgstr ""
 msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created."
-msgstr ""
+msgstr "提供内容的分支名称。如果 ref 不存在，则会被创建。"
 
 #. [components.Wizard.31026111]
 #. defaultMessage is:
 #. Ref
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Ref"
-msgstr ""
+msgstr "Ref"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1564,7 +1568,7 @@ msgstr "缺少需要的信息。"
 #. Review
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Review"
-msgstr ""
+msgstr "回顾"
 
 #. [components.Wizard.review]
 #. defaultMessage is:
@@ -1771,7 +1775,7 @@ msgstr "指定新的蓝图名称。"
 #. Start
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Start"
-msgstr "开始"
+msgstr "启动"
 
 #. [components.ListView.timeStarted] - A label for the date that an image upload was started
 #. defaultMessage is:
@@ -1924,7 +1928,7 @@ msgstr "名称 {name} 已存在。"
 msgid ""
 "The packages needed to support the selected image type are automatically "
 "included when creating an image."
-msgstr ""
+msgstr "在创建镜像时，支持所选镜像类型所需的软件包会自动包含在内。"
 
 #. [pages.error.26562577]
 #. defaultMessage is:
@@ -1961,7 +1965,7 @@ msgstr "指定的大小是大。我们建议您检查目标位置是否对镜像
 msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
-msgstr "用户名只能包括字母 a-z、数字、点、短横线和下划线。"
+msgstr "用户名仅能包含 a-z、数字、点、破折号和下划线的字母。"
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
@@ -2091,7 +2095,7 @@ msgstr "这个用户名已存在。"
 #. Troubleshoot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Troubleshoot"
-msgstr "故障排除"
+msgstr "排错"
 
 #. [components.ListView.1952810469]
 #. defaultMessage is:
@@ -2377,7 +2381,7 @@ msgstr "mirrorlist"
 msgid ""
 "rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
 "machine"
-msgstr ""
+msgstr "rhel/8/{arch}/edge 是默认的，其中{arch} 是由主机决定的。"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:
