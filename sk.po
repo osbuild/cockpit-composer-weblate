@@ -2,7 +2,7 @@
 # Matej Marusak <mmarusak@redhat.com>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
+"POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
 "PO-Revision-Date: 2020-04-16 13:42+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -2306,6 +2306,15 @@ msgstr "metaodkaz"
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
 msgstr "zoznam zrkadiel"
+
+#. [pages.blueprintEdit.paginationPerPage]
+#. defaultMessage is:
+#. per page
+#: build/messages/pages/blueprintEdit/index.json
+#, fuzzy
+#| msgid "home page"
+msgid "per page"
+msgstr "Domovská stránka"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:

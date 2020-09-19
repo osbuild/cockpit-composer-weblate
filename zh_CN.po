@@ -4,7 +4,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
+"POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
 "PO-Revision-Date: 2020-09-19 13:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -1400,8 +1400,9 @@ msgid ""
 "                    section of a storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
-"提供镜像文件要被上传到的 Blob 容器。您可以在存储账户的 {blobService} 项下                    找到容器。您可以在 "
-"{azure} 门户的 {storageAccounts} 页中找到存储账户。"
+"提供镜像文件要被上传到的 Blob 容器。您可以在存储账户的 {blobService} 项"
+"下                    找到容器。您可以在 {azure} 门户的 {storageAccounts} 页"
+"中找到存储账户。"
 
 #. [components.Wizard.1099888225]
 #. defaultMessage is:
@@ -1453,7 +1454,8 @@ msgid ""
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
 "提供所需存储账户的访问密钥。您可以在存储账户的 {accessKeys} 页中找到 \n"
-"                        访问密钥。您可以在 {azure} 门户的 {storageAccounts} 页中找到存储账户。"
+"                        访问密钥。您可以在 {azure} 门户的 {storageAccounts} "
+"页中找到存储账户。"
 
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
@@ -1462,7 +1464,9 @@ msgstr ""
 msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "{storageAccounts} page in the {azure} portal."
-msgstr "提供存储账户的名称。您可以在 {azure} 门户的 {storageAccounts} 页上找到存储账户。"
+msgstr ""
+"提供存储账户的名称。您可以在 {azure} 门户的 {storageAccounts} 页上找到存储账"
+"户。"
 
 #. [components.Wizard.1476874820]
 #. defaultMessage is:
@@ -2373,6 +2377,15 @@ msgstr "metalink"
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
 msgstr "mirrorlist"
+
+#. [pages.blueprintEdit.paginationPerPage]
+#. defaultMessage is:
+#. per page
+#: build/messages/pages/blueprintEdit/index.json
+#, fuzzy
+#| msgid "home page"
+msgid "per page"
+msgstr "主页"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:

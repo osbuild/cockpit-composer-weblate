@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
+"POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
 "PO-Revision-Date: 2020-09-19 13:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -38,7 +38,9 @@ msgstr "ブループリント名が必要です。"
 msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
-msgstr "選択したイメージタイプの対応に必要なパッケージのみが含まれた最小のイメージが作成されます。"
+msgstr ""
+"選択したイメージタイプの対応に必要なパッケージのみが含まれた最小のイメージが"
+"作成されます。"
 
 #. [components.Modal.2310857819]
 #. defaultMessage is:
@@ -1415,9 +1417,11 @@ msgid ""
 "                    section of a storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
-"イメージファイルをアップロードする Blob コンテナーを指定します。コンテナは {blobService} \n"
-"                    ストレージアカウトのセクションにあります。ストレージアカウントは、{azure} ポータルの "
-"{storageAccounts} ページで見つけることができます。"
+"イメージファイルをアップロードする Blob コンテナーを指定します。コンテナは "
+"{blobService} \n"
+"                    ストレージアカウトのセクションにあります。ストレージアカ"
+"ウントは、{azure} ポータルの {storageAccounts} ページで見つけることができま"
+"す。"
 
 #. [components.Wizard.1099888225]
 #. defaultMessage is:
@@ -1426,7 +1430,9 @@ msgstr ""
 msgid ""
 "Provide the ID of the latest commit in the updates repository for which this "
 "commit provides an update."
-msgstr "このコミットが更新を提供する更新レポジトリの最新のコミットの ID を提供します。"
+msgstr ""
+"このコミットが更新を提供する更新レポジトリの最新のコミットの ID を提供しま"
+"す。"
 
 #. [components.Wizard.1901372247]
 #. defaultMessage is:
@@ -1469,9 +1475,10 @@ msgid ""
 "                        page of the storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
-"目的のストレージアカウントのアクセスキーを提供します。アクセスキーはストレージアカウントの {accessKeys} \n"
-"                        ページで見つかります。ストレージアカウントは、{storageAccounts} ポータル内の "
-"{azure} ページで探すことができます。"
+"目的のストレージアカウントのアクセスキーを提供します。アクセスキーはストレー"
+"ジアカウントの {accessKeys} \n"
+"                        ページで見つかります。ストレージアカウントは、"
+"{storageAccounts} ポータル内の {azure} ページで探すことができます。"
 
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
@@ -1481,8 +1488,8 @@ msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "{storageAccounts} page in the {azure} portal."
 msgstr ""
-"ストレージアカウントの名前を入力します。ストレージアカウントは、{azure} ポータル内の {storageAccounts} "
-"ページで見つけることができます。"
+"ストレージアカウントの名前を入力します。ストレージアカウントは、{azure} ポー"
+"タル内の {storageAccounts} ページで見つけることができます。"
 
 #. [components.Wizard.1476874820]
 #. defaultMessage is:
@@ -1953,7 +1960,9 @@ msgstr "名前 {name} はすでに存在します。"
 msgid ""
 "The packages needed to support the selected image type are automatically "
 "included when creating an image."
-msgstr "選択したイメージのタイプの対応に必要なパッケージは、イメージを作成する際に自動的に含まれています。"
+msgstr ""
+"選択したイメージのタイプの対応に必要なパッケージは、イメージを作成する際に自"
+"動的に含まれています。"
 
 #. [pages.error.26562577]
 #. defaultMessage is:
@@ -2413,6 +2422,15 @@ msgstr "metalink"
 msgid "mirrorlist"
 msgstr "mirrorlist"
 
+#. [pages.blueprintEdit.paginationPerPage]
+#. defaultMessage is:
+#. per page
+#: build/messages/pages/blueprintEdit/index.json
+#, fuzzy
+#| msgid "home page"
+msgid "per page"
+msgstr "ホームページ"
+
 #. [components.Wizard.2454328248]
 #. defaultMessage is:
 #. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
@@ -2420,7 +2438,9 @@ msgstr "mirrorlist"
 msgid ""
 "rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
 "machine"
-msgstr "rhel/8/{arch}/edge がデフォルトで、{arch} はホストマシンによって決定されます。"
+msgstr ""
+"rhel/8/{arch}/edge がデフォルトで、{arch} はホストマシンによって決定されま"
+"す。"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:

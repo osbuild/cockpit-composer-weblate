@@ -2,11 +2,11 @@
 # Matej Marusak <mmarusak@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-08-27T05:10:30.890Z\n"
+"POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
 "PO-Revision-Date: 2020-08-29 10:29+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/master/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/master/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2348,6 +2348,15 @@ msgstr "metaodkaz"
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
 msgstr "seznam zrcadel"
+
+#. [pages.blueprintEdit.paginationPerPage]
+#. defaultMessage is:
+#. per page
+#: build/messages/pages/blueprintEdit/index.json
+#, fuzzy
+#| msgid "home page"
+msgid "per page"
+msgstr "domovská stránka"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:
