@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
-"PO-Revision-Date: 2020-09-19 13:29+0000\n"
+"PO-Revision-Date: 2020-09-22 10:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-composer/master/zh_CN/>\n"
@@ -107,10 +107,8 @@ msgstr "访问密钥 ID 帮助"
 #. defaultMessage is:
 #. Access keys
 #: build/messages/components/Wizard/AzureAuthStep.json
-#, fuzzy
-#| msgid "Access key ID"
 msgid "Access keys"
-msgstr "访问密钥 ID"
+msgstr "访问密钥"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -282,10 +280,8 @@ msgstr "可用的组件"
 #. defaultMessage is:
 #. Azure help
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "AWS help"
 msgid "Azure help"
-msgstr "AWS 帮助"
+msgstr "Azure 帮助"
 
 #. [components.Wizard.1347475195]
 #. defaultMessage is:
@@ -395,12 +391,10 @@ msgstr "蓝图"
 #. defaultMessage is:
 #. Browse or search for components, then add them to the blueprint. Or leave the blueprint empty to create a minimal image.
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Browse or search for components, then add them to the blueprint."
 msgid ""
 "Browse or search for components, then add them to the blueprint. Or leave "
 "the blueprint empty to create a minimal image."
-msgstr "浏览或搜索组件，然后把它们添加到蓝图中。"
+msgstr "浏览或搜索组件，然后把它们添加到蓝图中。或把蓝图保持为空以创建一个最小镜像。"
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -735,17 +729,13 @@ msgstr "描述"
 #. defaultMessage is:
 #. Destination
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Description"
 msgid "Destination"
-msgstr "描述"
+msgstr "目的地"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. Details
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "details"
 msgid "Details"
 msgstr "详情"
 
@@ -878,8 +868,6 @@ msgstr "根据名称过滤..."
 #. defaultMessage is:
 #. Filter by Name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by Name"
 msgstr "根据名称过滤..."
 
@@ -887,10 +875,8 @@ msgstr "根据名称过滤..."
 #. defaultMessage is:
 #. Filter by Release
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by Release"
-msgstr "根据名称过滤..."
+msgstr "根据发行版本过滤"
 
 #. [components.Toolbar.filterVersionPlaceholder]
 #. defaultMessage is:
@@ -955,25 +941,14 @@ msgstr "如果没有提供主机名，则主机名将由 OS 决定。"
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
 "When the image build is complete \n"
 "                      and the upload action is successful, the image file is "
 "available in the Storage account and Blob container that you specified."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入"
-"EC2。当镜像构建完成且\n"
-"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜"
-"像所需的多数值都可以在\n"
-"                      {console} 中找到。"
+"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {azure} 中。当镜像构建完成且\n"
+"                      上传操作成功时，镜像文件会出现在您指定的存储帐户和 Blob 容器中。 "
 
 #. [components.Wizard.1007547894]
 #. defaultMessage is:
@@ -987,14 +962,6 @@ msgstr ""
 #.                         the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the AMI section of EC2. Most of the values required to "
-#| "upload\n"
-#| "                      the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an {bucket} in AWS and then "
 "import them into EC2. When the image build is complete\n"
@@ -1003,10 +970,8 @@ msgid ""
 "upload\n"
 "                        the image can be found in the {console}."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入"
-"EC2。当镜像构建完成且\n"
-"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜"
-"像所需的多数值都可以在\n"
+"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入EC2。当镜像构建完成且\n"
+"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜像所需的多数值都可以在\n"
 "                      {console} 中找到。"
 
 #. [components.EmptyState.errorInactiveTitle]
@@ -1276,19 +1241,15 @@ msgstr "无日志"
 #. defaultMessage is:
 #. OSTree parent help
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "AWS region help"
 msgid "OSTree parent help"
-msgstr "AWS 区域帮助"
+msgstr "OSTree parent 帮助"
 
 #. [components.Wizard.ostreeRef]
 #. defaultMessage is:
 #. OSTree ref help
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "AWS region help"
 msgid "OSTree ref help"
-msgstr "AWS 区域帮助"
+msgstr "OSTree ref 帮助"
 
 #. [components.Modal.1475836573]
 #. defaultMessage is:
@@ -1419,15 +1380,6 @@ msgstr "提供更新库中最新提交的 ID，该提交提供了一个更新。
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                          The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                          {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 {bucket} name to which the image file will be uploaded before "
 "being imported into EC2. \n"
@@ -1437,10 +1389,9 @@ msgid ""
 "service in the AWS console."
 msgstr ""
 "提供导入到 EC2 前镜像文件需要被上传到的 S3 {bucket} 的名称。 \n"
-"                          {bucket} 需要已存在于您要将镜像导入到的区域中。您可"
-"以在 AWS 控制台\n"
-"                          的 {amazon} S3 存储服务的 {bucketsPage} 页中找到 "
-"{buckets} 列表。"
+"                          {bucket} 需要已存在于您要将镜像导入到的区域中。您可以在 AWS 控制台\n"
+"                          的  {amazon} S3 存储服务的 {bucketsPage} 页中找到 {buckets} "
+"列表。"
 
 #. [components.Wizard.2706552502]
 #. defaultMessage is:
@@ -1824,10 +1775,8 @@ msgstr "存储访问密钥"
 #. defaultMessage is:
 #. Storage access key help
 #: build/messages/components/Wizard/AzureAuthStep.json
-#, fuzzy
-#| msgid "Storage access key"
 msgid "Storage access key help"
-msgstr "存储访问密钥"
+msgstr "存储访问密钥帮助"
 
 #. [components.Wizard.1624497518]
 #. defaultMessage is:
@@ -1844,10 +1793,8 @@ msgstr "储存帐号"
 #. defaultMessage is:
 #. Storage account help
 #: build/messages/components/Wizard/AzureAuthStep.json
-#, fuzzy
-#| msgid "Storage account"
 msgid "Storage account help"
-msgstr "储存帐号"
+msgstr "储存帐号帮助"
 
 #. [components.Wizard.storageAccounts]
 #. defaultMessage is:
@@ -1857,8 +1804,6 @@ msgstr "储存帐号"
 #. Storage accounts
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "Storage account"
 msgid "Storage accounts"
 msgstr "储存帐号"
 
@@ -1877,10 +1822,8 @@ msgstr "储存容器"
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "Storage container"
 msgid "Storage container help"
-msgstr "储存容器"
+msgstr "储存容器帮助"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2072,12 +2015,6 @@ msgstr "这个源路径已存在。"
 #.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "This upload process requires that you have an {iam} role named {vmimport} "
-#| "to ensure that the image can\n"
-#| "                      be imported from the S3 {bucket} into EC2. For more "
-#| "details, refer to the {role}."
 msgid ""
 "This upload process requires that you have an {iam} role named {vmimport} to "
 "ensure that the image can\n"
@@ -2220,10 +2157,8 @@ msgstr "上传待处理"
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Upload to Azure"
 msgid "Upload to AWS"
-msgstr "上传到 Azure"
+msgstr "上传到 AWS"
 
 #. [components.Wizard.2244258572]
 #. defaultMessage is:
