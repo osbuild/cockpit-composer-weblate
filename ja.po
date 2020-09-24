@@ -5,7 +5,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
+"POT-Creation-Date: 2020-09-24T09:06:59.507Z\n"
 "PO-Revision-Date: 2020-09-24 18:29+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -404,7 +404,9 @@ msgstr "ブループリント"
 msgid ""
 "Browse or search for components, then add them to the blueprint. Or leave "
 "the blueprint empty to create a minimal image."
-msgstr "コンポーネントを閲覧または検索した後、ブループリントに追加します。または、最小限のイメージを作成するためにブループリントは空にします。"
+msgstr ""
+"コンポーネントを閲覧または検索した後、ブループリントに追加します。または、最"
+"小限のイメージを作成するためにブループリントは空にします。"
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -958,10 +960,10 @@ msgid ""
 "                      and the upload action is successful, the image file is "
 "available in the Storage account and Blob container that you specified."
 msgstr ""
-"Image Builder は、作成したイメージを AWS の {azure} にアップロードしてから、EC2 にインポートします。"
-"イメージのビルドが完了し\n"
-"                      "
-"アップロードアクションが成功すると、イメージファイルが指定したストレージアカウントとブロブコンテナーで利用できます。"
+"Image Builder は、作成したイメージを AWS の {azure} にアップロードしてから、"
+"EC2 にインポートします。イメージのビルドが完了し\n"
+"                      アップロードアクションが成功すると、イメージファイルが"
+"指定したストレージアカウントとブロブコンテナーで利用できます。"
 
 #. [components.Wizard.1007547894]
 #. defaultMessage is:
@@ -983,10 +985,11 @@ msgid ""
 "upload\n"
 "                        the image can be found in the {console}."
 msgstr ""
-"Image Builder は、作成したイメージを AWS の {bucket} にアップロードしてから、EC2 にインポートします。"
-"イメージのビルドが完了し\n"
-"                      アップロードアクションが成功すると、EC2 の AMI "
-"セクションでイメージファイルが利用可能になります。イメージのアップロードに必要な値の多くは、\n"
+"Image Builder は、作成したイメージを AWS の {bucket} にアップロードしてから、"
+"EC2 にインポートします。イメージのビルドが完了し\n"
+"                      アップロードアクションが成功すると、EC2 の AMI セクショ"
+"ンでイメージファイルが利用可能になります。イメージのアップロードに必要な値の"
+"多くは、\n"
 "            {console} にあります。"
 
 #. [components.EmptyState.errorInactiveTitle]
@@ -1411,11 +1414,12 @@ msgid ""
 "                        {bucketsPage} page in the {amazon} S3 storage "
 "service in the AWS console."
 msgstr ""
-"EC2 にインポートされる前にアップロードされるイメージファイルに S3 {bucket} 名を指定します。\n"
-"                          {bucket} "
-"はイメージをインポートするリージョンにすでに存在している必要があります。{buckets} のリストは、\n"
-"                          AWS コンソールの {bucketsPage} S3 ストレージページの {amazon} "
-"ページにあります。"
+"EC2 にインポートされる前にアップロードされるイメージファイルに S3 {bucket} 名"
+"を指定します。\n"
+"                          {bucket} はイメージをインポートするリージョンにすで"
+"に存在している必要があります。{buckets} のリストは、\n"
+"                          AWS コンソールの {bucketsPage} S3 ストレージページ"
+"の {amazon} ページにあります。"
 
 #. [components.Wizard.2706552502]
 #. defaultMessage is:
@@ -2062,9 +2066,10 @@ msgid ""
 "                        be imported from the S3 {bucket} into EC2. For more "
 "details, refer to the {role}."
 msgstr ""
-"このアップロードプロセスでは、{iam} ロールに {vmimport} という名前を付けて、\n"
-"                      イメージが S3 {bucket} から EC2 にインポートされるようにします。詳細は、{role} "
-"を参照してください。"
+"このアップロードプロセスでは、{iam} ロールに {vmimport} という名前を付け"
+"て、\n"
+"                      イメージが S3 {bucket} から EC2 にインポートされるよう"
+"にします。詳細は、{role} を参照してください。"
 
 #. [components.Modal.3707489178]
 #. defaultMessage is:

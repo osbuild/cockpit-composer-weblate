@@ -2,7 +2,7 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-09-17T09:36:43.245Z\n"
+"POT-Creation-Date: 2020-09-24T09:06:59.507Z\n"
 "PO-Revision-Date: 2020-09-20 15:29+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
