@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-11-03T18:10:22.128Z\n"
+"POT-Creation-Date: 2020-11-17T18:11:08.021Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -1091,7 +1091,10 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
-#. Minimum size is {size} GB.
+#. Minimum size is {size} GB
+msgid "Minimum size is {size} GB"
+msgstr ""
+
 #: build/messages/components/Wizard/ReviewStep.json
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
@@ -1887,6 +1890,13 @@ msgid "This component has no dependencies."
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.requiredField]
+#. defaultMessage is:
+#. This is a required field
+msgid "This is a required field"
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
 #. [components.Wizard.infotip]
 #. defaultMessage is:
 #. This process can take a while. Images are built in the order they are started.
@@ -2108,6 +2118,13 @@ msgstr ""
 #. defaultMessage is:
 #. Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen.
 msgid "Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen."
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.ostreeRefHelperText]
+#. defaultMessage is:
+#. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
+msgid "Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number."
 msgstr ""
 
 #: build/messages/components/ListView/ComponentDetailsView.json
