@@ -5,19 +5,20 @@
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2020.
+# Alain Nussbaumer <alain.nussbaumer@alleluia.ch>, 2020.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-09-24T09:06:59.507Z\n"
-"PO-Revision-Date: 2020-08-20 06:40+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/fr/>\n"
+"PO-Revision-Date: 2020-11-20 18:35+0000\n"
+"Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -268,7 +269,7 @@ msgstr ""
 #. Authentication
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Authentication"
-msgstr ""
+msgstr "Authentification"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
@@ -750,10 +751,8 @@ msgstr "La description"
 #. defaultMessage is:
 #. Destination
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Description"
 msgid "Destination"
-msgstr "La description"
+msgstr "Destination"
 
 #. [components.ListView.details]
 #. defaultMessage is:
@@ -1396,6 +1395,11 @@ msgid ""
 "                    section of a storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
+"Fournissez le conteneur Blob vers lequel le fichier image sera téléchargé. "
+"Vous pouvez trouver des conteneurs sous la section\n"
+"                     {blobService} d'un compte de stockage. Vous pouvez "
+"trouver des comptes de stockage sur la page {storageAccounts} du portail "
+"{azure}."
 
 #. [components.Wizard.1099888225]
 #. defaultMessage is:
@@ -1405,6 +1409,8 @@ msgid ""
 "Provide the ID of the latest commit in the updates repository for which this "
 "commit provides an update."
 msgstr ""
+"Fournissez l'ID du dernier commit dans le référentiel des mises à jour pour "
+"lequel ce commit fournit une mise à jour."
 
 #. [components.Wizard.1901372247]
 #. defaultMessage is:
@@ -1412,15 +1418,6 @@ msgstr ""
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                          The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                          {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 {bucket} name to which the image file will be uploaded before "
 "being imported into EC2. \n"
@@ -1429,13 +1426,13 @@ msgid ""
 "                        {bucketsPage} page in the {amazon} S3 storage "
 "service in the AWS console."
 msgstr ""
-"Indiquez le nom S3 {bucket}sous lequel le fichier image sera téléchargé "
+"Indiquez le nom S3 {bucket} vers lequel le fichier image sera téléchargé "
 "avant d'être importé dans EC2 \n"
-"                          Ce nom {bucket}doit déjà exister dans la région où "
-"vous souhaitez importer votre image. Vous pouvez trouver une liste "
-"des{buckets}\n"
-"                          sur la page {bucketsPage}dans le service de "
-"stockage {amazon}S3 dans la console AWS."
+"                          Ce nom {bucket} doit déjà exister dans la région "
+"où vous souhaitez importer votre image. Vous pouvez trouver une liste des "
+"{buckets}\n"
+"                          sur la page {bucketsPage} dans le service de "
+"stockage {amazon} S3 dans la console AWS."
 
 #. [components.Wizard.2706552502]
 #. defaultMessage is:
@@ -1448,6 +1445,11 @@ msgid ""
 "                        page of the storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
+"Fournissez la clé d'accès pour le compte de stockage souhaité. Vous pouvez "
+"trouver la clé d'accès sur la page \n"
+"                         {accessKeys} du compte de stockage. Vous pouvez "
+"trouver des comptes de stockage sur la page {storageAccounts} du portail "
+"{azure}."
 
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
@@ -1457,6 +1459,8 @@ msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "{storageAccounts} page in the {azure} portal."
 msgstr ""
+"Indiquez le nom d'un compte de stockage. Vous pouvez trouver des comptes de "
+"stockage sur la page {storageAccounts} du portail {azure}."
 
 #. [components.Wizard.1476874820]
 #. defaultMessage is:
@@ -1466,6 +1470,8 @@ msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created."
 msgstr ""
+"Indiquez le nom de la branche pour le contenu. Si la référence n'existe pas "
+"déjà, elle sera créée."
 
 #. [components.Wizard.31026111]
 #. defaultMessage is:
@@ -1562,7 +1568,7 @@ msgstr "Éléments requis manquants."
 #. Review
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Review"
-msgstr ""
+msgstr "Revue"
 
 #. [components.Wizard.review]
 #. defaultMessage is:
@@ -1868,8 +1874,6 @@ msgstr "Conteneur de stockage"
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "storage container help"
 msgid "Storage container help"
 msgstr "Aide sur les conteneurs de stockage"
 
@@ -2075,21 +2079,15 @@ msgstr "Le chemin de source existe déjà."
 #.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid ""
-#| "This upload process requires that you have an {iam} role named {vmimport} "
-#| "to ensure that the image can\n"
-#| "                      be imported from the S3 {bucket} into EC2. For more "
-#| "details, refer to the {role}."
 msgid ""
 "This upload process requires that you have an {iam} role named {vmimport} to "
 "ensure that the image can\n"
 "                        be imported from the S3 {bucket} into EC2. For more "
 "details, refer to the {role}."
 msgstr ""
-"Ce processus de téléchargement exige que vous ayez un rôle {iam}nommé "
-"{vmimport}pour garantir que l'image puisse\n"
-"                      être importés du S3 {bucket}dans le EC2. Pour plus de "
+"Ce processus de téléchargement exige que vous ayez un rôle {iam} nommé "
+"{vmimport} pour garantir que l'image puisse\n"
+"                      être importée du S3 {bucket} dans le EC2. Pour plus de "
 "détails, voir {role}."
 
 #. [components.Modal.3707489178]
@@ -2388,10 +2386,8 @@ msgstr "mirrorlist"
 #. defaultMessage is:
 #. per page
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "home page"
 msgid "per page"
-msgstr "page d’accueil"
+msgstr "par page"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:
@@ -2401,6 +2397,8 @@ msgid ""
 "rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
 "machine"
 msgstr ""
+"rhel/8/{arch}/edge est la valeur par défaut, où {arch} est déterminé par la "
+"machine hôte"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:
