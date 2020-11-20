@@ -1,7 +1,7 @@
 # Ahmad Haghighi <haghighi.ahmad@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-09-24T09:06:59.507Z\n"
+"POT-Creation-Date: 2020-11-17T18:11:08.021Z\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1106,11 +1106,14 @@ msgstr ""
 
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
-#. Minimum size is {size} GB.
+#. Minimum size is {size} GB
+#: build/messages/components/Wizard/ImageStep.json
+msgid "Minimum size is {size} GB"
+msgstr ""
+
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
 #. Minimum size is {size} GB.
-#: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Minimum size is {size} GB."
 msgstr ""
@@ -1944,6 +1947,13 @@ msgstr ""
 msgid "This component has no dependencies."
 msgstr ""
 
+#. [components.Wizard.requiredField]
+#. defaultMessage is:
+#. This is a required field
+#: build/messages/components/Wizard/ImageStep.json
+msgid "This is a required field"
+msgstr ""
+
 #. [components.Wizard.infotip]
 #. defaultMessage is:
 #. This process can take a while. Images are built in the order they are started.
@@ -2174,6 +2184,17 @@ msgstr ""
 msgid ""
 "Valid characters for hostname are letters from a to z, the digits from 0 to "
 "9, and the hyphen (-). A hostname may not start with a hyphen."
+msgstr ""
+
+#. [components.Wizard.ostreeRefHelperText]
+#. defaultMessage is:
+#. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"Valid characters for ref are letters from a to z, the digits from 0 to 9, "
+"the hyphen (-), the underscore (_), the period (.), and the forward slash "
+"(/). A ref must start with a letter, a number, or an underscore. Slashes "
+"must also be followed by a letter or number."
 msgstr ""
 
 #. [components.ListView.602883748]

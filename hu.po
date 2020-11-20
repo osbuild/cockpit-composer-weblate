@@ -2,7 +2,7 @@
 # Laszlo Pal <vlad@vlad.hu>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-09-24T09:06:59.507Z\n"
+"POT-Creation-Date: 2020-11-17T18:11:08.021Z\n"
 "PO-Revision-Date: 2020-04-07 17:40+0000\n"
 "Last-Translator: Laszlo Pal <vlad@vlad.hu>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -1153,11 +1153,14 @@ msgstr ""
 
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
-#. Minimum size is {size} GB.
+#. Minimum size is {size} GB
+#: build/messages/components/Wizard/ImageStep.json
+msgid "Minimum size is {size} GB"
+msgstr ""
+
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
 #. Minimum size is {size} GB.
-#: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Minimum size is {size} GB."
 msgstr ""
@@ -1997,6 +2000,13 @@ msgstr "Ez a tervrajz üres."
 msgid "This component has no dependencies."
 msgstr "Ennek az összetevőnek nincsenek függőségei."
 
+#. [components.Wizard.requiredField]
+#. defaultMessage is:
+#. This is a required field
+#: build/messages/components/Wizard/ImageStep.json
+msgid "This is a required field"
+msgstr ""
+
 #. [components.Wizard.infotip]
 #. defaultMessage is:
 #. This process can take a while. Images are built in the order they are started.
@@ -2234,6 +2244,17 @@ msgid ""
 msgstr ""
 "A gépnév érvényes karakterei a következők: betűk a-tól z-ig, számjegyek 0-"
 "tól 9-ig, és a kötőjel (-). A gépnév nem kezdődhet kötőjellel."
+
+#. [components.Wizard.ostreeRefHelperText]
+#. defaultMessage is:
+#. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"Valid characters for ref are letters from a to z, the digits from 0 to 9, "
+"the hyphen (-), the underscore (_), the period (.), and the forward slash "
+"(/). A ref must start with a letter, a number, or an underscore. Slashes "
+"must also be followed by a letter or number."
+msgstr ""
 
 #. [components.ListView.602883748]
 #. defaultMessage is:
