@@ -3,15 +3,15 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2020-11-17T18:11:08.021Z\n"
-"PO-Revision-Date: 2020-04-16 13:42+0000\n"
+"PO-Revision-Date: 2020-12-12 07:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
-"Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/sk/>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -25,7 +25,7 @@ msgstr "(od najnovších)"
 #. A blueprint name is required.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "A blueprint name is required."
-msgstr ""
+msgstr "Názov plánku je povinný."
 
 #. [components.Wizard.warningEmptyBlueprintDesc]
 #. defaultMessage is:
@@ -35,6 +35,8 @@ msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
 msgstr ""
+"Bude vytvorený minimálny obraz, ktorý bude obsahovať iba balíky potrebné na "
+"podporu vybraného typu obrazu."
 
 #. [components.Modal.2310857819]
 #. defaultMessage is:
@@ -55,14 +57,14 @@ msgstr "Heslo nie je definované pre tento účet."
 #. A value is required.
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "A value is required."
-msgstr ""
+msgstr "Vyžaduje sa hodnota."
 
 #. [components.Wizard.aws]
 #. defaultMessage is:
 #. AWS help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS help"
-msgstr ""
+msgstr "Nápoveda k AWS"
 
 #. [components.Wizard.4193750875]
 #. defaultMessage is:
@@ -73,14 +75,14 @@ msgstr ""
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS region"
-msgstr ""
+msgstr "AWS región"
 
 #. [components.Wizard.region]
 #. defaultMessage is:
 #. AWS region help
 #: build/messages/components/Wizard/AWSDestinationStep.json
 msgid "AWS region help"
-msgstr ""
+msgstr "Nápoveda k AWS regiónu"
 
 #. [components.Wizard.1635272069]
 #. defaultMessage is:
@@ -91,21 +93,21 @@ msgstr ""
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Access key ID"
-msgstr ""
+msgstr "Identifikátor prístupového kľúča"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Wizard/AWSAuthStep.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "Nápoveda k identifikátoru prístupového kľúča"
 
 #. [components.Wizard.accessKeys]
 #. defaultMessage is:
 #. Access keys
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Access keys"
-msgstr ""
+msgstr "Prístupový kľúč"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -123,7 +125,7 @@ msgstr "Akcie"
 #. Active Filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Active Filters"
-msgstr ""
+msgstr "Aktívne filtre"
 
 #. [components.ListView.3099331554]
 #. defaultMessage is:
@@ -137,7 +139,7 @@ msgstr "Pridať"
 #. Add Blueprint Components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Add Blueprint Components"
-msgstr ""
+msgstr "Pridať súčasti plánku"
 
 #. [components.Modal.add]
 #. defaultMessage is:
@@ -183,7 +185,7 @@ msgstr "Pridané"
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "All fields are required."
-msgstr ""
+msgstr "Všetky polia sú povinné."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -216,7 +218,7 @@ msgstr ""
 #. An error occurred while trying to get blueprint contents.
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "An error occurred while trying to get blueprint contents."
-msgstr ""
+msgstr "Vyskytla sa chyba pri získavaní obsahu plánku."
 
 #. [components.Modal.errorStateMessage]
 #. defaultMessage is:
@@ -237,7 +239,7 @@ msgstr "Aplikovať zmenu"
 #. Are you sure you want to delete the blueprint {name}?
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Are you sure you want to delete the blueprint {name}?"
-msgstr ""
+msgstr "Ste si istý, že chcete zmazať plánok {name}?"
 
 #. [components.Modal.1346739796]
 #. defaultMessage is:
@@ -251,14 +253,14 @@ msgstr "Ste si istý/istá, že chcete odstrániť obraz pre {blueprintName}?"
 #. Are you sure you want to stop the build process for {blueprintName}?
 #: build/messages/components/Modal/StopBuild.json
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
-msgstr ""
+msgstr "Ste si istý, že chcete zastaviť zostavovanie {blueprintName}?"
 
 #. [components.Wizard.160751819]
 #. defaultMessage is:
 #. Authentication
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Authentication"
-msgstr ""
+msgstr "Overenie"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
@@ -279,14 +281,14 @@ msgstr "Dostupné komponenty"
 #. Azure help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Azure help"
-msgstr ""
+msgstr "Nápoveda k Azure"
 
 #. [components.Wizard.1347475195]
 #. defaultMessage is:
 #. Back
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Back"
-msgstr ""
+msgstr "Späť"
 
 #. [pages.blueprint.3126044146]
 #. defaultMessage is:
@@ -297,7 +299,7 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Back to Blueprints"
-msgstr ""
+msgstr "Späť na plánky"
 
 #. [components.ListView.3448229549]
 #. defaultMessage is:
@@ -311,7 +313,7 @@ msgstr "Späť na {blueprint}"
 #. Blob service
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Blob service"
-msgstr ""
+msgstr "Služba blob"
 
 #. [components.Modal.1281198655]
 #. defaultMessage is:
@@ -334,56 +336,56 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Blueprint"
-msgstr ""
+msgstr "Plánok"
 
 #. [pages.blueprintEdit.711554923]
 #. defaultMessage is:
 #. Blueprint Components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Blueprint Components"
-msgstr ""
+msgstr "Súčasti plánku"
 
 #. [components.Modal.2544705954]
 #. defaultMessage is:
 #. Blueprint names cannot contain spaces or the character: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces or the character: {invalidChar}"
-msgstr ""
+msgstr "Názvy plánku nemôžu obsahovať medzery alebo znaky: {invalidChar}"
 
 #. [components.Modal.1134732033]
 #. defaultMessage is:
 #. Blueprint names cannot contain spaces or the characters: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces or the characters: {invalidChar}"
-msgstr ""
+msgstr "Názvy plánku nemôžu obsahovať medzery alebo znaky: {invalidChar}"
 
 #. [components.Modal.2803906810]
 #. defaultMessage is:
 #. Blueprint names cannot contain spaces.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces."
-msgstr ""
+msgstr "Názvy plánku nemôžu obsahovať medzery."
 
 #. [components.Modal.2781854456]
 #. defaultMessage is:
 #. Blueprint names cannot contain the character: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain the character: {invalidChar}"
-msgstr ""
+msgstr "Názvy plánku nemôžu obsahovať znak: {invalidChar}"
 
 #. [components.Modal.3918401128]
 #. defaultMessage is:
 #. Blueprint names cannot contain the characters: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain the characters: {invalidChar}"
-msgstr ""
+msgstr "Názvy plánku nemôžu obsahovať znaky: {invalidChar}"
 
 #. [pages.blueprints.blueprintsTitle]
 #. defaultMessage is:
 #. Blueprints
 #: build/messages/pages/blueprints/index.json
 msgid "Blueprints"
-msgstr ""
+msgstr "Plánky"
 
 #. [pages.blueprintEdit.addComponentMessageOne]
 #. defaultMessage is:
@@ -602,7 +604,7 @@ msgstr "Vytvoriť"
 #. Create Blueprint
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Create Blueprint"
-msgstr ""
+msgstr "Vytvoriť plánok"
 
 #. [components.Modal.modalTitleCreate]
 #. defaultMessage is:
@@ -628,10 +630,8 @@ msgstr ""
 #. defaultMessage is:
 #. Create and upload image
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create and upload image"
-msgstr "Vytvoriť obraz"
+msgstr "Vytvoriť a nahrať obraz"
 
 #. [components.Wizard.title]
 #. defaultMessage is:
@@ -640,8 +640,6 @@ msgstr "Vytvoriť obraz"
 #. defaultMessage is:
 #. Create image
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create image"
 msgstr "Vytvoriť obraz"
 
@@ -675,7 +673,7 @@ msgstr "Odstrániť"
 #. Delete Blueprint
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Delete Blueprint"
-msgstr ""
+msgstr "Zmazať plánok"
 
 #. [components.Modal.1731766393]
 #. defaultMessage is:
@@ -728,19 +726,15 @@ msgstr "Popis"
 #. defaultMessage is:
 #. Destination
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Description"
 msgid "Destination"
-msgstr "Popis"
+msgstr "Cieľ"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. Details
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "details"
 msgid "Details"
-msgstr "podrobnosti"
+msgstr "Podrobnosti"
 
 #. [pages.blueprintEdit.1936836258]
 #. defaultMessage is:
@@ -823,7 +817,7 @@ msgstr "Upraviť názov hostiteľa"
 #. Empty Blueprint
 #: build/messages/pages/blueprint/index.json
 msgid "Empty Blueprint"
-msgstr ""
+msgstr "Prázdny plánok"
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -844,7 +838,7 @@ msgstr "Exportovať"
 #. Export Blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Export Blueprint"
-msgstr ""
+msgstr "Exportovať plánok"
 
 #. [components.Modal.3658760324]
 #. defaultMessage is:
@@ -871,19 +865,15 @@ msgstr "Filtrovať podľa mena..."
 #. defaultMessage is:
 #. Filter by Name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by Name"
-msgstr "Filtrovať podľa mena..."
+msgstr "Filtrovať podľa mena"
 
 #. [components.Toolbar.filterReleasePlaceholder]
 #. defaultMessage is:
 #. Filter by Release
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by Release"
-msgstr "Filtrovať podľa mena..."
+msgstr "Filtrovať podľa vydania"
 
 #. [components.Toolbar.filterVersionPlaceholder]
 #. defaultMessage is:
@@ -897,7 +887,7 @@ msgstr ""
 #. Finish
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Finish"
-msgstr ""
+msgstr "Dokončiť"
 
 #. [components.Modal.1182120637]
 #. defaultMessage is:
@@ -911,7 +901,7 @@ msgstr "Celé meno"
 #. Go back
 #: build/messages/pages/error/index.json
 msgid "Go back"
-msgstr ""
+msgstr "Ísť späť"
 
 #. [components.ListView.hideDetails]
 #. defaultMessage is:
@@ -1038,19 +1028,15 @@ msgstr "Názov obrazu"
 #. Image name help
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "Image name"
 msgid "Image name help"
-msgstr "Názov obrazu"
+msgstr "Nápoveda k názvu obrazu"
 
 #. [components.Wizard.1005710141]
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image output"
-msgstr "Typ obrazu"
+msgstr "Výstup obrazu"
 
 #. [components.Wizard.1905943231]
 #. defaultMessage is:
@@ -1060,19 +1046,15 @@ msgstr "Typ obrazu"
 #. Image size
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size"
-msgstr "Obrazy"
+msgstr "Veľkosť obrazu"
 
 #. [components.Wizard.imageSize]
 #. defaultMessage is:
 #. Image size help
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size help"
-msgstr "Obrazy"
+msgstr "Nápoveda k veľkosti obrazu"
 
 #. [components.Wizard.1813441558]
 #. defaultMessage is:
@@ -1082,8 +1064,6 @@ msgstr "Obrazy"
 #. Image type
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image type"
 msgstr "Typ obrazu"
 
@@ -1124,7 +1104,7 @@ msgstr "Logy"
 #. Manage Sources
 #: build/messages/components/Modal/ManageSources.json
 msgid "Manage Sources"
-msgstr ""
+msgstr "Spravovať zdroje"
 
 #. [components.EmptyState.alertMessagePreface]
 #. defaultMessage is:
@@ -1200,14 +1180,14 @@ msgstr "Nové heslo"
 #. Next
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Next"
-msgstr ""
+msgstr "Ďalší"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
 #. No Blueprints
 #: build/messages/pages/blueprints/index.json
 msgid "No Blueprints"
-msgstr ""
+msgstr "Žiadne plánky"
 
 #. [components.ListView.noDepsTitle]
 #. defaultMessage is:
@@ -1221,7 +1201,7 @@ msgstr "Žiadne závislosti"
 #. No Images
 #: build/messages/pages/blueprint/index.json
 msgid "No Images"
-msgstr ""
+msgstr "Žiadne obrazy"
 
 #. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
@@ -1330,7 +1310,7 @@ msgstr ""
 #. Pending Changes
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Pending Changes"
-msgstr ""
+msgstr "Čakajúce zmeny"
 
 #. [components.Wizard.processLength]
 #. defaultMessage is:
@@ -1435,7 +1415,7 @@ msgstr ""
 #. Ref
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Ref"
-msgstr ""
+msgstr "Referencia"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1605,7 +1585,7 @@ msgstr "Bezpečnosť"
 #. Select components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Select components"
-msgstr ""
+msgstr "Vybrať súčasti"
 
 #. [components.Modal.selectOne]
 #. defaultMessage is:
@@ -1623,14 +1603,14 @@ msgstr "Vyberte jedno"
 #. Selected Components
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Selected Components"
-msgstr ""
+msgstr "Vybrané súčasti"
 
 #. [components.Modal.122879380]
 #. defaultMessage is:
 #. Server administrator
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server administrator"
-msgstr ""
+msgstr "Správca serveru"
 
 #. [components.Modal.1110245255]
 #. defaultMessage is:
@@ -1703,7 +1683,7 @@ msgstr ""
 #. Sources
 #: build/messages/components/Modal/ManageSources.json
 msgid "Sources"
-msgstr ""
+msgstr "Zdroje"
 
 #. [components.Modal.infotip]
 #. defaultMessage is:
@@ -1749,7 +1729,7 @@ msgstr "Zastaviť"
 #. Stop Build
 #: build/messages/components/Modal/StopBuild.json
 msgid "Stop Build"
-msgstr ""
+msgstr "Zastaviť zostavovanie"
 
 #. [components.ListView.imageStatusStopping] - Image build status when user selected to end the process
 #. defaultMessage is:
@@ -1820,10 +1800,8 @@ msgstr ""
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
-#, fuzzy
-#| msgid "Image name"
 msgid "Storage container help"
-msgstr "Názov obrazu"
+msgstr "Nápoveda k úložnému kontajneru"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2010,7 +1988,7 @@ msgstr "Zdroj s týmto menom už existuje."
 #. This source path already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source path already exists."
-msgstr ""
+msgstr "Táto zdrojová cesta už existuje."
 
 #. [components.Wizard.1727762289]
 #. defaultMessage is:
@@ -2113,23 +2091,21 @@ msgstr "Aktualizované"
 #. Upload complete
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload complete"
-msgstr ""
+msgstr "Nahrávanie dokončené"
 
 #. [components.ListView.uploadStatusFailed] - Upload status when process failed
 #. defaultMessage is:
 #. Upload failed
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload failed"
-msgstr ""
+msgstr "Nahrávanie sa napodarilo"
 
 #. [components.Wizard.3057159632]
 #. defaultMessage is:
 #. Upload image
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Upload image"
-msgstr "Vytvoriť obraz"
+msgstr "Nahrať obraz"
 
 #. [components.Wizard.uploadImage]
 #. defaultMessage is:
@@ -2150,7 +2126,7 @@ msgstr ""
 #. Upload pending
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload pending"
-msgstr ""
+msgstr "Nahrávanie čaká"
 
 #. [components.Wizard.3235936248]
 #. defaultMessage is:
@@ -2187,7 +2163,7 @@ msgstr ""
 #. Upload type
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload type"
-msgstr ""
+msgstr "Typ nahrávania"
 
 #. [pages.blueprint.userKebab]
 #. defaultMessage is:
@@ -2254,7 +2230,7 @@ msgstr "Verzia"
 #. View
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "View"
-msgstr ""
+msgstr "Zobraziť"
 
 #. [components.Wizard.706264916]
 #. defaultMessage is:
@@ -2332,10 +2308,8 @@ msgstr "zoznam zrkadiel"
 #. defaultMessage is:
 #. per page
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "home page"
 msgid "per page"
-msgstr "Domovská stránka"
+msgstr "na stránku"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:
@@ -2457,10 +2431,8 @@ msgid "{selectComponents} in this list to add to the blueprint."
 msgstr ""
 
 #: public/manifest.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Creating system images"
-msgstr "Vytvoriť obraz"
+msgstr "Vytváranie systémových obrazov"
 
 #: public/manifest.json
 msgid "Image Builder"
