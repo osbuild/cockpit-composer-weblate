@@ -2,7 +2,7 @@
 # Matej Marusak <mmarusak@redhat.com>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-12-08T18:13:55.129Z\n"
+"POT-Creation-Date: 2020-12-15T18:14:01.526Z\n"
 "PO-Revision-Date: 2020-12-12 07:35+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
