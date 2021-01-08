@@ -8,7 +8,7 @@
 # Alain Nussbaumer <alain.nussbaumer@alleluia.ch>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-12-15T18:14:01.526Z\n"
+"POT-Creation-Date: 2020-12-22T18:25:55.587Z\n"
 "PO-Revision-Date: 2020-11-20 18:35+0000\n"
 "Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
