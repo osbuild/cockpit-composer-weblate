@@ -1,9 +1,9 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2019, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019, 2020, 2021.
 # David Shea <dshea@redhat.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-01-08T07:28:53.139Z\n"
-"PO-Revision-Date: 2020-11-21 19:35+0000\n"
+"PO-Revision-Date: 2021-01-10 09:36+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -126,8 +126,6 @@ msgstr "Дії"
 #. defaultMessage is:
 #. Active filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
-#, fuzzy
-#| msgid "Active Filters"
 msgid "Active filters"
 msgstr "Активні фільтри"
 
@@ -142,10 +140,8 @@ msgstr "Додати"
 #. defaultMessage is:
 #. Add blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Add Blueprint Components"
 msgid "Add blueprint components"
-msgstr "Додати компоненти проекту"
+msgstr "Додати компоненти проєкту"
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
@@ -164,8 +160,6 @@ msgstr "Додати найсвіжішу версію"
 #. defaultMessage is:
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Add Source"
 msgid "Add source"
 msgstr "Додати джерело"
 
@@ -207,8 +201,6 @@ msgstr "Усі поля є обов'язковими до заповнення."
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "An Error Occurred"
 msgid "An error occurred"
 msgstr "Сталася помилка"
 
@@ -241,8 +233,6 @@ msgstr "Під час спроби отримати початкові коди 
 #. defaultMessage is:
 #. Apply change
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Apply Change"
 msgid "Apply change"
 msgstr "Застосувати зміни"
 
@@ -285,8 +275,6 @@ msgstr "Автоматично запускати osbuild-composer при зав
 #. defaultMessage is:
 #. Available components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Available Components"
 msgid "Available components"
 msgstr "Доступні компоненти"
 
@@ -312,10 +300,8 @@ msgstr "Назад"
 #. Back to blueprints
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Back to Blueprints"
 msgid "Back to blueprints"
-msgstr "Повернутися до проектів"
+msgstr "Повернутися до проєктів"
 
 #. [components.ListView.3448229549]
 #. defaultMessage is:
@@ -358,10 +344,8 @@ msgstr "Синька"
 #. defaultMessage is:
 #. Blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Blueprint Components"
 msgid "Blueprint components"
-msgstr "Компоненти проекту"
+msgstr "Компоненти проєкту"
 
 #. [components.Modal.2544705954]
 #. defaultMessage is:
@@ -478,8 +462,6 @@ msgstr ""
 #. defaultMessage is:
 #. Changes pending commit
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Changes Pending Commit"
 msgid "Changes pending commit"
 msgstr "Зміни, які очікують на надсилання"
 
@@ -513,8 +495,6 @@ msgstr "Перевірити сертифікат SSL"
 #: build/messages/components/Toolbar/ToolbarLayout.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "Clear All Filters"
 msgid "Clear all filters"
 msgstr "Зняти усі фільтри"
 
@@ -580,8 +560,6 @@ msgstr "Надіслати і перейти далі"
 #. Component details
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Component Details"
 msgid "Component details"
 msgstr "Подробиці щодо компонента"
 
@@ -589,8 +567,6 @@ msgstr "Подробиці щодо компонента"
 #. defaultMessage is:
 #. Component options
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Component Options"
 msgid "Component options"
 msgstr "Параметри компонента"
 
@@ -652,10 +628,8 @@ msgstr "Створити і вивантажити образ"
 #. defaultMessage is:
 #. Create blueprint
 #: build/messages/components/Modal/CreateBlueprint.json
-#, fuzzy
-#| msgid "Create Blueprint"
 msgid "Create blueprint"
-msgstr "Створити проект"
+msgstr "Створити проєкт"
 
 #. [components.Wizard.title]
 #. defaultMessage is:
@@ -675,8 +649,6 @@ msgstr "Створити образ"
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Create User Account"
 msgid "Create user account"
 msgstr "Створення облікового запису користувача"
 
@@ -709,26 +681,20 @@ msgstr "Вилучити"
 #. defaultMessage is:
 #. Delete blueprint
 #: build/messages/components/Modal/DeleteBlueprint.json
-#, fuzzy
-#| msgid "Delete Blueprint"
 msgid "Delete blueprint"
-msgstr "Вилучити проект"
+msgstr "Вилучити проєкт"
 
 #. [components.Modal.942133001]
 #. defaultMessage is:
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
-#, fuzzy
-#| msgid "Delete Image"
 msgid "Delete image"
-msgstr "Вилучити зображення"
+msgstr "Вилучити образ"
 
 #. [pages.blueprint.userDelete]
 #. defaultMessage is:
 #. Delete user account
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Delete User Account"
 msgid "Delete user account"
 msgstr "Вилучити обліковий запис користувача"
 
@@ -783,8 +749,6 @@ msgstr "Подробиці"
 #. defaultMessage is:
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Discard Changes"
 msgid "Discard changes"
 msgstr "Відкинути зміни"
 
@@ -825,8 +789,6 @@ msgstr "Змінити назву вузла"
 #: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Edit Packages"
 msgid "Edit packages"
 msgstr "Редагувати пакунки"
 
@@ -838,8 +800,6 @@ msgstr "Редагувати пакунки"
 #. Edit source
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Edit Source"
 msgid "Edit source"
 msgstr "Редагувати джерело"
 
@@ -851,8 +811,6 @@ msgstr "Редагувати джерело"
 #. Edit user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Edit User Account"
 msgid "Edit user account"
 msgstr "Редагувати обліковий запис користувача"
 
@@ -860,10 +818,8 @@ msgstr "Редагувати обліковий запис користувач�
 #. defaultMessage is:
 #. Empty blueprint
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Empty Blueprint"
 msgid "Empty blueprint"
-msgstr "Порожній проект"
+msgstr "Порожній проєкт"
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -890,17 +846,13 @@ msgstr "Експортувати як"
 #. defaultMessage is:
 #. Export blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
-#, fuzzy
-#| msgid "Export Blueprint"
 msgid "Export blueprint"
-msgstr "Експортувати проект"
+msgstr "Експортувати проєкт"
 
 #. [pages.blueprintEdit.filterByLabel]
 #. defaultMessage is:
 #. Filter available components by name
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter Available Components by Name"
 msgid "Filter available components by name"
 msgstr "Фільтрувати доступні компоненти за назвою"
 
@@ -908,8 +860,6 @@ msgstr "Фільтрувати доступні компоненти за наз
 #. defaultMessage is:
 #. Filter by name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Name"
 msgid "Filter by name"
 msgstr "Фільтрувати за назвою"
 
@@ -917,8 +867,6 @@ msgstr "Фільтрувати за назвою"
 #. defaultMessage is:
 #. Filter by name...
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name..."
 msgstr "Фільтрувати за назвою…"
 
@@ -926,8 +874,6 @@ msgstr "Фільтрувати за назвою…"
 #. defaultMessage is:
 #. Filter by release
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Release"
 msgid "Filter by release"
 msgstr "Фільтрувати за випуском"
 
@@ -935,8 +881,6 @@ msgstr "Фільтрувати за випуском"
 #. defaultMessage is:
 #. Filter by version
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Version"
 msgid "Filter by version"
 msgstr "Фільтрувати за версією"
 
@@ -969,8 +913,6 @@ msgstr "Повернутися"
 #. Hide details
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Hide Details"
 msgid "Hide details"
 msgstr "Приховати подробиці"
 
@@ -1071,8 +1013,6 @@ msgstr "Збирання образу додано до черги"
 #. defaultMessage is:
 #. Image building service is not active
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-#, fuzzy
-#| msgid "Image Building Service is Not Active"
 msgid "Image building service is not active"
 msgstr "Служба збирання образів є неактивною"
 
@@ -1178,8 +1118,6 @@ msgstr "Журнали"
 #. defaultMessage is:
 #. Manage sources
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Manage Sources"
 msgid "Manage sources"
 msgstr "Керування джерелами"
 
@@ -1263,17 +1201,13 @@ msgstr "Далі"
 #. defaultMessage is:
 #. No blueprints
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Blueprints"
 msgid "No blueprints"
-msgstr "Немає проектів"
+msgstr "Немає проєктів"
 
 #. [components.ListView.noDepsTitle]
 #. defaultMessage is:
 #. No dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "No Dependencies"
 msgid "No dependencies"
 msgstr "Немає залежностей"
 
@@ -1281,8 +1215,6 @@ msgstr "Немає залежностей"
 #. defaultMessage is:
 #. No images
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "No Images"
 msgid "No images"
 msgstr "Немає образів"
 
@@ -1312,8 +1244,6 @@ msgstr "Немає доступних журналів"
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Results Match the Filter Criteria"
 msgid "No results match the filter criteria"
 msgstr "Немає результатів, які відповідають критеріям фільтрування"
 
@@ -1390,10 +1320,8 @@ msgstr "Сюди слід вставити вміст файла вашого в
 #. defaultMessage is:
 #. Pending changes
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Pending Changes"
 msgid "Pending changes"
-msgstr "Додавання змін у чергу"
+msgstr "Зміни у черзі"
 
 #. [components.Wizard.processLength]
 #. defaultMessage is:
@@ -1562,26 +1490,20 @@ msgstr "Вилучити"
 #. defaultMessage is:
 #. Remove component from blueprint
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Remove Component from Blueprint"
 msgid "Remove component from blueprint"
-msgstr "Вилучити компонент з проекту"
+msgstr "Вилучити компонент з проєкту"
 
 #. [components.ListView.removeFromBlueprint]
 #. defaultMessage is:
 #. Remove from blueprint
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Remove from Blueprint"
 msgid "Remove from blueprint"
-msgstr "Вилучити з проекту"
+msgstr "Вилучити з проєкту"
 
 #. [components.Modal.1101731800]
 #. defaultMessage is:
 #. Remove password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Remove Password"
 msgid "Remove password"
 msgstr "Вилучити пароль"
 
@@ -1589,8 +1511,6 @@ msgstr "Вилучити пароль"
 #. defaultMessage is:
 #. Remove source
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Remove Source"
 msgid "Remove source"
 msgstr "Вилучити джерело"
 
@@ -1719,8 +1639,6 @@ msgstr "Виберіть один"
 #. defaultMessage is:
 #. Selected components
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Selected Components"
 msgid "Selected components"
 msgstr "Вибрані компоненти"
 
@@ -1735,8 +1653,6 @@ msgstr "Адміністратор сервера"
 #. defaultMessage is:
 #. Set new password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set New Password"
 msgid "Set new password"
 msgstr "Встановити новий пароль"
 
@@ -1744,8 +1660,6 @@ msgstr "Встановити новий пароль"
 #. defaultMessage is:
 #. Set password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
 msgstr "Встановити пароль"
 
@@ -1766,8 +1680,6 @@ msgstr ""
 #. defaultMessage is:
 #. Show all
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show All"
 msgid "Show all"
 msgstr "Показати все"
 
@@ -1775,8 +1687,6 @@ msgstr "Показати все"
 #. defaultMessage is:
 #. Show details and more options
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Show Details and More Options"
 msgid "Show details and more options"
 msgstr "Показати подробиці і додаткові параметри"
 
@@ -1784,8 +1694,6 @@ msgstr "Показати подробиці і додаткові парамет
 #. defaultMessage is:
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show Less"
 msgid "Show less"
 msgstr "Стисліше"
 
@@ -1800,8 +1708,6 @@ msgstr "Розмір"
 #. defaultMessage is:
 #. Source actions
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Source Actions"
 msgid "Source actions"
 msgstr "Дії над джерелом"
 
@@ -1867,8 +1773,6 @@ msgstr "Припинити"
 #. defaultMessage is:
 #. Stop build
 #: build/messages/components/Modal/StopBuild.json
-#, fuzzy
-#| msgid "Stop Build"
 msgid "Stop build"
 msgstr "Припинити збирання"
 
@@ -2219,8 +2123,6 @@ msgstr "Адреса"
 #. defaultMessage is:
 #. Undo last change
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Undo Last Change"
 msgid "Undo last change"
 msgstr "Скасувати останню зміну"
 
@@ -2235,8 +2137,6 @@ msgstr "Оновити"
 #. defaultMessage is:
 #. Update source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Update Source"
 msgid "Update source"
 msgstr "Оновити джерело"
 
@@ -2330,8 +2230,6 @@ msgstr "Тип вивантаження"
 #. defaultMessage is:
 #. User account actions
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "User Account Actions"
 msgid "User account actions"
 msgstr "Дії із обліковим записом користувача"
 
