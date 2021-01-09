@@ -1,17 +1,17 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
-# Matej Marusak <mmarusak@redhat.com>, 2019. #zanata, 2020.
+# Matej Marusak <mmarusak@redhat.com>, 2019. #zanata, 2020, 2021.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-01-08T07:28:53.139Z\n"
-"PO-Revision-Date: 2020-12-12 07:35+0000\n"
+"PO-Revision-Date: 2021-01-10 09:36+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
-"Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/sk/>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -124,8 +124,6 @@ msgstr "Akcie"
 #. defaultMessage is:
 #. Active filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
-#, fuzzy
-#| msgid "Active Filters"
 msgid "Active filters"
 msgstr "Aktívne filtre"
 
@@ -140,8 +138,6 @@ msgstr "Pridať"
 #. defaultMessage is:
 #. Add blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Add Blueprint Components"
 msgid "Add blueprint components"
 msgstr "Pridať súčasti plánku"
 
@@ -162,8 +158,6 @@ msgstr "Pridať najnovšiu verziu"
 #. defaultMessage is:
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Add Source"
 msgid "Add source"
 msgstr "Pridať zdroj"
 
@@ -205,8 +199,6 @@ msgstr "Všetky polia sú povinné."
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "An Error Occurred"
 msgid "An error occurred"
 msgstr "Vyskytla sa chyba"
 
@@ -239,8 +231,6 @@ msgstr "Vyskytla sa chyba počas ziskavania zdrojov."
 #. defaultMessage is:
 #. Apply change
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Apply Change"
 msgid "Apply change"
 msgstr "Aplikovať zmenu"
 
@@ -283,8 +273,6 @@ msgstr "Automaticky spustiť osbuild-composer pri zavádzaní hostiteľa"
 #. defaultMessage is:
 #. Available components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Available Components"
 msgid "Available components"
 msgstr "Dostupné komponenty"
 
@@ -310,8 +298,6 @@ msgstr "Späť"
 #. Back to blueprints
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Back to Blueprints"
 msgid "Back to blueprints"
 msgstr "Späť na plánky"
 
@@ -356,8 +342,6 @@ msgstr "Plánok"
 #. defaultMessage is:
 #. Blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Blueprint Components"
 msgid "Blueprint components"
 msgstr "Súčasti plánku"
 
@@ -504,8 +488,6 @@ msgstr "Skontrolovať SSL certifikát"
 #: build/messages/components/Toolbar/ToolbarLayout.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "Clear All Filters"
 msgid "Clear all filters"
 msgstr "Vyčistiť všetky filtre"
 
@@ -571,8 +553,6 @@ msgstr ""
 #. Component details
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Component Details"
 msgid "Component details"
 msgstr "Podrobnosti o súčasti"
 
@@ -580,8 +560,6 @@ msgstr "Podrobnosti o súčasti"
 #. defaultMessage is:
 #. Component options
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Component Details"
 msgid "Component options"
 msgstr "Podrobnosti o súčasti"
 
@@ -641,8 +619,6 @@ msgstr "Vytvoriť a nahrať obraz"
 #. defaultMessage is:
 #. Create blueprint
 #: build/messages/components/Modal/CreateBlueprint.json
-#, fuzzy
-#| msgid "Create Blueprint"
 msgid "Create blueprint"
 msgstr "Vytvoriť plánok"
 
@@ -664,8 +640,6 @@ msgstr "Vytvoriť obraz"
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Create User Account"
 msgid "Create user account"
 msgstr "Vytvoriť používateľský účet"
 
@@ -698,8 +672,6 @@ msgstr "Odstrániť"
 #. defaultMessage is:
 #. Delete blueprint
 #: build/messages/components/Modal/DeleteBlueprint.json
-#, fuzzy
-#| msgid "Delete Blueprint"
 msgid "Delete blueprint"
 msgstr "Zmazať plánok"
 
@@ -707,8 +679,6 @@ msgstr "Zmazať plánok"
 #. defaultMessage is:
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
-#, fuzzy
-#| msgid "Delete Image"
 msgid "Delete image"
 msgstr "Vymazať obraz"
 
@@ -716,8 +686,6 @@ msgstr "Vymazať obraz"
 #. defaultMessage is:
 #. Delete user account
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Delete User Account"
 msgid "Delete user account"
 msgstr "Odstrániť používateľský účet"
 
@@ -772,8 +740,6 @@ msgstr "Podrobnosti"
 #. defaultMessage is:
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Discard Changes"
 msgid "Discard changes"
 msgstr "Zahodiť zmeny"
 
@@ -814,8 +780,6 @@ msgstr "Upraviť názov hostiteľa"
 #: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Edit Packages"
 msgid "Edit packages"
 msgstr "Upraviť balíky"
 
@@ -827,8 +791,6 @@ msgstr "Upraviť balíky"
 #. Edit source
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Edit Source"
 msgid "Edit source"
 msgstr "Upraviť zdroj"
 
@@ -840,8 +802,6 @@ msgstr "Upraviť zdroj"
 #. Edit user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Edit User Account"
 msgid "Edit user account"
 msgstr "Upraviť používateľský účet"
 
@@ -849,8 +809,6 @@ msgstr "Upraviť používateľský účet"
 #. defaultMessage is:
 #. Empty blueprint
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Empty Blueprint"
 msgid "Empty blueprint"
 msgstr "Prázdny plánok"
 
@@ -879,8 +837,6 @@ msgstr "Exportovať ako"
 #. defaultMessage is:
 #. Export blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
-#, fuzzy
-#| msgid "Export Blueprint"
 msgid "Export blueprint"
 msgstr "Exportovať plánok"
 
@@ -888,17 +844,13 @@ msgstr "Exportovať plánok"
 #. defaultMessage is:
 #. Filter available components by name
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Available Components"
 msgid "Filter available components by name"
-msgstr "Dostupné komponenty"
+msgstr "Filtrovať dostupné komponenty podľa mena"
 
 #. [components.Toolbar.filterNamePlaceholder]
 #. defaultMessage is:
 #. Filter by name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Name"
 msgid "Filter by name"
 msgstr "Filtrovať podľa mena"
 
@@ -906,8 +858,6 @@ msgstr "Filtrovať podľa mena"
 #. defaultMessage is:
 #. Filter by name...
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name..."
 msgstr "Filtrovať podľa mena..."
 
@@ -915,8 +865,6 @@ msgstr "Filtrovať podľa mena..."
 #. defaultMessage is:
 #. Filter by release
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Release"
 msgid "Filter by release"
 msgstr "Filtrovať podľa vydania"
 
@@ -924,10 +872,8 @@ msgstr "Filtrovať podľa vydania"
 #. defaultMessage is:
 #. Filter by version
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Name"
 msgid "Filter by version"
-msgstr "Filtrovať podľa mena"
+msgstr "Filtrovať podľa verzie"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
@@ -958,8 +904,6 @@ msgstr "Ísť späť"
 #. Hide details
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Hide Details"
 msgid "Hide details"
 msgstr "Skryť detaily"
 
@@ -1152,8 +1096,6 @@ msgstr "Logy"
 #. defaultMessage is:
 #. Manage sources
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Manage Sources"
 msgid "Manage sources"
 msgstr "Spravovať zdroje"
 
@@ -1237,8 +1179,6 @@ msgstr "Ďalší"
 #. defaultMessage is:
 #. No blueprints
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Blueprints"
 msgid "No blueprints"
 msgstr "Žiadne plánky"
 
@@ -1246,8 +1186,6 @@ msgstr "Žiadne plánky"
 #. defaultMessage is:
 #. No dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "No Dependencies"
 msgid "No dependencies"
 msgstr "Žiadne závislosti"
 
@@ -1255,8 +1193,6 @@ msgstr "Žiadne závislosti"
 #. defaultMessage is:
 #. No images
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "No Images"
 msgid "No images"
 msgstr "Žiadne obrazy"
 
@@ -1362,8 +1298,6 @@ msgstr ""
 #. defaultMessage is:
 #. Pending changes
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Pending Changes"
 msgid "Pending changes"
 msgstr "Čakajúce zmeny"
 
@@ -1517,17 +1451,13 @@ msgstr ""
 #. defaultMessage is:
 #. Remove from blueprint
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Back to {blueprint}"
 msgid "Remove from blueprint"
-msgstr "Späť na {blueprint}"
+msgstr "Odstrániť z plánku"
 
 #. [components.Modal.1101731800]
 #. defaultMessage is:
 #. Remove password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Remove Password"
 msgid "Remove password"
 msgstr "Odstrániť heslo"
 
@@ -1535,8 +1465,6 @@ msgstr "Odstrániť heslo"
 #. defaultMessage is:
 #. Remove source
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Remove Source"
 msgid "Remove source"
 msgstr "Odstrániť zdroj"
 
@@ -1663,8 +1591,6 @@ msgstr "Vyberte jedno"
 #. defaultMessage is:
 #. Selected components
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Selected Components"
 msgid "Selected components"
 msgstr "Vybrané súčasti"
 
@@ -1679,8 +1605,6 @@ msgstr "Správca serveru"
 #. defaultMessage is:
 #. Set new password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set New Password"
 msgid "Set new password"
 msgstr "Nastaviť nové heslo"
 
@@ -1688,8 +1612,6 @@ msgstr "Nastaviť nové heslo"
 #. defaultMessage is:
 #. Set password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
 msgstr "Nastaviť heslo"
 
@@ -1707,8 +1629,6 @@ msgstr ""
 #. defaultMessage is:
 #. Show all
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show All"
 msgid "Show all"
 msgstr "Zobraziť všetky"
 
@@ -1716,8 +1636,6 @@ msgstr "Zobraziť všetky"
 #. defaultMessage is:
 #. Show details and more options
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Show Details and More Options"
 msgid "Show details and more options"
 msgstr "Zobraziť detaily a viac volieb"
 
@@ -1725,8 +1643,6 @@ msgstr "Zobraziť detaily a viac volieb"
 #. defaultMessage is:
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show Less"
 msgid "Show less"
 msgstr "Zobraziť menej"
 
@@ -1741,10 +1657,8 @@ msgstr "Veľkosť"
 #. defaultMessage is:
 #. Source actions
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "actions"
 msgid "Source actions"
-msgstr "akcie"
+msgstr ""
 
 #. [components.Modal.sourcePath] - The path or url to the source repository
 #. defaultMessage is:
@@ -1803,8 +1717,6 @@ msgstr "Zastaviť"
 #. defaultMessage is:
 #. Stop build
 #: build/messages/components/Modal/StopBuild.json
-#, fuzzy
-#| msgid "Stop Build"
 msgid "Stop build"
 msgstr "Zastaviť zostavovanie"
 
@@ -2153,8 +2065,6 @@ msgstr "Aktualizovať"
 #. defaultMessage is:
 #. Update source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Update Source"
 msgid "Update source"
 msgstr "Aktualizovať zdroj"
 
