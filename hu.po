@@ -1,17 +1,18 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 # Laszlo Pal <vlad@vlad.hu>, 2020.
+# Matej Marusak <mmarusak@redhat.com>, 2021.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-01-08T07:28:53.139Z\n"
-"PO-Revision-Date: 2020-04-07 17:40+0000\n"
-"Last-Translator: Laszlo Pal <vlad@vlad.hu>\n"
+"PO-Revision-Date: 2021-01-10 09:36+0000\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -138,8 +139,6 @@ msgstr "Hozzáadás"
 #. defaultMessage is:
 #. Add blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Add Blueprint Components"
 msgid "Add blueprint components"
 msgstr "Tervrajz komponensek hozzáadása"
 
@@ -160,8 +159,6 @@ msgstr "Legfrissebb verzió hozzáadása"
 #. defaultMessage is:
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Add Source"
 msgid "Add source"
 msgstr "Forrás hozzáadása"
 
@@ -205,8 +202,6 @@ msgstr "A(z) {val} értékkel jelölt mezők kötelezőek."
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "An Error Occurred"
 msgid "An error occurred"
 msgstr "Hiba történt"
 
@@ -239,8 +234,6 @@ msgstr "Hiba történt a források lekérésekor."
 #. defaultMessage is:
 #. Apply change
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Apply Change"
 msgid "Apply change"
 msgstr "Módosítás alkalmazása"
 
@@ -283,8 +276,6 @@ msgstr "Osbuild-composer automatikus indítása a rendszerrel"
 #. defaultMessage is:
 #. Available components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Available Components"
 msgid "Available components"
 msgstr "Elérhető összetevők"
 
@@ -310,8 +301,6 @@ msgstr ""
 #. Back to blueprints
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Back to Blueprints"
 msgid "Back to blueprints"
 msgstr "Vissza a tervrajzokhoz"
 
@@ -356,8 +345,6 @@ msgstr "Tervrajz"
 #. defaultMessage is:
 #. Blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Blueprint Components"
 msgid "Blueprint components"
 msgstr "Tervrajz összetevők"
 
@@ -478,8 +465,6 @@ msgstr ""
 #. defaultMessage is:
 #. Changes pending commit
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Changes Pending Commit"
 msgid "Changes pending commit"
 msgstr "Függőben lévő módosítások"
 
@@ -513,8 +498,6 @@ msgstr "SSL tanúsítvány ellenőrzése"
 #: build/messages/components/Toolbar/ToolbarLayout.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "Clear All Filters"
 msgid "Clear all filters"
 msgstr "Összes szűrő törlése"
 
@@ -562,8 +545,6 @@ msgstr "Véglegesítés"
 #. defaultMessage is:
 #. Commit and create
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
 msgid "Commit and create"
 msgstr "Véglegesítés és létrehozás"
 
@@ -584,8 +565,6 @@ msgstr "Véglegesítés és létrehozás"
 #. Component details
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Component Details"
 msgid "Component details"
 msgstr "Összetevő részletei"
 
@@ -593,8 +572,6 @@ msgstr "Összetevő részletei"
 #. defaultMessage is:
 #. Component options
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Component Options"
 msgid "Component options"
 msgstr "Összetevő beállításai"
 
@@ -659,8 +636,6 @@ msgstr "Kép létrehozása"
 #. defaultMessage is:
 #. Create blueprint
 #: build/messages/components/Modal/CreateBlueprint.json
-#, fuzzy
-#| msgid "Create Blueprint"
 msgid "Create blueprint"
 msgstr "Tervrajz létrehozása"
 
@@ -671,8 +646,6 @@ msgstr "Tervrajz létrehozása"
 #. defaultMessage is:
 #. Create image
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create image"
 msgstr "Kép létrehozása"
 
@@ -684,8 +657,6 @@ msgstr "Kép létrehozása"
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Create User Account"
 msgid "Create user account"
 msgstr "Felhasználói fiók létrehozása"
 
@@ -718,8 +689,6 @@ msgstr "Törlés"
 #. defaultMessage is:
 #. Delete blueprint
 #: build/messages/components/Modal/DeleteBlueprint.json
-#, fuzzy
-#| msgid "Delete Blueprint"
 msgid "Delete blueprint"
 msgstr "Tervrajz törlése"
 
@@ -727,8 +696,6 @@ msgstr "Tervrajz törlése"
 #. defaultMessage is:
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
-#, fuzzy
-#| msgid "Delete Image"
 msgid "Delete image"
 msgstr "Lemezkép törlése"
 
@@ -736,8 +703,6 @@ msgstr "Lemezkép törlése"
 #. defaultMessage is:
 #. Delete user account
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Delete User Account"
 msgid "Delete user account"
 msgstr "Felhasználói fiók törlése"
 
@@ -796,8 +761,6 @@ msgstr "Részletek elrejtése"
 #. defaultMessage is:
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Discard Changes"
 msgid "Discard changes"
 msgstr "Módosítások elvetése"
 
@@ -862,8 +825,6 @@ msgstr "Forrás hozzáadása"
 #. Edit user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Edit User Account"
 msgid "Edit user account"
 msgstr "Felhasználói fiók szerkesztése"
 
@@ -871,8 +832,6 @@ msgstr "Felhasználói fiók szerkesztése"
 #. defaultMessage is:
 #. Empty blueprint
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Empty Blueprint"
 msgid "Empty blueprint"
 msgstr "Üres tervrajz"
 
@@ -901,8 +860,6 @@ msgstr "Exportálás mint"
 #. defaultMessage is:
 #. Export blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
-#, fuzzy
-#| msgid "Export Blueprint"
 msgid "Export blueprint"
 msgstr "Tervrajz exportálása"
 
@@ -910,8 +867,6 @@ msgstr "Tervrajz exportálása"
 #. defaultMessage is:
 #. Filter available components by name
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter Available Components by Name"
 msgid "Filter available components by name"
 msgstr "Elérhető összetevők szűrése név szerint"
 
@@ -919,17 +874,13 @@ msgstr "Elérhető összetevők szűrése név szerint"
 #. defaultMessage is:
 #. Filter by name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name"
-msgstr "Szűrés név szerint…"
+msgstr "Szűrés név szerint"
 
 #. [pages.blueprintEdit.filterByPlaceholder]
 #. defaultMessage is:
 #. Filter by name...
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name..."
 msgstr "Szűrés név szerint…"
 
@@ -980,8 +931,6 @@ msgstr "Ugrás vissza"
 #. Hide details
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Hide Details"
 msgid "Hide details"
 msgstr "Részletek elrejtése"
 
@@ -1143,8 +1092,6 @@ msgstr "Lemezképek"
 #. Image type
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image type"
 msgstr "Lemezkép típusa"
 
@@ -1267,8 +1214,6 @@ msgstr ""
 #. defaultMessage is:
 #. No blueprints
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Blueprints"
 msgid "No blueprints"
 msgstr "Nincsenek tervrajzok"
 
@@ -1276,8 +1221,6 @@ msgstr "Nincsenek tervrajzok"
 #. defaultMessage is:
 #. No dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "No Dependencies"
 msgid "No dependencies"
 msgstr "Nincsenek függőségek"
 
@@ -1285,8 +1228,6 @@ msgstr "Nincsenek függőségek"
 #. defaultMessage is:
 #. No images
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "No Images"
 msgid "No images"
 msgstr "Nincsenek lemezképek"
 
@@ -1316,8 +1257,6 @@ msgstr ""
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Results Match the Filter Criteria"
 msgid "No results match the filter criteria"
 msgstr "Nincs találat a szűrőfeltételre"
 
@@ -1394,8 +1333,6 @@ msgstr "Illessze be ide a nyilvános SSH-kulcsfájlját."
 #. defaultMessage is:
 #. Pending changes
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Pending Changes"
 msgid "Pending changes"
 msgstr "Függőben módosítások"
 
@@ -1542,8 +1479,6 @@ msgstr "Eltávolítás"
 #. defaultMessage is:
 #. Remove component from blueprint
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Remove Component from Blueprint"
 msgid "Remove component from blueprint"
 msgstr "Összetevő eltávolítása a tervrajzról"
 
@@ -1551,8 +1486,6 @@ msgstr "Összetevő eltávolítása a tervrajzról"
 #. defaultMessage is:
 #. Remove from blueprint
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Remove from Blueprint"
 msgid "Remove from blueprint"
 msgstr "Eltávolítás a tervrajzról"
 
@@ -1560,8 +1493,6 @@ msgstr "Eltávolítás a tervrajzról"
 #. defaultMessage is:
 #. Remove password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Remove Password"
 msgid "Remove password"
 msgstr "Jelszó eltávolítása"
 
@@ -1697,8 +1628,6 @@ msgstr "Válasszon egyet"
 #. defaultMessage is:
 #. Selected components
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Selected Components"
 msgid "Selected components"
 msgstr "Kiválasztott összetevők"
 
@@ -1713,8 +1642,6 @@ msgstr "Kiszolgáló rendszergazdája"
 #. defaultMessage is:
 #. Set new password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set New Password"
 msgid "Set new password"
 msgstr "Új jelszó beállítása"
 
@@ -1722,8 +1649,6 @@ msgstr "Új jelszó beállítása"
 #. defaultMessage is:
 #. Set password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
 msgstr "Jelszó megadása"
 
@@ -1741,8 +1666,6 @@ msgstr ""
 #. defaultMessage is:
 #. Show all
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show All"
 msgid "Show all"
 msgstr "Összes megjelenítése"
 
@@ -1750,8 +1673,6 @@ msgstr "Összes megjelenítése"
 #. defaultMessage is:
 #. Show details and more options
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Show Details and More Options"
 msgid "Show details and more options"
 msgstr "Részletek és további beállítások megjelenítése"
 
@@ -1759,8 +1680,6 @@ msgstr "Részletek és további beállítások megjelenítése"
 #. defaultMessage is:
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show Less"
 msgid "Show less"
 msgstr "Kevesebb megjelenítése"
 
@@ -1837,8 +1756,6 @@ msgstr "Leállítás"
 #. defaultMessage is:
 #. Stop build
 #: build/messages/components/Modal/StopBuild.json
-#, fuzzy
-#| msgid "Stop Build"
 msgid "Stop build"
 msgstr "Összeállítás leállítása"
 
@@ -2181,8 +2098,6 @@ msgstr "URL"
 #. defaultMessage is:
 #. Undo last change
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Undo Last Change"
 msgid "Undo last change"
 msgstr "Legutóbbi módosítás visszavonása"
 
