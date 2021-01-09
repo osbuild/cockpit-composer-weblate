@@ -1,19 +1,19 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
-# Burak Yavuz <hitowerdigit@hotmail.com>, 2020.
+# Burak Yavuz <hitowerdigit@hotmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-01-08T07:28:53.139Z\n"
-"PO-Revision-Date: 2020-11-21 19:35+0000\n"
+"PO-Revision-Date: 2021-01-10 09:36+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -126,10 +126,8 @@ msgstr "Eylemler"
 #. defaultMessage is:
 #. Active filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
-#, fuzzy
-#| msgid "Active Filters"
 msgid "Active filters"
-msgstr "Etkin Filtreler"
+msgstr "Etkin süzgeçler"
 
 #. [components.ListView.3099331554]
 #. defaultMessage is:
@@ -142,10 +140,8 @@ msgstr "Ekle"
 #. defaultMessage is:
 #. Add blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Add Blueprint Components"
 msgid "Add blueprint components"
-msgstr "Plan Bileşenleri Ekle"
+msgstr "Plan bileşenlerini ekle"
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
@@ -164,10 +160,8 @@ msgstr "Son sürümü ekle"
 #. defaultMessage is:
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Add Source"
 msgid "Add source"
-msgstr "Kaynak Ekle"
+msgstr "Kaynak ekle"
 
 #. [components.Modal.1362724042] - Identifies the change as a component that was added
 #. defaultMessage is:
@@ -207,10 +201,8 @@ msgstr "Tüm alanlar gereklidir."
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "An Error Occurred"
 msgid "An error occurred"
-msgstr "Bir Hata Oluştu"
+msgstr "Bir hata meydana geldi"
 
 #. [components.Modal.1417078254]
 #. defaultMessage is:
@@ -241,10 +233,8 @@ msgstr "Kaynaklar alınmaya çalışılırken bir hata oluştu."
 #. defaultMessage is:
 #. Apply change
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Apply Change"
 msgid "Apply change"
-msgstr "Değişikliği Uygula"
+msgstr "Değişikliği uygula"
 
 #. [components.Modal.4140003068]
 #. defaultMessage is:
@@ -287,10 +277,8 @@ msgstr "osbuild-composer'ı başlangıçta otomatik olarak başlat"
 #. defaultMessage is:
 #. Available components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Available Components"
 msgid "Available components"
-msgstr "Kullanılabilir Bileşenler"
+msgstr "Mevcut bileşenler"
 
 #. [components.Wizard.azure]
 #. defaultMessage is:
@@ -314,8 +302,6 @@ msgstr "Geri"
 #. Back to blueprints
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Back to Blueprints"
 msgid "Back to blueprints"
 msgstr "Planlara geri dön"
 
@@ -360,10 +346,8 @@ msgstr "Plan"
 #. defaultMessage is:
 #. Blueprint components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Blueprint Components"
 msgid "Blueprint components"
-msgstr "Plan Bileşenleri"
+msgstr "Plan bileşenleri"
 
 #. [components.Modal.2544705954]
 #. defaultMessage is:
@@ -480,10 +464,8 @@ msgstr ""
 #. defaultMessage is:
 #. Changes pending commit
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Changes Pending Commit"
 msgid "Changes pending commit"
-msgstr "Bekleyen İşlemi Değiştirir"
+msgstr "Bekleyen işlemeyi değiştirir"
 
 #. [components.Modal.check_gpg]
 #. defaultMessage is:
@@ -515,10 +497,8 @@ msgstr "SSL sertifikasını denetle"
 #: build/messages/components/Toolbar/ToolbarLayout.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "Clear All Filters"
 msgid "Clear all filters"
-msgstr "Tüm Filtreleri Temizle"
+msgstr "Tüm süzgeçleri temizle"
 
 #. [components.Modal.2324218928]
 #. defaultMessage is:
@@ -582,19 +562,15 @@ msgstr "İşle ve ileri"
 #. Component details
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Component Details"
 msgid "Component details"
-msgstr "Bileşen Ayrıntıları"
+msgstr "Bileşen ayrıntıları"
 
 #. [components.ListView.1304855088]
 #. defaultMessage is:
 #. Component options
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Component Options"
 msgid "Component options"
-msgstr "Bileşen Seçenekleri"
+msgstr "Bileşen seçenekleri"
 
 #. [components.Modal.createPasswordTwo]
 #. defaultMessage is:
@@ -654,10 +630,8 @@ msgstr "Kalıp oluştur ve karşıya yükle"
 #. defaultMessage is:
 #. Create blueprint
 #: build/messages/components/Modal/CreateBlueprint.json
-#, fuzzy
-#| msgid "Create Blueprint"
 msgid "Create blueprint"
-msgstr "Plan Oluştur"
+msgstr "Plan oluştur"
 
 #. [components.Wizard.title]
 #. defaultMessage is:
@@ -677,10 +651,8 @@ msgstr "Kalıp oluştur"
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Create User Account"
 msgid "Create user account"
-msgstr "Kullanıcı Hesabı Oluştur"
+msgstr "Kullanıcı hesabı oluştur"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
@@ -711,28 +683,22 @@ msgstr "Sil"
 #. defaultMessage is:
 #. Delete blueprint
 #: build/messages/components/Modal/DeleteBlueprint.json
-#, fuzzy
-#| msgid "Delete Blueprint"
 msgid "Delete blueprint"
-msgstr "Plan Sil"
+msgstr "Planı sil"
 
 #. [components.Modal.942133001]
 #. defaultMessage is:
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
-#, fuzzy
-#| msgid "Delete Image"
 msgid "Delete image"
-msgstr "Kalıp Sil"
+msgstr "Kalıbı sil"
 
 #. [pages.blueprint.userDelete]
 #. defaultMessage is:
 #. Delete user account
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Delete User Account"
 msgid "Delete user account"
-msgstr "Kullanıcı Hesabı Sil"
+msgstr "Kullanıcı hesabını sil"
 
 #. [components.ListView.dependenciesTabTitle]
 #. defaultMessage is:
@@ -785,10 +751,8 @@ msgstr "Ayrıntılar"
 #. defaultMessage is:
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Discard Changes"
 msgid "Discard changes"
-msgstr "Değişiklikleri At"
+msgstr "Değişiklikleri yoksay"
 
 #. [components.ListView.1982430146]
 #. defaultMessage is:
@@ -827,10 +791,8 @@ msgstr "Ana bilgisayar adını düzenle"
 #: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Edit Packages"
 msgid "Edit packages"
-msgstr "Paketleri Düzenle"
+msgstr "Paketleri düzenle"
 
 #. [components.ListView.edit]
 #. defaultMessage is:
@@ -840,10 +802,8 @@ msgstr "Paketleri Düzenle"
 #. Edit source
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Edit Source"
 msgid "Edit source"
-msgstr "Kaynağı Düzenle"
+msgstr "Kaynağı düzenle"
 
 #. [components.Modal.modalTitleEdit]
 #. defaultMessage is:
@@ -853,19 +813,15 @@ msgstr "Kaynağı Düzenle"
 #. Edit user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Edit User Account"
 msgid "Edit user account"
-msgstr "Kullanıcı Hesabını Düzenle"
+msgstr "Kullanıcı hesabını düzenle"
 
 #. [pages.blueprint.emptyBlueprintTitle]
 #. defaultMessage is:
 #. Empty blueprint
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Empty Blueprint"
 msgid "Empty blueprint"
-msgstr "Boş Plan"
+msgstr "Boş plan"
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -892,55 +848,43 @@ msgstr "Farklı dışa aktar"
 #. defaultMessage is:
 #. Export blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
-#, fuzzy
-#| msgid "Export Blueprint"
 msgid "Export blueprint"
-msgstr "Planı Dışa Aktar"
+msgstr "Planı dışa aktar"
 
 #. [pages.blueprintEdit.filterByLabel]
 #. defaultMessage is:
 #. Filter available components by name
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter Available Components by Name"
 msgid "Filter available components by name"
-msgstr "Kullanılabilir Bileşenleri İsme Göre Filtrele"
+msgstr "Mevcut bileşenleri ada göre süz"
 
 #. [components.Toolbar.filterNamePlaceholder]
 #. defaultMessage is:
 #. Filter by name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Name"
 msgid "Filter by name"
-msgstr "İsme Göre Filtrele"
+msgstr "Ada göre süz"
 
 #. [pages.blueprintEdit.filterByPlaceholder]
 #. defaultMessage is:
 #. Filter by name...
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name..."
-msgstr "İsme Göre Filtrele..."
+msgstr "Ada göre süz..."
 
 #. [components.Toolbar.filterReleasePlaceholder]
 #. defaultMessage is:
 #. Filter by release
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Release"
 msgid "Filter by release"
-msgstr "Yayına Göre Filtrele"
+msgstr "Yayıma göre süz"
 
 #. [components.Toolbar.filterVersionPlaceholder]
 #. defaultMessage is:
 #. Filter by version
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter by Version"
 msgid "Filter by version"
-msgstr "Sürüme Göre Filtrele"
+msgstr "Sürüme göre süz"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
@@ -971,10 +915,8 @@ msgstr "Geri git"
 #. Hide details
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Hide Details"
 msgid "Hide details"
-msgstr "Ayrıntıları Gizle"
+msgstr "Ayrıntıları gizle"
 
 #. [pages.blueprint.hostnameInputLabel]
 #. defaultMessage is:
@@ -1073,10 +1015,8 @@ msgstr "Kalıp oluşturma beklemede"
 #. defaultMessage is:
 #. Image building service is not active
 #: build/messages/components/EmptyState/EmptyStateInactive.json
-#, fuzzy
-#| msgid "Image Building Service is Not Active"
 msgid "Image building service is not active"
-msgstr "Kalıp Oluşturma Hizmeti Etkin Değil"
+msgstr "Kalıp oluşturma hizmeti etkin değil"
 
 #. [components.ListView.imageName] - The name given by the user for an image
 #. defaultMessage is:
@@ -1180,10 +1120,8 @@ msgstr "Günlükler"
 #. defaultMessage is:
 #. Manage sources
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Manage Sources"
 msgid "Manage sources"
-msgstr "Kaynakları Yönet"
+msgstr "Kaynakları yönet"
 
 #. [components.EmptyState.alertMessagePreface]
 #. defaultMessage is:
@@ -1265,28 +1203,22 @@ msgstr "İleri"
 #. defaultMessage is:
 #. No blueprints
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Blueprints"
 msgid "No blueprints"
-msgstr "Plan Yok"
+msgstr "Planlar yok"
 
 #. [components.ListView.noDepsTitle]
 #. defaultMessage is:
 #. No dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "No Dependencies"
 msgid "No dependencies"
-msgstr "Bağımlılık Yok"
+msgstr "Bağımlılıklar yok"
 
 #. [pages.blueprint.noImagesTitle]
 #. defaultMessage is:
 #. No images
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "No Images"
 msgid "No images"
-msgstr "Kalıp Yok"
+msgstr "Kalıplar yok"
 
 #. [pages.blueprint.noImagesMessage]
 #. defaultMessage is:
@@ -1314,10 +1246,8 @@ msgstr "Kullanılabilir günlük kaydı yok"
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Results Match the Filter Criteria"
 msgid "No results match the filter criteria"
-msgstr "Filtreleme Kriterlerine Uyan Sonuç Yok"
+msgstr "Süzme ölçütüyle eşleşen sonuçlar yok"
 
 #. [components.Wizard.ostreeParent]
 #. defaultMessage is:
@@ -1392,10 +1322,8 @@ msgstr "Genel SSH anahtar dosyanızın içeriğini buraya yapıştırın."
 #. defaultMessage is:
 #. Pending changes
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Pending Changes"
 msgid "Pending changes"
-msgstr "Bekleyen Değişiklikler"
+msgstr "Bekleyen değişiklikler"
 
 #. [components.Wizard.processLength]
 #. defaultMessage is:
@@ -1564,37 +1492,29 @@ msgstr "Kaldır"
 #. defaultMessage is:
 #. Remove component from blueprint
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Remove Component from Blueprint"
 msgid "Remove component from blueprint"
-msgstr "Bileşeni Plandan Kaldır"
+msgstr "Bileşeni plandan kaldır"
 
 #. [components.ListView.removeFromBlueprint]
 #. defaultMessage is:
 #. Remove from blueprint
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Remove from Blueprint"
 msgid "Remove from blueprint"
-msgstr "Plandan Kaldır"
+msgstr "Plandan kaldır"
 
 #. [components.Modal.1101731800]
 #. defaultMessage is:
 #. Remove password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Remove Password"
 msgid "Remove password"
-msgstr "Parolayı Kaldır"
+msgstr "Parolayı kaldır"
 
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Remove Source"
 msgid "Remove source"
-msgstr "Kaynağı Kaldır"
+msgstr "Kaynağı kaldır"
 
 #. [components.Modal.2291868453] - Identifies the change as a component that was removed
 #. defaultMessage is:
@@ -1721,10 +1641,8 @@ msgstr "Birini seç"
 #. defaultMessage is:
 #. Selected components
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Selected Components"
 msgid "Selected components"
-msgstr "Seçilen Bileşenler"
+msgstr "Seçilen bileşenler"
 
 #. [components.Modal.122879380]
 #. defaultMessage is:
@@ -1737,19 +1655,15 @@ msgstr "Sunucu yöneticisi"
 #. defaultMessage is:
 #. Set new password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set New Password"
 msgid "Set new password"
-msgstr "Yeni Parola Ayarla"
+msgstr "Yeni parola ayarla"
 
 #. [components.Modal.3532935154]
 #. defaultMessage is:
 #. Set password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Set Password"
 msgid "Set password"
-msgstr "Parola Ayarla"
+msgstr "Parola ayarla"
 
 #. [components.Wizard.imageSizePopover]
 #. defaultMessage is:
@@ -1768,28 +1682,22 @@ msgstr ""
 #. defaultMessage is:
 #. Show all
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show All"
 msgid "Show all"
-msgstr "Tümünü Göster"
+msgstr "Tümünü göster"
 
 #. [components.ListView.showDetails]
 #. defaultMessage is:
 #. Show details and more options
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Show Details and More Options"
 msgid "Show details and more options"
-msgstr "Ayrıntıları ve Diğer Seçenekleri Göster"
+msgstr "Ayrıntıları ve diğer seçenekleri göster"
 
 #. [components.ListView.614182381]
 #. defaultMessage is:
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show Less"
 msgid "Show less"
-msgstr "Daha Az Göster"
+msgstr "Daha az göster"
 
 #. [components.ListView.imageSize] - A label for the size of an image file
 #. defaultMessage is:
@@ -1802,10 +1710,8 @@ msgstr "Boyut"
 #. defaultMessage is:
 #. Source actions
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Source Actions"
 msgid "Source actions"
-msgstr "Kaynak Eylemleri"
+msgstr "Kaynak eylemleri"
 
 #. [components.Modal.sourcePath] - The path or url to the source repository
 #. defaultMessage is:
@@ -1868,10 +1774,8 @@ msgstr "Durdur"
 #. defaultMessage is:
 #. Stop build
 #: build/messages/components/Modal/StopBuild.json
-#, fuzzy
-#| msgid "Stop Build"
 msgid "Stop build"
-msgstr "Oluşturmayı Durdur"
+msgstr "Oluşturmayı durdur"
 
 #. [components.ListView.imageStatusStopping] - Image build status when user selected to end the process
 #. defaultMessage is:
@@ -2218,10 +2122,8 @@ msgstr "URL"
 #. defaultMessage is:
 #. Undo last change
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Undo Last Change"
 msgid "Undo last change"
-msgstr "Son Değişikliği Geri Al"
+msgstr "Son değişikliği geri al"
 
 #. [components.Modal.1458938618]
 #. defaultMessage is:
@@ -2234,10 +2136,8 @@ msgstr "Güncelle"
 #. defaultMessage is:
 #. Update source
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Update Source"
 msgid "Update source"
-msgstr "Kaynağı Güncelle"
+msgstr "Kaynağı güncelle"
 
 #. [components.Modal.562988552] - Identifies the change as a component that was updated
 #. defaultMessage is:
@@ -2329,10 +2229,8 @@ msgstr "Karşıya yükleme türü"
 #. defaultMessage is:
 #. User account actions
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "User Account Actions"
 msgid "User account actions"
-msgstr "Kullanıcı Hesabı Eylemleri"
+msgstr "Kullanıcı hesabı eylemleri"
 
 #. [components.Modal.529605439]
 #. defaultMessage is:
