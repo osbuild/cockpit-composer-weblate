@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-02-02T18:29:53.883Z\n"
+"POT-Creation-Date: 2021-02-09T18:14:59.897Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -173,6 +173,14 @@ msgstr ""
 #. defaultMessage is:
 #. All fields are required.
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#. [components.Wizard.1175512155]
+#. defaultMessage is:
+#. All fields are required.
+#: build/messages/components/Wizard/VMWareAuthStep.json
+#. [components.Wizard.1175512155]
+#. defaultMessage is:
+#. All fields are required.
+#: build/messages/components/Wizard/VMWareDestinationStep.json
 #. [components.Wizard.1175512155]
 #. defaultMessage is:
 #. All fields are required.
@@ -498,6 +506,24 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.103343714]
+#. defaultMessage is:
+#. Cluster
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.103343714]
+#. defaultMessage is:
+#. Cluster
+msgid "Cluster"
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.cluster]
+#. defaultMessage is:
+#. Cluster help
+msgid "Cluster help"
+msgstr ""
+
 #: build/messages/components/Modal/PendingChanges.json
 #. [components.Modal.2299254306]
 #. defaultMessage is:
@@ -639,6 +665,48 @@ msgstr ""
 #. defaultMessage is:
 #. Customizations
 msgid "Customizations"
+msgstr ""
+
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.2877310487]
+#. defaultMessage is:
+#. Data Center
+msgid "Data Center"
+msgstr ""
+
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.3747912914]
+#. defaultMessage is:
+#. Data Store
+msgid "Data Store"
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.4278711264]
+#. defaultMessage is:
+#. Data center
+msgid "Data center"
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.3717439361]
+#. defaultMessage is:
+#. Data store
+msgid "Data store"
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.dataCenter]
+#. defaultMessage is:
+#. Datacenter help
+msgid "Datacenter help"
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.dataStore]
+#. defaultMessage is:
+#. Datastore help
+msgid "Datastore help"
 msgstr ""
 
 #: build/messages/components/ListView/ListItemImages.json
@@ -892,6 +960,24 @@ msgstr ""
 msgid "Hide details"
 msgstr ""
 
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.644347739]
+#. defaultMessage is:
+#. Host
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.644347739]
+#. defaultMessage is:
+#. Host
+msgid "Host"
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.host]
+#. defaultMessage is:
+#. Host help
+msgid "Host help"
+msgstr ""
+
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.hostnameInputLabel]
 #. defaultMessage is:
@@ -907,16 +993,31 @@ msgid "If no hostname is provided, the hostname will be determined by the OS."
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.3593632693]
+#. [components.Wizard.327045352]
 #. defaultMessage is:
-#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete 
+#. Image Builder can upload images you create to VMWare vSphere.
+#.                       When the image build is complete and the upload action is successful,
+#.                       the image file is available in the Cluster on the vSphere instance that you specified.
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.327045352]
+#. defaultMessage is:
+#. Image Builder can upload images you create to VMWare vSphere.
+#.                       When the image build is complete and the upload action is successful,
+#.                       the image file is available in the Cluster on the vSphere instance that you specified.
+msgid "Image Builder can upload images you create to VMWare vSphere.\n                      When the image build is complete and the upload action is successful,\n                      the image file is available in the Cluster on the vSphere instance that you specified."
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.3501375619]
+#. defaultMessage is:
+#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3593632693]
+#. [components.Wizard.3501375619]
 #. defaultMessage is:
-#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete 
+#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
-msgid "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete \n                      and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
+msgid "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete\n                      and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
@@ -985,6 +1086,10 @@ msgstr ""
 #. [components.Wizard.2794911472]
 #. defaultMessage is:
 #. Image name
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.2794911472]
+#. defaultMessage is:
+#. Image name
 msgid "Image name"
 msgstr ""
 
@@ -993,6 +1098,10 @@ msgstr ""
 #. defaultMessage is:
 #. Image name help
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#. [components.Wizard.imageName]
+#. defaultMessage is:
+#. Image name help
+#: build/messages/components/Wizard/VMWareDestinationStep.json
 #. [components.Wizard.imageName]
 #. defaultMessage is:
 #. Image name help
@@ -1261,6 +1370,14 @@ msgstr ""
 #. [components.Modal.2237029987]
 #. defaultMessage is:
 #. Password
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.2237029987]
+#. defaultMessage is:
+#. Password
+#: build/messages/components/Wizard/VMWareAuthStep.json
+#. [components.Wizard.2237029987]
+#. defaultMessage is:
+#. Password
 msgid "Password"
 msgstr ""
 
@@ -1294,6 +1411,10 @@ msgstr ""
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#. [components.Wizard.4277042358]
+#. defaultMessage is:
+#. Provide a file name to be used for the image file that will be uploaded.
+#: build/messages/components/Wizard/VMWareDestinationStep.json
 #. [components.Wizard.4277042358]
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
@@ -1346,11 +1467,39 @@ msgstr ""
 msgid "Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
 
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.1891777230]
+#. defaultMessage is:
+#. Provide the name of the Cluster to which the image file will be uploaded.
+msgid "Provide the name of the Cluster to which the image file will be uploaded."
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.1217327836]
+#. defaultMessage is:
+#. Provide the name of the Datacenter to which the image file will be uploaded.
+msgid "Provide the name of the Datacenter to which the image file will be uploaded."
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.4014474612]
+#. defaultMessage is:
+#. Provide the name of the Datastore to which the image file will be uploaded.
+msgid "Provide the name of the Datastore to which the image file will be uploaded."
+msgstr ""
+
 #: build/messages/components/Wizard/ImageStep.json
 #. [components.Wizard.1476874820]
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created.
 msgid "Provide the name of the branch for the content. If the ref does not already exist it will be created."
+msgstr ""
+
+#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. [components.Wizard.3387354708]
+#. defaultMessage is:
+#. Provide the url of your {vmware} instance to which the image file will be uploaded.
+msgid "Provide the url of your {vmware} instance to which the image file will be uploaded."
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
@@ -2075,6 +2224,21 @@ msgstr ""
 msgid "Upload to Azure"
 msgstr ""
 
+#: build/messages/components/Wizard/CreateImageUpload.json
+#. [components.Wizard.3542348520]
+#. defaultMessage is:
+#. Upload to VMWare
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.uploadVMWare]
+#. defaultMessage is:
+#. Upload to VMWare
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.3542348520]
+#. defaultMessage is:
+#. Upload to VMWare
+msgid "Upload to VMWare"
+msgstr ""
+
 #: build/messages/components/ListView/ListItemUploads.json
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
@@ -2096,11 +2260,29 @@ msgstr ""
 msgid "User name"
 msgstr ""
 
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.2663586870]
+#. defaultMessage is:
+#. Username
+#: build/messages/components/Wizard/VMWareAuthStep.json
+#. [components.Wizard.2663586870]
+#. defaultMessage is:
+#. Username
+msgid "Username"
+msgstr ""
+
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
 msgid "Users"
+msgstr ""
+
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.vmware]
+#. defaultMessage is:
+#. VMWare help
+msgid "VMWare help"
 msgstr ""
 
 #: build/messages/pages/blueprint/index.json
