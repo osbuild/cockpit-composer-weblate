@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-02-19T13:33:41.049Z\n"
+"POT-Creation-Date: 2021-02-19T16:42:55.043Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -796,6 +796,13 @@ msgstr ""
 msgid "Discard changes"
 msgstr ""
 
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.labelTar]
+#. defaultMessage is:
+#. Disk Archive (.tar)
+msgid "Disk Archive (.tar)"
+msgstr ""
+
 #: build/messages/components/ListView/ListItemImages.json
 #. [components.ListView.1982430146]
 #. defaultMessage is:
@@ -1158,6 +1165,13 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.labelLiveIso]
+#. defaultMessage is:
+#. Installer, suitable for USB and DVD (.iso)
+msgid "Installer, suitable for USB and DVD (.iso)"
+msgstr ""
+
 #: build/messages/components/Loading/Loading.json
 #. [components.Loading.2617450248]
 #. defaultMessage is:
@@ -1500,6 +1514,13 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the url of your {vmware} instance to which the image file will be uploaded.
 msgid "Provide the url of your {vmware} instance to which the image file will be uploaded."
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.labelqcow]
+#. defaultMessage is:
+#. QEMU Image (.qcow2)
+msgid "QEMU Image (.qcow2)"
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
