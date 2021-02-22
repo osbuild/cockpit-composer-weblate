@@ -2,7 +2,7 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-02-19T16:51:59.925Z\n"
+"POT-Creation-Date: 2021-02-22T18:10:01.151Z\n"
 "PO-Revision-Date: 2021-02-20 17:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -889,6 +889,13 @@ msgstr "Редагувати джерело"
 msgid "Edit user account"
 msgstr "Редагувати обліковий запис користувача"
 
+#. [components.Wizard.4173021643]
+#. defaultMessage is:
+#. Either the parent commit or repository url can be specified. Not both.
+#: build/messages/components/Wizard/ImageStep.json
+msgid "Either the parent commit or repository url can be specified. Not both."
+msgstr ""
+
 #. [pages.blueprint.emptyBlueprintTitle]
 #. defaultMessage is:
 #. Empty blueprint
@@ -1394,6 +1401,15 @@ msgstr "Довідка з батьківського запису OSTree"
 msgid "OSTree ref help"
 msgstr "Довідка з посилань OSTree"
 
+#. [components.Wizard.ostreeURL]
+#. defaultMessage is:
+#. OSTree repo url help
+#: build/messages/components/Wizard/ImageStep.json
+#, fuzzy
+#| msgid "OSTree ref help"
+msgid "OSTree repo url help"
+msgstr "Довідка з посилань OSTree"
+
 #. [components.Modal.1475836573]
 #. defaultMessage is:
 #. Only changes to selected components are shown.
@@ -1520,13 +1536,20 @@ msgstr ""
 "                    облікового запису у сховищі. Ви можете знайти облікові "
 "записи у сховищі на сторінці {storageAccounts} порталу {azure}."
 
-#. [components.Wizard.1099888225]
+#. [components.Wizard.4044130958]
 #. defaultMessage is:
 #. Provide the ID of the latest commit in the updates repository for which this commit provides an update.
+#.                     If no commit is specified it will be inferred from the parent repository.
 #: build/messages/components/Wizard/ImageStep.json
+#, fuzzy
+#| msgid ""
+#| "Provide the ID of the latest commit in the updates repository for which "
+#| "this commit provides an update."
 msgid ""
 "Provide the ID of the latest commit in the updates repository for which this "
-"commit provides an update."
+"commit provides an update.\n"
+"                    If no commit is specified it will be inferred from the "
+"parent repository."
 msgstr ""
 "Надайте ідентифікатор останнього внеску у сховищі оновлень, для якого цей "
 "внесок надає оновлення."
@@ -1551,6 +1574,15 @@ msgstr ""
 "імпортувати ваш образ. Список {buckets} можна знайти\n"
 "                             на сторінці {bucketsPage} у службі зберігання "
 "даних S3 {amazon} у консолі AWS."
+
+#. [components.Wizard.1170512263]
+#. defaultMessage is:
+#. Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from.
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"Provide the URL of the upstream repository. This repository is where the "
+"parent OSTree commit will be pulled from."
+msgstr ""
 
 #. [components.Wizard.2706552502]
 #. defaultMessage is:
@@ -1714,6 +1746,15 @@ msgstr "Вилучено"
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Removing source"
 msgstr "Вилучаємо джерело"
+
+#. [components.Wizard.2238384022]
+#. defaultMessage is:
+#. Repository URL
+#: build/messages/components/Wizard/ImageStep.json
+#, fuzzy
+#| msgid "yum repository"
+msgid "Repository URL"
+msgstr "сховище yum"
 
 #. [components.Modal.128739785]
 #. defaultMessage is:
