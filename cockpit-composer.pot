@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-02-19T16:51:59.925Z\n"
+"POT-Creation-Date: 2021-02-22T18:10:01.151Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -865,6 +865,13 @@ msgstr ""
 msgid "Edit user account"
 msgstr ""
 
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.4173021643]
+#. defaultMessage is:
+#. Either the parent commit or repository url can be specified. Not both.
+msgid "Either the parent commit or repository url can be specified. Not both."
+msgstr ""
+
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.emptyBlueprintTitle]
 #. defaultMessage is:
@@ -1337,6 +1344,13 @@ msgstr ""
 msgid "OSTree ref help"
 msgstr ""
 
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.ostreeURL]
+#. defaultMessage is:
+#. OSTree repo url help
+msgid "OSTree repo url help"
+msgstr ""
+
 #: build/messages/components/Modal/PendingChanges.json
 #. [components.Modal.1475836573]
 #. defaultMessage is:
@@ -1451,10 +1465,11 @@ msgid "Provide the Blob container to which the image file will be uploaded. You 
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1099888225]
+#. [components.Wizard.4044130958]
 #. defaultMessage is:
 #. Provide the ID of the latest commit in the updates repository for which this commit provides an update.
-msgid "Provide the ID of the latest commit in the updates repository for which this commit provides an update."
+#.                     If no commit is specified it will be inferred from the parent repository.
+msgid "Provide the ID of the latest commit in the updates repository for which this commit provides an update.\n                    If no commit is specified it will be inferred from the parent repository."
 msgstr ""
 
 #: build/messages/components/Wizard/AWSDestinationStep.json
@@ -1464,6 +1479,13 @@ msgstr ""
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 msgid "Provide the S3 {bucket} name to which the image file will be uploaded before being imported into EC2. \n                        The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the\n                        {bucketsPage} page in the {amazon} S3 storage service in the AWS console."
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.1170512263]
+#. defaultMessage is:
+#. Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from.
+msgid "Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from."
 msgstr ""
 
 #: build/messages/components/Wizard/AzureAuthStep.json
@@ -1604,6 +1626,13 @@ msgstr ""
 #. defaultMessage is:
 #. Removing source
 msgid "Removing source"
+msgstr ""
+
+#: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.2238384022]
+#. defaultMessage is:
+#. Repository URL
+msgid "Repository URL"
 msgstr ""
 
 #: build/messages/components/Modal/CreateBlueprint.json
