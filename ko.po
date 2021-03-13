@@ -2,11 +2,12 @@
 # Eun-Ju Kim <eukim@redhat.com>, 2019. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-03-02T18:18:37.457Z\n"
-"PO-Revision-Date: 2021-03-09 10:01+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-03-14 08:01+0000\n"
+"Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/ko/>\n"
 "Language: ko\n"
@@ -1640,7 +1641,7 @@ msgstr "QEMU 이미지(.qcow2)"
 #. Ref
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Ref"
-msgstr "Ref"
+msgstr "참조"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -2590,7 +2591,7 @@ msgstr "metalink"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
-msgstr "mirrorlist"
+msgstr "연결주소목록"
 
 #. [pages.blueprintEdit.paginationPerPage]
 #. defaultMessage is:
@@ -2624,7 +2625,7 @@ msgstr "에"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "yum repository"
-msgstr "yum repository"
+msgstr "yum 저장소"
 
 #. [data.4273735599]
 #. defaultMessage is:
