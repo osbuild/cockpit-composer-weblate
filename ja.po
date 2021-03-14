@@ -6,7 +6,7 @@
 # Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-03-02T18:18:37.457Z\n"
+"POT-Creation-Date: 2021-03-09T18:32:16.967Z\n"
 "PO-Revision-Date: 2021-03-09 10:01+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -902,7 +902,9 @@ msgstr "ユーザーアカウントの編集"
 #. Either the parent commit or repository url can be specified. Not both.
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Either the parent commit or repository url can be specified. Not both."
-msgstr "親コミットまたはリポジトリーのいずれかの URL を指定できます。両方は指定できません。"
+msgstr ""
+"親コミットまたはリポジトリーのいずれかの URL を指定できます。両方は指定できま"
+"せん。"
 
 #. [pages.blueprint.emptyBlueprintTitle]
 #. defaultMessage is:
@@ -1057,9 +1059,12 @@ msgid ""
 "                      the image file is available in the Cluster on the "
 "vSphere instance that you specified."
 msgstr ""
-"Image Builder は、作成したイメージを AWS の VMWare vSphere にアップロードできます。\n"
-"                      イメージのビルドが完了してアップロードアクションが成功すると、\n"
-"                      イメージファイルが、指定した vSphere インスタンスのクラスターで利用できるようになります。"
+"Image Builder は、作成したイメージを AWS の VMWare vSphere にアップロードでき"
+"ます。\n"
+"                      イメージのビルドが完了してアップロードアクションが成功"
+"すると、\n"
+"                      イメージファイルが、指定した vSphere インスタンスのクラ"
+"スターで利用できるようになります。"
 
 #. [components.Wizard.3501375619]
 #. defaultMessage is:
@@ -1077,10 +1082,10 @@ msgid ""
 "                      and the upload action is successful, the image file is "
 "available in the Storage account and Blob container that you specified."
 msgstr ""
-"Image Builder は、作成したイメージを AWS の {azure} にアップロードしてから、EC2 にインポートします。"
-"イメージのビルドが完了し\n"
-"                      "
-"アップロードアクションが成功すると、イメージファイルが指定したストレージアカウントとブロブコンテナーで利用できます。"
+"Image Builder は、作成したイメージを AWS の {azure} にアップロードしてから、"
+"EC2 にインポートします。イメージのビルドが完了し\n"
+"                      アップロードアクションが成功すると、イメージファイルが"
+"指定したストレージアカウントとブロブコンテナーで利用できます。"
 
 #. [components.Wizard.1007547894]
 #. defaultMessage is:
@@ -1550,8 +1555,10 @@ msgid ""
 "                    If no commit is specified it will be inferred from the "
 "parent repository."
 msgstr ""
-"このコミットが更新を提供する更新レポジトリの最新のコミットの ID を提供します。\n"
-"                    コミットが指定されていない場合は、親レポジトリーから推測されます。"
+"このコミットが更新を提供する更新レポジトリの最新のコミットの ID を提供しま"
+"す。\n"
+"                    コミットが指定されていない場合は、親レポジトリーから推測"
+"されます。"
 
 #. [components.Wizard.1901372247]
 #. defaultMessage is:
@@ -1581,7 +1588,9 @@ msgstr ""
 msgid ""
 "Provide the URL of the upstream repository. This repository is where the "
 "parent OSTree commit will be pulled from."
-msgstr "アップストリームのリポジトリーの URL を提供します。このリポジトリーは、親 OSTree コミットがプルされる場所です。"
+msgstr ""
+"アップストリームのリポジトリーの URL を提供します。このリポジトリーは、親 "
+"OSTree コミットがプルされる場所です。"
 
 #. [components.Wizard.2706552502]
 #. defaultMessage is:
@@ -1650,7 +1659,8 @@ msgstr "コンテンツのブランチ名を指定します。まだ存在しな
 msgid ""
 "Provide the url of your {vmware} instance to which the image file will be "
 "uploaded."
-msgstr "イメージファイルをアップロードする {vmware} インスタンスの URL を指定します。"
+msgstr ""
+"イメージファイルをアップロードする {vmware} インスタンスの URL を指定します。"
 
 #. [components.Wizard.labelqcow]
 #. defaultMessage is:
@@ -2520,8 +2530,10 @@ msgid ""
 "(/). A ref must start with a letter, a number, or an underscore. Slashes "
 "must also be followed by a letter or number."
 msgstr ""
-"ref の有効な文字は、a から z の文字、0 から 9 までの数字、ハイフン (-)、ピリオド (.)、およびスラッシュ (/) です。ref "
-"は文字、数字、またはアンダースコア (/) で開始する必要があります。また、その後に文字または数字を追加する必要があります。"
+"ref の有効な文字は、a から z の文字、0 から 9 までの数字、ハイフン (-)、ピリ"
+"オド (.)、およびスラッシュ (/) です。ref は文字、数字、またはアンダースコア "
+"(/) で開始する必要があります。また、その後に文字または数字を追加する必要があ"
+"ります。"
 
 #. [components.ListView.602883748]
 #. defaultMessage is:
@@ -2639,7 +2651,8 @@ msgstr "ページごと"
 msgid ""
 "rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
 "machine"
-msgstr "rhel/8/{arch}/edge がデフォルトで、{arch} はホストマシンによって決定されます"
+msgstr ""
+"rhel/8/{arch}/edge がデフォルトで、{arch} はホストマシンによって決定されます"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:

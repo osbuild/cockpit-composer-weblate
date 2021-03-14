@@ -5,7 +5,7 @@
 # Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-03-02T18:18:37.457Z\n"
+"POT-Creation-Date: 2021-03-09T18:32:16.967Z\n"
 "PO-Revision-Date: 2021-03-09 10:01+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -1065,8 +1065,10 @@ msgid ""
 "                      and the upload action is successful, the image file is "
 "available in the Storage account and Blob container that you specified."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {azure} 中。当镜像构建完成且\n"
-"                      上传操作成功时，镜像文件会出现在您指定的存储帐户和 Blob 容器中。"
+"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {azure} 中。当镜像构建完成"
+"且\n"
+"                      上传操作成功时，镜像文件会出现在您指定的存储帐户和 "
+"Blob 容器中。"
 
 #. [components.Wizard.1007547894]
 #. defaultMessage is:
@@ -1514,7 +1516,8 @@ msgid ""
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
 "提供镜像文件要被上传到的 Blob 容器。您可以在存储账户的 {blobService} 项下\n"
-"                    找到容器。您可以在 {azure} 门户的 {storageAccounts} 页中找到存储账户。"
+"                    找到容器。您可以在 {azure} 门户的 {storageAccounts} 页中"
+"找到存储账户。"
 
 #. [components.Wizard.4044130958]
 #. defaultMessage is:
@@ -2476,8 +2479,8 @@ msgid ""
 "(/). A ref must start with a letter, a number, or an underscore. Slashes "
 "must also be followed by a letter or number."
 msgstr ""
-"ref 的有效字符包括字母 a 到 z、数字从 0 到 "
-"9、连字符(-)、下划线(_)、句号(.)和斜杠(/)。引用必须以字母、数字或下划线开头。斜杠还必须跟一个字母或数字。"
+"ref 的有效字符包括字母 a 到 z、数字从 0 到 9、连字符(-)、下划线(_)、句号(.)和"
+"斜杠(/)。引用必须以字母、数字或下划线开头。斜杠还必须跟一个字母或数字。"
 
 #. [components.ListView.602883748]
 #. defaultMessage is:
