@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-03-09T18:32:16.967Z\n"
-"PO-Revision-Date: 2021-03-14 08:01+0000\n"
+"PO-Revision-Date: 2021-03-16 05:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,9 +38,7 @@ msgstr "블루프린트 이름이 필요합니다."
 msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
-msgstr ""
-"선택한 이미지 유형을 지원하는 데 필요한 패키지만 사용하여 최소 이미지를 생성"
-"합니다."
+msgstr "이미지 유형을 지원하는 데 필요한 꾸러미만 사용하여 최소 이미지를 생성합니다."
 
 #. [components.Modal.2310857819]
 #. defaultMessage is:
@@ -244,7 +242,7 @@ msgstr "소스를 가져오는 도중 오류가 발생했습니다."
 #. Apply change
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Apply change"
-msgstr "변경 내용 적용"
+msgstr "변경 적용"
 
 #. [components.Modal.4140003068]
 #. defaultMessage is:
@@ -279,7 +277,7 @@ msgstr "인증"
 #. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Automatically start osbuild-composer on boot"
-msgstr "부팅 시 osbuild-composer 자동 실행"
+msgstr "부팅시 osbuild-composer 자동 실행"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
 #. defaultMessage is:
@@ -300,7 +298,7 @@ msgstr "Azure 도움말"
 #. Back
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Back"
-msgstr "돌아가기"
+msgstr "뒤로"
 
 #. [pages.blueprint.2057444273]
 #. defaultMessage is:
@@ -476,7 +474,7 @@ msgstr ""
 #. Changes pending commit
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Changes pending commit"
-msgstr "보류 중인 커밋 변경"
+msgstr "보류 중인 실행 변경"
 
 #. [components.Modal.check_gpg]
 #. defaultMessage is:
@@ -816,7 +814,7 @@ msgstr "대상"
 #. Details
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Details"
-msgstr "세부 정보"
+msgstr "상세 정보"
 
 # translation auto-copied from project Customer Portal Translations, version PortalCaseManagementStrings, document PortalCaseManagementStrings, author eukim
 #. [pages.blueprintEdit.1469729075]
@@ -824,7 +822,7 @@ msgstr "세부 정보"
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Discard changes"
-msgstr "변경 내용 취소"
+msgstr "변경 사항 취소"
 
 #. [components.Wizard.labelTar]
 #. defaultMessage is:
@@ -871,7 +869,7 @@ msgstr "호스트이름 편집"
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Edit packages"
-msgstr "패키지 편집"
+msgstr "꾸러미 편집"
 
 #. [components.ListView.edit]
 #. defaultMessage is:
@@ -1429,7 +1427,7 @@ msgstr "문제가 발생했습니다"
 #. Packages
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
-msgstr "패키지"
+msgstr "꾸러미"
 
 #. [pages.error.pageNotFoundMessage]
 #. defaultMessage is:
@@ -1892,8 +1890,8 @@ msgid ""
 "package size and target destination of your image should be considered when "
 "setting the image size."
 msgstr ""
-"인스턴스화할 때 이미지의 크기를 설정하십시오. 이미지 크기를 설정할 때 이미지"
-"의 소프트웨어 패키지의 전체 크기 및 이미지 대상 위치를 고려해야합니다."
+"인스턴스화할 때 이미지의 크기를 설정하십시오. 이미지 크기를 설정할 때 이미지의 소프트웨어 꾸러미의 전체 크기 및 이미지 대상 위치를 "
+"고려해야합니다."
 
 #. [components.ListView.4147597655]
 #. defaultMessage is:
@@ -1914,7 +1912,7 @@ msgstr "세부 정보 및 기타 옵션 표시"
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Show less"
-msgstr "부분 표시"
+msgstr "덜 보기"
 
 #. [components.ListView.imageSize] - A label for the size of an image file
 #. defaultMessage is:
@@ -1954,9 +1952,8 @@ msgid ""
 "the source do not conflict with any other package sources, otherwise "
 "resolving dependencies and composing images will fail."
 msgstr ""
-"블루프린트 종속성을 해결하고 이미지를 조합하기 위한 소스입니다. 사용자 정의 "
-"소스를 추가할 때 소스의 패키지가 다른 패키지 소스와 충돌하지 않도록 합니다. "
-"그렇지 않으면 종속성을 해결하고 이미지를 구성할 때 오류가 발생합니다."
+"블루프린트 종속성을 해결하고 이미지를 조합하기 위한 소스입니다. 사용자 정의 소스를 추가할 때 소스의 꾸러미가 다른 꾸러미 소스와 "
+"충돌하지 않도록 합니다. 그렇지 않으면 종속성을 해결하고 이미지를 구성할 때 오류가 발생합니다."
 
 #. [components.Modal.540971304]
 #. defaultMessage is:
@@ -2115,9 +2112,7 @@ msgstr "{name} 이름이 이미 있습니다."
 msgid ""
 "The packages needed to support the selected image type are automatically "
 "included when creating an image."
-msgstr ""
-"선택한 이미지 유형을 지원하는 데 필요한 패키지는 이미지를 만들 때 자동으로 포"
-"함됩니다."
+msgstr "선택한 이미지 유형을 지원하는 데 필요한 꾸러미는 이미지를 만들 때 자동으로 포함됩니다."
 
 #. [pages.error.26562577]
 #. defaultMessage is:
@@ -2224,7 +2219,7 @@ msgstr "이 블루프린트는 비어 있습니다."
 #. This component has no dependencies.
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "This component has no dependencies."
-msgstr "이 구성 요소에는 종속 패키지가 없습니다."
+msgstr "이 구성 요소에는 종속 꾸러미가 없습니다."
 
 #. [components.Wizard.requiredField]
 #. defaultMessage is:
@@ -2338,7 +2333,7 @@ msgstr "URL"
 #. Undo last change
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Undo last change"
-msgstr "마지막 변경 내용 취소"
+msgstr "마지막 변경 사항 취소"
 
 #. [components.Modal.1458938618]
 #. defaultMessage is:
