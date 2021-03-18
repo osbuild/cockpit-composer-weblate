@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-03-09T18:32:16.967Z\n"
-"PO-Revision-Date: 2021-03-16 05:01+0000\n"
+"PO-Revision-Date: 2021-03-19 16:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/ko/>\n"
@@ -168,7 +168,7 @@ msgstr "소스 추가"
 #. Added
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Added"
-msgstr "추가됨"
+msgstr "추가됩니다"
 
 #. [components.Wizard.1175512155]
 #. defaultMessage is:
@@ -1730,7 +1730,7 @@ msgstr "소스 제거"
 #. Removed
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Removed"
-msgstr "삭제됨"
+msgstr "삭제됩니다"
 
 #. [components.ListView.2663433025]
 #. defaultMessage is:
@@ -1974,7 +1974,7 @@ msgstr "시작"
 #. Started
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Started"
-msgstr "시작됨"
+msgstr "시작됩니다"
 
 #. [components.ListView.2989081855]
 #. defaultMessage is:
@@ -2354,7 +2354,7 @@ msgstr "소스 업데이트"
 #. Updated
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Updated"
-msgstr "업데이트됨"
+msgstr "최신화됩니다"
 
 #. [components.ListView.uploadStatusFinished] - Upload status when process is finished
 #. defaultMessage is:
