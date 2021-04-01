@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-03-23T18:21:02.157Z\n"
-"PO-Revision-Date: 2021-03-30 06:01+0000\n"
+"PO-Revision-Date: 2021-04-02 09:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/master/ko/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.2\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -251,7 +251,7 @@ msgstr "변경 적용"
 #. Are you sure you want to delete the blueprint {name}?
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Are you sure you want to delete the blueprint {name}?"
-msgstr "블루프린트 {name}을/를 정말로 삭제하시겠습니까?"
+msgstr "블루프린트 {name}를 정말로 삭제하시겠습니까?"
 
 #. [components.Modal.1346739796]
 #. defaultMessage is:
@@ -606,7 +606,7 @@ msgstr "구성 요소 옵션"
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Confirm password"
-msgstr "암호 확인"
+msgstr "비밀번호 확인"
 
 #. [components.Modal.956699920]
 #. defaultMessage is:
