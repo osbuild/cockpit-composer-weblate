@@ -2,18 +2,23 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-04-06T18:16:39.224Z\n"
+"PO-Revision-Date: 2021-04-13 06:02+0000\n"
+"Last-Translator: Albert B <fedora@norlan.nl>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: react-intl-po\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
 #. (most recent first)
 #: build/messages/components/Modal/PendingChanges.json
 msgid "(most recent first)"
-msgstr ""
+msgstr "(meest recente eerst)"
 
 #. [components.Modal.4177685254]
 #. defaultMessage is:
@@ -34,28 +39,28 @@ msgstr ""
 #. A password is defined for this account.
 #: build/messages/components/Modal/UserAccount.json
 msgid "A password is defined for this account."
-msgstr ""
+msgstr "Een wachtwoord is gedefinieerd voor dit account."
 
 #. [components.Modal.2362836873]
 #. defaultMessage is:
 #. A password is not defined for this account.
 #: build/messages/components/Modal/UserAccount.json
 msgid "A password is not defined for this account."
-msgstr ""
+msgstr "Een wachtwoord is niet gedefinieerd voor dit account."
 
 #. [components.Wizard.warningSizeEmpty]
 #. defaultMessage is:
 #. A value is required.
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "A value is required."
-msgstr ""
+msgstr "Een waarde is vereist."
 
 #. [components.Wizard.aws]
 #. defaultMessage is:
 #. AWS help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS help"
-msgstr ""
+msgstr "AWS help"
 
 #. [components.Wizard.4193750875]
 #. defaultMessage is:
@@ -66,14 +71,14 @@ msgstr ""
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS region"
-msgstr ""
+msgstr "AWS regio"
 
 #. [components.Wizard.region]
 #. defaultMessage is:
 #. AWS region help
 #: build/messages/components/Wizard/AWSDestinationStep.json
 msgid "AWS region help"
-msgstr ""
+msgstr "AWS regio help"
 
 #. [components.Wizard.1635272069]
 #. defaultMessage is:
@@ -84,21 +89,21 @@ msgstr ""
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Access key ID"
-msgstr ""
+msgstr "Toegangssleutel ID"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Wizard/AWSAuthStep.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "Toegangssleutel ID help"
 
 #. [components.Wizard.accessKeys]
 #. defaultMessage is:
 #. Access keys
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Access keys"
-msgstr ""
+msgstr "Toegangssleutels"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -109,21 +114,21 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Actions"
-msgstr ""
+msgstr "Acties"
 
 #. [components.Toolbar.2872798476]
 #. defaultMessage is:
 #. Active filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Active filters"
-msgstr ""
+msgstr "Actieve filters"
 
 #. [components.ListView.3099331554]
 #. defaultMessage is:
 #. Add
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Add"
-msgstr ""
+msgstr "Toevoegen"
 
 #. [pages.blueprintEdit.addComponentTitle]
 #. defaultMessage is:
@@ -159,7 +164,7 @@ msgstr ""
 #. Added
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Added"
-msgstr ""
+msgstr "Toegevoegd"
 
 #. [components.Wizard.1175512155]
 #. defaultMessage is:
@@ -186,7 +191,7 @@ msgstr ""
 #: build/messages/components/Wizard/VMWareAuthStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "All fields are required."
-msgstr ""
+msgstr "Alle velden zijn vereist."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -201,7 +206,7 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
 msgid "An error occurred"
-msgstr ""
+msgstr "Een fout is opgetreden"
 
 #. [components.Modal.1417078254]
 #. defaultMessage is:
@@ -209,6 +214,8 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 msgid "An error occurred when saving the source. Check that the path is valid and try again."
 msgstr ""
+"Een fout is opgetreden bij het opslaan van de bron. Controleer dat het pad "
+"is correct en probeer opnieuw."
 
 #. [components.ListView.emptyStateErrorMessage]
 #. defaultMessage is:
