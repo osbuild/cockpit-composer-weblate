@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-04-06T18:16:39.224Z\n"
-"PO-Revision-Date: 2021-04-07 05:01+0000\n"
+"PO-Revision-Date: 2021-04-13 06:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -150,7 +150,7 @@ msgstr "블루프린트 구성 요소 추가"
 #. Add latest version
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Add latest version"
-msgstr "최신 상태번호 추가"
+msgstr "최신 버전 추가"
 
 #. [components.Modal.add]
 #. defaultMessage is:
@@ -970,7 +970,7 @@ msgstr "출시별 필터링"
 #. Filter by version
 #: build/messages/components/Toolbar/FilterInput.json
 msgid "Filter by version"
-msgstr "상태번호별 필터링"
+msgstr "버전별 필터"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
@@ -2535,7 +2535,7 @@ msgstr ""
 #: build/messages/components/Toolbar/FilterInput.json
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Version"
-msgstr "상태번호"
+msgstr "버전"
 
 #. [components.ListView.3097747573]
 #. defaultMessage is:
