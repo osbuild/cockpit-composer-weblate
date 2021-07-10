@@ -1,11 +1,11 @@
 # Albert B <fedora@norlan.nl>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-04-06T18:16:39.224Z\n"
+"POT-Creation-Date: 2021-07-06T18:16:31.671Z\n"
 "PO-Revision-Date: 2021-04-13 06:02+0000\n"
 "Last-Translator: Albert B <fedora@norlan.nl>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/master/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/master/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,9 @@ msgstr ""
 #. defaultMessage is:
 #. A minimal image will be created with only the packages needed to support the selected image type.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "A minimal image will be created with only the packages needed to support the selected image type."
+msgid ""
+"A minimal image will be created with only the packages needed to support the "
+"selected image type."
 msgstr ""
 
 #. [components.Modal.2310857819]
@@ -154,8 +156,6 @@ msgstr ""
 #. defaultMessage is:
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Modal/ManageSources.json
 msgid "Add source"
 msgstr ""
 
@@ -212,7 +212,9 @@ msgstr "Een fout is opgetreden"
 #. defaultMessage is:
 #. An error occurred when saving the source. Check that the path is valid and try again.
 #: build/messages/components/Modal/ManageSources.json
-msgid "An error occurred when saving the source. Check that the path is valid and try again."
+msgid ""
+"An error occurred when saving the source. Check that the path is valid and "
+"try again."
 msgstr ""
 "Een fout is opgetreden bij het opslaan van de bron. Controleer dat het pad "
 "is correct en probeer opnieuw."
@@ -395,7 +397,9 @@ msgstr ""
 #. defaultMessage is:
 #. Browse or search for components, then add them to the blueprint. Or leave the blueprint empty to create a minimal image.
 #: build/messages/pages/blueprintEdit/index.json
-msgid "Browse or search for components, then add them to the blueprint. Or leave the blueprint empty to create a minimal image."
+msgid ""
+"Browse or search for components, then add them to the blueprint. Or leave "
+"the blueprint empty to create a minimal image."
 msgstr ""
 
 #. [components.Form.cancel]
@@ -448,7 +452,9 @@ msgstr ""
 #. defaultMessage is:
 #. Changes made in a previous session are not listed in the order they were made. If you choose to undo these changes, they are undone as a group.
 #: build/messages/components/Modal/PendingChanges.json
-msgid "Changes made in a previous session are not listed in the order they were made. If you choose to undo these changes, they are undone as a group."
+msgid ""
+"Changes made in a previous session are not listed in the order they were "
+"made. If you choose to undo these changes, they are undone as a group."
 msgstr ""
 
 #. [components.Modal.92001050]
@@ -507,7 +513,6 @@ msgstr ""
 #. defaultMessage is:
 #. Close
 #: build/messages/components/Modal/ExportBlueprint.json
-#: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Modal/PendingChanges.json
 #: build/messages/components/Notifications/Notification.json
@@ -622,7 +627,9 @@ msgstr ""
 #. defaultMessage is:
 #. Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats.
 #: build/messages/pages/blueprints/index.json
-msgid "Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats."
+msgid ""
+"Create a blueprint to define the contents that will be included in the "
+"images you create. Images can be produced in a variety of output formats."
 msgstr ""
 
 #. [components.Wizard.1723482220]
@@ -645,7 +652,6 @@ msgstr ""
 #. [components.Wizard.2020427956]
 #. defaultMessage is:
 #. Create image
-#: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Create image"
 msgstr ""
@@ -763,7 +769,6 @@ msgstr ""
 #. Dependencies
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/ListView/ComponentDetailsView.json
-#: build/messages/components/ListView/ComponentSummaryList.json
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Dependencies"
 msgstr ""
@@ -1026,7 +1031,12 @@ msgstr ""
 #.                       the image file is available in the Cluster on the vSphere instance that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "Image Builder can upload images you create to VMWare vSphere.\n                      When the image build is complete and the upload action is successful,\n                      the image file is available in the Cluster on the vSphere instance that you specified."
+msgid ""
+"Image Builder can upload images you create to VMWare vSphere.\n"
+"                      When the image build is complete and the upload action "
+"is successful,\n"
+"                      the image file is available in the Cluster on the "
+"vSphere instance that you specified."
 msgstr ""
 
 #. [components.Wizard.3501375619]
@@ -1039,7 +1049,11 @@ msgstr ""
 #.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete\n                      and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
+msgid ""
+"Image Builder can upload images you create to a Blob container in {azure}. "
+"When the image build is complete\n"
+"                      and the upload action is successful, the image file is "
+"available in the Storage account and Blob container that you specified."
 msgstr ""
 
 #. [components.Wizard.1007547894]
@@ -1054,7 +1068,13 @@ msgstr ""
 #.                         the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete\n                        and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload\n                        the image can be found in the {console}."
+msgid ""
+"Image Builder can upload images you create to an {bucket} in AWS and then "
+"import them into EC2. When the image build is complete\n"
+"                        and the upload action is successful, the image file "
+"is available in the AMI section of EC2. Most of the values required to "
+"upload\n"
+"                        the image can be found in the {console}."
 msgstr ""
 
 #. [components.ListView.imageStatusFinished] - Image build status when process is finished
@@ -1387,7 +1407,6 @@ msgstr ""
 #. defaultMessage is:
 #. Page not found
 #: build/messages/pages/error/index.json
-#: build/messages/pages/error/index.json
 msgid "Page not found"
 msgstr ""
 
@@ -1410,7 +1429,6 @@ msgstr ""
 #. [components.Wizard.2237029987]
 #. defaultMessage is:
 #. Password
-#: build/messages/components/Modal/UserAccount.json
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
@@ -1454,14 +1472,17 @@ msgstr ""
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
-msgid "Provide a file name to be used for the image file that will be uploaded."
+msgid ""
+"Provide a file name to be used for the image file that will be uploaded."
 msgstr ""
 
 #. [components.Wizard.2186792528]
 #. defaultMessage is:
 #. Provide the AWS Region where you want to import your image. This must be the same region where the {bucket} exists.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-msgid "Provide the AWS Region where you want to import your image. This must be the same region where the {bucket} exists."
+msgid ""
+"Provide the AWS Region where you want to import your image. This must be the "
+"same region where the {bucket} exists."
 msgstr ""
 
 #. [components.Wizard.517158149]
@@ -1469,7 +1490,11 @@ msgstr ""
 #. Provide the Blob container to which the image file will be uploaded. You can find containers under the {blobService} 
 #.                     section of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
 #: build/messages/components/Wizard/AzureDestinationStep.json
-msgid "Provide the Blob container to which the image file will be uploaded. You can find containers under the {blobService} \n                    section of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
+msgid ""
+"Provide the Blob container to which the image file will be uploaded. You can "
+"find containers under the {blobService} \n"
+"                    section of a storage account. You can find storage "
+"accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
 
 #. [components.Wizard.4044130958]
@@ -1477,7 +1502,11 @@ msgstr ""
 #. Provide the ID of the latest commit in the updates repository for which this commit provides an update.
 #.                     If no commit is specified it will be inferred from the parent repository.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "Provide the ID of the latest commit in the updates repository for which this commit provides an update.\n                    If no commit is specified it will be inferred from the parent repository."
+msgid ""
+"Provide the ID of the latest commit in the updates repository for which this "
+"commit provides an update.\n"
+"                    If no commit is specified it will be inferred from the "
+"parent repository."
 msgstr ""
 
 #. [components.Wizard.1901372247]
@@ -1486,14 +1515,22 @@ msgstr ""
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
 #: build/messages/components/Wizard/AWSDestinationStep.json
-msgid "Provide the S3 {bucket} name to which the image file will be uploaded before being imported into EC2. \n                        The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the\n                        {bucketsPage} page in the {amazon} S3 storage service in the AWS console."
+msgid ""
+"Provide the S3 {bucket} name to which the image file will be uploaded before "
+"being imported into EC2. \n"
+"                        The {bucket} must already exist in the Region where "
+"you want to import your image. You can find a list of {buckets} on the\n"
+"                        {bucketsPage} page in the {amazon} S3 storage "
+"service in the AWS console."
 msgstr ""
 
 #. [components.Wizard.1170512263]
 #. defaultMessage is:
 #. Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from."
+msgid ""
+"Provide the URL of the upstream repository. This repository is where the "
+"parent OSTree commit will be pulled from."
 msgstr ""
 
 #. [components.Wizard.2706552502]
@@ -1501,49 +1538,62 @@ msgstr ""
 #. Provide the access key for the desired storage account. You can find the access key on the {accessKeys} 
 #.                         page of the storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
 #: build/messages/components/Wizard/AzureAuthStep.json
-msgid "Provide the access key for the desired storage account. You can find the access key on the {accessKeys} \n                        page of the storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
+msgid ""
+"Provide the access key for the desired storage account. You can find the "
+"access key on the {accessKeys} \n"
+"                        page of the storage account. You can find storage "
+"accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
 
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
 #. Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
 #: build/messages/components/Wizard/AzureAuthStep.json
-msgid "Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
+msgid ""
+"Provide the name of a storage account. You can find storage accounts on the "
+"{storageAccounts} page in the {azure} portal."
 msgstr ""
 
 #. [components.Wizard.1891777230]
 #. defaultMessage is:
 #. Provide the name of the Cluster to which the image file will be uploaded.
 #: build/messages/components/Wizard/VMWareDestinationStep.json
-msgid "Provide the name of the Cluster to which the image file will be uploaded."
+msgid ""
+"Provide the name of the Cluster to which the image file will be uploaded."
 msgstr ""
 
 #. [components.Wizard.1217327836]
 #. defaultMessage is:
 #. Provide the name of the Datacenter to which the image file will be uploaded.
 #: build/messages/components/Wizard/VMWareDestinationStep.json
-msgid "Provide the name of the Datacenter to which the image file will be uploaded."
+msgid ""
+"Provide the name of the Datacenter to which the image file will be uploaded."
 msgstr ""
 
 #. [components.Wizard.4014474612]
 #. defaultMessage is:
 #. Provide the name of the Datastore to which the image file will be uploaded.
 #: build/messages/components/Wizard/VMWareDestinationStep.json
-msgid "Provide the name of the Datastore to which the image file will be uploaded."
+msgid ""
+"Provide the name of the Datastore to which the image file will be uploaded."
 msgstr ""
 
 #. [components.Wizard.1476874820]
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "Provide the name of the branch for the content. If the ref does not already exist it will be created."
+msgid ""
+"Provide the name of the branch for the content. If the ref does not already "
+"exist it will be created."
 msgstr ""
 
 #. [components.Wizard.3387354708]
 #. defaultMessage is:
 #. Provide the url of your {vmware} instance to which the image file will be uploaded.
 #: build/messages/components/Wizard/VMWareDestinationStep.json
-msgid "Provide the url of your {vmware} instance to which the image file will be uploaded."
+msgid ""
+"Provide the url of your {vmware} instance to which the image file will be "
+"uploaded."
 msgstr ""
 
 #. [components.Wizard.labelqcow]
@@ -1661,7 +1711,9 @@ msgstr ""
 #. defaultMessage is:
 #. Review the information below and click Finish to create the image and complete the tasks that were selected.
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "Review the information below and click Finish to create the image and complete the tasks that were selected."
+msgid ""
+"Review the information below and click Finish to create the image and "
+"complete the tasks that were selected."
 msgstr ""
 
 #. [components.Modal.106035384]
@@ -1778,7 +1830,10 @@ msgstr ""
 #. defaultMessage is:
 #. Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size."
+msgid ""
+"Set the size that you want the image to be when instantiated. The total "
+"package size and target destination of your image should be considered when "
+"setting the image size."
 msgstr ""
 
 #. [components.ListView.4147597655]
@@ -1834,7 +1889,11 @@ msgstr ""
 #. defaultMessage is:
 #. Sources are used for resolving blueprint dependencies and for composing images. When adding custom sources you must make sure that the packages in the source do not conflict with any other package sources, otherwise resolving dependencies and composing images will fail.
 #: build/messages/components/Modal/ManageSources.json
-msgid "Sources are used for resolving blueprint dependencies and for composing images. When adding custom sources you must make sure that the packages in the source do not conflict with any other package sources, otherwise resolving dependencies and composing images will fail."
+msgid ""
+"Sources are used for resolving blueprint dependencies and for composing "
+"images. When adding custom sources you must make sure that the packages in "
+"the source do not conflict with any other package sources, otherwise "
+"resolving dependencies and composing images will fail."
 msgstr ""
 
 #. [components.Modal.540971304]
@@ -1991,14 +2050,17 @@ msgstr ""
 #. defaultMessage is:
 #. The packages needed to support the selected image type are automatically included when creating an image.
 #: build/messages/pages/blueprintEdit/index.json
-msgid "The packages needed to support the selected image type are automatically included when creating an image."
+msgid ""
+"The packages needed to support the selected image type are automatically "
+"included when creating an image."
 msgstr ""
 
 #. [pages.error.26562577]
 #. defaultMessage is:
 #. The page you're looking for does not exist or an another error occurred.
 #: build/messages/pages/error/index.json
-msgid "The page you're looking for does not exist or an another error occurred."
+msgid ""
+"The page you're looking for does not exist or an another error occurred."
 msgstr ""
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
@@ -2016,14 +2078,18 @@ msgstr ""
 #. The size specified is large. We recommend that you check whether your target destination has any restrictions on image size.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "The size specified is large. We recommend that you check whether your target destination has any restrictions on image size."
+msgid ""
+"The size specified is large. We recommend that you check whether your target "
+"destination has any restrictions on image size."
 msgstr ""
 
 #. [components.Modal.2405281428]
 #. defaultMessage is:
 #. The user name can only consist of letters from a-z, digits, dots, dashes and underscores.
 #: build/messages/components/Modal/UserAccount.json
-msgid "The user name can only consist of letters from a-z, digits, dots, dashes and underscores."
+msgid ""
+"The user name can only consist of letters from a-z, digits, dots, dashes and "
+"underscores."
 msgstr ""
 
 #. [components.EmptyState.1947371795]
@@ -2044,7 +2110,9 @@ msgstr ""
 #. defaultMessage is:
 #. There are no components listed in the blueprint. Edit the blueprint to add components.
 #: build/messages/pages/blueprint/index.json
-msgid "There are no components listed in the blueprint. Edit the blueprint to add components."
+msgid ""
+"There are no components listed in the blueprint. Edit the blueprint to add "
+"components."
 msgstr ""
 
 #. [components.Wizard.warningReview]
@@ -2069,7 +2137,9 @@ msgstr ""
 #. defaultMessage is:
 #. This blueprint has changes that are not committed. These changes will be committed before the image is created.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "This blueprint has changes that are not committed. These changes will be committed before the image is created."
+msgid ""
+"This blueprint has changes that are not committed. These changes will be "
+"committed before the image is created."
 msgstr ""
 
 #. [empty-blueprint-alert]
@@ -2101,7 +2171,9 @@ msgstr ""
 #. This process can take a while. Images are built in the order they are started.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "This process can take a while. Images are built in the order they are started."
+msgid ""
+"This process can take a while. Images are built in the order they are "
+"started."
 msgstr ""
 
 #. [components.Modal.2969976976]
@@ -2128,7 +2200,11 @@ msgstr ""
 #.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-msgid "This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can\n                        be imported from the S3 {bucket} into EC2. For more details, refer to the {role}."
+msgid ""
+"This upload process requires that you have an {iam} role named {vmimport} to "
+"ensure that the image can\n"
+"                        be imported from the S3 {bucket} into EC2. For more "
+"details, refer to the {role}."
 msgstr ""
 
 #. [components.Modal.3707489178]
@@ -2347,14 +2423,20 @@ msgstr ""
 #. defaultMessage is:
 #. Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen.
 #: build/messages/pages/blueprint/index.json
-msgid "Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen."
+msgid ""
+"Valid characters for hostname are letters from a to z, the digits from 0 to "
+"9, and the hyphen (-). A hostname may not start with a hyphen."
 msgstr ""
 
 #. [components.Wizard.ostreeRefHelperText]
 #. defaultMessage is:
 #. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
 #: build/messages/components/Wizard/ImageStep.json
-msgid "Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number."
+msgid ""
+"Valid characters for ref are letters from a to z, the digits from 0 to 9, "
+"the hyphen (-), the underscore (_), the period (.), and the forward slash "
+"(/). A ref must start with a letter, a number, or an underscore. Slashes "
+"must also be followed by a letter or number."
 msgstr ""
 
 #. [components.ListView.602883748]
@@ -2387,14 +2469,18 @@ msgstr ""
 #. defaultMessage is:
 #. You can create and find existing Access key IDs on the {iam} page in the AWS console.
 #: build/messages/components/Wizard/AWSAuthStep.json
-msgid "You can create and find existing Access key IDs on the {iam} page in the AWS console."
+msgid ""
+"You can create and find existing Access key IDs on the {iam} page in the AWS "
+"console."
 msgstr ""
 
 #. [components.Wizard.4206409720]
 #. defaultMessage is:
 #. You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console.
 #: build/messages/components/Wizard/AWSAuthStep.json
-msgid "You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console."
+msgid ""
+"You can view the Secret access key only when you create a new Access key ID "
+"on the {iam} page in the AWS console."
 msgstr ""
 
 #. [components.ListView.actions]
@@ -2462,7 +2548,9 @@ msgstr ""
 #. defaultMessage is:
 #. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
 #: build/messages/components/Wizard/ImageStep.json
-msgid "rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine"
+msgid ""
+"rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
+"machine"
 msgstr ""
 
 #. [components.Modal.152217691]
@@ -2564,7 +2652,8 @@ msgstr ""
 #. defaultMessage is:
 #. {pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}
 #: build/messages/pages/blueprintEdit/index.json
-msgid "{pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}"
+msgid ""
+"{pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}"
 msgstr ""
 
 #. [pages.blueprintEdit.3140434516]
@@ -2574,10 +2663,10 @@ msgstr ""
 msgid "{selectComponents} in this list to add to the blueprint."
 msgstr ""
 
-#: ./public/manifest.json
+#: public/manifest.json
 msgid "Creating system images"
 msgstr ""
 
-#: ./public/manifest.json
+#: public/manifest.json
 msgid "Image Builder"
 msgstr ""

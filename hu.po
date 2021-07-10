@@ -3,7 +3,7 @@
 # Matej Marusak <mmarusak@redhat.com>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-04-06T18:16:39.224Z\n"
+"POT-Creation-Date: 2021-07-06T18:16:31.671Z\n"
 "PO-Revision-Date: 2021-01-10 09:36+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
