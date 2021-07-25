@@ -2,16 +2,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-06T18:16:31.671Z\n"
-"PO-Revision-Date: 2021-04-13 06:02+0000\n"
+"PO-Revision-Date: 2021-07-26 08:04+0000\n"
 "Last-Translator: Albert B <fedora@norlan.nl>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -144,7 +144,7 @@ msgstr ""
 #. Add latest version
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Add latest version"
-msgstr ""
+msgstr "Laatste versie toevoegen"
 
 #. [components.Modal.add]
 #. defaultMessage is:
@@ -157,7 +157,7 @@ msgstr ""
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Add source"
-msgstr ""
+msgstr "Voeg bron toe"
 
 #. [components.Modal.1362724042] - Identifies the change as a component that was added
 #. defaultMessage is:
