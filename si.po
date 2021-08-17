@@ -2,11 +2,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-07-06T18:16:31.671Z\n"
+"PO-Revision-Date: 2021-08-18 19:05+0000\n"
+"Last-Translator: Hela Basa <r45xveza@pm.me>\n"
+"Language-Team: Sinhala <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/si/>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: react-intl-po\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -2385,7 +2390,7 @@ msgstr ""
 #. User name
 #: build/messages/components/Modal/UserAccount.json
 msgid "User name"
-msgstr ""
+msgstr "පරිශීලක නාමය"
 
 #. [components.Wizard.2663586870]
 #. defaultMessage is:
@@ -2396,7 +2401,7 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 msgid "Username"
-msgstr ""
+msgstr "පරිශීලකනාමය"
 
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
