@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-08-31T18:16:33.299Z\n"
-"PO-Revision-Date: 2021-07-10 19:04+0000\n"
+"PO-Revision-Date: 2021-09-03 06:57+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -1859,10 +1859,8 @@ msgstr "선택된 구성 요소"
 #. defaultMessage is:
 #. Server admin checkbox
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Server administrator"
 msgid "Server admin checkbox"
-msgstr "서버 관리자"
+msgstr "서버 관리자 점검상자"
 
 #. [components.Modal.122879380]
 #. defaultMessage is:
@@ -2270,7 +2268,7 @@ msgstr "이 소스 경로가 이미 존재합니다."
 #. This system does not have any valid subscriptions.
 #: build/messages/components/Notifications/Notifications.json
 msgid "This system does not have any valid subscriptions."
-msgstr ""
+msgstr "이 시스템은 유효한 서브스크립션을 가지고 있지 않습니다."
 
 #. [components.Wizard.1727762289]
 #. defaultMessage is:
@@ -2618,7 +2616,7 @@ msgstr "홈페이지"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "metalink"
-msgstr "metalink"
+msgstr "메타링크"
 
 #. [components.ListView.mirrorlist]
 #. defaultMessage is:
@@ -2705,19 +2703,15 @@ msgstr "{blueprint} 이미지 만들기가 {queue}에 추가되었습니다."
 #. defaultMessage is:
 #. {blueprint} Image creation has {queue}.
 #: build/messages/components/Notifications/Notifications.json
-#, fuzzy
-#| msgid "{blueprint} Image creation has started."
 msgid "{blueprint} Image creation has {queue}."
-msgstr "{blueprint} 이미지 만들기가 시작되었습니다."
+msgstr "{blueprint} 이미지 생성이 {queue)를 가집니다."
 
 #. [components.Notifications.652081902]
 #. defaultMessage is:
 #. {blueprint} Image creation is {queue}.
 #: build/messages/components/Notifications/Notifications.json
-#, fuzzy
-#| msgid "{blueprint} Image creation is complete."
 msgid "{blueprint} Image creation is {queue}."
-msgstr "{blueprint} 이미지 만들기가 완료되었습니다."
+msgstr "{blueprint} 이미지 생성은 {queue)입니다."
 
 #. [components.Modal.1557505074]
 #. defaultMessage is:
