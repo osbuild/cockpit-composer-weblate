@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-08-31T18:16:33.299Z\n"
-"PO-Revision-Date: 2021-03-09 10:01+0000\n"
+"PO-Revision-Date: 2021-09-07 13:04+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
-"projects/cockpit-composer/master/zh_CN/>\n"
+"projects/cockpit-composer/main/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -1839,10 +1839,8 @@ msgstr "选择的组件"
 #. defaultMessage is:
 #. Server admin checkbox
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Server administrator"
 msgid "Server admin checkbox"
-msgstr "服务器管理员"
+msgstr "服务器管理复选框"
 
 #. [components.Modal.122879380]
 #. defaultMessage is:
@@ -2238,7 +2236,7 @@ msgstr "这个源路径已存在。"
 #. This system does not have any valid subscriptions.
 #: build/messages/components/Notifications/Notifications.json
 msgid "This system does not have any valid subscriptions."
-msgstr ""
+msgstr "此系统没有任何有效的订阅。"
 
 #. [components.Wizard.1727762289]
 #. defaultMessage is:
@@ -2608,7 +2606,7 @@ msgstr "每页"
 msgid ""
 "rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
 "machine"
-msgstr "rhel/8/{arch}/edge 是默认的，其中{arch} 是由主机决定的。"
+msgstr "rhel/8/{arch}/edge 是默认的，其中{arch} 是由主机决定的"
 
 #. [components.Modal.152217691]
 #. defaultMessage is:
@@ -2667,19 +2665,15 @@ msgstr "{blueprint} 镜像创建已被添加到 {queue}。"
 #. defaultMessage is:
 #. {blueprint} Image creation has {queue}.
 #: build/messages/components/Notifications/Notifications.json
-#, fuzzy
-#| msgid "{blueprint} Image creation has started."
 msgid "{blueprint} Image creation has {queue}."
-msgstr "{blueprint} 镜像创建已开始。"
+msgstr "{blueprint} 镜像创建已 {queue}。"
 
 #. [components.Notifications.652081902]
 #. defaultMessage is:
 #. {blueprint} Image creation is {queue}.
 #: build/messages/components/Notifications/Notifications.json
-#, fuzzy
-#| msgid "{blueprint} Image creation is complete."
 msgid "{blueprint} Image creation is {queue}."
-msgstr "{blueprint} 镜像创建完成。"
+msgstr "{blueprint} 镜像创建是 {queue}。"
 
 #. [components.Modal.1557505074]
 #. defaultMessage is:
