@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-09-21T18:16:54.428Z\n"
+"POT-Creation-Date: 2021-09-28T18:17:30.845Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -26,20 +26,6 @@ msgstr ""
 #. defaultMessage is:
 #. A minimal image will be created with only the packages needed to support the selected image type.
 msgid "A minimal image will be created with only the packages needed to support the selected image type."
-msgstr ""
-
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.2310857819]
-#. defaultMessage is:
-#. A password is defined for this account.
-msgid "A password is defined for this account."
-msgstr ""
-
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.2362836873]
-#. defaultMessage is:
-#. A password is not defined for this account.
-msgid "A password is not defined for this account."
 msgstr ""
 
 #: build/messages/components/Wizard/ReviewStep.json
@@ -571,7 +557,7 @@ msgid "Component options"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.createPasswordTwo]
+#. [components.Modal.labelConfirmPassword]
 #. defaultMessage is:
 #. Confirm password
 msgid "Confirm password"
@@ -639,11 +625,7 @@ msgid "Create image"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.modalTitleCreate]
-#. defaultMessage is:
-#. Create user account
-#: build/messages/pages/blueprint/index.json
-#. [pages.blueprint.3234825297]
+#. [components.Modal.3234825297]
 #. defaultMessage is:
 #. Create user account
 msgid "Create user account"
@@ -851,7 +833,7 @@ msgid "Edit source"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.modalTitleEdit]
+#. [components.Modal.2685045824]
 #. defaultMessage is:
 #. Edit user account
 #: build/messages/pages/blueprint/index.json
@@ -946,7 +928,7 @@ msgid "Finish"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.1182120637]
+#. [components.Modal.labelName]
 #. defaultMessage is:
 #. Full name
 msgid "Full name"
@@ -1262,13 +1244,6 @@ msgstr ""
 msgid "Name: {name}"
 msgstr ""
 
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.editPasswordOne]
-#. defaultMessage is:
-#. New password
-msgid "New password"
-msgstr ""
-
 #: build/messages/components/Wizard/CreateImageUpload.json
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
@@ -1387,11 +1362,7 @@ msgid "Parent commit"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.createPasswordOne]
-#. defaultMessage is:
-#. Password
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.2237029987]
+#. [components.Modal.labelPassword]
 #. defaultMessage is:
 #. Password
 #: build/messages/components/Wizard/ReviewStep.json
@@ -1596,13 +1567,6 @@ msgstr ""
 msgid "Remove from blueprint"
 msgstr ""
 
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.1101731800]
-#. defaultMessage is:
-#. Remove password
-msgid "Remove password"
-msgstr ""
-
 #: build/messages/components/ListView/SourcesListItem.json
 #. [components.ListView.remove]
 #. defaultMessage is:
@@ -1653,7 +1617,7 @@ msgid "Review the information below and click Finish to create the image and com
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.106035384]
+#. [components.Modal.labelRole]
 #. defaultMessage is:
 #. Role
 msgid "Role"
@@ -1667,7 +1631,7 @@ msgid "S3 Bucket help"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.229369250]
+#. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
 msgid "SSH key"
@@ -1749,24 +1713,10 @@ msgid "Server admin checkbox"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.122879380]
+#. [components.Modal.labelAdmin]
 #. defaultMessage is:
 #. Server administrator
 msgid "Server administrator"
-msgstr ""
-
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.2342634351]
-#. defaultMessage is:
-#. Set new password
-msgid "Set new password"
-msgstr ""
-
-#: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.3532935154]
-#. defaultMessage is:
-#. Set password
-msgid "Set password"
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
@@ -2015,10 +1965,17 @@ msgid "The size specified is large. We recommend that you check whether your tar
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.2405281428]
+#. [components.Modal.usernameValidChars]
 #. defaultMessage is:
 #. The user name can only consist of letters from a-z, digits, dots, dashes and underscores.
 msgid "The user name can only consist of letters from a-z, digits, dots, dashes and underscores."
+msgstr ""
+
+#: build/messages/components/Modal/UserAccount.json
+#. [components.Modal.usernameEmpty]
+#. defaultMessage is:
+#. The user name cannot be empty.
+msgid "The user name cannot be empty."
 msgstr ""
 
 #: build/messages/components/EmptyState/EmptyStateInactive.json
@@ -2030,6 +1987,10 @@ msgstr ""
 
 #: build/messages/components/Form/Password.json
 #. [components.Form.2330477961]
+#. defaultMessage is:
+#. The values entered for password do not match.
+#: build/messages/components/Modal/UserAccount.json
+#. [components.Modal.passwordMatch]
 #. defaultMessage is:
 #. The values entered for password do not match.
 msgid "The values entered for password do not match."
@@ -2134,7 +2095,7 @@ msgid "This upload process requires that you have an {iam} role named {vmimport}
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.3707489178]
+#. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
 #. This user name already exists.
 msgid "This user name already exists."
@@ -2314,7 +2275,7 @@ msgid "User account actions"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
-#. [components.Modal.529605439]
+#. [components.Modal.labelUsername]
 #. defaultMessage is:
 #. User name
 msgid "User name"
