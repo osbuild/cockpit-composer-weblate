@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-10-05T18:16:49.935Z\n"
+"POT-Creation-Date: 2021-10-12T18:17:25.024Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -806,6 +806,13 @@ msgstr ""
 msgid "Edit hostname"
 msgstr ""
 
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.deviceButtonLabel]
+#. defaultMessage is:
+#. Edit installation device
+msgid "Edit installation device"
+msgstr ""
+
 #: build/messages/components/ListView/BlueprintsDataList.json
 #. [components.ListView.1908303378]
 #. defaultMessage is:
@@ -855,6 +862,13 @@ msgstr ""
 #. defaultMessage is:
 #. Empty blueprint
 msgid "Empty blueprint"
+msgstr ""
+
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.deviceHelp]
+#. defaultMessage is:
+#. Enter valid device node such as /dev/sda1
+msgid "Enter valid device node such as /dev/sda1"
 msgstr ""
 
 #: build/messages/pages/error/index.json
@@ -1148,6 +1162,27 @@ msgstr ""
 #. defaultMessage is:
 #. Images
 msgid "Images"
+msgstr ""
+
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.3654599626]
+#. defaultMessage is:
+#. Installation Device
+msgid "Installation Device"
+msgstr ""
+
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.deviceInputLabel]
+#. defaultMessage is:
+#. Installation device
+msgid "Installation device"
+msgstr ""
+
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.devicePopoverLabel]
+#. defaultMessage is:
+#. Installation device help
+msgid "Installation device help"
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
@@ -1923,6 +1958,13 @@ msgstr ""
 #. defaultMessage is:
 #. The fields marked with {val} are required.
 msgid "The fields marked with {val} are required."
+msgstr ""
+
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.devicePopover]
+#. defaultMessage is:
+#. The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.
+msgid "The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto."
 msgstr ""
 
 #: build/messages/components/Modal/CreateBlueprint.json
