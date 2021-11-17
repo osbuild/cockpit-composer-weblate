@@ -1,19 +1,20 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 # Mike FABIAN <mfabian@redhat.com>, 2020.
 # Matej Marusak <mmarusak@redhat.com>, 2021.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-09-21T18:16:54.428Z\n"
-"PO-Revision-Date: 2021-01-10 09:36+0000\n"
-"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/master/de/>\n"
+"PO-Revision-Date: 2021-11-18 22:16+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.9\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -56,17 +57,15 @@ msgstr "Für diesen Account ist kein Passwort definiert."
 #. defaultMessage is:
 #. A value is required.
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "A blueprint name is required."
 msgid "A value is required."
-msgstr "Ein Blueprint-Name ist erforderlich."
+msgstr "Ein Wert ist erforderlich."
 
 #. [components.Wizard.aws]
 #. defaultMessage is:
 #. AWS help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS help"
-msgstr ""
+msgstr "AWS-Hilfe"
 
 #. [components.Wizard.4193750875]
 #. defaultMessage is:
@@ -77,7 +76,7 @@ msgstr ""
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS region"
-msgstr ""
+msgstr "AWS-Region"
 
 #. [components.Wizard.region]
 #. defaultMessage is:
@@ -95,21 +94,21 @@ msgstr ""
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Access key ID"
-msgstr ""
+msgstr "Zugangsschlüssel-ID"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Wizard/AWSAuthStep.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "Hilfe zur Zugriffsschlüssel-ID"
 
 #. [components.Wizard.accessKeys]
 #. defaultMessage is:
 #. Access keys
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Access keys"
-msgstr ""
+msgstr "Zugangsschlüssel"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -127,7 +126,7 @@ msgstr "Aktionen"
 #. Active filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Active filters"
-msgstr ""
+msgstr "Aktive Filter"
 
 #. [components.ListView.3099331554]
 #. defaultMessage is:
@@ -195,10 +194,8 @@ msgstr "Hinzugefügt"
 #: build/messages/components/Wizard/AzureDestinationStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
-#, fuzzy
-#| msgid "The fields marked with {val} are required."
 msgid "All fields are required."
-msgstr "Die mit {val} gekennzeichneten Felder sind Pflichtfelder."
+msgstr "Alle Felder sind erforderlich."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -276,21 +273,19 @@ msgstr ""
 #. Authentication
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Authentication"
-msgstr ""
+msgstr "Authentifizierung"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
 #. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Automatically start osbuild-composer on boot"
-msgstr ""
+msgstr "osbuild-composer automatisch beim Booten starten"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
 #. defaultMessage is:
 #. Available components
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Available Components"
 msgid "Available components"
 msgstr "Verfügbare Komponenten"
 
@@ -299,14 +294,14 @@ msgstr "Verfügbare Komponenten"
 #. Azure help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Azure help"
-msgstr ""
+msgstr "Azure-Hilfe"
 
 #. [components.Wizard.1347475195]
 #. defaultMessage is:
 #. Back
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 #. [pages.blueprint.2057444273]
 #. defaultMessage is:
@@ -333,7 +328,7 @@ msgstr "Zurück zu {blueprint}"
 #. Blob service
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Blob service"
-msgstr ""
+msgstr "Blob-Dienst"
 
 #. [components.Modal.1281198655]
 #. defaultMessage is:
@@ -494,14 +489,14 @@ msgstr "Änderungen Ausstehendes Commit"
 #. Check GPG key
 #: build/messages/components/Modal/ManageSources.json
 msgid "Check GPG key"
-msgstr ""
+msgstr "GPG-Schlüssel überprüfen"
 
 #. [components.Modal.check_ssl]
 #. defaultMessage is:
 #. Check SSL certificate
 #: build/messages/components/Modal/ManageSources.json
 msgid "Check SSL certificate"
-msgstr ""
+msgstr "SSL-Zertifikat überprüfen"
 
 #. [components.ListView.1634835134]
 #. defaultMessage is:
@@ -519,8 +514,6 @@ msgstr ""
 #: build/messages/components/Toolbar/ToolbarLayout.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "Clear All Filters"
 msgid "Clear all filters"
 msgstr "Alle Filter löschen"
 
@@ -551,14 +544,14 @@ msgstr "Schließen"
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Cluster"
-msgstr ""
+msgstr "Cluster"
 
 #. [components.Wizard.cluster]
 #. defaultMessage is:
 #. Cluster help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Cluster help"
-msgstr ""
+msgstr "Cluster-Hilfe"
 
 #. [components.Modal.2299254306]
 #. defaultMessage is:
@@ -604,8 +597,6 @@ msgstr "Übertragen und Erstellen"
 #. Component details
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Component Details"
 msgid "Component details"
 msgstr "Komponentendetails"
 
@@ -613,8 +604,6 @@ msgstr "Komponentendetails"
 #. defaultMessage is:
 #. Component options
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Component Options"
 msgid "Component options"
 msgstr "Komponentenoptionen"
 
@@ -623,7 +612,7 @@ msgstr "Komponentenoptionen"
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Confirm password"
-msgstr ""
+msgstr "Passwort bestätigen"
 
 #. [components.Modal.956699920]
 #. defaultMessage is:
@@ -670,10 +659,8 @@ msgstr ""
 #. defaultMessage is:
 #. Create and upload image
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create and upload image"
-msgstr "Bild erstellen"
+msgstr "Abbild erstellen und hochladen"
 
 #. [components.Modal.994816806]
 #. defaultMessage is:
@@ -691,10 +678,8 @@ msgstr "Blueprint erstellen"
 #. defaultMessage is:
 #. Create image
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Create image"
-msgstr "Bild erstellen"
+msgstr "Abbild erstellen"
 
 #. [components.Modal.modalTitleCreate]
 #. defaultMessage is:
@@ -704,66 +689,64 @@ msgstr "Bild erstellen"
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Create Blueprint"
 msgid "Create user account"
-msgstr "Blueprint erstellen"
+msgstr "Benutzerkonto erstellen"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
 #. Created
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Created"
-msgstr ""
+msgstr "Erstellt"
 
 #. [pages.blueprint.customizationsTitle]
 #. defaultMessage is:
 #. Customizations
 #: build/messages/pages/blueprint/index.json
 msgid "Customizations"
-msgstr ""
+msgstr "Anpassungen"
 
 #. [components.Wizard.2877310487]
 #. defaultMessage is:
 #. Data Center
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Data Center"
-msgstr ""
+msgstr "Datenzentrum"
 
 #. [components.Wizard.3747912914]
 #. defaultMessage is:
 #. Data Store
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Data Store"
-msgstr ""
+msgstr "Datenspeicher"
 
 #. [components.Wizard.4278711264]
 #. defaultMessage is:
 #. Data center
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Data center"
-msgstr ""
+msgstr "Datenzentrum"
 
 #. [components.Wizard.3717439361]
 #. defaultMessage is:
 #. Data store
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Data store"
-msgstr ""
+msgstr "Datenspeicher"
 
 #. [components.Wizard.dataCenter]
 #. defaultMessage is:
 #. Datacenter help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Datacenter help"
-msgstr ""
+msgstr "Hilfe zum Datenzentrum"
 
 #. [components.Wizard.dataStore]
 #. defaultMessage is:
 #. Datastore help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Datastore help"
-msgstr ""
+msgstr "Hilfe zum Datenspeicher"
 
 #. [components.ListView.3645414921]
 #. defaultMessage is:
@@ -789,19 +772,15 @@ msgstr "Blaupause löschen"
 #. defaultMessage is:
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
-#, fuzzy
-#| msgid "Delete Image"
 msgid "Delete image"
-msgstr "Bild löschen"
+msgstr "Abbild löschen"
 
 #. [pages.blueprint.userDelete]
 #. defaultMessage is:
 #. Delete user account
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "Delete Blueprint"
 msgid "Delete user account"
-msgstr "Blaupause löschen"
+msgstr "Benutzerkonto löschen"
 
 #. [components.ListView.dependenciesTabTitle]
 #. defaultMessage is:
@@ -840,27 +819,21 @@ msgstr "Beschreibung"
 #. defaultMessage is:
 #. Destination
 #: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Description"
 msgid "Destination"
-msgstr "Beschreibung"
+msgstr "Ziel"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. Details
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "Hide Details"
 msgid "Details"
-msgstr "Details verbergen"
+msgstr "Details"
 
 # translation auto-copied from project Customer Portal Translations, version PortalCaseManagementStrings, document PortalCaseManagementStrings, author hpeters
 #. [pages.blueprintEdit.1469729075]
 #. defaultMessage is:
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Discard Changes"
 msgid "Discard changes"
 msgstr "Änderungen verwerfen"
 
@@ -869,7 +842,7 @@ msgstr "Änderungen verwerfen"
 #. Disk Archive (.tar)
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Disk Archive (.tar)"
-msgstr ""
+msgstr "Festplattenarchiv (.tar)"
 
 #. [components.ListView.1982430146]
 #. defaultMessage is:
@@ -887,14 +860,14 @@ msgstr "Herunterladen"
 #: build/messages/components/Modal/EditDescription.json
 #: build/messages/pages/blueprint/index.json
 msgid "Edit description"
-msgstr ""
+msgstr "Beschreibung bearbeiten"
 
 #. [pages.blueprint.hostnameButtonLabel]
 #. defaultMessage is:
 #. Edit hostname
 #: build/messages/pages/blueprint/index.json
 msgid "Edit hostname"
-msgstr ""
+msgstr "Hostname bearbeiten"
 
 #. [components.ListView.1908303378]
 #. defaultMessage is:
@@ -909,7 +882,7 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Edit packages"
-msgstr ""
+msgstr "Pakete bearbeiten"
 
 #. [components.ListView.edit]
 #. defaultMessage is:
@@ -919,10 +892,8 @@ msgstr ""
 #. Edit source
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
-#, fuzzy
-#| msgid "Add Source"
 msgid "Edit source"
-msgstr "Quelle hinzufügen"
+msgstr "Quelle bearbeiten"
 
 #. [components.Modal.modalTitleEdit]
 #. defaultMessage is:
@@ -933,7 +904,7 @@ msgstr "Quelle hinzufügen"
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
 msgid "Edit user account"
-msgstr ""
+msgstr "Benutzerkonto bearbeiten"
 
 #. [components.Wizard.4173021643]
 #. defaultMessage is:
@@ -985,8 +956,6 @@ msgstr "Blaupause exportieren"
 #. defaultMessage is:
 #. Filter available components by name
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter Available Components by Name"
 msgid "Filter available components by name"
 msgstr "Verfügbare Komponenten nach Name filtern"
 
@@ -994,51 +963,43 @@ msgstr "Verfügbare Komponenten nach Name filtern"
 #. defaultMessage is:
 #. Filter by name
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name"
-msgstr "Nach Name filtern....."
+msgstr "Nach Namen filtern"
 
 #. [pages.blueprintEdit.filterByPlaceholder]
 #. defaultMessage is:
 #. Filter by name...
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by name..."
-msgstr "Nach Name filtern....."
+msgstr "Nach Namen filtern..."
 
 #. [components.Toolbar.filterReleasePlaceholder]
 #. defaultMessage is:
 #. Filter by release
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by release"
-msgstr "Nach Name filtern....."
+msgstr "Nach Veröffentlichung filtern"
 
 #. [components.Toolbar.filterVersionPlaceholder]
 #. defaultMessage is:
 #. Filter by version
 #: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
 msgid "Filter by version"
-msgstr "Nach Name filtern....."
+msgstr "Nach Version filtern"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
 #. Finish
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Finish"
-msgstr ""
+msgstr "Fertig"
 
 #. [components.Modal.1182120637]
 #. defaultMessage is:
 #. Full name
 #: build/messages/components/Modal/UserAccount.json
 msgid "Full name"
-msgstr ""
+msgstr "Vollständiger Name"
 
 #. [pages.error.2333299345]
 #. defaultMessage is:
@@ -1055,10 +1016,8 @@ msgstr "Zurück"
 #. Hide details
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Hide Details"
 msgid "Hide details"
-msgstr "Details verbergen"
+msgstr "Details ausblenden"
 
 #. [components.Wizard.644347739]
 #. defaultMessage is:
@@ -1069,21 +1028,21 @@ msgstr "Details verbergen"
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #. [components.Wizard.host]
 #. defaultMessage is:
 #. Host help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Host help"
-msgstr ""
+msgstr "Host-Hilfe"
 
 #. [pages.blueprint.hostnameInputLabel]
 #. defaultMessage is:
 #. Hostname
 #: build/messages/pages/blueprint/index.json
 msgid "Hostname"
-msgstr ""
+msgstr "Hostname"
 
 #. [pages.blueprint.hostnameHelpEmpty]
 #. defaultMessage is:
@@ -1206,7 +1165,7 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Image name"
-msgstr ""
+msgstr "Abbildname"
 
 #. [components.Wizard.imageName]
 #. defaultMessage is:
@@ -1221,16 +1180,14 @@ msgstr ""
 #: build/messages/components/Wizard/AzureDestinationStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Image name help"
-msgstr ""
+msgstr "Hilfe zum Abbildnamen"
 
 #. [components.Wizard.1005710141]
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image output"
-msgstr "Bildtyp"
+msgstr "Abbildausgabe"
 
 #. [components.Wizard.1905943231]
 #. defaultMessage is:
@@ -1240,19 +1197,15 @@ msgstr "Bildtyp"
 #. Image size
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size"
-msgstr "Abbilder"
+msgstr "Abbildgröße"
 
 #. [components.Wizard.imageSize]
 #. defaultMessage is:
 #. Image size help
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "Images"
 msgid "Image size help"
-msgstr "Abbilder"
+msgstr "Hilfe zur Abbildgröße"
 
 #. [components.Wizard.1813441558]
 #. defaultMessage is:
@@ -1262,10 +1215,8 @@ msgstr "Abbilder"
 #. Image type
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Image Type"
 msgid "Image type"
-msgstr "Bildtyp"
+msgstr "Abbildtyp"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -1304,35 +1255,35 @@ msgstr "Wird geladen"
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Logs"
-msgstr ""
+msgstr "Protokolle"
 
 #. [components.Modal.3594196712] - User action for displaying the list of source repositories
 #. defaultMessage is:
 #. Manage sources
 #: build/messages/components/Modal/ManageSources.json
 msgid "Manage sources"
-msgstr ""
+msgstr "Quellen verwalten"
 
 #. [components.EmptyState.alertMessagePreface]
 #. defaultMessage is:
 #. Message
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
 #. Minimum size is {size} GB
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Minimum size is {size} GB"
-msgstr ""
+msgstr "Mindestgröße ist {size} GB"
 
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
 #. Minimum size is {size} GB.
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Minimum size is {size} GB."
-msgstr ""
+msgstr "Mindestgröße ist {size} GB."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -1380,14 +1331,14 @@ msgstr "Name: {name}"
 #. New password
 #: build/messages/components/Modal/UserAccount.json
 msgid "New password"
-msgstr ""
+msgstr "Neues Passwort"
 
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
 #. Next
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
@@ -1402,8 +1353,6 @@ msgstr "Keine Blaupausen"
 #. defaultMessage is:
 #. No dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
-#, fuzzy
-#| msgid "No Dependencies"
 msgid "No dependencies"
 msgstr "Keine Abhängigkeiten"
 
@@ -1411,10 +1360,8 @@ msgstr "Keine Abhängigkeiten"
 #. defaultMessage is:
 #. No images
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid "No Images"
 msgid "No images"
-msgstr "Keine Bilder"
+msgstr "Keine Abbilder"
 
 #. [pages.blueprint.noImagesMessage]
 #. defaultMessage is:
@@ -1428,7 +1375,7 @@ msgstr "Es wurden keine Bilder aus diesem Plan erstellt."
 #. No log available
 #: build/messages/components/ListView/ListItemImages.json
 msgid "No log available"
-msgstr ""
+msgstr "Kein Protokoll verfügbar"
 
 #. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
@@ -1442,8 +1389,6 @@ msgstr ""
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
-#, fuzzy
-#| msgid "No Results Match the Filter Criteria"
 msgid "No results match the filter criteria"
 msgstr "Keine Ergebnisse entsprechen den Filterkriterien"
 
@@ -1487,7 +1432,7 @@ msgstr "Oups, etwas ist schief gelaufen"
 #. Packages
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
-msgstr ""
+msgstr "Pakete"
 
 #. [pages.error.pageNotFoundMessage]
 #. defaultMessage is:
@@ -1522,7 +1467,7 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #. [components.Modal.sshKeyHelp]
 #. defaultMessage is:
@@ -1535,8 +1480,6 @@ msgstr ""
 #. defaultMessage is:
 #. Pending changes
 #: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Pending Changes"
 msgid "Pending changes"
 msgstr "Ausstehende Änderungen"
 
@@ -1549,7 +1492,7 @@ msgstr "Ausstehende Änderungen"
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Process length help"
-msgstr ""
+msgstr "Hilfe zur Prozesslänge"
 
 #. [components.Wizard.4277042358]
 #. defaultMessage is:
@@ -1692,7 +1635,7 @@ msgstr ""
 #. QEMU Image (.qcow2)
 #: build/messages/components/Wizard/ImageStep.json
 msgid "QEMU Image (.qcow2)"
-msgstr ""
+msgstr "QEMU-Abbild (.qcow2)"
 
 #. [components.Wizard.31026111]
 #. defaultMessage is:
@@ -1757,19 +1700,15 @@ msgstr "Aus dem Blueprint entfernen"
 #. defaultMessage is:
 #. Remove password
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Removed"
 msgid "Remove password"
-msgstr "Entfernt"
+msgstr "Passwort entfernen"
 
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Remove"
 msgid "Remove source"
-msgstr "Entfernen"
+msgstr "Quelle entfernen"
 
 #. [components.Modal.2291868453] - Identifies the change as a component that was removed
 #. defaultMessage is:
@@ -1820,7 +1759,7 @@ msgstr ""
 #. Role
 #: build/messages/components/Modal/UserAccount.json
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #. [components.Wizard.bucket]
 #. defaultMessage is:
@@ -1834,7 +1773,7 @@ msgstr ""
 #. SSH key
 #: build/messages/components/Modal/UserAccount.json
 msgid "SSH key"
-msgstr ""
+msgstr "SSH-Schlüssel"
 
 #. [components.Form.save]
 #. defaultMessage is:
@@ -1845,7 +1784,7 @@ msgstr ""
 #: build/messages/components/Form/TextInlineEdit.json
 #: build/messages/components/Modal/EditDescription.json
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #. [components.Modal.1820273720]
 #. defaultMessage is:
@@ -1863,21 +1802,21 @@ msgstr ""
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Secret access key"
-msgstr ""
+msgstr "Geheimer Zugangsschlüssel"
 
 #. [secret-access-key-help]
 #. defaultMessage is:
 #. Secret access key help
 #: build/messages/components/Wizard/AWSAuthStep.json
 msgid "Secret access key help"
-msgstr ""
+msgstr "Hilfe zum geheimen Zugangsschlüssel"
 
 #. [components.Modal.security]
 #. defaultMessage is:
 #. Security
 #: build/messages/components/Modal/ManageSources.json
 msgid "Security"
-msgstr ""
+msgstr "Sicherheit"
 
 #. [pages.blueprintEdit.1513086105]
 #. defaultMessage is:
@@ -1901,8 +1840,6 @@ msgstr "Wählen Sie eine"
 #. defaultMessage is:
 #. Selected components
 #: build/messages/components/ListView/BlueprintContents.json
-#, fuzzy
-#| msgid "Selected Components"
 msgid "Selected components"
 msgstr "Ausgewählte Komponenten"
 
@@ -1918,21 +1855,21 @@ msgstr ""
 #. Server administrator
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server administrator"
-msgstr ""
+msgstr "Server-Administrator"
 
 #. [components.Modal.2342634351]
 #. defaultMessage is:
 #. Set new password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Set new password"
-msgstr ""
+msgstr "Neues Passwort festlegen"
 
 #. [components.Modal.3532935154]
 #. defaultMessage is:
 #. Set password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Set password"
-msgstr ""
+msgstr "Passwort festlegen"
 
 #. [components.Wizard.imageSizePopover]
 #. defaultMessage is:
@@ -1957,8 +1894,6 @@ msgstr "Alle anzeigen"
 #. defaultMessage is:
 #. Show details and more options
 #: build/messages/components/ListView/ComponentInputs.json
-#, fuzzy
-#| msgid "Show Details and More Options"
 msgid "Show details and more options"
 msgstr "Details und weitere Optionen anzeigen"
 
@@ -1966,8 +1901,6 @@ msgstr "Details und weitere Optionen anzeigen"
 #. defaultMessage is:
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
-#, fuzzy
-#| msgid "Show Less"
 msgid "Show less"
 msgstr "Weniger anzeigen"
 
@@ -1976,16 +1909,14 @@ msgstr "Weniger anzeigen"
 #. Size
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Size"
-msgstr ""
+msgstr "Größe"
 
 #. [components.ListView.kebab]
 #. defaultMessage is:
 #. Source actions
 #: build/messages/components/ListView/SourcesListItem.json
-#, fuzzy
-#| msgid "Sources"
 msgid "Source actions"
-msgstr "Quellen"
+msgstr "Quellenaktionen"
 
 #. [components.Modal.sourcePath] - The path or url to the source repository
 #. defaultMessage is:
@@ -2031,7 +1962,7 @@ msgstr "Start"
 #. Started
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Started"
-msgstr ""
+msgstr "Gestartet"
 
 #. [components.ListView.2989081855]
 #. defaultMessage is:
@@ -2083,14 +2014,14 @@ msgstr ""
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Storage account"
-msgstr ""
+msgstr "Speicherkonto"
 
 #. [components.Wizard.storageAccount]
 #. defaultMessage is:
 #. Storage account help
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Storage account help"
-msgstr ""
+msgstr "Hilfe zum Speicherkonto"
 
 #. [components.Wizard.storageAccounts]
 #. defaultMessage is:
@@ -2101,7 +2032,7 @@ msgstr ""
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Storage accounts"
-msgstr ""
+msgstr "Speicherkonten"
 
 #. [components.Wizard.1249927125]
 #. defaultMessage is:
@@ -2126,7 +2057,7 @@ msgstr ""
 #. System source
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "System source"
-msgstr ""
+msgstr "Systemquelle"
 
 #. [components.Modal.3495336243]
 #. defaultMessage is:
@@ -2225,7 +2156,7 @@ msgstr ""
 #. The values entered for password do not match.
 #: build/messages/components/Form/Password.json
 msgid "The values entered for password do not match."
-msgstr ""
+msgstr "Die für das Passwort eingegebenen Werte stimmen nicht überein."
 
 #. [pages.blueprint.emptyBlueprintMessage]
 #. defaultMessage is:
@@ -2243,7 +2174,7 @@ msgstr ""
 #. There are one or more fields that require your attention.
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "There are one or more fields that require your attention."
-msgstr ""
+msgstr "Es gibt ein oder mehrere Felder, die Ihre Aufmerksamkeit erfordern."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
@@ -2279,14 +2210,14 @@ msgstr "Diese Blaupause ist leer."
 #. This component has no dependencies.
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "This component has no dependencies."
-msgstr ""
+msgstr "Diese Komponente hat keine Abhängigkeiten."
 
 #. [components.Wizard.requiredField]
 #. defaultMessage is:
 #. This is a required field
 #: build/messages/components/Wizard/ImageStep.json
 msgid "This is a required field"
-msgstr ""
+msgstr "Dies ist ein Pflichtfeld"
 
 #. [components.Wizard.infotip]
 #. defaultMessage is:
@@ -2308,21 +2239,21 @@ msgstr ""
 #. This source name already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source name already exists."
-msgstr ""
+msgstr "Dieser Quellenname existiert bereits."
 
 #. [components.Modal.1932541555]
 #. defaultMessage is:
 #. This source path already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source path already exists."
-msgstr ""
+msgstr "Dieser Quellpfad existiert bereits."
 
 #. [components.Notifications.errorSubscription]
 #. defaultMessage is:
 #. This system does not have any valid subscriptions.
 #: build/messages/components/Notifications/Notifications.json
 msgid "This system does not have any valid subscriptions."
-msgstr ""
+msgstr "Dieses System hat keine gültigen Abonnements."
 
 #. [components.Wizard.1727762289]
 #. defaultMessage is:
@@ -2346,7 +2277,7 @@ msgstr ""
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
 msgid "This user name already exists."
-msgstr ""
+msgstr "Dieser Benutzername existiert bereits."
 
 #. [components.EmptyState.errorInactiveSecondary]
 #. defaultMessage is:
@@ -2383,7 +2314,7 @@ msgstr "Typ"
 #. Type {sourceType}
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Type {sourceType}"
-msgstr ""
+msgstr "Typ {sourceType}"
 
 #. [components.ListView.1324178587]
 #. defaultMessage is:
@@ -2397,7 +2328,7 @@ msgstr "URL"
 #. Undo last change
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Undo last change"
-msgstr ""
+msgstr "Letzte Änderung rückgängig machen"
 
 #. [components.Modal.1458938618]
 #. defaultMessage is:
@@ -2434,16 +2365,14 @@ msgstr ""
 #. Upload failed
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload failed"
-msgstr ""
+msgstr "Hochladen fehlgeschlagen"
 
 #. [components.Wizard.3057159632]
 #. defaultMessage is:
 #. Upload image
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Upload image"
-msgstr "Bild erstellen"
+msgstr "Abbild hochladen"
 
 #. [components.Wizard.uploadImage]
 #. defaultMessage is:
@@ -2479,7 +2408,7 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to AWS"
-msgstr ""
+msgstr "Zu AWS hochladen"
 
 #. [components.Wizard.2244258572]
 #. defaultMessage is:
@@ -2494,7 +2423,7 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to Azure"
-msgstr ""
+msgstr "Zu Azure hochladen"
 
 #. [components.Wizard.3542348520]
 #. defaultMessage is:
@@ -2508,10 +2437,8 @@ msgstr ""
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Upload to VMWare"
-msgstr "Bild erstellen"
+msgstr "Zu VMWare hochladen"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
@@ -2525,14 +2452,14 @@ msgstr ""
 #. User account actions
 #: build/messages/pages/blueprint/index.json
 msgid "User account actions"
-msgstr ""
+msgstr "Benutzerkontoaktionen"
 
 #. [components.Modal.529605439]
 #. defaultMessage is:
 #. User name
 #: build/messages/components/Modal/UserAccount.json
 msgid "User name"
-msgstr ""
+msgstr "Benutzername"
 
 #. [components.Wizard.2663586870]
 #. defaultMessage is:
@@ -2543,21 +2470,21 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
-msgstr ""
+msgstr "Benutzer"
 
 #. [components.Wizard.vmware]
 #. defaultMessage is:
 #. VMWare help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "VMWare help"
-msgstr ""
+msgstr "VMWare-Hilfe"
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -2632,14 +2559,14 @@ msgstr ""
 #: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "actions"
-msgstr ""
+msgstr "Aktionen"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. details
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "details"
-msgstr ""
+msgstr "Details"
 
 #. [components.Modal.2755325844]
 #. defaultMessage is:
@@ -2664,7 +2591,7 @@ msgstr "startseite"
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "metalink"
-msgstr ""
+msgstr "Metalink"
 
 #. [components.ListView.mirrorlist]
 #. defaultMessage is:
@@ -2675,16 +2602,14 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
-msgstr ""
+msgstr "Spiegelserverliste"
 
 #. [pages.blueprintEdit.paginationPerPage]
 #. defaultMessage is:
 #. per page
 #: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "home page"
 msgid "per page"
-msgstr "startseite"
+msgstr "pro Seite"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:
@@ -2812,10 +2737,8 @@ msgid "{selectComponents} in this list to add to the blueprint."
 msgstr "{selectComponents} in dieser Liste, um sie zum Bauplan hinzuzufügen."
 
 #: public/manifest.json
-#, fuzzy
-#| msgid "Create Image"
 msgid "Creating system images"
-msgstr "Bild erstellen"
+msgstr "Systemabbilder werden erstellt"
 
 #: public/manifest.json
 msgid "Image Builder"
