@@ -2,7 +2,7 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-09-21T18:16:54.428Z\n"
+"POT-Creation-Date: 2021-11-16T18:15:25.060Z\n"
 "PO-Revision-Date: 2021-09-04 01:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -39,20 +39,6 @@ msgid ""
 msgstr ""
 "Буде створено мінімальний образ, який міститиме лише пакунки, які потрібні "
 "для підтримки вибраного типу образу."
-
-#. [components.Modal.2310857819]
-#. defaultMessage is:
-#. A password is defined for this account.
-#: build/messages/components/Modal/UserAccount.json
-msgid "A password is defined for this account."
-msgstr "Для цього облікового запису визначено пароль."
-
-#. [components.Modal.2362836873]
-#. defaultMessage is:
-#. A password is not defined for this account.
-#: build/messages/components/Modal/UserAccount.json
-msgid "A password is not defined for this account."
-msgstr "Для цього облікового запису не визначено пароль."
 
 #. [components.Wizard.warningSizeEmpty]
 #. defaultMessage is:
@@ -592,7 +578,7 @@ msgstr "Подробиці щодо компонента"
 msgid "Component options"
 msgstr "Параметри компонента"
 
-#. [components.Modal.createPasswordTwo]
+#. [components.Modal.labelConfirmPassword]
 #. defaultMessage is:
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
@@ -663,14 +649,10 @@ msgstr "Створити проєкт"
 msgid "Create image"
 msgstr "Створити образ"
 
-#. [components.Modal.modalTitleCreate]
-#. defaultMessage is:
-#. Create user account
-#. [pages.blueprint.3234825297]
+#. [components.Modal.3234825297]
 #. defaultMessage is:
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
-#: build/messages/pages/blueprint/index.json
 msgid "Create user account"
 msgstr "Створення облікового запису користувача"
 
@@ -848,6 +830,13 @@ msgstr "Змінити опис"
 msgid "Edit hostname"
 msgstr "Змінити назву вузла"
 
+#. [pages.blueprint.deviceButtonLabel]
+#. defaultMessage is:
+#. Edit installation device
+#: build/messages/pages/blueprint/index.json
+msgid "Edit installation device"
+msgstr ""
+
 #. [components.ListView.1908303378]
 #. defaultMessage is:
 #. Edit packages
@@ -874,7 +863,7 @@ msgstr "Редагувати пакунки"
 msgid "Edit source"
 msgstr "Редагувати джерело"
 
-#. [components.Modal.modalTitleEdit]
+#. [components.Modal.2685045824]
 #. defaultMessage is:
 #. Edit user account
 #. [pages.blueprint.userEdit]
@@ -900,6 +889,13 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 msgid "Empty blueprint"
 msgstr "Порожній проєкт"
+
+#. [pages.blueprint.deviceHelp]
+#. defaultMessage is:
+#. Enter valid device node such as /dev/sda1
+#: build/messages/pages/blueprint/index.json
+msgid "Enter valid device node such as /dev/sda1"
+msgstr ""
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -971,7 +967,7 @@ msgstr "Фільтрувати за версією"
 msgid "Finish"
 msgstr "Завершити"
 
-#. [components.Modal.1182120637]
+#. [components.Modal.labelName]
 #. defaultMessage is:
 #. Full name
 #: build/messages/components/Modal/UserAccount.json
@@ -1227,6 +1223,27 @@ msgstr "Вивантаження образів"
 msgid "Images"
 msgstr "Образи"
 
+#. [pages.blueprint.3654599626]
+#. defaultMessage is:
+#. Installation Device
+#: build/messages/pages/blueprint/index.json
+msgid "Installation Device"
+msgstr ""
+
+#. [pages.blueprint.deviceInputLabel]
+#. defaultMessage is:
+#. Installation device
+#: build/messages/pages/blueprint/index.json
+msgid "Installation device"
+msgstr ""
+
+#. [pages.blueprint.devicePopoverLabel]
+#. defaultMessage is:
+#. Installation device help
+#: build/messages/pages/blueprint/index.json
+msgid "Installation device help"
+msgstr ""
+
 #. [components.Wizard.labelLiveIso]
 #. defaultMessage is:
 #. Installer, suitable for USB and DVD (.iso)
@@ -1320,13 +1337,6 @@ msgstr "Назва"
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Name: {name}"
 msgstr "Назва: {name}"
-
-#. [components.Modal.editPasswordOne]
-#. defaultMessage is:
-#. New password
-#: build/messages/components/Modal/UserAccount.json
-msgid "New password"
-msgstr "Новий пароль"
 
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
@@ -1444,10 +1454,7 @@ msgstr "Сторінку не знайдено"
 msgid "Parent commit"
 msgstr "Батьківський внесок"
 
-#. [components.Modal.createPasswordOne]
-#. defaultMessage is:
-#. Password
-#. [components.Modal.2237029987]
+#. [components.Modal.labelPassword]
 #. defaultMessage is:
 #. Password
 #. [components.Wizard.2237029987]
@@ -1715,13 +1722,6 @@ msgstr "Вилучити компонент з проєкту"
 msgid "Remove from blueprint"
 msgstr "Вилучити з проєкту"
 
-#. [components.Modal.1101731800]
-#. defaultMessage is:
-#. Remove password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Remove password"
-msgstr "Вилучити пароль"
-
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
@@ -1775,7 +1775,7 @@ msgstr ""
 "Перегляньте наведені нижче відомості і натисніть кнопку «Завершити», щоб "
 "створити образ і завершити вибрані завдання."
 
-#. [components.Modal.106035384]
+#. [components.Modal.labelRole]
 #. defaultMessage is:
 #. Role
 #: build/messages/components/Modal/UserAccount.json
@@ -1789,7 +1789,7 @@ msgstr "Роль"
 msgid "S3 Bucket help"
 msgstr "Довідка з корзини S3"
 
-#. [components.Modal.229369250]
+#. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
 #: build/messages/components/Modal/UserAccount.json
@@ -1871,26 +1871,12 @@ msgstr "Вибрані компоненти"
 msgid "Server admin checkbox"
 msgstr "Пункт адміністратора сервера"
 
-#. [components.Modal.122879380]
+#. [components.Modal.labelAdmin]
 #. defaultMessage is:
 #. Server administrator
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server administrator"
 msgstr "Адміністратор сервера"
-
-#. [components.Modal.2342634351]
-#. defaultMessage is:
-#. Set new password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Set new password"
-msgstr "Встановити новий пароль"
-
-#. [components.Modal.3532935154]
-#. defaultMessage is:
-#. Set password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Set password"
-msgstr "Встановити пароль"
 
 #. [components.Wizard.imageSizePopover]
 #. defaultMessage is:
@@ -2113,6 +2099,15 @@ msgstr "Після зупинення процесу збирання його �
 msgid "The fields marked with {val} are required."
 msgstr "Поля, які позначено {val}, є обов'язковими до заповнення."
 
+#. [pages.blueprint.devicePopover]
+#. defaultMessage is:
+#. The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.
+#: build/messages/pages/blueprint/index.json
+msgid ""
+"The installation device is used by the RHEL for Edge Simplified Installer. "
+"It specifies which device the image will be installed onto."
+msgstr ""
+
 #. [components.Modal.2580689893]
 #. defaultMessage is:
 #. The name {name} already exists.
@@ -2161,7 +2156,7 @@ msgstr ""
 "Вказано надто великий розмір. Ми рекомендуємо визначитися із тим, чи є у "
 "системі призначення якісь обмеження на розмір образу."
 
-#. [components.Modal.2405281428]
+#. [components.Modal.usernameValidChars]
 #. defaultMessage is:
 #. The user name can only consist of letters from a-z, digits, dots, dashes and underscores.
 #: build/messages/components/Modal/UserAccount.json
@@ -2171,6 +2166,15 @@ msgid ""
 msgstr ""
 "Ім’я користувача може складатися лише із літер a-z, цифр, крапок, дефісів та "
 "символів підкреслювання."
+
+#. [components.Modal.usernameEmpty]
+#. defaultMessage is:
+#. The user name cannot be empty.
+#: build/messages/components/Modal/UserAccount.json
+#, fuzzy
+#| msgid "This user name already exists."
+msgid "The user name cannot be empty."
+msgstr "Запис користувача із таким іменем уже існує."
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
@@ -2182,7 +2186,11 @@ msgstr "Користувачу {userName} заборонено запускат�
 #. [components.Form.2330477961]
 #. defaultMessage is:
 #. The values entered for password do not match.
+#. [components.Modal.passwordMatch]
+#. defaultMessage is:
+#. The values entered for password do not match.
 #: build/messages/components/Form/Password.json
+#: build/messages/components/Modal/UserAccount.json
 msgid "The values entered for password do not match."
 msgstr "Вказані для паролів записи не збігаються."
 
@@ -2304,7 +2312,7 @@ msgstr ""
 "                            імпортування образу з {bucket} S3 до EC2. "
 "Докладніше про це можна дізнатися з запису {role}."
 
-#. [components.Modal.3707489178]
+#. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
@@ -2484,7 +2492,7 @@ msgstr "Тип вивантаження"
 msgid "User account actions"
 msgstr "Дії із обліковим записом користувача"
 
-#. [components.Modal.529605439]
+#. [components.Modal.labelUsername]
 #. defaultMessage is:
 #. User name
 #: build/messages/components/Modal/UserAccount.json
@@ -2779,6 +2787,24 @@ msgstr "Створюємо образи систем"
 #: public/manifest.json
 msgid "Image Builder"
 msgstr "Засіб збирання образів"
+
+#~ msgid "A password is defined for this account."
+#~ msgstr "Для цього облікового запису визначено пароль."
+
+#~ msgid "A password is not defined for this account."
+#~ msgstr "Для цього облікового запису не визначено пароль."
+
+#~ msgid "New password"
+#~ msgstr "Новий пароль"
+
+#~ msgid "Remove password"
+#~ msgstr "Вилучити пароль"
+
+#~ msgid "Set new password"
+#~ msgstr "Встановити новий пароль"
+
+#~ msgid "Set password"
+#~ msgstr "Встановити пароль"
 
 #~ msgid "Edit Description"
 #~ msgstr "Змінити опис"

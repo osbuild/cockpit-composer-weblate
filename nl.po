@@ -1,7 +1,7 @@
 # Albert B <fedora@norlan.nl>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-09-21T18:16:54.428Z\n"
+"POT-Creation-Date: 2021-11-16T18:15:25.060Z\n"
 "PO-Revision-Date: 2021-07-26 08:04+0000\n"
 "Last-Translator: Albert B <fedora@norlan.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit-"
@@ -35,20 +35,6 @@ msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
 msgstr ""
-
-#. [components.Modal.2310857819]
-#. defaultMessage is:
-#. A password is defined for this account.
-#: build/messages/components/Modal/UserAccount.json
-msgid "A password is defined for this account."
-msgstr "Een wachtwoord is gedefinieerd voor dit account."
-
-#. [components.Modal.2362836873]
-#. defaultMessage is:
-#. A password is not defined for this account.
-#: build/messages/components/Modal/UserAccount.json
-msgid "A password is not defined for this account."
-msgstr "Een wachtwoord is niet gedefinieerd voor dit account."
 
 #. [components.Wizard.warningSizeEmpty]
 #. defaultMessage is:
@@ -583,7 +569,7 @@ msgstr ""
 msgid "Component options"
 msgstr ""
 
-#. [components.Modal.createPasswordTwo]
+#. [components.Modal.labelConfirmPassword]
 #. defaultMessage is:
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
@@ -652,14 +638,10 @@ msgstr ""
 msgid "Create image"
 msgstr ""
 
-#. [components.Modal.modalTitleCreate]
-#. defaultMessage is:
-#. Create user account
-#. [pages.blueprint.3234825297]
+#. [components.Modal.3234825297]
 #. defaultMessage is:
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
-#: build/messages/pages/blueprint/index.json
 msgid "Create user account"
 msgstr ""
 
@@ -837,6 +819,13 @@ msgstr ""
 msgid "Edit hostname"
 msgstr ""
 
+#. [pages.blueprint.deviceButtonLabel]
+#. defaultMessage is:
+#. Edit installation device
+#: build/messages/pages/blueprint/index.json
+msgid "Edit installation device"
+msgstr ""
+
 #. [components.ListView.1908303378]
 #. defaultMessage is:
 #. Edit packages
@@ -863,7 +852,7 @@ msgstr ""
 msgid "Edit source"
 msgstr ""
 
-#. [components.Modal.modalTitleEdit]
+#. [components.Modal.2685045824]
 #. defaultMessage is:
 #. Edit user account
 #. [pages.blueprint.userEdit]
@@ -886,6 +875,13 @@ msgstr ""
 #. Empty blueprint
 #: build/messages/pages/blueprint/index.json
 msgid "Empty blueprint"
+msgstr ""
+
+#. [pages.blueprint.deviceHelp]
+#. defaultMessage is:
+#. Enter valid device node such as /dev/sda1
+#: build/messages/pages/blueprint/index.json
+msgid "Enter valid device node such as /dev/sda1"
 msgstr ""
 
 #. [pages.error.errorMessage]
@@ -958,7 +954,7 @@ msgstr ""
 msgid "Finish"
 msgstr ""
 
-#. [components.Modal.1182120637]
+#. [components.Modal.labelName]
 #. defaultMessage is:
 #. Full name
 #: build/messages/components/Modal/UserAccount.json
@@ -1196,6 +1192,27 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
+#. [pages.blueprint.3654599626]
+#. defaultMessage is:
+#. Installation Device
+#: build/messages/pages/blueprint/index.json
+msgid "Installation Device"
+msgstr ""
+
+#. [pages.blueprint.deviceInputLabel]
+#. defaultMessage is:
+#. Installation device
+#: build/messages/pages/blueprint/index.json
+msgid "Installation device"
+msgstr ""
+
+#. [pages.blueprint.devicePopoverLabel]
+#. defaultMessage is:
+#. Installation device help
+#: build/messages/pages/blueprint/index.json
+msgid "Installation device help"
+msgstr ""
+
 #. [components.Wizard.labelLiveIso]
 #. defaultMessage is:
 #. Installer, suitable for USB and DVD (.iso)
@@ -1288,13 +1305,6 @@ msgstr ""
 #. Name: {name}
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Name: {name}"
-msgstr ""
-
-#. [components.Modal.editPasswordOne]
-#. defaultMessage is:
-#. New password
-#: build/messages/components/Modal/UserAccount.json
-msgid "New password"
 msgstr ""
 
 #. [components.Wizard.3673120330]
@@ -1413,10 +1423,7 @@ msgstr ""
 msgid "Parent commit"
 msgstr ""
 
-#. [components.Modal.createPasswordOne]
-#. defaultMessage is:
-#. Password
-#. [components.Modal.2237029987]
+#. [components.Modal.labelPassword]
 #. defaultMessage is:
 #. Password
 #. [components.Wizard.2237029987]
@@ -1654,13 +1661,6 @@ msgstr ""
 msgid "Remove from blueprint"
 msgstr ""
 
-#. [components.Modal.1101731800]
-#. defaultMessage is:
-#. Remove password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Remove password"
-msgstr ""
-
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
@@ -1712,7 +1712,7 @@ msgid ""
 "complete the tasks that were selected."
 msgstr ""
 
-#. [components.Modal.106035384]
+#. [components.Modal.labelRole]
 #. defaultMessage is:
 #. Role
 #: build/messages/components/Modal/UserAccount.json
@@ -1726,7 +1726,7 @@ msgstr ""
 msgid "S3 Bucket help"
 msgstr ""
 
-#. [components.Modal.229369250]
+#. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
 #: build/messages/components/Modal/UserAccount.json
@@ -1808,25 +1808,11 @@ msgstr ""
 msgid "Server admin checkbox"
 msgstr ""
 
-#. [components.Modal.122879380]
+#. [components.Modal.labelAdmin]
 #. defaultMessage is:
 #. Server administrator
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server administrator"
-msgstr ""
-
-#. [components.Modal.2342634351]
-#. defaultMessage is:
-#. Set new password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Set new password"
-msgstr ""
-
-#. [components.Modal.3532935154]
-#. defaultMessage is:
-#. Set password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Set password"
 msgstr ""
 
 #. [components.Wizard.imageSizePopover]
@@ -2042,6 +2028,15 @@ msgstr ""
 msgid "The fields marked with {val} are required."
 msgstr ""
 
+#. [pages.blueprint.devicePopover]
+#. defaultMessage is:
+#. The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.
+#: build/messages/pages/blueprint/index.json
+msgid ""
+"The installation device is used by the RHEL for Edge Simplified Installer. "
+"It specifies which device the image will be installed onto."
+msgstr ""
+
 #. [components.Modal.2580689893]
 #. defaultMessage is:
 #. The name {name} already exists.
@@ -2086,13 +2081,20 @@ msgid ""
 "destination has any restrictions on image size."
 msgstr ""
 
-#. [components.Modal.2405281428]
+#. [components.Modal.usernameValidChars]
 #. defaultMessage is:
 #. The user name can only consist of letters from a-z, digits, dots, dashes and underscores.
 #: build/messages/components/Modal/UserAccount.json
 msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
+msgstr ""
+
+#. [components.Modal.usernameEmpty]
+#. defaultMessage is:
+#. The user name cannot be empty.
+#: build/messages/components/Modal/UserAccount.json
+msgid "The user name cannot be empty."
 msgstr ""
 
 #. [components.EmptyState.1947371795]
@@ -2105,7 +2107,11 @@ msgstr ""
 #. [components.Form.2330477961]
 #. defaultMessage is:
 #. The values entered for password do not match.
+#. [components.Modal.passwordMatch]
+#. defaultMessage is:
+#. The values entered for password do not match.
 #: build/messages/components/Form/Password.json
+#: build/messages/components/Modal/UserAccount.json
 msgid "The values entered for password do not match."
 msgstr ""
 
@@ -2217,7 +2223,7 @@ msgid ""
 "details, refer to the {role}."
 msgstr ""
 
-#. [components.Modal.3707489178]
+#. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
@@ -2397,7 +2403,7 @@ msgstr ""
 msgid "User account actions"
 msgstr ""
 
-#. [components.Modal.529605439]
+#. [components.Modal.labelUsername]
 #. defaultMessage is:
 #. User name
 #: build/messages/components/Modal/UserAccount.json
@@ -2680,3 +2686,9 @@ msgstr ""
 #: public/manifest.json
 msgid "Image Builder"
 msgstr ""
+
+#~ msgid "A password is defined for this account."
+#~ msgstr "Een wachtwoord is gedefinieerd voor dit account."
+
+#~ msgid "A password is not defined for this account."
+#~ msgstr "Een wachtwoord is niet gedefinieerd voor dit account."

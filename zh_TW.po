@@ -3,7 +3,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-09-21T18:16:54.428Z\n"
+"POT-Creation-Date: 2021-11-16T18:15:25.060Z\n"
 "PO-Revision-Date: 2019-12-17 03:27+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Chinese (Taiwan)\n"
@@ -35,20 +35,6 @@ msgstr "藍圖名稱是必需的。"
 msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
-msgstr ""
-
-#. [components.Modal.2310857819]
-#. defaultMessage is:
-#. A password is defined for this account.
-#: build/messages/components/Modal/UserAccount.json
-msgid "A password is defined for this account."
-msgstr ""
-
-#. [components.Modal.2362836873]
-#. defaultMessage is:
-#. A password is not defined for this account.
-#: build/messages/components/Modal/UserAccount.json
-msgid "A password is not defined for this account."
 msgstr ""
 
 #. [components.Wizard.warningSizeEmpty]
@@ -614,7 +600,7 @@ msgstr "組件細節"
 msgid "Component options"
 msgstr "組件選項"
 
-#. [components.Modal.createPasswordTwo]
+#. [components.Modal.labelConfirmPassword]
 #. defaultMessage is:
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
@@ -690,14 +676,10 @@ msgstr "創建藍圖"
 msgid "Create image"
 msgstr "創建圖像"
 
-#. [components.Modal.modalTitleCreate]
-#. defaultMessage is:
-#. Create user account
-#. [pages.blueprint.3234825297]
+#. [components.Modal.3234825297]
 #. defaultMessage is:
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
-#: build/messages/pages/blueprint/index.json
 #, fuzzy
 #| msgid "Create Blueprint"
 msgid "Create user account"
@@ -889,6 +871,13 @@ msgstr ""
 msgid "Edit hostname"
 msgstr ""
 
+#. [pages.blueprint.deviceButtonLabel]
+#. defaultMessage is:
+#. Edit installation device
+#: build/messages/pages/blueprint/index.json
+msgid "Edit installation device"
+msgstr ""
+
 #. [components.ListView.1908303378]
 #. defaultMessage is:
 #. Edit packages
@@ -915,7 +904,7 @@ msgstr ""
 msgid "Edit source"
 msgstr ""
 
-#. [components.Modal.modalTitleEdit]
+#. [components.Modal.2685045824]
 #. defaultMessage is:
 #. Edit user account
 #. [pages.blueprint.userEdit]
@@ -941,6 +930,13 @@ msgstr ""
 #| msgid "Empty Blueprint"
 msgid "Empty blueprint"
 msgstr "空藍圖"
+
+#. [pages.blueprint.deviceHelp]
+#. defaultMessage is:
+#. Enter valid device node such as /dev/sda1
+#: build/messages/pages/blueprint/index.json
+msgid "Enter valid device node such as /dev/sda1"
+msgstr ""
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -1024,7 +1020,7 @@ msgstr "按名稱過濾..."
 msgid "Finish"
 msgstr ""
 
-#. [components.Modal.1182120637]
+#. [components.Modal.labelName]
 #. defaultMessage is:
 #. Full name
 #: build/messages/components/Modal/UserAccount.json
@@ -1272,6 +1268,27 @@ msgstr ""
 msgid "Images"
 msgstr "映像檔"
 
+#. [pages.blueprint.3654599626]
+#. defaultMessage is:
+#. Installation Device
+#: build/messages/pages/blueprint/index.json
+msgid "Installation Device"
+msgstr ""
+
+#. [pages.blueprint.deviceInputLabel]
+#. defaultMessage is:
+#. Installation device
+#: build/messages/pages/blueprint/index.json
+msgid "Installation device"
+msgstr ""
+
+#. [pages.blueprint.devicePopoverLabel]
+#. defaultMessage is:
+#. Installation device help
+#: build/messages/pages/blueprint/index.json
+msgid "Installation device help"
+msgstr ""
+
 #. [components.Wizard.labelLiveIso]
 #. defaultMessage is:
 #. Installer, suitable for USB and DVD (.iso)
@@ -1365,13 +1382,6 @@ msgstr "名稱"
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Name: {name}"
 msgstr "名稱： {name}"
-
-#. [components.Modal.editPasswordOne]
-#. defaultMessage is:
-#. New password
-#: build/messages/components/Modal/UserAccount.json
-msgid "New password"
-msgstr ""
 
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
@@ -1497,10 +1507,7 @@ msgstr "網頁未找到"
 msgid "Parent commit"
 msgstr ""
 
-#. [components.Modal.createPasswordOne]
-#. defaultMessage is:
-#. Password
-#. [components.Modal.2237029987]
+#. [components.Modal.labelPassword]
 #. defaultMessage is:
 #. Password
 #. [components.Wizard.2237029987]
@@ -1744,15 +1751,6 @@ msgstr "從藍圖中刪除"
 msgid "Remove from blueprint"
 msgstr "從藍圖中刪除"
 
-#. [components.Modal.1101731800]
-#. defaultMessage is:
-#. Remove password
-#: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "Removed"
-msgid "Remove password"
-msgstr "刪除"
-
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
@@ -1806,7 +1804,7 @@ msgid ""
 "complete the tasks that were selected."
 msgstr ""
 
-#. [components.Modal.106035384]
+#. [components.Modal.labelRole]
 #. defaultMessage is:
 #. Role
 #: build/messages/components/Modal/UserAccount.json
@@ -1820,7 +1818,7 @@ msgstr ""
 msgid "S3 Bucket help"
 msgstr ""
 
-#. [components.Modal.229369250]
+#. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
 #: build/messages/components/Modal/UserAccount.json
@@ -1904,25 +1902,11 @@ msgstr "選定的組件"
 msgid "Server admin checkbox"
 msgstr ""
 
-#. [components.Modal.122879380]
+#. [components.Modal.labelAdmin]
 #. defaultMessage is:
 #. Server administrator
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server administrator"
-msgstr ""
-
-#. [components.Modal.2342634351]
-#. defaultMessage is:
-#. Set new password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Set new password"
-msgstr ""
-
-#. [components.Modal.3532935154]
-#. defaultMessage is:
-#. Set password
-#: build/messages/components/Modal/UserAccount.json
-msgid "Set password"
 msgstr ""
 
 #. [components.Wizard.imageSizePopover]
@@ -2148,6 +2132,15 @@ msgstr "停止後，構建過程無法恢復。"
 msgid "The fields marked with {val} are required."
 msgstr "標有的字段 {val} 是必要的。"
 
+#. [pages.blueprint.devicePopover]
+#. defaultMessage is:
+#. The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.
+#: build/messages/pages/blueprint/index.json
+msgid ""
+"The installation device is used by the RHEL for Edge Simplified Installer. "
+"It specifies which device the image will be installed onto."
+msgstr ""
+
 #. [components.Modal.2580689893]
 #. defaultMessage is:
 #. The name {name} already exists.
@@ -2192,7 +2185,7 @@ msgid ""
 "destination has any restrictions on image size."
 msgstr ""
 
-#. [components.Modal.2405281428]
+#. [components.Modal.usernameValidChars]
 #. defaultMessage is:
 #. The user name can only consist of letters from a-z, digits, dots, dashes and underscores.
 #: build/messages/components/Modal/UserAccount.json
@@ -2200,6 +2193,15 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
+
+#. [components.Modal.usernameEmpty]
+#. defaultMessage is:
+#. The user name cannot be empty.
+#: build/messages/components/Modal/UserAccount.json
+#, fuzzy
+#| msgid "This action cannot be undone."
+msgid "The user name cannot be empty."
+msgstr "此操作無法撤消。"
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
@@ -2211,7 +2213,11 @@ msgstr ""
 #. [components.Form.2330477961]
 #. defaultMessage is:
 #. The values entered for password do not match.
+#. [components.Modal.passwordMatch]
+#. defaultMessage is:
+#. The values entered for password do not match.
 #: build/messages/components/Form/Password.json
+#: build/messages/components/Modal/UserAccount.json
 msgid "The values entered for password do not match."
 msgstr ""
 
@@ -2323,7 +2329,7 @@ msgid ""
 "details, refer to the {role}."
 msgstr ""
 
-#. [components.Modal.3707489178]
+#. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
@@ -2509,7 +2515,7 @@ msgstr ""
 msgid "User account actions"
 msgstr ""
 
-#. [components.Modal.529605439]
+#. [components.Modal.labelUsername]
 #. defaultMessage is:
 #. User name
 #: build/messages/components/Modal/UserAccount.json
@@ -2801,6 +2807,11 @@ msgstr "創建圖像"
 #: public/manifest.json
 msgid "Image Builder"
 msgstr "圖像生成器"
+
+#, fuzzy
+#~| msgid "Removed"
+#~ msgid "Remove password"
+#~ msgstr "刪除"
 
 # ctx::sourcefile::404 error page
 #~ msgid "Page Not Found"
