@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2021-11-16T18:15:25.060Z\n"
-"PO-Revision-Date: 2021-09-03 06:57+0000\n"
+"PO-Revision-Date: 2021-11-20 08:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -841,7 +841,7 @@ msgstr "호스트이름 편집"
 #. Edit installation device
 #: build/messages/pages/blueprint/index.json
 msgid "Edit installation device"
-msgstr ""
+msgstr "설치 장치 편집"
 
 #. [components.ListView.1908303378]
 #. defaultMessage is:
@@ -899,7 +899,7 @@ msgstr "블루프린트가 비어있음"
 #. Enter valid device node such as /dev/sda1
 #: build/messages/pages/blueprint/index.json
 msgid "Enter valid device node such as /dev/sda1"
-msgstr ""
+msgstr "/dev/sda1과 같은 유효한 노드 장치를 입력합니다"
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -1228,21 +1228,21 @@ msgstr "이미지"
 #. Installation Device
 #: build/messages/pages/blueprint/index.json
 msgid "Installation Device"
-msgstr ""
+msgstr "설치 장치"
 
 #. [pages.blueprint.deviceInputLabel]
 #. defaultMessage is:
 #. Installation device
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device"
-msgstr ""
+msgstr "설치 장치"
 
 #. [pages.blueprint.devicePopoverLabel]
 #. defaultMessage is:
 #. Installation device help
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device help"
-msgstr ""
+msgstr "설치 장치 도움말"
 
 #. [components.Wizard.labelLiveIso]
 #. defaultMessage is:
@@ -2095,7 +2095,7 @@ msgstr "{val}(으)로 표시된 항목은 필수 항목입니다."
 msgid ""
 "The installation device is used by the RHEL for Edge Simplified Installer. "
 "It specifies which device the image will be installed onto."
-msgstr ""
+msgstr "설치 장치는 Edge Simplified Installer용 RHEL에서 사용됩니다. 이미지를 설치 할 장치를 지정합니다."
 
 #. [components.Modal.2580689893]
 #. defaultMessage is:
@@ -2158,10 +2158,8 @@ msgstr "사용자 이름에는 a~z 문자, 숫자, 점, 대시, 밑줄만 사용
 #. defaultMessage is:
 #. The user name cannot be empty.
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "This user name already exists."
 msgid "The user name cannot be empty."
-msgstr "이 사용자 이름이 이미 존재합니다."
+msgstr "사용자 이름은 비워 둘 수 없습니다."
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
