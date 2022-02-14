@@ -2,7 +2,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-01-11T18:18:15.659Z\n"
+"POT-Creation-Date: 2022-02-08T18:16:14.974Z\n"
 "PO-Revision-Date: 2019-11-18 03:53+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Italian\n"
@@ -44,6 +44,13 @@ msgstr ""
 #| msgid "A blueprint name is required."
 msgid "A value is required."
 msgstr "È necessario un nome di progetto."
+
+#. [fingerprint-help]
+#. defaultMessage is:
+#. API private key's fingerprint
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid "API private key's fingerprint"
+msgstr ""
 
 #. [components.Wizard.aws]
 #. defaultMessage is:
@@ -174,10 +181,18 @@ msgstr "Aggiunto"
 #. [components.Wizard.1175512155]
 #. defaultMessage is:
 #. All fields are required.
+#. [components.Wizard.1175512155]
+#. defaultMessage is:
+#. All fields are required.
+#. [components.Wizard.1175512155]
+#. defaultMessage is:
+#. All fields are required.
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#: build/messages/components/Wizard/OCIAuthStep.json
+#: build/messages/components/Wizard/OCIDestinationStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 #, fuzzy
@@ -406,6 +421,43 @@ msgid ""
 "Browse or search for components, then add them to the blueprint. Or leave "
 "the blueprint empty to create a minimal image."
 msgstr "Sfoglia o cerca i componenti, quindi aggiungerli al progetto."
+
+#. [components.Wizard.992376537]
+#. defaultMessage is:
+#. Bucket compartment
+#: build/messages/components/Wizard/OCIDestinationStep.json
+#, fuzzy
+#| msgid "Blueprint Components"
+msgid "Bucket compartment"
+msgstr "Componenti di Blueprint"
+
+#. [components.Wizard.bucket]
+#. defaultMessage is:
+#. Bucket help
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "Bucket help"
+msgstr ""
+
+#. [components.Wizard.3386954132]
+#. defaultMessage is:
+#. Bucket namespace
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "Bucket namespace"
+msgstr ""
+
+#. [components.Wizard.2790265886]
+#. defaultMessage is:
+#. Bucket region
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "Bucket region"
+msgstr ""
+
+#. [components.Wizard.1601119828]
+#. defaultMessage is:
+#. Bucket tenancy
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "Bucket tenancy"
+msgstr ""
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -860,6 +912,13 @@ msgstr ""
 msgid "Download"
 msgstr "Scarica"
 
+#. [filename-placeholder]
+#. defaultMessage is:
+#. Drag and drop a file or upload one
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid "Drag and drop a file or upload one"
+msgstr ""
+
 #. [components.Modal.2044423701]
 #. defaultMessage is:
 #. Edit description
@@ -1020,6 +1079,15 @@ msgstr "Filtra per nome....."
 msgid "Filter by version"
 msgstr "Filtra per nome....."
 
+#. [components.Wizard.244381809]
+#. defaultMessage is:
+#. Fingerprint
+#: build/messages/components/Wizard/OCIAuthStep.json
+#, fuzzy
+#| msgid "Blueprint"
+msgid "Fingerprint"
+msgstr "Blueprint"
+
 #. [components.Wizard.787186999]
 #. defaultMessage is:
 #. Finish
@@ -1144,6 +1212,21 @@ msgid ""
 "                        the image can be found in the {console}."
 msgstr ""
 
+#. [components.Wizard.3213107448]
+#. defaultMessage is:
+#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
+#.                         and the upload action is successful, the image should be available under custom images.
+#.                         Most of the values required to upload the image can be found in the {console}.
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"Image Builder can upload images you create to an {bucket} in OCI and "
+"register it as a custom image. When the image build is complete\n"
+"                        and the upload action is successful, the image "
+"should be available under custom images.\n"
+"                        Most of the values required to upload the image can "
+"be found in the {console}."
+msgstr ""
+
 #. [components.ListView.imageStatusFinished] - Image build status when process is finished
 #. defaultMessage is:
 #. Image build complete
@@ -1194,9 +1277,13 @@ msgstr ""
 #. [components.Wizard.2794911472]
 #. defaultMessage is:
 #. Image name
+#. [components.Wizard.2794911472]
+#. defaultMessage is:
+#. Image name
 #: build/messages/components/ListView/ListItemUploads.json
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#: build/messages/components/Wizard/OCIDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Image name"
@@ -1211,8 +1298,12 @@ msgstr ""
 #. [components.Wizard.imageName]
 #. defaultMessage is:
 #. Image name help
+#. [components.Wizard.imageName]
+#. defaultMessage is:
+#. Image name help
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#: build/messages/components/Wizard/OCIDestinationStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Image name help"
 msgstr ""
@@ -1390,6 +1481,15 @@ msgstr "Nome"
 msgid "Name: {name}"
 msgstr "Nome: {name}"
 
+#. [components.Wizard.namespace]
+#. defaultMessage is:
+#. Namespace help
+#: build/messages/components/Wizard/OCIDestinationStep.json
+#, fuzzy
+#| msgid "Images"
+msgid "Namespace help"
+msgstr "Immagini"
+
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
 #. Next
@@ -1455,6 +1555,27 @@ msgstr ""
 #| msgid "No Results Match the Filter Criteria"
 msgid "No results match the filter criteria"
 msgstr "Nessun risultato Corrisponde ai criteri del filtro"
+
+#. [components.Wizard.compartment]
+#. defaultMessage is:
+#. OCI compartment help
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "OCI compartment help"
+msgstr ""
+
+#. [components.Wizard.region]
+#. defaultMessage is:
+#. OCI region help
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "OCI region help"
+msgstr ""
+
+#. [components.Wizard.tenancy]
+#. defaultMessage is:
+#. OCI tenancy help
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid "OCI tenancy help"
+msgstr ""
 
 #. [components.Wizard.ostreeParent]
 #. defaultMessage is:
@@ -1546,6 +1667,16 @@ msgstr ""
 msgid "Pending changes"
 msgstr "Modifiche in sospeso"
 
+#. [key-help]
+#. defaultMessage is:
+#. Private key
+#. [components.Wizard.1443428038]
+#. defaultMessage is:
+#. Private key
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid "Private key"
+msgstr ""
+
 #. [components.Wizard.processLength]
 #. defaultMessage is:
 #. Process length help
@@ -1566,8 +1697,12 @@ msgstr ""
 #. [components.Wizard.4277042358]
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
+#. [components.Wizard.4277042358]
+#. defaultMessage is:
+#. Provide a file name to be used for the image file that will be uploaded.
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
+#: build/messages/components/Wizard/OCIDestinationStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
@@ -1642,6 +1777,15 @@ msgid ""
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
 
+#. [components.Wizard.2831983558]
+#. defaultMessage is:
+#. Provide the compartment of the {bucket} your uploading to. You can find the compartment in the bucket details.
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid ""
+"Provide the compartment of the {bucket} your uploading to. You can find the "
+"compartment in the bucket details."
+msgstr ""
+
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
 #. Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
@@ -1684,6 +1828,33 @@ msgid ""
 "exist it will be created."
 msgstr ""
 
+#. [components.Wizard.3701635592]
+#. defaultMessage is:
+#. Provide the namespace of the {bucket} your uploading to. You can find the namespace in the bucket details.
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid ""
+"Provide the namespace of the {bucket} your uploading to. You can find the "
+"namespace in the bucket details."
+msgstr ""
+
+#. [components.Wizard.3286165321]
+#. defaultMessage is:
+#. Provide the region of the {bucket} your uploading to. You can find the region in the bucket details.
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid ""
+"Provide the region of the {bucket} your uploading to. You can find the "
+"region in the bucket details."
+msgstr ""
+
+#. [components.Wizard.3854501928]
+#. defaultMessage is:
+#. Provide the tenancy of the {bucket} your uploading to. You can find the tenancy in the bucket details.
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid ""
+"Provide the tenancy of the {bucket} your uploading to. You can find the "
+"tenancy in the bucket details."
+msgstr ""
+
 #. [components.Wizard.3387354708]
 #. defaultMessage is:
 #. Provide the url of your {vmware} instance to which the image file will be uploaded.
@@ -1691,6 +1862,21 @@ msgstr ""
 msgid ""
 "Provide the url of your {vmware} instance to which the image file will be "
 "uploaded."
+msgstr ""
+
+#. [components.Wizard.577410027]
+#. defaultMessage is:
+#. Provide the {bucket} name to which the image file will be uploaded before being imported as a custom image. 
+#.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
+#.                         {bucketsPage} page in the OCI storage service in the OCI console.
+#: build/messages/components/Wizard/OCIDestinationStep.json
+msgid ""
+"Provide the {bucket} name to which the image file will be uploaded before "
+"being imported as a custom image. \n"
+"                        The {bucket} must already exist in the Region where "
+"you want to import your image. You can find a list of {buckets} on the\n"
+"                        {bucketsPage} page in the OCI storage service in the "
+"OCI console."
 msgstr ""
 
 #. [components.Wizard.labelqcow]
@@ -2345,6 +2531,18 @@ msgid ""
 "details, refer to the {role}."
 msgstr ""
 
+#. [components.Wizard.50730016]
+#. defaultMessage is:
+#. This upload process requires that you have an {iam} with attached policy to manage custom images
+#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
+#: build/messages/components/Wizard/ImageStep.json
+msgid ""
+"This upload process requires that you have an {iam} with attached policy to "
+"manage custom images\n"
+"                        to ensure that the image can be import as a custom "
+"image from the {bucket}. For more details, refer to the {policies}."
+msgstr ""
+
 #. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
 #. This user name already exists.
@@ -2500,6 +2698,19 @@ msgstr ""
 msgid "Upload to Azure"
 msgstr ""
 
+#. [components.Wizard.3418449520]
+#. defaultMessage is:
+#. Upload to OCI
+#. [components.Wizard.uploadOCI]
+#. defaultMessage is:
+#. Upload to OCI
+#: build/messages/components/Wizard/CreateImageUpload.json
+#: build/messages/components/Wizard/ImageStep.json
+#, fuzzy
+#| msgid "Create Image"
+msgid "Upload to OCI"
+msgstr "Crea immagine"
+
 #. [components.Wizard.3542348520]
 #. defaultMessage is:
 #. Upload to VMWare
@@ -2522,6 +2733,16 @@ msgstr "Crea immagine"
 #. Upload type
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload type"
+msgstr ""
+
+#. [user-help]
+#. defaultMessage is:
+#. User OCID
+#. [components.Wizard.4135109133]
+#. defaultMessage is:
+#. User OCID
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid "User OCID"
 msgstr ""
 
 #. [pages.blueprint.userKebab]
@@ -2618,6 +2839,13 @@ msgid ""
 "console."
 msgstr ""
 
+#. [components.Wizard.844662623]
+#. defaultMessage is:
+#. You can find your user OCID {iam} page in the OCI console.
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid "You can find your user OCID {iam} page in the OCI console."
+msgstr ""
+
 #. [components.Wizard.4206409720]
 #. defaultMessage is:
 #. You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console.
@@ -2625,6 +2853,24 @@ msgstr ""
 msgid ""
 "You can view the Secret access key only when you create a new Access key ID "
 "on the {iam} page in the AWS console."
+msgstr ""
+
+#. [components.Wizard.285351067]
+#. defaultMessage is:
+#. You can view your deployed RSA keys fingerprint in the API Keys section on the {iam} page in the OCI console.
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid ""
+"You can view your deployed RSA keys fingerprint in the API Keys section on "
+"the {iam} page in the OCI console."
+msgstr ""
+
+#. [components.Wizard.182848243]
+#. defaultMessage is:
+#. You can view your deployed RSA keys in the API Keys section on the {iam} page in the OCI console.
+#: build/messages/components/Wizard/OCIAuthStep.json
+msgid ""
+"You can view your deployed RSA keys in the API Keys section on the {iam} "
+"page in the OCI console."
 msgstr ""
 
 #. [components.ListView.actions]
