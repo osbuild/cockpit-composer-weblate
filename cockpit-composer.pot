@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-02-15T18:16:52.357Z\n"
+"POT-Creation-Date: 2022-02-22T18:18:13.587Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -395,6 +395,10 @@ msgstr ""
 #. [components.Wizard.992376537]
 #. defaultMessage is:
 #. Bucket compartment
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.992376537]
+#. defaultMessage is:
+#. Bucket compartment
 msgid "Bucket compartment"
 msgstr ""
 
@@ -409,6 +413,10 @@ msgstr ""
 #. [components.Wizard.3386954132]
 #. defaultMessage is:
 #. Bucket namespace
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.3386954132]
+#. defaultMessage is:
+#. Bucket namespace
 msgid "Bucket namespace"
 msgstr ""
 
@@ -416,10 +424,18 @@ msgstr ""
 #. [components.Wizard.2790265886]
 #. defaultMessage is:
 #. Bucket region
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.2790265886]
+#. defaultMessage is:
+#. Bucket region
 msgid "Bucket region"
 msgstr ""
 
 #: build/messages/components/Wizard/OCIDestinationStep.json
+#. [components.Wizard.1601119828]
+#. defaultMessage is:
+#. Bucket tenancy
+#: build/messages/components/Wizard/ReviewStep.json
 #. [components.Wizard.1601119828]
 #. defaultMessage is:
 #. Bucket tenancy
@@ -995,6 +1011,10 @@ msgstr ""
 #. [components.Wizard.244381809]
 #. defaultMessage is:
 #. Fingerprint
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.244381809]
+#. defaultMessage is:
+#. Fingerprint
 msgid "Fingerprint"
 msgstr ""
 
@@ -1106,6 +1126,12 @@ msgid "Image Builder can upload images you create to an {bucket} in AWS and then
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
+#. [components.Wizard.3213107448]
+#. defaultMessage is:
+#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
+#.                         and the upload action is successful, the image should be available under custom images.
+#.                         Most of the values required to upload the image can be found in the {console}.
+#: build/messages/components/Wizard/ReviewStep.json
 #. [components.Wizard.3213107448]
 #. defaultMessage is:
 #. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
@@ -1424,6 +1450,13 @@ msgstr ""
 msgid "No results match the filter criteria"
 msgstr ""
 
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.1666805205]
+#. defaultMessage is:
+#. OCI bucket
+msgid "OCI bucket"
+msgstr ""
+
 #: build/messages/components/Wizard/OCIDestinationStep.json
 #. [components.Wizard.compartment]
 #. defaultMessage is:
@@ -1543,6 +1576,13 @@ msgstr ""
 #. defaultMessage is:
 #. Private key
 msgid "Private key"
+msgstr ""
+
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.3157862487]
+#. defaultMessage is:
+#. Private key filename
+msgid "Private key filename"
 msgstr ""
 
 #: build/messages/components/Wizard/ImageStep.json
@@ -2302,6 +2342,11 @@ msgstr ""
 #. defaultMessage is:
 #. This upload process requires that you have an {iam} with attached policy to manage custom images
 #.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.50730016]
+#. defaultMessage is:
+#. This upload process requires that you have an {iam} with attached policy to manage custom images
+#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
 msgid "This upload process requires that you have an {iam} with attached policy to manage custom images\n                        to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}."
 msgstr ""
 
@@ -2409,6 +2454,10 @@ msgstr ""
 #. [components.Wizard.uploadImage]
 #. defaultMessage is:
 #. Upload image help
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.uploadImage]
+#. defaultMessage is:
+#. Upload image help
 msgid "Upload image help"
 msgstr ""
 
@@ -2464,6 +2513,10 @@ msgstr ""
 #. [components.Wizard.uploadOCI]
 #. defaultMessage is:
 #. Upload to OCI
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.3418449520]
+#. defaultMessage is:
+#. Upload to OCI
 msgid "Upload to OCI"
 msgstr ""
 
@@ -2487,6 +2540,13 @@ msgstr ""
 #. defaultMessage is:
 #. Upload type
 msgid "Upload type"
+msgstr ""
+
+#: build/messages/components/Wizard/ReviewStep.json
+#. [components.Wizard.2419068661]
+#. defaultMessage is:
+#. User
+msgid "User"
 msgstr ""
 
 #: build/messages/components/Wizard/OCIAuthStep.json
