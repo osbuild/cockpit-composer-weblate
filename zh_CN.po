@@ -3,11 +3,12 @@
 # Pany <geekpany@gmail.com>, 2020.
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-02-15T18:16:52.357Z\n"
-"PO-Revision-Date: 2021-09-07 13:04+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-03-09 19:46+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-composer/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
@@ -52,7 +53,7 @@ msgstr "需要一个值。"
 #. API private key's fingerprint
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "API private key's fingerprint"
-msgstr ""
+msgstr "API 私钥的指纹"
 
 #. [components.Wizard.aws]
 #. defaultMessage is:
@@ -411,44 +412,36 @@ msgstr ""
 #. defaultMessage is:
 #. Bucket compartment
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "Blueprint components"
 msgid "Bucket compartment"
-msgstr "蓝图组件"
+msgstr "存储桶隔层"
 
 #. [components.Wizard.bucket]
 #. defaultMessage is:
 #. Bucket help
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "S3 Bucket help"
 msgid "Bucket help"
-msgstr "S3 存储桶帮助"
+msgstr "存储桶帮助"
 
 #. [components.Wizard.3386954132]
 #. defaultMessage is:
 #. Bucket namespace
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "S3 Bucket help"
 msgid "Bucket namespace"
-msgstr "S3 存储桶帮助"
+msgstr "存储桶命名空间"
 
 #. [components.Wizard.2790265886]
 #. defaultMessage is:
 #. Bucket region
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "AWS region"
 msgid "Bucket region"
-msgstr "AWS 区域"
+msgstr "存储桶区域"
 
 #. [components.Wizard.1601119828]
 #. defaultMessage is:
 #. Bucket tenancy
 #: build/messages/components/Wizard/OCIDestinationStep.json
 msgid "Bucket tenancy"
-msgstr ""
+msgstr "存储桶租赁"
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -871,7 +864,7 @@ msgstr "下载"
 #. Drag and drop a file or upload one
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "Drag and drop a file or upload one"
-msgstr ""
+msgstr "拖放文件或上传文件"
 
 #. [components.Modal.2044423701]
 #. defaultMessage is:
@@ -896,7 +889,7 @@ msgstr "编辑主机名"
 #. Edit installation device
 #: build/messages/pages/blueprint/index.json
 msgid "Edit installation device"
-msgstr ""
+msgstr "编辑安装设备"
 
 #. [components.ListView.1908303378]
 #. defaultMessage is:
@@ -954,7 +947,7 @@ msgstr "空蓝图"
 #. Enter valid device node such as /dev/sda1
 #: build/messages/pages/blueprint/index.json
 msgid "Enter valid device node such as /dev/sda1"
-msgstr ""
+msgstr "输入有效的设备节点，如 /dev/sda1"
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
@@ -1023,10 +1016,8 @@ msgstr "根据版本过滤"
 #. defaultMessage is:
 #. Fingerprint
 #: build/messages/components/Wizard/OCIAuthStep.json
-#, fuzzy
-#| msgid "Blueprint"
 msgid "Fingerprint"
-msgstr "蓝图"
+msgstr "指纹"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
@@ -1111,9 +1102,9 @@ msgid ""
 "                      the image file is available in the Cluster on the "
 "vSphere instance that you specified."
 msgstr ""
-"Image Builder 可用把您创建的镜像上传到 VMWare vSphere。\n"
-"                      当镜像构建和上传成功完成后，\n"
-"                      镜像文件将会在您指定的 vSphere 实例的集群中可用。"
+"镜像构建器可用把您创建的镜像上传到 VMWare "
+"vSphere。当镜像构建和上传成功完成后，镜像文件将会在您指定的 vSphere "
+"实例的集群中可用。"
 
 #. [components.Wizard.3501375619]
 #. defaultMessage is:
@@ -1131,9 +1122,8 @@ msgid ""
 "                      and the upload action is successful, the image file is "
 "available in the Storage account and Blob container that you specified."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {azure} 中。当镜像构建完成"
-"且\n"
-"                      上传操作成功时，镜像文件会出现在您指定的存储帐户和 "
+"镜像构建器可以将您创建的镜像上传到 {azure} 中的一个 Blob "
+"容器。当镜像构建完成且上传操作成功时，镜像文件会出现在您指定的存储帐户和 "
 "Blob 容器中。"
 
 #. [components.Wizard.1007547894]
@@ -1156,11 +1146,9 @@ msgid ""
 "upload\n"
 "                        the image can be found in the {console}."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入"
-"EC2。当镜像构建完成且\n"
-"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜"
-"像所需的多数值都可以在\n"
-"                      {console} 中找到。"
+"镜像构建器可以将您创建的镜像上传到 AWS 的 {bucket} 中，然后将其导入 "
+"EC2。当镜像构建完成且上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。"
+"上传镜像所需的多数值都可以在 {console} 中找到。"
 
 #. [components.Wizard.3213107448]
 #. defaultMessage is:
@@ -1168,14 +1156,6 @@ msgstr ""
 #.                         and the upload action is successful, the image should be available under custom images.
 #.                         Most of the values required to upload the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                        and the upload action is successful, the image "
-#| "file is available in the AMI section of EC2. Most of the values required "
-#| "to upload\n"
-#| "                        the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an {bucket} in OCI and "
 "register it as a custom image. When the image build is complete\n"
@@ -1184,11 +1164,9 @@ msgid ""
 "                        Most of the values required to upload the image can "
 "be found in the {console}."
 msgstr ""
-"Image Builder 可以将您创建的镜像上传到 AWS 的一个 {bucket} 中，然后将其导入"
-"EC2。当镜像构建完成且\n"
-"                      上传操作成功时，镜像文件会出现在 EC2 的 AMI 中。上传镜"
-"像所需的多数值都可以在\n"
-"                      {console} 中找到。"
+"镜像构建器可以将您创建的镜像上传到 OCI 中的 {bucket} ，并将其注册为自定义镜像"
+"。当镜像构建完成后，且上传操作成功时，镜像应在自定义镜像下可用。"
+"上传镜像所需的大多数值可在 {console} 中找到。"
 
 #. [components.ListView.imageStatusFinished] - Image build status when process is finished
 #. defaultMessage is:
@@ -1326,21 +1304,21 @@ msgstr "镜像"
 #. Installation Device
 #: build/messages/pages/blueprint/index.json
 msgid "Installation Device"
-msgstr ""
+msgstr "安装设备"
 
 #. [pages.blueprint.deviceInputLabel]
 #. defaultMessage is:
 #. Installation device
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device"
-msgstr ""
+msgstr "安装设备"
 
 #. [pages.blueprint.devicePopoverLabel]
 #. defaultMessage is:
 #. Installation device help
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device help"
-msgstr ""
+msgstr "安装设备帮助"
 
 #. [components.Wizard.labelLiveIso]
 #. defaultMessage is:
@@ -1440,10 +1418,8 @@ msgstr "名称 {name}"
 #. defaultMessage is:
 #. Namespace help
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "Image name help"
 msgid "Namespace help"
-msgstr "镜像名称帮助"
+msgstr "命名空间帮助"
 
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
@@ -1506,26 +1482,22 @@ msgstr "没有匹配过滤条件的结果"
 #. defaultMessage is:
 #. OCI compartment help
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "OSTree parent help"
 msgid "OCI compartment help"
-msgstr "OSTree parent 帮助"
+msgstr "OCI 隔层帮助"
 
 #. [components.Wizard.region]
 #. defaultMessage is:
 #. OCI region help
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "AWS region help"
 msgid "OCI region help"
-msgstr "AWS 区域帮助"
+msgstr "OCI 区域帮助"
 
 #. [components.Wizard.tenancy]
 #. defaultMessage is:
 #. OCI tenancy help
 #: build/messages/components/Wizard/OCIDestinationStep.json
 msgid "OCI tenancy help"
-msgstr ""
+msgstr "OCI 租赁帮助"
 
 #. [components.Wizard.ostreeParent]
 #. defaultMessage is:
@@ -1623,7 +1595,7 @@ msgstr "改变待生效"
 #. Private key
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "Private key"
-msgstr ""
+msgstr "私钥"
 
 #. [components.Wizard.processLength]
 #. defaultMessage is:
@@ -1676,9 +1648,8 @@ msgid ""
 "                    section of a storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
-"提供镜像文件要被上传到的 Blob 容器。您可以在存储账户的 {blobService} 项下\n"
-"                    找到容器。您可以在 {azure} 门户的 {storageAccounts} 页中"
-"找到存储账户。"
+"提供镜像文件要被上传到的 Blob 容器。您可以在存储账户的 {blobService} "
+"项下找到容器。您可以在 {azure} 门户的 {storageAccounts} 页上找到存储账户。"
 
 #. [components.Wizard.4044130958]
 #. defaultMessage is:
@@ -1690,9 +1661,8 @@ msgid ""
 "commit provides an update.\n"
 "                    If no commit is specified it will be inferred from the "
 "parent repository."
-msgstr ""
-"提供更新仓库中最新提交的 ID，该提交提供了一个更新。\n"
-"                    如果没有指定提交，则根据父仓库进行推断。"
+msgstr "在更新存储库中提供最新提交的 "
+"ID，此提交为其提供了一个更新。如果没有指定提交，则从父仓库进行推断。"
 
 #. [components.Wizard.1901372247]
 #. defaultMessage is:
@@ -1708,11 +1678,9 @@ msgid ""
 "                        {bucketsPage} page in the {amazon} S3 storage "
 "service in the AWS console."
 msgstr ""
-"提供导入到 EC2 前镜像文件需要被上传到的 S3 {bucket} 的名称。 \n"
-"                          {bucket} 需要已存在于您要将镜像导入到的区域中。您可"
-"以在 AWS 控制台\n"
-"                          的  {amazon} S3 存储服务的 {bucketsPage} 页中找到 "
-"{buckets} 列表。"
+"在导入到 EC2 前，提供镜像文件将要被上传到的 S3 {bucket} 名称。{bucket} "
+"需要在您要导入镜像的区域中存在。您可以在 AWS 控制台的 {amazon} S3 存储服务的 "
+"{bucketsPage} 页上找到 {buckets} 的列表。"
 
 #. [components.Wizard.1170512263]
 #. defaultMessage is:
@@ -1734,9 +1702,9 @@ msgid ""
 "                        page of the storage account. You can find storage "
 "accounts on the {storageAccounts} page in the {azure} portal."
 msgstr ""
-"提供所需存储账户的访问密钥。您可以在存储账户的 {accessKeys} 页中找到 \n"
-"                        访问密钥。您可以在 {azure} 门户的 {storageAccounts} "
-"页中找到存储账户。"
+"提供所需存储账户的访问密钥。您可以在存储账户的 {accessKeys} "
+"页面上找到访问密钥。您可以在 {azure} 门户的 {storageAccounts} "
+"页面上找到存储账户。"
 
 #. [components.Wizard.2831983558]
 #. defaultMessage is:
@@ -1745,7 +1713,7 @@ msgstr ""
 msgid ""
 "Provide the compartment of the {bucket} your uploading to. You can find the "
 "compartment in the bucket details."
-msgstr ""
+msgstr "提供上传至 {bucket} 的隔层。您可以在存储桶详情中找到隔层。"
 
 #. [components.Wizard.1434969769]
 #. defaultMessage is:
@@ -1798,20 +1766,16 @@ msgstr "提供内容的分支名称。如果 ref 不存在，则会被创建。"
 msgid ""
 "Provide the namespace of the {bucket} your uploading to. You can find the "
 "namespace in the bucket details."
-msgstr ""
+msgstr "提供上传到 {bucket} 的命名空间。您可以在存储桶详情中找到命名空间。"
 
 #. [components.Wizard.3286165321]
 #. defaultMessage is:
 #. Provide the region of the {bucket} your uploading to. You can find the region in the bucket details.
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the AWS Region where you want to import your image. This must be "
-#| "the same region where the {bucket} exists."
 msgid ""
 "Provide the region of the {bucket} your uploading to. You can find the "
 "region in the bucket details."
-msgstr "提供您要导入镜像的 AWS 区域。该区域必须与 {bucket} 所在的区域相同。"
+msgstr "提供您要上传到 {bucket} 的区域。您可以在存储桶详情中找到区域。"
 
 #. [components.Wizard.3854501928]
 #. defaultMessage is:
@@ -1820,7 +1784,7 @@ msgstr "提供您要导入镜像的 AWS 区域。该区域必须与 {bucket} 所
 msgid ""
 "Provide the tenancy of the {bucket} your uploading to. You can find the "
 "tenancy in the bucket details."
-msgstr ""
+msgstr "提供您上传到 {bucket} 的租赁。您可以在存储桶详情中找到租期。"
 
 #. [components.Wizard.3387354708]
 #. defaultMessage is:
@@ -1837,15 +1801,6 @@ msgstr "提供镜像文件将要上传到的 {vmware} 实例的 URL。"
 #.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
 #.                         {bucketsPage} page in the OCI storage service in the OCI console.
 #: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                        The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                        {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the {bucket} name to which the image file will be uploaded before "
 "being imported as a custom image. \n"
@@ -1854,11 +1809,9 @@ msgid ""
 "                        {bucketsPage} page in the OCI storage service in the "
 "OCI console."
 msgstr ""
-"提供导入到 EC2 前镜像文件需要被上传到的 S3 {bucket} 的名称。 \n"
-"                          {bucket} 需要已存在于您要将镜像导入到的区域中。您可"
-"以在 AWS 控制台\n"
-"                          的  {amazon} S3 存储服务的 {bucketsPage} 页中找到 "
-"{buckets} 列表。"
+"在作为自定义镜像导入前，提供镜像文件将被上传到的 {bucket} 名称。{bucket} "
+"必须已在您要导入镜像的区域中存在。您可以在 OCI 控制台的 OCI 存储服务中的 "
+"{bucketsPage} 页面上找到 {buckets} 的列表。"
 
 #. [components.Wizard.labelqcow]
 #. defaultMessage is:
@@ -2300,7 +2253,8 @@ msgstr "标记为 {val} 的项是必需的。"
 msgid ""
 "The installation device is used by the RHEL for Edge Simplified Installer. "
 "It specifies which device the image will be installed onto."
-msgstr ""
+msgstr "安装设备被 RHEL 用于 Edge Simplified "
+"Installer。它指定了镜像将被安装到哪个设备上。"
 
 #. [components.Modal.2580689893]
 #. defaultMessage is:
@@ -2359,10 +2313,8 @@ msgstr "用户名仅能包含 a-z、数字、点、破折号和下划线的字�
 #. defaultMessage is:
 #. The user name cannot be empty.
 #: build/messages/components/Modal/UserAccount.json
-#, fuzzy
-#| msgid "This user name already exists."
 msgid "The user name cannot be empty."
-msgstr "这个用户名已存在。"
+msgstr "用户名不能为空。"
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
@@ -2489,28 +2441,23 @@ msgid ""
 "                        be imported from the S3 {bucket} into EC2. For more "
 "details, refer to the {role}."
 msgstr ""
-"这个上传过程需要您有一个名为 {vmimport} 的 {iam} 角色，以确保镜像可以\n"
-"                      从 S3 {bucket} 导入到 EC2。更多信息请参阅 {role}。"
+"这个上传过程需要您有一个名为 {vmimport} 的 {iam} 角色，以确保镜像可以从 S3 "
+"{bucket} 导入到 EC2。如需更多详情，请参阅 {role} 。"
 
 #. [components.Wizard.50730016]
 #. defaultMessage is:
 #. This upload process requires that you have an {iam} with attached policy to manage custom images
 #.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid ""
-#| "This upload process requires that you have an {iam} role named {vmimport} "
-#| "to ensure that the image can\n"
-#| "                        be imported from the S3 {bucket} into EC2. For "
-#| "more details, refer to the {role}."
 msgid ""
 "This upload process requires that you have an {iam} with attached policy to "
 "manage custom images\n"
 "                        to ensure that the image can be import as a custom "
 "image from the {bucket}. For more details, refer to the {policies}."
 msgstr ""
-"这个上传过程需要您有一个名为 {vmimport} 的 {iam} 角色，以确保镜像可以\n"
-"                      从 S3 {bucket} 导入到 EC2。更多信息请参阅 {role}。"
+"此上传过程要求您有一个带有附加策略的 {iam} 来管理自定义镜像，"
+"以确保镜像可以作为自定义镜像从 {bucket} 导入。如需更多详情，请参阅 {policies}"
+" 。"
 
 #. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
@@ -2671,10 +2618,8 @@ msgstr "上传到 Azure"
 #. Upload to OCI
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "Upload to AWS"
 msgid "Upload to OCI"
-msgstr "上传到 AWS"
+msgstr "上传到 OCI"
 
 #. [components.Wizard.3542348520]
 #. defaultMessage is:
@@ -2706,7 +2651,7 @@ msgstr "上传类型"
 #. User OCID
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "User OCID"
-msgstr ""
+msgstr "用户 OCID"
 
 #. [pages.blueprint.userKebab]
 #. defaultMessage is:
@@ -2809,12 +2754,8 @@ msgstr "您可以在 AWS 控制台的 {iam} 页面中创建并找到现有的访
 #. defaultMessage is:
 #. You can find your user OCID {iam} page in the OCI console.
 #: build/messages/components/Wizard/OCIAuthStep.json
-#, fuzzy
-#| msgid ""
-#| "You can create and find existing Access key IDs on the {iam} page in the "
-#| "AWS console."
 msgid "You can find your user OCID {iam} page in the OCI console."
-msgstr "您可以在 AWS 控制台的 {iam} 页面中创建并找到现有的访问密钥 ID。"
+msgstr "您可以在 OCI 控制台中找到您的用户 OCID {iam} 页面。"
 
 #. [components.Wizard.4206409720]
 #. defaultMessage is:
@@ -2831,27 +2772,19 @@ msgstr ""
 #. defaultMessage is:
 #. You can view your deployed RSA keys fingerprint in the API Keys section on the {iam} page in the OCI console.
 #: build/messages/components/Wizard/OCIAuthStep.json
-#, fuzzy
-#| msgid ""
-#| "You can create and find existing Access key IDs on the {iam} page in the "
-#| "AWS console."
 msgid ""
 "You can view your deployed RSA keys fingerprint in the API Keys section on "
 "the {iam} page in the OCI console."
-msgstr "您可以在 AWS 控制台的 {iam} 页面中创建并找到现有的访问密钥 ID。"
+msgstr "您可以在 OCI 控制台的 {iam} 页面上的 API Keys 部分中查看部署的 RSA 密钥指纹。"
 
 #. [components.Wizard.182848243]
 #. defaultMessage is:
 #. You can view your deployed RSA keys in the API Keys section on the {iam} page in the OCI console.
 #: build/messages/components/Wizard/OCIAuthStep.json
-#, fuzzy
-#| msgid ""
-#| "You can create and find existing Access key IDs on the {iam} page in the "
-#| "AWS console."
 msgid ""
 "You can view your deployed RSA keys in the API Keys section on the {iam} "
 "page in the OCI console."
-msgstr "您可以在 AWS 控制台的 {iam} 页面中创建并找到现有的访问密钥 ID。"
+msgstr "您可以在 OCI 控制台的 {iam} 页面上的 API Keys 部分中查看部署的 RSA 密钥。"
 
 #. [components.ListView.actions]
 #. defaultMessage is:
@@ -3040,7 +2973,7 @@ msgstr "创建系统镜像"
 
 #: public/manifest.json
 msgid "Image Builder"
-msgstr "镜像生成器"
+msgstr "镜像构建器"
 
 #~ msgid "A password is defined for this account."
 #~ msgstr "为这个账户定义了一个密码。"
