@@ -7,7 +7,7 @@
 # Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-02-15T18:16:52.357Z\n"
+"POT-Creation-Date: 2022-03-09T19:40:28.678Z\n"
 "PO-Revision-Date: 2022-03-09 19:46+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -422,7 +422,11 @@ msgstr ""
 #. [components.Wizard.992376537]
 #. defaultMessage is:
 #. Bucket compartment
+#. [components.Wizard.992376537]
+#. defaultMessage is:
+#. Bucket compartment
 #: build/messages/components/Wizard/OCIDestinationStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Bucket compartment"
 msgstr "バケットコンパートメント"
 
@@ -436,21 +440,33 @@ msgstr "バケットのヘルプ"
 #. [components.Wizard.3386954132]
 #. defaultMessage is:
 #. Bucket namespace
+#. [components.Wizard.3386954132]
+#. defaultMessage is:
+#. Bucket namespace
 #: build/messages/components/Wizard/OCIDestinationStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Bucket namespace"
 msgstr "バケット namespace"
 
 #. [components.Wizard.2790265886]
 #. defaultMessage is:
 #. Bucket region
+#. [components.Wizard.2790265886]
+#. defaultMessage is:
+#. Bucket region
 #: build/messages/components/Wizard/OCIDestinationStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Bucket region"
 msgstr "バケットリージョン"
 
 #. [components.Wizard.1601119828]
 #. defaultMessage is:
 #. Bucket tenancy
+#. [components.Wizard.1601119828]
+#. defaultMessage is:
+#. Bucket tenancy
 #: build/messages/components/Wizard/OCIDestinationStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Bucket tenancy"
 msgstr "バケットテナンシー"
 
@@ -876,7 +892,8 @@ msgstr "ダウンロード"
 #. Drag and drop a file or upload one
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "Drag and drop a file or upload one"
-msgstr "ファイルをドラッグアンドドロップするか、またはファイルをアップロードします"
+msgstr ""
+"ファイルをドラッグアンドドロップするか、またはファイルをアップロードします"
 
 #. [components.Modal.2044423701]
 #. defaultMessage is:
@@ -1029,7 +1046,11 @@ msgstr "バージョンによる絞り込み"
 #. [components.Wizard.244381809]
 #. defaultMessage is:
 #. Fingerprint
+#. [components.Wizard.244381809]
+#. defaultMessage is:
+#. Fingerprint
 #: build/messages/components/Wizard/OCIAuthStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Fingerprint"
 msgstr "フィンガープリント"
 
@@ -1176,7 +1197,13 @@ msgstr ""
 #. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
 #.                         and the upload action is successful, the image should be available under custom images.
 #.                         Most of the values required to upload the image can be found in the {console}.
+#. [components.Wizard.3213107448]
+#. defaultMessage is:
+#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
+#.                         and the upload action is successful, the image should be available under custom images.
+#.                         Most of the values required to upload the image can be found in the {console}.
 #: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid ""
 "Image Builder can upload images you create to an {bucket} in OCI and "
 "register it as a custom image. When the image build is complete\n"
@@ -1189,8 +1216,8 @@ msgstr ""
 "メージをカスタムイメージとして登録できます。イメージのビルドが完了し、\n"
 "                        アップロードアクションが正常に行われると、イメージは"
 "カスタムイメージで利用可能になります。\n"
-"                        "
-"イメージのアップロードに必要な値のほとんどは、{console} にあります。"
+"                        イメージのアップロードに必要な値のほとんどは、"
+"{console} にあります。"
 
 #. [components.ListView.imageStatusFinished] - Image build status when process is finished
 #. defaultMessage is:
@@ -1505,6 +1532,13 @@ msgstr "利用できるログはありません"
 msgid "No results match the filter criteria"
 msgstr "絞り込みの基準と一致する結果がありません"
 
+#. [components.Wizard.1666805205]
+#. defaultMessage is:
+#. OCI bucket
+#: build/messages/components/Wizard/ReviewStep.json
+msgid "OCI bucket"
+msgstr ""
+
 #. [components.Wizard.compartment]
 #. defaultMessage is:
 #. OCI compartment help
@@ -1622,6 +1656,15 @@ msgstr "変更を保留中"
 #. Private key
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "Private key"
+msgstr "秘密鍵"
+
+#. [components.Wizard.3157862487]
+#. defaultMessage is:
+#. Private key filename
+#: build/messages/components/Wizard/ReviewStep.json
+#, fuzzy
+#| msgid "Private key"
+msgid "Private key filename"
 msgstr "秘密鍵"
 
 #. [components.Wizard.processLength]
@@ -1754,7 +1797,8 @@ msgstr ""
 msgid ""
 "Provide the compartment of the {bucket} your uploading to. You can find the "
 "compartment in the bucket details."
-msgstr "アップロード先の {bucket} のコンパートメントを指定します。コンパートメントは"
+msgstr ""
+"アップロード先の {bucket} のコンパートメントを指定します。コンパートメントは"
 "バケットの詳細で確認できます。"
 
 #. [components.Wizard.1434969769]
@@ -1808,8 +1852,9 @@ msgstr "コンテンツのブランチ名を指定します。まだ存在しな
 msgid ""
 "Provide the namespace of the {bucket} your uploading to. You can find the "
 "namespace in the bucket details."
-msgstr "アップロード先の {bucket} の namespace を指定します。namespace "
-"はバケットの詳細で確認できます。"
+msgstr ""
+"アップロード先の {bucket} の namespace を指定します。namespace はバケットの詳"
+"細で確認できます。"
 
 #. [components.Wizard.3286165321]
 #. defaultMessage is:
@@ -1818,8 +1863,9 @@ msgstr "アップロード先の {bucket} の namespace を指定します。nam
 msgid ""
 "Provide the region of the {bucket} your uploading to. You can find the "
 "region in the bucket details."
-msgstr "アップロード先の {bucket} "
-"のリージョンを指定します。リージョンはバケットの詳細で確認できます。"
+msgstr ""
+"アップロード先の {bucket} のリージョンを指定します。リージョンはバケットの詳"
+"細で確認できます。"
 
 #. [components.Wizard.3854501928]
 #. defaultMessage is:
@@ -1828,8 +1874,9 @@ msgstr "アップロード先の {bucket} "
 msgid ""
 "Provide the tenancy of the {bucket} your uploading to. You can find the "
 "tenancy in the bucket details."
-msgstr "アップロード先の {bucket} "
-"のテナンシーを指定します。テナンシーはバケットの詳細で確認できます。"
+msgstr ""
+"アップロード先の {bucket} のテナンシーを指定します。テナンシーはバケットの詳"
+"細で確認できます。"
 
 #. [components.Wizard.3387354708]
 #. defaultMessage is:
@@ -2516,19 +2563,22 @@ msgstr ""
 #. defaultMessage is:
 #. This upload process requires that you have an {iam} with attached policy to manage custom images
 #.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
+#. [components.Wizard.50730016]
+#. defaultMessage is:
+#. This upload process requires that you have an {iam} with attached policy to manage custom images
+#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
 #: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid ""
 "This upload process requires that you have an {iam} with attached policy to "
 "manage custom images\n"
 "                        to ensure that the image can be import as a custom "
 "image from the {bucket}. For more details, refer to the {policies}."
 msgstr ""
-"このアップロードプロセスでは、"
-"カスタムイメージを管理するポリシーがアタッチされた {iam} "
-"を持っている必要があります。\n"
-"                        これにより、イメージを {bucket} "
-"からカスタムイメージとして確実にインポートできます。詳細は、{policies} "
-"を参照してください。"
+"このアップロードプロセスでは、カスタムイメージを管理するポリシーがアタッチさ"
+"れた {iam} を持っている必要があります。\n"
+"                        これにより、イメージを {bucket} からカスタムイメージ"
+"として確実にインポートできます。詳細は、{policies} を参照してください。"
 
 #. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
@@ -2633,7 +2683,11 @@ msgstr "イメージのアップロード"
 #. [components.Wizard.uploadImage]
 #. defaultMessage is:
 #. Upload image help
+#. [components.Wizard.uploadImage]
+#. defaultMessage is:
+#. Upload image help
 #: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload image help"
 msgstr "画像ヘルプのアップロード"
 
@@ -2687,8 +2741,12 @@ msgstr "Azure にアップロード"
 #. [components.Wizard.uploadOCI]
 #. defaultMessage is:
 #. Upload to OCI
+#. [components.Wizard.3418449520]
+#. defaultMessage is:
+#. Upload to OCI
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to OCI"
 msgstr "OCI へのアップロード"
 
@@ -2713,6 +2771,15 @@ msgstr "VMWare へのアップロード"
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload type"
 msgstr "アップロードタイプ"
+
+#. [components.Wizard.2419068661]
+#. defaultMessage is:
+#. User
+#: build/messages/components/Wizard/ReviewStep.json
+#, fuzzy
+#| msgid "Users"
+msgid "User"
+msgstr "ユーザー"
 
 #. [user-help]
 #. defaultMessage is:
@@ -2851,8 +2918,9 @@ msgstr ""
 msgid ""
 "You can view your deployed RSA keys fingerprint in the API Keys section on "
 "the {iam} page in the OCI console."
-msgstr "OCI コンソールの {iam} ページの API Keys セクションで、デプロイされた RSA "
-"鍵のフィンガープリントを表示できます。"
+msgstr ""
+"OCI コンソールの {iam} ページの API Keys セクションで、デプロイされた RSA 鍵"
+"のフィンガープリントを表示できます。"
 
 #. [components.Wizard.182848243]
 #. defaultMessage is:
@@ -2861,8 +2929,9 @@ msgstr "OCI コンソールの {iam} ページの API Keys セクションで、
 msgid ""
 "You can view your deployed RSA keys in the API Keys section on the {iam} "
 "page in the OCI console."
-msgstr "OCI コンソールの {iam} ページの API Keys セクションで、デプロイされた RSA "
-"鍵を表示できます。"
+msgstr ""
+"OCI コンソールの {iam} ページの API Keys セクションで、デプロイされた RSA 鍵"
+"を表示できます。"
 
 #. [components.ListView.actions]
 #. defaultMessage is:
