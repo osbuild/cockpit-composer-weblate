@@ -2,25 +2,30 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-03-29T18:19:31.691Z\n"
+"PO-Revision-Date: 2022-04-04 04:17+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: react-intl-po\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #. [components.Modal.parenthetical] - Describes the sort order of the pending changes
 #. defaultMessage is:
 #. (most recent first)
 #: build/messages/components/Modal/PendingChanges.json
 msgid "(most recent first)"
-msgstr ""
+msgstr "(ახლახანს გამოყენებული სია)"
 
 #. [components.Modal.4177685254]
 #. defaultMessage is:
 #. A blueprint name is required.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "A blueprint name is required."
-msgstr ""
+msgstr "საჭიროა მონახაზის სახელი."
 
 #. [components.Wizard.warningEmptyBlueprintDesc]
 #. defaultMessage is:
@@ -30,27 +35,29 @@ msgid ""
 "A minimal image will be created with only the packages needed to support the "
 "selected image type."
 msgstr ""
+"მინიმალური გამოსახულება შეიქმენა მხოლოდ იმ პაკეტებისგან, რომლებიც საჭიროა "
+"გამოსახულების არჩეული ტიპისთვის."
 
 #. [components.Wizard.warningSizeEmpty]
 #. defaultMessage is:
 #. A value is required.
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "A value is required."
-msgstr ""
+msgstr "საჭიროა მნიშვნელობა."
 
 #. [fingerprint-help]
 #. defaultMessage is:
 #. API private key's fingerprint
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "API private key's fingerprint"
-msgstr ""
+msgstr "API-ის პირადი გასაღების ანაბეჭდი"
 
 #. [components.Wizard.aws]
 #. defaultMessage is:
 #. AWS help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS help"
-msgstr ""
+msgstr "AWS-ს დახმარება"
 
 #. [components.Wizard.4193750875]
 #. defaultMessage is:
@@ -61,14 +68,14 @@ msgstr ""
 #: build/messages/components/Wizard/AWSDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "AWS region"
-msgstr ""
+msgstr "AWS-ის რეგიონი"
 
 #. [components.Wizard.region]
 #. defaultMessage is:
 #. AWS region help
 #: build/messages/components/Wizard/AWSDestinationStep.json
 msgid "AWS region help"
-msgstr ""
+msgstr "AWS-ის რეგიონის დახმარება"
 
 #. [components.Wizard.1635272069]
 #. defaultMessage is:
@@ -79,21 +86,21 @@ msgstr ""
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Access key ID"
-msgstr ""
+msgstr "წვდომის გასაღების ID"
 
 #. [access-key-id-help]
 #. defaultMessage is:
 #. Access key ID help
 #: build/messages/components/Wizard/AWSAuthStep.json
 msgid "Access key ID help"
-msgstr ""
+msgstr "წვდომის გასაღების ID-ის დახმარება"
 
 #. [components.Wizard.accessKeys]
 #. defaultMessage is:
 #. Access keys
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Access keys"
-msgstr ""
+msgstr "წვდომის გასაღებები"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -104,35 +111,35 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Actions"
-msgstr ""
+msgstr "ქმედებები"
 
 #. [components.Toolbar.2872798476]
 #. defaultMessage is:
 #. Active filters
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Active filters"
-msgstr ""
+msgstr "აქტიური ფილტრები"
 
 #. [components.ListView.3099331554]
 #. defaultMessage is:
 #. Add
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 #. [pages.blueprintEdit.addComponentTitle]
 #. defaultMessage is:
 #. Add blueprint components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Add blueprint components"
-msgstr ""
+msgstr "მონახაზის კომპონენტების დამატება"
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
 #. Add latest version
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Add latest version"
-msgstr ""
+msgstr "ბოლო ვერსიის დამატება"
 
 #. [components.Modal.add]
 #. defaultMessage is:
@@ -145,14 +152,14 @@ msgstr ""
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Add source"
-msgstr ""
+msgstr "წყაროს დამატება"
 
 #. [components.Modal.1362724042] - Identifies the change as a component that was added
 #. defaultMessage is:
 #. Added
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Added"
-msgstr ""
+msgstr "დამატებულია"
 
 #. [components.Wizard.1175512155]
 #. defaultMessage is:
@@ -187,7 +194,7 @@ msgstr ""
 #: build/messages/components/Wizard/VMWareAuthStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "All fields are required."
-msgstr ""
+msgstr "ყველა ველი საჭიროა."
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -202,7 +209,7 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
 msgid "An error occurred"
-msgstr ""
+msgstr "შეცდომა"
 
 #. [components.Modal.1417078254]
 #. defaultMessage is:
@@ -211,84 +218,84 @@ msgstr ""
 msgid ""
 "An error occurred when saving the source. Check that the path is valid and "
 "try again."
-msgstr ""
+msgstr "წყაროს შენახვის შეცდომა. შეამოწმეთ ბილიკი და თავიდან სცადეთ."
 
 #. [components.ListView.emptyStateErrorMessage]
 #. defaultMessage is:
 #. An error occurred while trying to get blueprint contents.
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "An error occurred while trying to get blueprint contents."
-msgstr ""
+msgstr "მონახაზის შიგთავსის მიღების შეცდომა."
 
 #. [components.Modal.errorStateMessage]
 #. defaultMessage is:
 #. An error occurred while trying to get sources.
 #: build/messages/components/Modal/ManageSources.json
 msgid "An error occurred while trying to get sources."
-msgstr ""
+msgstr "წყაროს მიღების შეცდომა."
 
 #. [components.ListView.3998303130]
 #. defaultMessage is:
 #. Apply change
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Apply change"
-msgstr ""
+msgstr "ცვლილების გადატარება"
 
 #. [components.Modal.4140003068]
 #. defaultMessage is:
 #. Are you sure you want to delete the blueprint {name}?
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Are you sure you want to delete the blueprint {name}?"
-msgstr ""
+msgstr "დარწმუნებული ბრძანდებით, რომ გნებავთ წაშალოთ ეს მონახაზი ({name}) ?"
 
 #. [components.Modal.1346739796]
 #. defaultMessage is:
 #. Are you sure you want to delete the image for {blueprintName}?
 #: build/messages/components/Modal/DeleteImage.json
 msgid "Are you sure you want to delete the image for {blueprintName}?"
-msgstr ""
+msgstr "დარწმუნებული ბრძანდებით რომ გნებავთ {blueprintName}-ის მონახაზის წაშლა?"
 
 #. [components.Modal.234116272]
 #. defaultMessage is:
 #. Are you sure you want to stop the build process for {blueprintName}?
 #: build/messages/components/Modal/StopBuild.json
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
-msgstr ""
+msgstr "დარწმუნებული ბრძანდებით, რომ გნებავთ შეაჩეროთ {blueprintName}-ის აგება?"
 
 #. [components.Wizard.160751819]
 #. defaultMessage is:
 #. Authentication
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Authentication"
-msgstr ""
+msgstr "ავთენტიკაცია"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
 #. Automatically start osbuild-composer on boot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Automatically start osbuild-composer on boot"
-msgstr ""
+msgstr "osbuilder-composer-ის გაშვება სისტემის ჩატვირთვის დროს"
 
 #. [pages.blueprintEdit.listTitleAvailableComps]
 #. defaultMessage is:
 #. Available components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Available components"
-msgstr ""
+msgstr "ხელმისაწვდომი კომპონენტები"
 
 #. [components.Wizard.azure]
 #. defaultMessage is:
 #. Azure help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Azure help"
-msgstr ""
+msgstr "Azure-ის დახმარება"
 
 #. [components.Wizard.1347475195]
 #. defaultMessage is:
 #. Back
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Back"
-msgstr ""
+msgstr "უკან"
 
 #. [pages.blueprint.2057444273]
 #. defaultMessage is:
@@ -299,21 +306,21 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Back to blueprints"
-msgstr ""
+msgstr "მონახაზებზე დაბრუნება"
 
 #. [components.ListView.3448229549]
 #. defaultMessage is:
 #. Back to {blueprint}
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Back to {blueprint}"
-msgstr ""
+msgstr "{blueprint}-ზე დაბრუნება"
 
 #. [components.Wizard.blobService]
 #. defaultMessage is:
 #. Blob service
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Blob service"
-msgstr ""
+msgstr "Blob-ის სერვისი"
 
 #. [components.Modal.1281198655]
 #. defaultMessage is:
@@ -336,56 +343,56 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Blueprint"
-msgstr ""
+msgstr "მონახაზი"
 
 #. [pages.blueprintEdit.966788260]
 #. defaultMessage is:
 #. Blueprint components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Blueprint components"
-msgstr ""
+msgstr "მონახაზის კომპონენტები"
 
 #. [components.Modal.2544705954]
 #. defaultMessage is:
 #. Blueprint names cannot contain spaces or the character: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces or the character: {invalidChar}"
-msgstr ""
+msgstr "მონახაზის სახელი არ შეიძლება ამ სიმბოლოს შეიცავდეს: {invalidChar}"
 
 #. [components.Modal.1134732033]
 #. defaultMessage is:
 #. Blueprint names cannot contain spaces or the characters: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces or the characters: {invalidChar}"
-msgstr ""
+msgstr "მონახაზის სახელი არ შეიძლება ამ სიმბოლოს შეიცავდეს: {invalidChar}"
 
 #. [components.Modal.2803906810]
 #. defaultMessage is:
 #. Blueprint names cannot contain spaces.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain spaces."
-msgstr ""
+msgstr "მონახაზის სახელი ვერ შეიცავს ჰარეებს."
 
 #. [components.Modal.2781854456]
 #. defaultMessage is:
 #. Blueprint names cannot contain the character: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain the character: {invalidChar}"
-msgstr ""
+msgstr "მონახაზის სახელი ამ სიმბოლოს არ შეიძლება, შეიცავდეს: {invalidChar}"
 
 #. [components.Modal.3918401128]
 #. defaultMessage is:
 #. Blueprint names cannot contain the characters: {invalidChar}
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Blueprint names cannot contain the characters: {invalidChar}"
-msgstr ""
+msgstr "მონახაზის სახელი არ შეიძლება ამ სიმბოლოს შეიცავდეს: {invalidChar}"
 
 #. [pages.blueprints.blueprintsTitle]
 #. defaultMessage is:
 #. Blueprints
 #: build/messages/pages/blueprints/index.json
 msgid "Blueprints"
-msgstr ""
+msgstr "მონახაზები"
 
 #. [pages.blueprintEdit.addComponentMessageOne]
 #. defaultMessage is:
@@ -484,14 +491,14 @@ msgstr ""
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Cancel"
-msgstr ""
+msgstr "გაუქმება"
 
 #. [components.Modal.683130131]
 #. defaultMessage is:
 #. Changes made in a previous session
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Changes made in a previous session"
-msgstr ""
+msgstr "წინა სესიაში შეატანილი ცვლილებები"
 
 #. [components.Modal.previousSessionInfotip]
 #. defaultMessage is:
@@ -507,21 +514,21 @@ msgstr ""
 #. Changes pending commit
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Changes pending commit"
-msgstr ""
+msgstr "გადასაცემი ცვლილებები"
 
 #. [components.Modal.check_gpg]
 #. defaultMessage is:
 #. Check GPG key
 #: build/messages/components/Modal/ManageSources.json
 msgid "Check GPG key"
-msgstr ""
+msgstr "შეამოწმეთ GPG-ის გასაღები"
 
 #. [components.Modal.check_ssl]
 #. defaultMessage is:
 #. Check SSL certificate
 #: build/messages/components/Modal/ManageSources.json
 msgid "Check SSL certificate"
-msgstr ""
+msgstr "შეამოწმეთ SSL სერტიფიკატი"
 
 #. [components.ListView.1634835134]
 #. defaultMessage is:
@@ -540,7 +547,7 @@ msgstr ""
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
 msgid "Clear all filters"
-msgstr ""
+msgstr "ყველა ფილტრის გასუფთავება"
 
 #. [components.Modal.2324218928]
 #. defaultMessage is:
@@ -558,7 +565,7 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 #. [components.Wizard.103343714]
 #. defaultMessage is:
@@ -569,21 +576,21 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Cluster"
-msgstr ""
+msgstr "კლასტერი"
 
 #. [components.Wizard.cluster]
 #. defaultMessage is:
 #. Cluster help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Cluster help"
-msgstr ""
+msgstr "დახმარება კლატერის შესახებ"
 
 #. [components.Modal.2299254306]
 #. defaultMessage is:
 #. Comment
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Comment"
-msgstr ""
+msgstr "კომენტარი"
 
 #. [components.Modal.commitButtonLabel]
 #. defaultMessage is:
@@ -594,21 +601,21 @@ msgstr ""
 #: build/messages/components/Modal/PendingChanges.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Commit"
-msgstr ""
+msgstr "გადაცემა"
 
 #. [components.Wizard.1126783419]
 #. defaultMessage is:
 #. Commit and create
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Commit and create"
-msgstr ""
+msgstr "გადაცემა და შექმნა"
 
 #. [components.Wizard.552112481]
 #. defaultMessage is:
 #. Commit and next
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Commit and next"
-msgstr ""
+msgstr "გადაცემა და შემდეგი"
 
 #. [pages.blueprint.3956908315]
 #. defaultMessage is:
@@ -619,35 +626,35 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Component details"
-msgstr ""
+msgstr "კომპონენტის დეტალები"
 
 #. [components.ListView.1304855088]
 #. defaultMessage is:
 #. Component options
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Component options"
-msgstr ""
+msgstr "კომპონენტის მორგება"
 
 #. [components.Modal.labelConfirmPassword]
 #. defaultMessage is:
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Confirm password"
-msgstr ""
+msgstr "პაროლის დადასტურება"
 
 #. [components.Modal.956699920]
 #. defaultMessage is:
 #. Contents
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Contents"
-msgstr ""
+msgstr "შემცველობა"
 
 #. [components.Modal.383867403]
 #. defaultMessage is:
 #. Copy
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Copy"
-msgstr ""
+msgstr "კოპირება"
 
 #. [components.Modal.4120989039]
 #. defaultMessage is:
@@ -662,7 +669,7 @@ msgstr ""
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Create"
-msgstr ""
+msgstr "შექმნა"
 
 #. [pages.blueprints.emptyMessage]
 #. defaultMessage is:
@@ -678,14 +685,14 @@ msgstr ""
 #. Create and upload image
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Create and upload image"
-msgstr ""
+msgstr "გამოსახულების შექმნა და ატვირთვა"
 
 #. [components.Modal.994816806]
 #. defaultMessage is:
 #. Create blueprint
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Create blueprint"
-msgstr ""
+msgstr "მონახაზის შექმნა"
 
 #. [components.Wizard.title]
 #. defaultMessage is:
@@ -695,70 +702,70 @@ msgstr ""
 #. Create image
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Create image"
-msgstr ""
+msgstr "გამოსახულების შექმნა"
 
 #. [components.Modal.3234825297]
 #. defaultMessage is:
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 msgid "Create user account"
-msgstr ""
+msgstr "მომხმარებლის ანგარიშის შექმნა"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
 #. Created
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Created"
-msgstr ""
+msgstr "შექმნილია"
 
 #. [pages.blueprint.customizationsTitle]
 #. defaultMessage is:
 #. Customizations
 #: build/messages/pages/blueprint/index.json
 msgid "Customizations"
-msgstr ""
+msgstr "ხელით შეტანილი ცვლილებები"
 
 #. [components.Wizard.2877310487]
 #. defaultMessage is:
 #. Data Center
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Data Center"
-msgstr ""
+msgstr "მონაცემთა დამუშავების ცენტრი"
 
 #. [components.Wizard.3747912914]
 #. defaultMessage is:
 #. Data Store
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Data Store"
-msgstr ""
+msgstr "მონაცემების საცავი"
 
 #. [components.Wizard.4278711264]
 #. defaultMessage is:
 #. Data center
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Data center"
-msgstr ""
+msgstr "მონაცემების დამუშავების ცენტრი"
 
 #. [components.Wizard.3717439361]
 #. defaultMessage is:
 #. Data store
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Data store"
-msgstr ""
+msgstr "მონაცემების საცავი"
 
 #. [components.Wizard.dataCenter]
 #. defaultMessage is:
 #. Datacenter help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Datacenter help"
-msgstr ""
+msgstr "დახმარება მონაცემთა დამუშავების ცენტრის შესახებ"
 
 #. [components.Wizard.dataStore]
 #. defaultMessage is:
 #. Datastore help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Datastore help"
-msgstr ""
+msgstr "დახმარება მონაცემთა დამუშავების ცენტრის შესახებ"
 
 #. [components.ListView.3645414921]
 #. defaultMessage is:
@@ -769,28 +776,28 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #. [components.Modal.1567722925]
 #. defaultMessage is:
 #. Delete blueprint
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Delete blueprint"
-msgstr ""
+msgstr "მონახაზის წაშლა"
 
 #. [components.Modal.942133001]
 #. defaultMessage is:
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
 msgid "Delete image"
-msgstr ""
+msgstr "გამოსახულების წაშლა"
 
 #. [pages.blueprint.userDelete]
 #. defaultMessage is:
 #. Delete user account
 #: build/messages/pages/blueprint/index.json
 msgid "Delete user account"
-msgstr ""
+msgstr "მომხმარებილის ანგარიშის წაშლა"
 
 #. [components.ListView.dependenciesTabTitle]
 #. defaultMessage is:
@@ -808,7 +815,7 @@ msgstr ""
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Dependencies"
-msgstr ""
+msgstr "დამოკიდებულებები"
 
 #. [components.Modal.3374163063]
 #. defaultMessage is:
@@ -823,49 +830,49 @@ msgstr ""
 #: build/messages/components/Modal/EditDescription.json
 #: build/messages/pages/blueprint/index.json
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #. [components.Wizard.2515932130]
 #. defaultMessage is:
 #. Destination
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Destination"
-msgstr ""
+msgstr "დანიშნულება"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. Details
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Details"
-msgstr ""
+msgstr "დეტალები"
 
 #. [pages.blueprintEdit.1469729075]
 #. defaultMessage is:
 #. Discard changes
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Discard changes"
-msgstr ""
+msgstr "ცვლილებების მოცილება"
 
 #. [components.Wizard.labelTar]
 #. defaultMessage is:
 #. Disk Archive (.tar)
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Disk Archive (.tar)"
-msgstr ""
+msgstr "დისკის არქივი (.tar)"
 
 #. [components.ListView.1982430146]
 #. defaultMessage is:
 #. Download
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Download"
-msgstr ""
+msgstr "გადმოწერა"
 
 #. [filename-placeholder]
 #. defaultMessage is:
 #. Drag and drop a file or upload one
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "Drag and drop a file or upload one"
-msgstr ""
+msgstr "გადმოათრიეთ და დააგდეთ ფაილი, ან ატვირთეთ"
 
 #. [components.Modal.2044423701]
 #. defaultMessage is:
@@ -876,21 +883,21 @@ msgstr ""
 #: build/messages/components/Modal/EditDescription.json
 #: build/messages/pages/blueprint/index.json
 msgid "Edit description"
-msgstr ""
+msgstr "აღწერის ჩასწორება"
 
 #. [pages.blueprint.hostnameButtonLabel]
 #. defaultMessage is:
 #. Edit hostname
 #: build/messages/pages/blueprint/index.json
 msgid "Edit hostname"
-msgstr ""
+msgstr "ჰოსტის სახელის ჩასწორება"
 
 #. [pages.blueprint.deviceButtonLabel]
 #. defaultMessage is:
 #. Edit installation device
 #: build/messages/pages/blueprint/index.json
 msgid "Edit installation device"
-msgstr ""
+msgstr "დაყენების მოწყობილობის ჩასწორება"
 
 #. [components.ListView.1908303378]
 #. defaultMessage is:
@@ -905,7 +912,7 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Edit packages"
-msgstr ""
+msgstr "პაკეტების ჩასწორება"
 
 #. [components.ListView.edit]
 #. defaultMessage is:
@@ -916,7 +923,7 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "Edit source"
-msgstr ""
+msgstr "წყაროს ჩასწორება"
 
 #. [components.Modal.2685045824]
 #. defaultMessage is:
@@ -927,7 +934,7 @@ msgstr ""
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/pages/blueprint/index.json
 msgid "Edit user account"
-msgstr ""
+msgstr "მომხმარებლის ანგარიშის ჩასწორება"
 
 #. [components.Wizard.4173021643]
 #. defaultMessage is:
@@ -941,77 +948,77 @@ msgstr ""
 #. Empty blueprint
 #: build/messages/pages/blueprint/index.json
 msgid "Empty blueprint"
-msgstr ""
+msgstr "ცარიელი მონახაზი"
 
 #. [pages.blueprint.deviceHelp]
 #. defaultMessage is:
 #. Enter valid device node such as /dev/sda1
 #: build/messages/pages/blueprint/index.json
 msgid "Enter valid device node such as /dev/sda1"
-msgstr ""
+msgstr "აირჩიეთ მოწყობილობის სწორი უჯრედი. მაგ /dev/sda1"
 
 #. [pages.error.errorMessage]
 #. defaultMessage is:
 #. Error
 #: build/messages/pages/error/index.json
 msgid "Error"
-msgstr ""
+msgstr "შეცდომა"
 
 #. [components.Modal.3590336714]
 #. defaultMessage is:
 #. Export
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Export"
-msgstr ""
+msgstr "გატანა"
 
 #. [components.Modal.3658760324]
 #. defaultMessage is:
 #. Export as
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Export as"
-msgstr ""
+msgstr "გატანა, როგორც"
 
 #. [components.Modal.2169054801]
 #. defaultMessage is:
 #. Export blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Export blueprint"
-msgstr ""
+msgstr "მონახაზის გატანა"
 
 #. [pages.blueprintEdit.filterByLabel]
 #. defaultMessage is:
 #. Filter available components by name
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Filter available components by name"
-msgstr ""
+msgstr "კომპონენტების სახელით გაფილტვრა"
 
 #. [components.Toolbar.filterNamePlaceholder]
 #. defaultMessage is:
 #. Filter by name
 #: build/messages/components/Toolbar/FilterInput.json
 msgid "Filter by name"
-msgstr ""
+msgstr "სახელით გაფილტვრა"
 
 #. [pages.blueprintEdit.filterByPlaceholder]
 #. defaultMessage is:
 #. Filter by name...
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Filter by name..."
-msgstr ""
+msgstr "სახელით გაფილტვრა..."
 
 #. [components.Toolbar.filterReleasePlaceholder]
 #. defaultMessage is:
 #. Filter by release
 #: build/messages/components/Toolbar/FilterInput.json
 msgid "Filter by release"
-msgstr ""
+msgstr "რელიზით გაფილტვრა"
 
 #. [components.Toolbar.filterVersionPlaceholder]
 #. defaultMessage is:
 #. Filter by version
 #: build/messages/components/Toolbar/FilterInput.json
 msgid "Filter by version"
-msgstr ""
+msgstr "ვერსიით გაფილტვრა"
 
 #. [components.Wizard.244381809]
 #. defaultMessage is:
@@ -1022,28 +1029,28 @@ msgstr ""
 #: build/messages/components/Wizard/OCIAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Fingerprint"
-msgstr ""
+msgstr "ანაბეჭდი"
 
 #. [components.Wizard.787186999]
 #. defaultMessage is:
 #. Finish
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Finish"
-msgstr ""
+msgstr "დასრულება"
 
 #. [components.Modal.labelName]
 #. defaultMessage is:
 #. Full name
 #: build/messages/components/Modal/UserAccount.json
 msgid "Full name"
-msgstr ""
+msgstr "სრული სახელი"
 
 #. [pages.error.2333299345]
 #. defaultMessage is:
 #. Go back
 #: build/messages/pages/error/index.json
 msgid "Go back"
-msgstr ""
+msgstr "უკან გადასვლა"
 
 #. [components.ListView.hideDetails]
 #. defaultMessage is:
@@ -1054,7 +1061,7 @@ msgstr ""
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Hide details"
-msgstr ""
+msgstr "დეტალების დამალვა"
 
 #. [components.Wizard.644347739]
 #. defaultMessage is:
@@ -1065,28 +1072,28 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Host"
-msgstr ""
+msgstr "ჰოსტი"
 
 #. [components.Wizard.host]
 #. defaultMessage is:
 #. Host help
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Host help"
-msgstr ""
+msgstr "დახმარება ჰოსტის შესახებ"
 
 #. [pages.blueprint.hostnameInputLabel]
 #. defaultMessage is:
 #. Hostname
 #: build/messages/pages/blueprint/index.json
 msgid "Hostname"
-msgstr ""
+msgstr "ჰოსტის სახელი"
 
 #. [pages.blueprint.hostnameHelpEmpty]
 #. defaultMessage is:
 #. If no hostname is provided, the hostname will be determined by the OS.
 #: build/messages/pages/blueprint/index.json
 msgid "If no hostname is provided, the hostname will be determined by the OS."
-msgstr ""
+msgstr "თუ ჰოსტის სახელი მითითებული არაა, ის ოს-ის მიერ გამისაზღვრება."
 
 #. [components.Wizard.327045352]
 #. defaultMessage is:
@@ -1172,35 +1179,35 @@ msgstr ""
 #. Image build complete
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Image build complete"
-msgstr ""
+msgstr "გამოსახულების აგება დასრულდა"
 
 #. [components.ListView.imageStatusFailed] - Image build status when process failed
 #. defaultMessage is:
 #. Image build failed
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Image build failed"
-msgstr ""
+msgstr "გამოსახულების აგების შეცდომა"
 
 #. [components.ListView.imageStatusRunning] - Image build status when process is in progress
 #. defaultMessage is:
 #. Image build in progress
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Image build in progress"
-msgstr ""
+msgstr "მიმდინარეობს გამოსახულების აგება"
 
 #. [components.ListView.imageStatusWaiting] - Image build status when process is waiting
 #. defaultMessage is:
 #. Image build pending
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Image build pending"
-msgstr ""
+msgstr "გამოსახულების აგება დარჩენილია"
 
 #. [components.EmptyState.errorInactiveTitle]
 #. defaultMessage is:
 #. Image building service is not active
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Image building service is not active"
-msgstr ""
+msgstr "გამოსახულებებს ამგების სერვისი აქტიური არაა"
 
 #. [components.ListView.imageName] - The name given by the user for an image
 #. defaultMessage is:
@@ -1227,7 +1234,7 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Image name"
-msgstr ""
+msgstr "გამოსახულების სახელი"
 
 #. [components.Wizard.imageName]
 #. defaultMessage is:
@@ -1246,14 +1253,14 @@ msgstr ""
 #: build/messages/components/Wizard/OCIDestinationStep.json
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid "Image name help"
-msgstr ""
+msgstr "დახმარება გამოსახულების სახელის შესახებ"
 
 #. [components.Wizard.1005710141]
 #. defaultMessage is:
 #. Image output
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Image output"
-msgstr ""
+msgstr "გამოტანილი გამოსახულება"
 
 #. [components.Wizard.1905943231]
 #. defaultMessage is:
@@ -1264,14 +1271,14 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Image size"
-msgstr ""
+msgstr "გამოსახულების ზომა"
 
 #. [components.Wizard.imageSize]
 #. defaultMessage is:
 #. Image size help
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Image size help"
-msgstr ""
+msgstr "დახმარება გამოსახულების ზომის შესახებ"
 
 #. [components.Wizard.1813441558]
 #. defaultMessage is:
@@ -1282,56 +1289,56 @@ msgstr ""
 #: build/messages/components/Wizard/CreateImageUpload.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Image type"
-msgstr ""
+msgstr "გამოსახულების ტიპი"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
 #. Image uploads
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Image uploads"
-msgstr ""
+msgstr "გამოსახულებების ატვირთვა"
 
 #. [pages.blueprint.imagesTitle]
 #. defaultMessage is:
 #. Images
 #: build/messages/pages/blueprint/index.json
 msgid "Images"
-msgstr ""
+msgstr "გამოსახულებები"
 
 #. [pages.blueprint.3654599626]
 #. defaultMessage is:
 #. Installation Device
 #: build/messages/pages/blueprint/index.json
 msgid "Installation Device"
-msgstr ""
+msgstr "დაყენებს მოწყობილობა"
 
 #. [pages.blueprint.deviceInputLabel]
 #. defaultMessage is:
 #. Installation device
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device"
-msgstr ""
+msgstr "დაყენების მოწყობილობა"
 
 #. [pages.blueprint.devicePopoverLabel]
 #. defaultMessage is:
 #. Installation device help
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device help"
-msgstr ""
+msgstr "დახმარება დაყენების მოწყობილობის შესახებ"
 
 #. [components.Wizard.labelLiveIso]
 #. defaultMessage is:
 #. Installer, suitable for USB and DVD (.iso)
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Installer, suitable for USB and DVD (.iso)"
-msgstr ""
+msgstr "ინსტალერი, თავსებადი USB/DVD(.iso)-სთან"
 
 #. [components.Loading.2617450248]
 #. defaultMessage is:
 #. Loading
 #: build/messages/components/Loading/Loading.json
 msgid "Loading"
-msgstr ""
+msgstr "ჩატვირთვა"
 
 #. [components.ListView.imageLogs] - Log content that gets generated as part of the image creation process
 #. defaultMessage is:
@@ -1342,35 +1349,35 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Logs"
-msgstr ""
+msgstr "ჟურნალი"
 
 #. [components.Modal.3594196712] - User action for displaying the list of source repositories
 #. defaultMessage is:
 #. Manage sources
 #: build/messages/components/Modal/ManageSources.json
 msgid "Manage sources"
-msgstr ""
+msgstr "წყაროების მართვა"
 
 #. [components.EmptyState.alertMessagePreface]
 #. defaultMessage is:
 #. Message
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Message"
-msgstr ""
+msgstr "შეტყობინება"
 
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
 #. Minimum size is {size} GB
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Minimum size is {size} GB"
-msgstr ""
+msgstr "მინიმალური ზომაა {size} GB"
 
 #. [components.Wizard.warningSizeSmall]
 #. defaultMessage is:
 #. Minimum size is {size} GB.
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Minimum size is {size} GB."
-msgstr ""
+msgstr "მინიმალური ზომაა {size} გბ."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -1385,7 +1392,7 @@ msgstr ""
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
 msgid "Modify your filter criteria to get results."
-msgstr ""
+msgstr "შედეგების მისაღებად ჩაასწორეთ თქვენი ფილტრი."
 
 #. [components.Modal.636461959]
 #. defaultMessage is:
@@ -1404,63 +1411,63 @@ msgstr ""
 #: build/messages/components/Toolbar/FilterInput.json
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Name"
-msgstr ""
+msgstr "სახელი"
 
 #. [pages.blueprintEdit.3059610115]
 #. defaultMessage is:
 #. Name: {name}
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Name: {name}"
-msgstr ""
+msgstr "სახელი: {name}"
 
 #. [components.Wizard.namespace]
 #. defaultMessage is:
 #. Namespace help
 #: build/messages/components/Wizard/OCIDestinationStep.json
 msgid "Namespace help"
-msgstr ""
+msgstr "დახმარება სახელების სივრცის შესახებ"
 
 #. [components.Wizard.3673120330]
 #. defaultMessage is:
 #. Next
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Next"
-msgstr ""
+msgstr "შემდეგი"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
 #. No blueprints
 #: build/messages/pages/blueprints/index.json
 msgid "No blueprints"
-msgstr ""
+msgstr "მონახაზების გარეშე"
 
 #. [components.ListView.noDepsTitle]
 #. defaultMessage is:
 #. No dependencies
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "No dependencies"
-msgstr ""
+msgstr "დამოკიდებულებების გარეშე"
 
 #. [pages.blueprint.noImagesTitle]
 #. defaultMessage is:
 #. No images
 #: build/messages/pages/blueprint/index.json
 msgid "No images"
-msgstr ""
+msgstr "გამოსახულებების გარეშე"
 
 #. [pages.blueprint.noImagesMessage]
 #. defaultMessage is:
 #. No images have been created from this blueprint.
 #: build/messages/pages/blueprint/index.json
 msgid "No images have been created from this blueprint."
-msgstr ""
+msgstr "ამ მონახაზიდან გამოსახულებები არ შექმნილა."
 
 #. [components.ListView.1893974769]
 #. defaultMessage is:
 #. No log available
 #: build/messages/components/ListView/ListItemImages.json
 msgid "No log available"
-msgstr ""
+msgstr "ჟურნალი მიუწვდომელია"
 
 #. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
@@ -1475,7 +1482,7 @@ msgstr ""
 #: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
 msgid "No results match the filter criteria"
-msgstr ""
+msgstr "ფილტრი უშედეგოა"
 
 #. [components.Wizard.1666805205]
 #. defaultMessage is:
@@ -1496,7 +1503,7 @@ msgstr ""
 #. OCI region help
 #: build/messages/components/Wizard/OCIDestinationStep.json
 msgid "OCI region help"
-msgstr ""
+msgstr "დახმარება OCI-ის რეგიონის შესახებ"
 
 #. [components.Wizard.tenancy]
 #. defaultMessage is:
@@ -1524,28 +1531,28 @@ msgstr ""
 #. OSTree repo url help
 #: build/messages/components/Wizard/ImageStep.json
 msgid "OSTree repo url help"
-msgstr ""
+msgstr "დახმარება OSTree repo url-ის შესახებ"
 
 #. [components.Modal.1475836573]
 #. defaultMessage is:
 #. Only changes to selected components are shown.
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Only changes to selected components are shown."
-msgstr ""
+msgstr "ნაჩვენებია მხოლოდ არჩეული კომპონენტების ცვლილებები."
 
 #. [pages.error.oupsTitle]
 #. defaultMessage is:
 #. Oups, something went wrong
 #: build/messages/pages/error/index.json
 msgid "Oups, something went wrong"
-msgstr ""
+msgstr "რაღაც ცუდი მოხდა"
 
 #. [pages.blueprint.packagesTitle]
 #. defaultMessage is:
 #. Packages
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
-msgstr ""
+msgstr "პაკეტები"
 
 #. [pages.error.pageNotFoundMessage]
 #. defaultMessage is:
@@ -1555,14 +1562,14 @@ msgstr ""
 #. Page not found
 #: build/messages/pages/error/index.json
 msgid "Page not found"
-msgstr ""
+msgstr "გვერდი ნაპოვნი არაა"
 
 #. [components.Wizard.3070030782]
 #. defaultMessage is:
 #. Parent commit
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Parent commit"
-msgstr ""
+msgstr "მშობლის გადაცემა"
 
 #. [components.Modal.labelPassword]
 #. defaultMessage is:
@@ -1577,21 +1584,21 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 msgid "Password"
-msgstr ""
+msgstr "პაროლი"
 
 #. [components.Modal.sshKeyHelp]
 #. defaultMessage is:
 #. Paste the contents of your public SSH key file here.
 #: build/messages/components/Modal/UserAccount.json
 msgid "Paste the contents of your public SSH key file here."
-msgstr ""
+msgstr "ჩააკოპირეთ SSH-ის თქვენი საჯარო გასაღების შემცველობა."
 
 #. [components.Modal.3226997558]
 #. defaultMessage is:
 #. Pending changes
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Pending changes"
-msgstr ""
+msgstr "დარჩენილი ცვლილებები"
 
 #. [key-help]
 #. defaultMessage is:
@@ -1601,14 +1608,14 @@ msgstr ""
 #. Private key
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "Private key"
-msgstr ""
+msgstr "პირადი გასაღები"
 
 #. [components.Wizard.3157862487]
 #. defaultMessage is:
 #. Private key filename
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Private key filename"
-msgstr ""
+msgstr "პირადი გასაღების ფაილის სახელი"
 
 #. [components.Wizard.processLength]
 #. defaultMessage is:
@@ -1619,7 +1626,7 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Process length help"
-msgstr ""
+msgstr "დახმარება პროცესის სიგრძის შესახებ"
 
 #. [components.Wizard.4277042358]
 #. defaultMessage is:
@@ -1639,7 +1646,7 @@ msgstr ""
 #: build/messages/components/Wizard/VMWareDestinationStep.json
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
-msgstr ""
+msgstr "მიუთითეთ გამოსახულების ასატვირთი ფაილის სახელი."
 
 #. [components.Wizard.2186792528]
 #. defaultMessage is:
@@ -1649,6 +1656,8 @@ msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the {bucket} exists."
 msgstr ""
+"მიუთითეთ გამოსახულების ასატვირთი AWS-ის რეგიონი. უნდა ემთხვეოდეს იმას, სადაც "
+"{bucket}-ია მოთავსებული."
 
 #. [components.Wizard.517158149]
 #. defaultMessage is:
@@ -1817,14 +1826,14 @@ msgstr ""
 #. QEMU Image (.qcow2)
 #: build/messages/components/Wizard/ImageStep.json
 msgid "QEMU Image (.qcow2)"
-msgstr ""
+msgstr "QEMU გამოსახულება (.qcow2)"
 
 #. [components.Wizard.31026111]
 #. defaultMessage is:
 #. Ref
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Ref"
-msgstr ""
+msgstr "ბმა"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1843,7 +1852,7 @@ msgstr ""
 #: build/messages/components/Toolbar/FilterInput.json
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Release"
-msgstr ""
+msgstr "რელიზი"
 
 #. [components.ListView.2703758654]
 #. defaultMessage is:
@@ -1858,63 +1867,63 @@ msgstr ""
 #: build/messages/components/ListView/ComponentsDataListItem.json
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Remove"
-msgstr ""
+msgstr "წაშლა"
 
 #. [components.ListView.removeComponent]
 #. defaultMessage is:
 #. Remove component from blueprint
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Remove component from blueprint"
-msgstr ""
+msgstr "კომპონენტის წაშლა მონახაზიდან"
 
 #. [components.ListView.removeFromBlueprint]
 #. defaultMessage is:
 #. Remove from blueprint
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Remove from blueprint"
-msgstr ""
+msgstr "მონახაზიდან ამოღება"
 
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Remove source"
-msgstr ""
+msgstr "წყაროს წაშლა"
 
 #. [components.Modal.2291868453] - Identifies the change as a component that was removed
 #. defaultMessage is:
 #. Removed
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Removed"
-msgstr ""
+msgstr "წაშლილია"
 
 #. [components.ListView.2663433025]
 #. defaultMessage is:
 #. Removing source
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Removing source"
-msgstr ""
+msgstr "წყაროს წაშლა"
 
 #. [components.Wizard.2238384022]
 #. defaultMessage is:
 #. Repository URL
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Repository URL"
-msgstr ""
+msgstr "რეპოზიტორიის URL"
 
 #. [components.Modal.128739785]
 #. defaultMessage is:
 #. Required information is missing.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Required information is missing."
-msgstr ""
+msgstr "აუცილებელი ინფორმაცია ნაპოვნი არაა."
 
 #. [components.Wizard.3835894881]
 #. defaultMessage is:
 #. Review
 #: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Review"
-msgstr ""
+msgstr "გადახედვა"
 
 #. [components.Wizard.review]
 #. defaultMessage is:
@@ -1930,21 +1939,21 @@ msgstr ""
 #. Role
 #: build/messages/components/Modal/UserAccount.json
 msgid "Role"
-msgstr ""
+msgstr "როლი"
 
 #. [components.Wizard.bucket]
 #. defaultMessage is:
 #. S3 Bucket help
 #: build/messages/components/Wizard/AWSDestinationStep.json
 msgid "S3 Bucket help"
-msgstr ""
+msgstr "დახმარება S3 Bucket-ის შესახებ"
 
 #. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
 #: build/messages/components/Modal/UserAccount.json
 msgid "SSH key"
-msgstr ""
+msgstr "SSH გასაღები"
 
 #. [components.Form.save]
 #. defaultMessage is:
@@ -1955,14 +1964,14 @@ msgstr ""
 #: build/messages/components/Form/TextInlineEdit.json
 #: build/messages/components/Modal/EditDescription.json
 msgid "Save"
-msgstr ""
+msgstr "შენახვა"
 
 #. [components.Modal.1820273720]
 #. defaultMessage is:
 #. Saving source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Saving source"
-msgstr ""
+msgstr "წყაროს შენახვა"
 
 #. [components.Wizard.135579143]
 #. defaultMessage is:
@@ -1973,28 +1982,28 @@ msgstr ""
 #: build/messages/components/Wizard/AWSAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Secret access key"
-msgstr ""
+msgstr "წვდომის საიდუმლო გასაღები"
 
 #. [secret-access-key-help]
 #. defaultMessage is:
 #. Secret access key help
 #: build/messages/components/Wizard/AWSAuthStep.json
 msgid "Secret access key help"
-msgstr ""
+msgstr "დახმარება საიდუმლო წვდომის გასაღების შესახებ"
 
 #. [components.Modal.security]
 #. defaultMessage is:
 #. Security
 #: build/messages/components/Modal/ManageSources.json
 msgid "Security"
-msgstr ""
+msgstr "დაცვა"
 
 #. [pages.blueprintEdit.1513086105]
 #. defaultMessage is:
 #. Select components
 #: build/messages/pages/blueprintEdit/index.json
 msgid "Select components"
-msgstr ""
+msgstr "აირჩიეთ კომპონენტები"
 
 #. [components.Modal.selectOne]
 #. defaultMessage is:
@@ -2005,28 +2014,28 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Select one"
-msgstr ""
+msgstr "აირჩიეთ ერთი"
 
 #. [components.ListView.selectedTabTitle]
 #. defaultMessage is:
 #. Selected components
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Selected components"
-msgstr ""
+msgstr "არჩეული კომპონენტები"
 
 #. [components.Modal.adminCheckbox]
 #. defaultMessage is:
 #. Server admin checkbox
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server admin checkbox"
-msgstr ""
+msgstr "სერვერის ადმინისტრატორი"
 
 #. [components.Modal.labelAdmin]
 #. defaultMessage is:
 #. Server administrator
 #: build/messages/components/Modal/UserAccount.json
 msgid "Server administrator"
-msgstr ""
+msgstr "სერვერი ადმინისტრატორი"
 
 #. [components.Wizard.imageSizePopover]
 #. defaultMessage is:
@@ -2043,49 +2052,49 @@ msgstr ""
 #. Show all
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Show all"
-msgstr ""
+msgstr "ყველას ჩვენება"
 
 #. [components.ListView.showDetails]
 #. defaultMessage is:
 #. Show details and more options
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Show details and more options"
-msgstr ""
+msgstr "დეტალების და დამატებითი პარამეტრების ჩვენება"
 
 #. [components.ListView.614182381]
 #. defaultMessage is:
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Show less"
-msgstr ""
+msgstr "ნაკლების ჩვენება"
 
 #. [components.ListView.imageSize] - A label for the size of an image file
 #. defaultMessage is:
 #. Size
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Size"
-msgstr ""
+msgstr "ზომა"
 
 #. [components.ListView.kebab]
 #. defaultMessage is:
 #. Source actions
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Source actions"
-msgstr ""
+msgstr "წყაროს ქმედებები"
 
 #. [components.Modal.sourcePath] - The path or url to the source repository
 #. defaultMessage is:
 #. Source path
 #: build/messages/components/Modal/ManageSources.json
 msgid "Source path"
-msgstr ""
+msgstr "წყაროს ბილიკი"
 
 #. [components.Modal.3025955497] - Sources provide the contents from which components are selected
 #. defaultMessage is:
 #. Sources
 #: build/messages/components/Modal/ManageSources.json
 msgid "Sources"
-msgstr ""
+msgstr "წყარო"
 
 #. [components.Modal.infotip]
 #. defaultMessage is:
@@ -2103,42 +2112,42 @@ msgstr ""
 #. Specify a new blueprint name.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "Specify a new blueprint name."
-msgstr ""
+msgstr "მიუთითეთ ახალი მონახაზის სახელი."
 
 #. [components.EmptyState.errorInactivePrimary]
 #. defaultMessage is:
 #. Start
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Start"
-msgstr ""
+msgstr "დაწყება"
 
 #. [components.ListView.timeStarted] - A label for the date that an image upload was started
 #. defaultMessage is:
 #. Started
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Started"
-msgstr ""
+msgstr "დაწყებულია"
 
 #. [components.ListView.2989081855]
 #. defaultMessage is:
 #. Stop
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Stop"
-msgstr ""
+msgstr "გაჩერება"
 
 #. [components.Modal.154017637]
 #. defaultMessage is:
 #. Stop build
 #: build/messages/components/Modal/StopBuild.json
 msgid "Stop build"
-msgstr ""
+msgstr "აგების გაჩერება"
 
 #. [components.ListView.imageStatusStopping] - Image build status when user selected to end the process
 #. defaultMessage is:
 #. Stopping
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Stopping"
-msgstr ""
+msgstr "გაჩერება"
 
 #. [components.Wizard.4127941395]
 #. defaultMessage is:
@@ -2149,14 +2158,14 @@ msgstr ""
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Storage access key"
-msgstr ""
+msgstr "საცავის წვდომის გასაღები"
 
 #. [components.Wizard.storageAccessKey]
 #. defaultMessage is:
 #. Storage access key help
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Storage access key help"
-msgstr ""
+msgstr "დახმარება საცავთან წვდომის გასაღების შესახებ"
 
 #. [components.Wizard.1624497518]
 #. defaultMessage is:
@@ -2167,14 +2176,14 @@ msgstr ""
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Storage account"
-msgstr ""
+msgstr "საცავის ანგარიში"
 
 #. [components.Wizard.storageAccount]
 #. defaultMessage is:
 #. Storage account help
 #: build/messages/components/Wizard/AzureAuthStep.json
 msgid "Storage account help"
-msgstr ""
+msgstr "დახმარება საცავის ანგარიშის შესახებ"
 
 #. [components.Wizard.storageAccounts]
 #. defaultMessage is:
@@ -2185,7 +2194,7 @@ msgstr ""
 #: build/messages/components/Wizard/AzureAuthStep.json
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Storage accounts"
-msgstr ""
+msgstr "საცავის ანგარიშები"
 
 #. [components.Wizard.1249927125]
 #. defaultMessage is:
@@ -2196,28 +2205,28 @@ msgstr ""
 #: build/messages/components/Wizard/AzureDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Storage container"
-msgstr ""
+msgstr "საცავის კონტეინერი"
 
 #. [components.Wizard.storageContainer]
 #. defaultMessage is:
 #. Storage container help
 #: build/messages/components/Wizard/AzureDestinationStep.json
 msgid "Storage container help"
-msgstr ""
+msgstr "დახმარება საცავის კონტეინერის შესახებ"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
 #. System source
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "System source"
-msgstr ""
+msgstr "სისტემის წყარო"
 
 #. [components.Modal.3495336243]
 #. defaultMessage is:
 #. Text
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Text"
-msgstr ""
+msgstr "ტექსტი"
 
 #. [components.Modal.3426018028]
 #. defaultMessage is:
@@ -2255,7 +2264,7 @@ msgstr ""
 #. The name {name} already exists.
 #: build/messages/components/Modal/CreateBlueprint.json
 msgid "The name {name} already exists."
-msgstr ""
+msgstr "სახელი უკვე არსებობს ({name})."
 
 #. [pages.blueprintEdit.addComponentMessageTwo]
 #. defaultMessage is:
@@ -2279,7 +2288,7 @@ msgstr ""
 #. The service osbuild-composer was not started.
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "The service osbuild-composer was not started."
-msgstr ""
+msgstr "სერვისი osbuild-composer-ი გაშვებული არაა."
 
 #. [components.Wizard.warningSizeLarge]
 #. defaultMessage is:
@@ -2302,13 +2311,15 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
+"მომხმარებლის სახელი შეიძლება მხოლოდ შეიცავდეს a-z სიმბოლოებს, ციფრებს, "
+"წერტილებს, ტირეებს და ქვედა ტირეებს."
 
 #. [components.Modal.usernameEmpty]
 #. defaultMessage is:
 #. The user name cannot be empty.
 #: build/messages/components/Modal/UserAccount.json
 msgid "The user name cannot be empty."
-msgstr ""
+msgstr "მომხმარებლის სახელი ცარიელი არ შეიძლება იყოს."
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
@@ -2353,7 +2364,7 @@ msgstr ""
 #: build/messages/components/Modal/DeleteBlueprint.json
 #: build/messages/components/Modal/DeleteImage.json
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "ქმედების დაბრუნება შეუძლებელია."
 
 #. [components.Wizard.warningUnsaved]
 #. defaultMessage is:
@@ -2369,21 +2380,21 @@ msgstr ""
 #. This blueprint is empty.
 #: build/messages/components/Wizard/ImageStep.json
 msgid "This blueprint is empty."
-msgstr ""
+msgstr "მონახაზი ცარიელია."
 
 #. [components.ListView.noDepsMessage]
 #. defaultMessage is:
 #. This component has no dependencies.
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "This component has no dependencies."
-msgstr ""
+msgstr "კომპონენტს დამოკიდებულებები არ გააჩნია."
 
 #. [components.Wizard.requiredField]
 #. defaultMessage is:
 #. This is a required field
 #: build/messages/components/Wizard/ImageStep.json
 msgid "This is a required field"
-msgstr ""
+msgstr "ველის შევსება აუცილებელია"
 
 #. [components.Wizard.infotip]
 #. defaultMessage is:
@@ -2403,14 +2414,14 @@ msgstr ""
 #. This source name already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source name already exists."
-msgstr ""
+msgstr "მომხმარებლის სახელი უკვე არსებობს."
 
 #. [components.Modal.1932541555]
 #. defaultMessage is:
 #. This source path already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source path already exists."
-msgstr ""
+msgstr "წყაროს ბილიკი უკვე არსებობს."
 
 #. [components.Notifications.errorSubscription]
 #. defaultMessage is:
@@ -2458,14 +2469,14 @@ msgstr ""
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
 msgid "This user name already exists."
-msgstr ""
+msgstr "მომხმარებლის სახელი უკვე არსებობს."
 
 #. [components.EmptyState.errorInactiveSecondary]
 #. defaultMessage is:
 #. Troubleshoot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Troubleshoot"
-msgstr ""
+msgstr "პრობლემების პოვნა"
 
 #. [components.ListView.1952810469]
 #. defaultMessage is:
@@ -2488,70 +2499,70 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Type"
-msgstr ""
+msgstr "ტიპი"
 
 #. [components.ListView.1508102472]
 #. defaultMessage is:
 #. Type {sourceType}
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Type {sourceType}"
-msgstr ""
+msgstr "ტიპი {sourceType}"
 
 #. [components.ListView.1324178587]
 #. defaultMessage is:
 #. URL
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. [components.ListView.4008580262]
 #. defaultMessage is:
 #. Undo last change
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Undo last change"
-msgstr ""
+msgstr "ბოლო ცვლილების დაბრუნება"
 
 #. [components.Modal.1458938618]
 #. defaultMessage is:
 #. Update
 #: build/messages/components/Modal/UserAccount.json
 msgid "Update"
-msgstr ""
+msgstr "განახლება"
 
 #. [components.Modal.update]
 #. defaultMessage is:
 #. Update source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Update source"
-msgstr ""
+msgstr "წყაროს განახლება"
 
 #. [components.Modal.562988552] - Identifies the change as a component that was updated
 #. defaultMessage is:
 #. Updated
 #: build/messages/components/Modal/PendingChanges.json
 msgid "Updated"
-msgstr ""
+msgstr "განახლებულია"
 
 #. [components.ListView.uploadStatusFinished] - Upload status when process is finished
 #. defaultMessage is:
 #. Upload complete
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload complete"
-msgstr ""
+msgstr "ატვირთვა დასრულებულია"
 
 #. [components.ListView.uploadStatusFailed] - Upload status when process failed
 #. defaultMessage is:
 #. Upload failed
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload failed"
-msgstr ""
+msgstr "ატვირთვის შეცდომა"
 
 #. [components.Wizard.3057159632]
 #. defaultMessage is:
 #. Upload image
 #: build/messages/components/Wizard/ImageStep.json
 msgid "Upload image"
-msgstr ""
+msgstr "გამოსახულების ატვირთვა"
 
 #. [components.Wizard.uploadImage]
 #. defaultMessage is:
@@ -2562,21 +2573,21 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload image help"
-msgstr ""
+msgstr "დახმარება გამოსახულების ატვირთვის შესახებ"
 
 #. [components.ListView.uploadStatusRunning] - Upload status when process is in progress
 #. defaultMessage is:
 #. Upload in progress
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload in progress"
-msgstr ""
+msgstr "მიმდინარეობს ატვირთვა"
 
 #. [components.ListView.uploadStatusWaiting] - Upload status when process is waiting
 #. defaultMessage is:
 #. Upload pending
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload pending"
-msgstr ""
+msgstr "ატვირთვის მოლოდინი"
 
 #. [components.Wizard.3235936248]
 #. defaultMessage is:
@@ -2591,7 +2602,7 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to AWS"
-msgstr ""
+msgstr "AWS-ზე ატვირთვა"
 
 #. [components.Wizard.2244258572]
 #. defaultMessage is:
@@ -2606,7 +2617,7 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to Azure"
-msgstr ""
+msgstr "Azure-ზე ატვირთვა"
 
 #. [components.Wizard.3418449520]
 #. defaultMessage is:
@@ -2621,7 +2632,7 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to OCI"
-msgstr ""
+msgstr "OCI-ზე ატვირთვა"
 
 #. [components.Wizard.3542348520]
 #. defaultMessage is:
@@ -2636,21 +2647,21 @@ msgstr ""
 #: build/messages/components/Wizard/ImageStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Upload to VMWare"
-msgstr ""
+msgstr "VMWare-ზე ატვირთვა"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
 #. Upload type
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload type"
-msgstr ""
+msgstr "ატვირთვის ტიპი"
 
 #. [components.Wizard.2419068661]
 #. defaultMessage is:
 #. User
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "User"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #. [user-help]
 #. defaultMessage is:
@@ -2660,21 +2671,21 @@ msgstr ""
 #. User OCID
 #: build/messages/components/Wizard/OCIAuthStep.json
 msgid "User OCID"
-msgstr ""
+msgstr "მომხმარებლის OCID"
 
 #. [pages.blueprint.userKebab]
 #. defaultMessage is:
 #. User account actions
 #: build/messages/pages/blueprint/index.json
 msgid "User account actions"
-msgstr ""
+msgstr "ქმედებები მომხმარებლების ანგარიშებზე"
 
 #. [components.Modal.labelUsername]
 #. defaultMessage is:
 #. User name
 #: build/messages/components/Modal/UserAccount.json
 msgid "User name"
-msgstr ""
+msgstr "მომხმარებლის სახელი"
 
 #. [components.Wizard.2663586870]
 #. defaultMessage is:
@@ -2685,21 +2696,21 @@ msgstr ""
 #: build/messages/components/Wizard/ReviewStep.json
 #: build/messages/components/Wizard/VMWareAuthStep.json
 msgid "Username"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
-msgstr ""
+msgstr "მომხმარებლები"
 
 #. [components.Wizard.vmware]
 #. defaultMessage is:
 #. VMWare help
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "VMWare help"
-msgstr ""
+msgstr "დახმარება VMWARE-ის შესახებ"
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -2738,14 +2749,14 @@ msgstr ""
 #: build/messages/components/Toolbar/FilterInput.json
 #: build/messages/components/Toolbar/ToolbarLayout.json
 msgid "Version"
-msgstr ""
+msgstr "ვერსია"
 
 #. [components.ListView.3097747573]
 #. defaultMessage is:
 #. View
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "View"
-msgstr ""
+msgstr "ხედი"
 
 #. [components.Wizard.706264916]
 #. defaultMessage is:
@@ -2799,28 +2810,28 @@ msgstr ""
 #: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "actions"
-msgstr ""
+msgstr "ქმედებები"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. details
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "details"
-msgstr ""
+msgstr "დეტალები"
 
 #. [components.Modal.2755325844]
 #. defaultMessage is:
 #. from
 #: build/messages/components/Modal/PendingChanges.json
 msgid "from"
-msgstr ""
+msgstr "გამომგზავნი"
 
 #. [pages.error.2054225650]
 #. defaultMessage is:
 #. home page
 #: build/messages/pages/error/index.json
 msgid "home page"
-msgstr ""
+msgstr "საწყისი გვერდი"
 
 #. [components.ListView.metalink]
 #. defaultMessage is:
@@ -2831,7 +2842,7 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "metalink"
-msgstr ""
+msgstr "მეტაბმული"
 
 #. [components.ListView.mirrorlist]
 #. defaultMessage is:
@@ -2842,14 +2853,14 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
-msgstr ""
+msgstr "სარკეები"
 
 #. [pages.blueprintEdit.paginationPerPage]
 #. defaultMessage is:
 #. per page
 #: build/messages/pages/blueprintEdit/index.json
 msgid "per page"
-msgstr ""
+msgstr "გვერდზე"
 
 #. [components.Wizard.2454328248]
 #. defaultMessage is:
@@ -2865,7 +2876,7 @@ msgstr ""
 #. to
 #: build/messages/components/Modal/PendingChanges.json
 msgid "to"
-msgstr ""
+msgstr "მიმღები"
 
 #. [components.ListView.baseurl]
 #. defaultMessage is:
@@ -2876,35 +2887,35 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "yum repository"
-msgstr ""
+msgstr "yum-ის რეპოზიტორია"
 
 #. [components.Notifications.4273735599]
 #. defaultMessage is:
 #. {blueprint} Blueprint changes are committed.
 #: build/messages/components/Notifications/Notifications.json
 msgid "{blueprint} Blueprint changes are committed."
-msgstr ""
+msgstr "{blueprint}-ის ცვლილებები გადაგზავნილია."
 
 #. [components.Notifications.477516828]
 #. defaultMessage is:
 #. {blueprint} Commit failed.
 #: build/messages/components/Notifications/Notifications.json
 msgid "{blueprint} Commit failed."
-msgstr ""
+msgstr "{blueprint}-ის გადაცემის შეცდომა."
 
 #. [components.Notifications.1829299735]
 #. defaultMessage is:
 #. {blueprint} Committing blueprint.
 #: build/messages/components/Notifications/Notifications.json
 msgid "{blueprint} Committing blueprint."
-msgstr ""
+msgstr "{blueprint}-ის გადაცემა."
 
 #. [components.Notifications.3947958753]
 #. defaultMessage is:
 #. {blueprint} Image creation failed.
 #: build/messages/components/Notifications/Notifications.json
 msgid "{blueprint} Image creation failed."
-msgstr ""
+msgstr "{blueprint} გამოსახულების აგების შეცდომა."
 
 #. [components.Notifications.3040107790]
 #. defaultMessage is:
@@ -2932,14 +2943,14 @@ msgstr ""
 #. {count} total components
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "{count} total components"
-msgstr ""
+msgstr "კომპონენტების რაოდენობაა {count}"
 
 #. [components.Modal.3908981070]
 #. defaultMessage is:
 #. {from} {oldVersion} {to} {newVersion}
 #: build/messages/components/Modal/PendingChanges.json
 msgid "{from} {oldVersion} {to} {newVersion}"
-msgstr ""
+msgstr "{from} {oldVersion} {to} {newVersion}"
 
 #. [pages.error.526995878]
 #. defaultMessage is:
@@ -2953,7 +2964,7 @@ msgstr ""
 #. {heading} {parenthetical}
 #: build/messages/components/Modal/PendingChanges.json
 msgid "{heading} {parenthetical}"
-msgstr ""
+msgstr "{heading} {parenthetical}"
 
 #. [pages.blueprintEdit.4031669927]
 #. defaultMessage is:
@@ -2972,8 +2983,8 @@ msgstr ""
 
 #: public/manifest.json
 msgid "Creating system images"
-msgstr ""
+msgstr "სისტემის გამოსახულებების შექმნა"
 
 #: public/manifest.json
 msgid "Image Builder"
-msgstr ""
+msgstr "გამოსახულების ამგები"
