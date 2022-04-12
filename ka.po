@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-03-29T18:19:31.691Z\n"
-"PO-Revision-Date: 2022-04-04 04:17+0000\n"
+"PO-Revision-Date: 2022-04-13 13:17+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/main/ka/>\n"
@@ -412,7 +412,7 @@ msgstr ""
 #: build/messages/components/Wizard/OCIDestinationStep.json
 #: build/messages/components/Wizard/ReviewStep.json
 msgid "Bucket compartment"
-msgstr ""
+msgstr "პროექტის შემადგენელი ნაწილები"
 
 #. [components.Wizard.bucket]
 #. defaultMessage is:
