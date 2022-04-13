@@ -7,7 +7,7 @@
 # Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-03-29T18:19:31.691Z\n"
+"POT-Creation-Date: 2022-04-12T18:19:09.758Z\n"
 "PO-Revision-Date: 2022-04-13 13:17+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -2851,10 +2851,10 @@ msgid ""
 "(/). A ref must start with a letter, a number, or an underscore. Slashes "
 "must also be followed by a letter or number."
 msgstr ""
-"参照に使用できる有効な文字は、a から z までの文字、0 から 9 までの数字、"
-"ハイフン (-)、アンダースコア (_)、ピリオド (.)、およびスラッシュ (/) です。参"
-"照は文字、数字、またはアンダースコアで始める必要があります。また、スラッシュ"
-"の後には文字または数字を続ける必要があります。"
+"参照に使用できる有効な文字は、a から z までの文字、0 から 9 までの数字、ハイ"
+"フン (-)、アンダースコア (_)、ピリオド (.)、およびスラッシュ (/) です。参照は"
+"文字、数字、またはアンダースコアで始める必要があります。また、スラッシュの後"
+"には文字または数字を続ける必要があります。"
 
 #. [components.ListView.602883748]
 #. defaultMessage is:
