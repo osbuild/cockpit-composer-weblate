@@ -1,7 +1,7 @@
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-04-26T18:21:51.554Z\n"
+"POT-Creation-Date: 2022-05-24T18:23:03.105Z\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
