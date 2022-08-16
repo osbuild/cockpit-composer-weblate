@@ -1,95 +1,17 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-15T04:11:21.260Z\n"
+"POT-Creation-Date: 2022-08-16T03:59:15.081Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
 "X-Generator: react-intl-po\n"
 
 
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.parenthetical] - Describes the sort order of the pending changes
-#. defaultMessage is:
-#. (most recent first)
-msgid "(most recent first)"
-msgstr ""
-
 #: build/messages/components/Modal/CreateBlueprint.json
 #. [components.Modal.4177685254]
 #. defaultMessage is:
 #. A blueprint name is required.
 msgid "A blueprint name is required."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.warningEmptyBlueprintDesc]
-#. defaultMessage is:
-#. A minimal image will be created with only the packages needed to support the selected image type.
-msgid "A minimal image will be created with only the packages needed to support the selected image type."
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.warningSizeEmpty]
-#. defaultMessage is:
-#. A value is required.
-msgid "A value is required."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [fingerprint-help]
-#. defaultMessage is:
-#. API private key's fingerprint
-msgid "API private key's fingerprint"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.aws]
-#. defaultMessage is:
-#. AWS help
-msgid "AWS help"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.4193750875]
-#. defaultMessage is:
-#. AWS region
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.4193750875]
-#. defaultMessage is:
-#. AWS region
-msgid "AWS region"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.region]
-#. defaultMessage is:
-#. AWS region help
-msgid "AWS region help"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [components.Wizard.1635272069]
-#. defaultMessage is:
-#. Access key ID
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1635272069]
-#. defaultMessage is:
-#. Access key ID
-msgid "Access key ID"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [access-key-id-help]
-#. defaultMessage is:
-#. Access key ID help
-msgid "Access key ID help"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.accessKeys]
-#. defaultMessage is:
-#. Access keys
-msgid "Access keys"
 msgstr ""
 
 #: build/messages/components/ListView/ListItemImages.json
@@ -103,25 +25,11 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: build/messages/components/Toolbar/ToolbarLayout.json
-#. [components.Toolbar.2872798476]
-#. defaultMessage is:
-#. Active filters
-msgid "Active filters"
-msgstr ""
-
 #: build/messages/components/ListView/ComponentDetailsView.json
 #. [components.ListView.3099331554]
 #. defaultMessage is:
 #. Add
 msgid "Add"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.addComponentTitle]
-#. defaultMessage is:
-#. Add blueprint components
-msgid "Add blueprint components"
 msgstr ""
 
 #: build/messages/components/ListView/ComponentInputs.json
@@ -144,48 +52,6 @@ msgstr ""
 #. defaultMessage is:
 #. Add source
 msgid "Add source"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.1362724042] - Identifies the change as a component that was added
-#. defaultMessage is:
-#. Added
-msgid "Added"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/VMWareAuthStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-msgid "All fields are required."
 msgstr ""
 
 #: build/messages/components/ListView/BlueprintContents.json
@@ -252,13 +118,6 @@ msgstr ""
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
 msgstr ""
 
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.160751819]
-#. defaultMessage is:
-#. Authentication
-msgid "Authentication"
-msgstr ""
-
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
@@ -266,33 +125,8 @@ msgstr ""
 msgid "Automatically start osbuild-composer on boot"
 msgstr ""
 
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.listTitleAvailableComps]
-#. defaultMessage is:
-#. Available components
-msgid "Available components"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.azure]
-#. defaultMessage is:
-#. Azure help
-msgid "Azure help"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.1347475195]
-#. defaultMessage is:
-#. Back
-msgid "Back"
-msgstr ""
-
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.2057444273]
-#. defaultMessage is:
-#. Back to blueprints
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.2057444273]
 #. defaultMessage is:
 #. Back to blueprints
 msgid "Back to blueprints"
@@ -305,41 +139,15 @@ msgstr ""
 msgid "Back to {blueprint}"
 msgstr ""
 
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.blobService]
-#. defaultMessage is:
-#. Blob service
-msgid "Blob service"
-msgstr ""
-
 #: build/messages/components/Modal/ExportBlueprint.json
 #. [components.Modal.1281198655]
-#. defaultMessage is:
-#. Blueprint
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.blueprint]
-#. defaultMessage is:
-#. Blueprint
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1281198655]
 #. defaultMessage is:
 #. Blueprint
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.blueprint]
 #. defaultMessage is:
 #. Blueprint
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.blueprintTitle]
-#. defaultMessage is:
-#. Blueprint
 msgid "Blueprint"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.966788260]
-#. defaultMessage is:
-#. Blueprint components
-msgid "Blueprint components"
 msgstr ""
 
 #: build/messages/components/Modal/CreateBlueprint.json
@@ -384,64 +192,6 @@ msgstr ""
 msgid "Blueprints"
 msgstr ""
 
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.addComponentMessageOne]
-#. defaultMessage is:
-#. Browse or search for components, then add them to the blueprint. Or leave the blueprint empty to create a minimal image.
-msgid "Browse or search for components, then add them to the blueprint. Or leave the blueprint empty to create a minimal image."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.992376537]
-#. defaultMessage is:
-#. Bucket compartment
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.992376537]
-#. defaultMessage is:
-#. Bucket compartment
-msgid "Bucket compartment"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.bucket]
-#. defaultMessage is:
-#. Bucket help
-msgid "Bucket help"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.3386954132]
-#. defaultMessage is:
-#. Bucket namespace
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3386954132]
-#. defaultMessage is:
-#. Bucket namespace
-msgid "Bucket namespace"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.2790265886]
-#. defaultMessage is:
-#. Bucket region
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2790265886]
-#. defaultMessage is:
-#. Bucket region
-msgid "Bucket region"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.1601119828]
-#. defaultMessage is:
-#. Bucket tenancy
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1601119828]
-#. defaultMessage is:
-#. Bucket tenancy
-msgid "Bucket tenancy"
-msgstr ""
-
 #: build/messages/components/Form/TextInlineEdit.json
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -474,32 +224,7 @@ msgstr ""
 #. [components.Modal.3528672691]
 #. defaultMessage is:
 #. Cancel
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.3528672691]
-#. defaultMessage is:
-#. Cancel
 msgid "Cancel"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.683130131]
-#. defaultMessage is:
-#. Changes made in a previous session
-msgid "Changes made in a previous session"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.previousSessionInfotip]
-#. defaultMessage is:
-#. Changes made in a previous session are not listed in the order they were made. If you choose to undo these changes, they are undone as a group.
-msgid "Changes made in a previous session are not listed in the order they were made. If you choose to undo these changes, they are undone as a group."
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.92001050]
-#. defaultMessage is:
-#. Changes pending commit
-msgid "Changes pending commit"
 msgstr ""
 
 #: build/messages/components/Modal/ManageSources.json
@@ -520,18 +245,6 @@ msgstr ""
 #. [components.ListView.1634835134]
 #. defaultMessage is:
 #. Clear all filters
-#: build/messages/components/Toolbar/ToolbarLayout.json
-#. [components.Toolbar.1634835134]
-#. defaultMessage is:
-#. Clear all filters
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.1634835134]
-#. defaultMessage is:
-#. Clear all filters
-#: build/messages/pages/blueprints/index.json
-#. [pages.blueprints.1634835134]
-#. defaultMessage is:
-#. Clear all filters
 msgid "Clear all filters"
 msgstr ""
 
@@ -547,69 +260,11 @@ msgstr ""
 #. [components.Modal.2324218928]
 #. defaultMessage is:
 #. Close
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.closeButtonLabel]
-#. defaultMessage is:
-#. Close
 msgid "Close"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.103343714]
-#. defaultMessage is:
-#. Cluster
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.103343714]
-#. defaultMessage is:
-#. Cluster
-msgid "Cluster"
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.cluster]
-#. defaultMessage is:
-#. Cluster help
-msgid "Cluster help"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.2299254306]
-#. defaultMessage is:
-#. Comment
-msgid "Comment"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.commitButtonLabel]
-#. defaultMessage is:
-#. Commit
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.1951088698]
-#. defaultMessage is:
-#. Commit
-msgid "Commit"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.1126783419]
-#. defaultMessage is:
-#. Commit and create
-msgid "Commit and create"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.552112481]
-#. defaultMessage is:
-#. Commit and next
-msgid "Commit and next"
 msgstr ""
 
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.3956908315]
-#. defaultMessage is:
-#. Component details
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.3956908315]
 #. defaultMessage is:
 #. Component details
 msgid "Component details"
@@ -651,10 +306,6 @@ msgstr ""
 #. [components.Modal.4120989039]
 #. defaultMessage is:
 #. Create
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.4120989039]
-#. defaultMessage is:
-#. Create
 msgid "Create"
 msgstr ""
 
@@ -665,29 +316,11 @@ msgstr ""
 msgid "Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats."
 msgstr ""
 
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1723482220]
-#. defaultMessage is:
-#. Create and upload image
-msgid "Create and upload image"
-msgstr ""
-
 #: build/messages/components/Modal/CreateBlueprint.json
 #. [components.Modal.994816806]
 #. defaultMessage is:
 #. Create blueprint
 msgid "Create blueprint"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.title]
-#. defaultMessage is:
-#. Create image
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.2020427956]
-#. defaultMessage is:
-#. Create image
-msgid "Create image"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
@@ -709,48 +342,6 @@ msgstr ""
 #. defaultMessage is:
 #. Customizations
 msgid "Customizations"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2877310487]
-#. defaultMessage is:
-#. Data Center
-msgid "Data Center"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3747912914]
-#. defaultMessage is:
-#. Data Store
-msgid "Data Store"
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.4278711264]
-#. defaultMessage is:
-#. Data center
-msgid "Data center"
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.3717439361]
-#. defaultMessage is:
-#. Data store
-msgid "Data store"
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.dataCenter]
-#. defaultMessage is:
-#. Datacenter help
-msgid "Datacenter help"
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.dataStore]
-#. defaultMessage is:
-#. Datastore help
-msgid "Datastore help"
 msgstr ""
 
 #: build/messages/components/ListView/ListItemImages.json
@@ -819,13 +410,6 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.2515932130]
-#. defaultMessage is:
-#. Destination
-msgid "Destination"
-msgstr ""
-
 #: build/messages/components/ListView/ComponentDetailsView.json
 #. [components.ListView.details]
 #. defaultMessage is:
@@ -833,32 +417,11 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.1469729075]
-#. defaultMessage is:
-#. Discard changes
-msgid "Discard changes"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.labelTar]
-#. defaultMessage is:
-#. Disk Archive (.tar)
-msgid "Disk Archive (.tar)"
-msgstr ""
-
 #: build/messages/components/ListView/ListItemImages.json
 #. [components.ListView.1982430146]
 #. defaultMessage is:
 #. Download
 msgid "Download"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [filename-placeholder]
-#. defaultMessage is:
-#. Drag and drop a file or upload one
-msgid "Drag and drop a file or upload one"
 msgstr ""
 
 #: build/messages/components/Modal/EditDescription.json
@@ -886,21 +449,6 @@ msgstr ""
 msgid "Edit installation device"
 msgstr ""
 
-#: build/messages/components/ListView/BlueprintsDataList.json
-#. [components.ListView.1908303378]
-#. defaultMessage is:
-#. Edit packages
-#: build/messages/pages/blueprint/index.json
-#. [pages.blueprint.1908303378]
-#. defaultMessage is:
-#. Edit packages
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.1908303378]
-#. defaultMessage is:
-#. Edit packages
-msgid "Edit packages"
-msgstr ""
-
 #: build/messages/components/ListView/SourcesListItem.json
 #. [components.ListView.edit]
 #. defaultMessage is:
@@ -921,13 +469,6 @@ msgstr ""
 #. defaultMessage is:
 #. Edit user account
 msgid "Edit user account"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.4173021643]
-#. defaultMessage is:
-#. Either the parent commit or repository url can be specified. Not both.
-msgid "Either the parent commit or repository url can be specified. Not both."
 msgstr ""
 
 #: build/messages/pages/blueprint/index.json
@@ -972,59 +513,6 @@ msgstr ""
 msgid "Export blueprint"
 msgstr ""
 
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.filterByLabel]
-#. defaultMessage is:
-#. Filter available components by name
-msgid "Filter available components by name"
-msgstr ""
-
-#: build/messages/components/Toolbar/FilterInput.json
-#. [components.Toolbar.filterNamePlaceholder]
-#. defaultMessage is:
-#. Filter by name
-msgid "Filter by name"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.filterByPlaceholder]
-#. defaultMessage is:
-#. Filter by name...
-msgid "Filter by name..."
-msgstr ""
-
-#: build/messages/components/Toolbar/FilterInput.json
-#. [components.Toolbar.filterReleasePlaceholder]
-#. defaultMessage is:
-#. Filter by release
-msgid "Filter by release"
-msgstr ""
-
-#: build/messages/components/Toolbar/FilterInput.json
-#. [components.Toolbar.filterVersionPlaceholder]
-#. defaultMessage is:
-#. Filter by version
-msgid "Filter by version"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.244381809]
-#. defaultMessage is:
-#. Fingerprint
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.244381809]
-#. defaultMessage is:
-#. Fingerprint
-msgid "Fingerprint"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.787186999]
-#. defaultMessage is:
-#. Finish
-msgid "Finish"
-msgstr ""
-
 #: build/messages/components/Modal/UserAccount.json
 #. [components.Modal.labelName]
 #. defaultMessage is:
@@ -1050,24 +538,6 @@ msgstr ""
 msgid "Hide details"
 msgstr ""
 
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.644347739]
-#. defaultMessage is:
-#. Host
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.644347739]
-#. defaultMessage is:
-#. Host
-msgid "Host"
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.host]
-#. defaultMessage is:
-#. Host help
-msgid "Host help"
-msgstr ""
-
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.hostnameInputLabel]
 #. defaultMessage is:
@@ -1080,64 +550,6 @@ msgstr ""
 #. defaultMessage is:
 #. If no hostname is provided, the hostname will be determined by the OS.
 msgid "If no hostname is provided, the hostname will be determined by the OS."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.327045352]
-#. defaultMessage is:
-#. Image Builder can upload images you create to VMWare vSphere.
-#.                       When the image build is complete and the upload action is successful,
-#.                       the image file is available in the Cluster on the vSphere instance that you specified.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.327045352]
-#. defaultMessage is:
-#. Image Builder can upload images you create to VMWare vSphere.
-#.                       When the image build is complete and the upload action is successful,
-#.                       the image file is available in the Cluster on the vSphere instance that you specified.
-msgid "Image Builder can upload images you create to VMWare vSphere.\n                      When the image build is complete and the upload action is successful,\n                      the image file is available in the Cluster on the vSphere instance that you specified."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.3501375619]
-#. defaultMessage is:
-#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete
-#.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3501375619]
-#. defaultMessage is:
-#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete
-#.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
-msgid "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete\n                      and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1007547894]
-#. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete
-#.                         and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload
-#.                         the image can be found in the {console}.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1007547894]
-#. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete
-#.                         and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload
-#.                         the image can be found in the {console}.
-msgid "Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete\n                        and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload\n                        the image can be found in the {console}."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.3213107448]
-#. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
-#.                         and the upload action is successful, the image should be available under custom images.
-#.                         Most of the values required to upload the image can be found in the {console}.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3213107448]
-#. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
-#.                         and the upload action is successful, the image should be available under custom images.
-#.                         Most of the values required to upload the image can be found in the {console}.
-msgid "Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete\n                        and the upload action is successful, the image should be available under custom images.\n                        Most of the values required to upload the image can be found in the {console}."
 msgstr ""
 
 #: build/messages/components/ListView/ListItemImages.json
@@ -1179,82 +591,7 @@ msgstr ""
 #. [components.ListView.imageName] - The name given by the user for an image
 #. defaultMessage is:
 #. Image name
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.2794911472]
-#. defaultMessage is:
-#. Image name
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.2794911472]
-#. defaultMessage is:
-#. Image name
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.2794911472]
-#. defaultMessage is:
-#. Image name
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2794911472]
-#. defaultMessage is:
-#. Image name
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.2794911472]
-#. defaultMessage is:
-#. Image name
 msgid "Image name"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.imageName]
-#. defaultMessage is:
-#. Image name help
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.imageName]
-#. defaultMessage is:
-#. Image name help
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.imageName]
-#. defaultMessage is:
-#. Image name help
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.imageName]
-#. defaultMessage is:
-#. Image name help
-msgid "Image name help"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1005710141]
-#. defaultMessage is:
-#. Image output
-msgid "Image output"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1905943231]
-#. defaultMessage is:
-#. Image size
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1905943231]
-#. defaultMessage is:
-#. Image size
-msgid "Image size"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.imageSize]
-#. defaultMessage is:
-#. Image size help
-msgid "Image size help"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.1813441558]
-#. defaultMessage is:
-#. Image type
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1813441558]
-#. defaultMessage is:
-#. Image type
-msgid "Image type"
 msgstr ""
 
 #: build/messages/components/ListView/ListItemImages.json
@@ -1292,13 +629,6 @@ msgstr ""
 msgid "Installation device help"
 msgstr ""
 
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.labelLiveIso]
-#. defaultMessage is:
-#. Installer, suitable for USB and DVD (.iso)
-msgid "Installer, suitable for USB and DVD (.iso)"
-msgstr ""
-
 #: build/messages/components/Loading/Loading.json
 #. [components.Loading.2617450248]
 #. defaultMessage is:
@@ -1331,26 +661,8 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.warningSizeSmall]
-#. defaultMessage is:
-#. Minimum size is {size} GB
-msgid "Minimum size is {size} GB"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.warningSizeSmall]
-#. defaultMessage is:
-#. Minimum size is {size} GB.
-msgid "Minimum size is {size} GB."
-msgstr ""
-
 #: build/messages/components/ListView/BlueprintContents.json
 #. [components.ListView.emptyStateNoResultsMessage]
-#. defaultMessage is:
-#. Modify your filter criteria to get results.
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.emptyStateNoResultsMessage]
 #. defaultMessage is:
 #. Modify your filter criteria to get results.
 #: build/messages/pages/blueprints/index.json
@@ -1368,36 +680,7 @@ msgstr ""
 #. [components.Modal.name] - Name of source
 #. defaultMessage is:
 #. Name
-#: build/messages/components/Toolbar/FilterInput.json
-#. [components.Toolbar.filterNameTitle]
-#. defaultMessage is:
-#. Name
-#: build/messages/components/Toolbar/ToolbarLayout.json
-#. [components.Toolbar.filterNameTitle]
-#. defaultMessage is:
-#. Name
 msgid "Name"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.3059610115]
-#. defaultMessage is:
-#. Name: {name}
-msgid "Name: {name}"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.namespace]
-#. defaultMessage is:
-#. Namespace help
-msgid "Namespace help"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.3673120330]
-#. defaultMessage is:
-#. Next
-msgid "Next"
 msgstr ""
 
 #: build/messages/pages/blueprints/index.json
@@ -1439,71 +722,11 @@ msgstr ""
 #. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
 #. No results match the filter criteria
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.emptyStateNoResultsTitle]
-#. defaultMessage is:
-#. No results match the filter criteria
 #: build/messages/pages/blueprints/index.json
 #. [pages.blueprints.noResultsTitle]
 #. defaultMessage is:
 #. No results match the filter criteria
 msgid "No results match the filter criteria"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1666805205]
-#. defaultMessage is:
-#. OCI bucket
-msgid "OCI bucket"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.compartment]
-#. defaultMessage is:
-#. OCI compartment help
-msgid "OCI compartment help"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.region]
-#. defaultMessage is:
-#. OCI region help
-msgid "OCI region help"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.tenancy]
-#. defaultMessage is:
-#. OCI tenancy help
-msgid "OCI tenancy help"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.ostreeParent]
-#. defaultMessage is:
-#. OSTree parent help
-msgid "OSTree parent help"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.ostreeRef]
-#. defaultMessage is:
-#. OSTree ref help
-msgid "OSTree ref help"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.ostreeURL]
-#. defaultMessage is:
-#. OSTree repo url help
-msgid "OSTree repo url help"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.1475836573]
-#. defaultMessage is:
-#. Only changes to selected components are shown.
-msgid "Only changes to selected components are shown."
 msgstr ""
 
 #: build/messages/pages/error/index.json
@@ -1531,23 +754,8 @@ msgstr ""
 msgid "Page not found"
 msgstr ""
 
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.3070030782]
-#. defaultMessage is:
-#. Parent commit
-msgid "Parent commit"
-msgstr ""
-
 #: build/messages/components/Modal/UserAccount.json
 #. [components.Modal.labelPassword]
-#. defaultMessage is:
-#. Password
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2237029987]
-#. defaultMessage is:
-#. Password
-#: build/messages/components/Wizard/VMWareAuthStep.json
-#. [components.Wizard.2237029987]
 #. defaultMessage is:
 #. Password
 msgid "Password"
@@ -1560,225 +768,18 @@ msgstr ""
 msgid "Paste the contents of your public SSH key file here."
 msgstr ""
 
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.3226997558]
-#. defaultMessage is:
-#. Pending changes
-msgid "Pending changes"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [key-help]
-#. defaultMessage is:
-#. Private key
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.1443428038]
-#. defaultMessage is:
-#. Private key
-msgid "Private key"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3157862487]
-#. defaultMessage is:
-#. Private key filename
-msgid "Private key filename"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.processLength]
-#. defaultMessage is:
-#. Process length help
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.processLength]
-#. defaultMessage is:
-#. Process length help
-msgid "Process length help"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.4277042358]
-#. defaultMessage is:
-#. Provide a file name to be used for the image file that will be uploaded.
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.4277042358]
-#. defaultMessage is:
-#. Provide a file name to be used for the image file that will be uploaded.
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.4277042358]
-#. defaultMessage is:
-#. Provide a file name to be used for the image file that will be uploaded.
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.4277042358]
-#. defaultMessage is:
-#. Provide a file name to be used for the image file that will be uploaded.
-msgid "Provide a file name to be used for the image file that will be uploaded."
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.2186792528]
-#. defaultMessage is:
-#. Provide the AWS Region where you want to import your image. This must be the same region where the {bucket} exists.
-msgid "Provide the AWS Region where you want to import your image. This must be the same region where the {bucket} exists."
-msgstr ""
-
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.517158149]
-#. defaultMessage is:
-#. Provide the Blob container to which the image file will be uploaded. You can find containers under the {blobService} 
-#.                     section of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
-msgid "Provide the Blob container to which the image file will be uploaded. You can find containers under the {blobService} \n                    section of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.4044130958]
-#. defaultMessage is:
-#. Provide the ID of the latest commit in the updates repository for which this commit provides an update.
-#.                     If no commit is specified it will be inferred from the parent repository.
-msgid "Provide the ID of the latest commit in the updates repository for which this commit provides an update.\n                    If no commit is specified it will be inferred from the parent repository."
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.1901372247]
-#. defaultMessage is:
-#. Provide the S3 {bucket} name to which the image file will be uploaded before being imported into EC2. 
-#.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
-#.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
-msgid "Provide the S3 {bucket} name to which the image file will be uploaded before being imported into EC2. \n                        The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the\n                        {bucketsPage} page in the {amazon} S3 storage service in the AWS console."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1170512263]
-#. defaultMessage is:
-#. Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from.
-msgid "Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from."
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.2706552502]
-#. defaultMessage is:
-#. Provide the access key for the desired storage account. You can find the access key on the {accessKeys} 
-#.                         page of the storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
-msgid "Provide the access key for the desired storage account. You can find the access key on the {accessKeys} \n                        page of the storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.2831983558]
-#. defaultMessage is:
-#. Provide the compartment of the {bucket} your uploading to. You can find the compartment in the bucket details.
-msgid "Provide the compartment of the {bucket} your uploading to. You can find the compartment in the bucket details."
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.1434969769]
-#. defaultMessage is:
-#. Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
-msgid "Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal."
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.1891777230]
-#. defaultMessage is:
-#. Provide the name of the Cluster to which the image file will be uploaded.
-msgid "Provide the name of the Cluster to which the image file will be uploaded."
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.1217327836]
-#. defaultMessage is:
-#. Provide the name of the Datacenter to which the image file will be uploaded.
-msgid "Provide the name of the Datacenter to which the image file will be uploaded."
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.4014474612]
-#. defaultMessage is:
-#. Provide the name of the Datastore to which the image file will be uploaded.
-msgid "Provide the name of the Datastore to which the image file will be uploaded."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1476874820]
-#. defaultMessage is:
-#. Provide the name of the branch for the content. If the ref does not already exist it will be created.
-msgid "Provide the name of the branch for the content. If the ref does not already exist it will be created."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.3701635592]
-#. defaultMessage is:
-#. Provide the namespace of the {bucket} your uploading to. You can find the namespace in the bucket details.
-msgid "Provide the namespace of the {bucket} your uploading to. You can find the namespace in the bucket details."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.3286165321]
-#. defaultMessage is:
-#. Provide the region of the {bucket} your uploading to. You can find the region in the bucket details.
-msgid "Provide the region of the {bucket} your uploading to. You can find the region in the bucket details."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.3854501928]
-#. defaultMessage is:
-#. Provide the tenancy of the {bucket} your uploading to. You can find the tenancy in the bucket details.
-msgid "Provide the tenancy of the {bucket} your uploading to. You can find the tenancy in the bucket details."
-msgstr ""
-
-#: build/messages/components/Wizard/VMWareDestinationStep.json
-#. [components.Wizard.3387354708]
-#. defaultMessage is:
-#. Provide the url of your {vmware} instance to which the image file will be uploaded.
-msgid "Provide the url of your {vmware} instance to which the image file will be uploaded."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#. [components.Wizard.577410027]
-#. defaultMessage is:
-#. Provide the {bucket} name to which the image file will be uploaded before being imported as a custom image. 
-#.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
-#.                         {bucketsPage} page in the OCI storage service in the OCI console.
-msgid "Provide the {bucket} name to which the image file will be uploaded before being imported as a custom image. \n                        The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the\n                        {bucketsPage} page in the OCI storage service in the OCI console."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.labelqcow]
-#. defaultMessage is:
-#. QEMU Image (.qcow2)
-msgid "QEMU Image (.qcow2)"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.31026111]
-#. defaultMessage is:
-#. Ref
-msgid "Ref"
-msgstr ""
-
 #: build/messages/components/ListView/ComponentDetailsView.json
 #. [components.ListView.423140743]
 #. defaultMessage is:
 #. Release
 #: build/messages/components/ListView/ComponentsDataListItem.json
 #. [components.ListView.423140743]
-#. defaultMessage is:
-#. Release
-#: build/messages/components/Toolbar/FilterInput.json
-#. [components.Toolbar.filterReleaseTitle]
-#. defaultMessage is:
-#. Release
-#: build/messages/components/Toolbar/ToolbarLayout.json
-#. [components.Toolbar.filterReleaseTitle]
 #. defaultMessage is:
 #. Release
 msgid "Release"
 msgstr ""
 
 #: build/messages/components/ListView/ComponentDetailsView.json
-#. [components.ListView.2703758654]
-#. defaultMessage is:
-#. Remove
-#: build/messages/components/ListView/ComponentsDataListItem.json
 #. [components.ListView.2703758654]
 #. defaultMessage is:
 #. Remove
@@ -1810,25 +811,11 @@ msgstr ""
 msgid "Remove source"
 msgstr ""
 
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.2291868453] - Identifies the change as a component that was removed
-#. defaultMessage is:
-#. Removed
-msgid "Removed"
-msgstr ""
-
 #: build/messages/components/ListView/SourcesListItem.json
 #. [components.ListView.2663433025]
 #. defaultMessage is:
 #. Removing source
 msgid "Removing source"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.2238384022]
-#. defaultMessage is:
-#. Repository URL
-msgid "Repository URL"
 msgstr ""
 
 #: build/messages/components/Modal/CreateBlueprint.json
@@ -1838,32 +825,11 @@ msgstr ""
 msgid "Required information is missing."
 msgstr ""
 
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.3835894881]
-#. defaultMessage is:
-#. Review
-msgid "Review"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.review]
-#. defaultMessage is:
-#. Review the information below and click Finish to create the image and complete the tasks that were selected.
-msgid "Review the information below and click Finish to create the image and complete the tasks that were selected."
-msgstr ""
-
 #: build/messages/components/Modal/UserAccount.json
 #. [components.Modal.labelRole]
 #. defaultMessage is:
 #. Role
 msgid "Role"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#. [components.Wizard.bucket]
-#. defaultMessage is:
-#. S3 Bucket help
-msgid "S3 Bucket help"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
@@ -1891,24 +857,6 @@ msgstr ""
 msgid "Saving source"
 msgstr ""
 
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [components.Wizard.135579143]
-#. defaultMessage is:
-#. Secret access key
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.135579143]
-#. defaultMessage is:
-#. Secret access key
-msgid "Secret access key"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [secret-access-key-help]
-#. defaultMessage is:
-#. Secret access key help
-msgid "Secret access key help"
-msgstr ""
-
 #: build/messages/components/Modal/ManageSources.json
 #. [components.Modal.security]
 #. defaultMessage is:
@@ -1916,19 +864,8 @@ msgstr ""
 msgid "Security"
 msgstr ""
 
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.1513086105]
-#. defaultMessage is:
-#. Select components
-msgid "Select components"
-msgstr ""
-
 #: build/messages/components/Modal/ManageSources.json
 #. [components.Modal.selectOne]
-#. defaultMessage is:
-#. Select one
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.selectOne]
 #. defaultMessage is:
 #. Select one
 msgid "Select one"
@@ -1953,13 +890,6 @@ msgstr ""
 #. defaultMessage is:
 #. Server administrator
 msgid "Server administrator"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.imageSizePopover]
-#. defaultMessage is:
-#. Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size.
-msgid "Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size."
 msgstr ""
 
 #: build/messages/components/ListView/ComponentSummaryList.json
@@ -2060,71 +990,6 @@ msgstr ""
 msgid "Stopping"
 msgstr ""
 
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.4127941395]
-#. defaultMessage is:
-#. Storage access key
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.4127941395]
-#. defaultMessage is:
-#. Storage access key
-msgid "Storage access key"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.storageAccessKey]
-#. defaultMessage is:
-#. Storage access key help
-msgid "Storage access key help"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.1624497518]
-#. defaultMessage is:
-#. Storage account
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1624497518]
-#. defaultMessage is:
-#. Storage account
-msgid "Storage account"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.storageAccount]
-#. defaultMessage is:
-#. Storage account help
-msgid "Storage account help"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureAuthStep.json
-#. [components.Wizard.storageAccounts]
-#. defaultMessage is:
-#. Storage accounts
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.storageAccounts]
-#. defaultMessage is:
-#. Storage accounts
-msgid "Storage accounts"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.1249927125]
-#. defaultMessage is:
-#. Storage container
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1249927125]
-#. defaultMessage is:
-#. Storage container
-msgid "Storage container"
-msgstr ""
-
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#. [components.Wizard.storageContainer]
-#. defaultMessage is:
-#. Storage container help
-msgid "Storage container help"
-msgstr ""
-
 #: build/messages/components/ListView/SourcesListItem.json
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2175,13 +1040,6 @@ msgstr ""
 msgid "The name {name} already exists."
 msgstr ""
 
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.addComponentMessageTwo]
-#. defaultMessage is:
-#. The packages needed to support the selected image type are automatically included when creating an image.
-msgid "The packages needed to support the selected image type are automatically included when creating an image."
-msgstr ""
-
 #: build/messages/pages/error/index.json
 #. [pages.error.26562577]
 #. defaultMessage is:
@@ -2194,17 +1052,6 @@ msgstr ""
 #. defaultMessage is:
 #. The service osbuild-composer was not started.
 msgid "The service osbuild-composer was not started."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.warningSizeLarge]
-#. defaultMessage is:
-#. The size specified is large. We recommend that you check whether your target destination has any restrictions on image size.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.warningSizeLarge]
-#. defaultMessage is:
-#. The size specified is large. We recommend that you check whether your target destination has any restrictions on image size.
-msgid "The size specified is large. We recommend that you check whether your target destination has any restrictions on image size."
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
@@ -2242,15 +1089,8 @@ msgstr ""
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.emptyBlueprintMessage]
 #. defaultMessage is:
-#. There are no components listed in the blueprint. Edit the blueprint to add components.
-msgid "There are no components listed in the blueprint. Edit the blueprint to add components."
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.warningReview]
-#. defaultMessage is:
-#. There are one or more fields that require your attention.
-msgid "There are one or more fields that require your attention."
+#. There are no components listed in the blueprint.
+msgid "There are no components listed in the blueprint."
 msgstr ""
 
 #: build/messages/components/Modal/DeleteBlueprint.json
@@ -2264,43 +1104,11 @@ msgstr ""
 msgid "This action cannot be undone."
 msgstr ""
 
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.warningUnsaved]
-#. defaultMessage is:
-#. This blueprint has changes that are not committed. These changes will be committed before the image is created.
-msgid "This blueprint has changes that are not committed. These changes will be committed before the image is created."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [empty-blueprint-alert]
-#. defaultMessage is:
-#. This blueprint is empty.
-msgid "This blueprint is empty."
-msgstr ""
-
 #: build/messages/components/ListView/ComponentDetailsView.json
 #. [components.ListView.noDepsMessage]
 #. defaultMessage is:
 #. This component has no dependencies.
 msgid "This component has no dependencies."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.requiredField]
-#. defaultMessage is:
-#. This is a required field
-msgid "This is a required field"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.infotip]
-#. defaultMessage is:
-#. This process can take a while. Images are built in the order they are started.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.infotip]
-#. defaultMessage is:
-#. This process can take a while. Images are built in the order they are started.
-msgid "This process can take a while. Images are built in the order they are started."
 msgstr ""
 
 #: build/messages/components/Modal/ManageSources.json
@@ -2322,32 +1130,6 @@ msgstr ""
 #. defaultMessage is:
 #. This system does not have any valid subscriptions.
 msgid "This system does not have any valid subscriptions."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.1727762289]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can
-#.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.1727762289]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can
-#.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
-msgid "This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can\n                        be imported from the S3 {bucket} into EC2. For more details, refer to the {role}."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.50730016]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} with attached policy to manage custom images
-#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.50730016]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} with attached policy to manage custom images
-#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
-msgid "This upload process requires that you have an {iam} with attached policy to manage custom images\n                        to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}."
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
@@ -2378,10 +1160,6 @@ msgstr ""
 #. Type
 #: build/messages/components/Modal/ManageSources.json
 #. [components.Modal.type] - Type of source
-#. defaultMessage is:
-#. Type
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.type]
 #. defaultMessage is:
 #. Type
 msgid "Type"
@@ -2422,13 +1200,6 @@ msgstr ""
 msgid "Update source"
 msgstr ""
 
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.562988552] - Identifies the change as a component that was updated
-#. defaultMessage is:
-#. Updated
-msgid "Updated"
-msgstr ""
-
 #: build/messages/components/ListView/ListItemUploads.json
 #. [components.ListView.uploadStatusFinished] - Upload status when process is finished
 #. defaultMessage is:
@@ -2441,24 +1212,6 @@ msgstr ""
 #. defaultMessage is:
 #. Upload failed
 msgid "Upload failed"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.3057159632]
-#. defaultMessage is:
-#. Upload image
-msgid "Upload image"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.uploadImage]
-#. defaultMessage is:
-#. Upload image help
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.uploadImage]
-#. defaultMessage is:
-#. Upload image help
-msgid "Upload image help"
 msgstr ""
 
 #: build/messages/components/ListView/ListItemUploads.json
@@ -2475,89 +1228,11 @@ msgstr ""
 msgid "Upload pending"
 msgstr ""
 
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.3235936248]
-#. defaultMessage is:
-#. Upload to AWS
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.uploadAWS]
-#. defaultMessage is:
-#. Upload to AWS
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3235936248]
-#. defaultMessage is:
-#. Upload to AWS
-msgid "Upload to AWS"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.2244258572]
-#. defaultMessage is:
-#. Upload to Azure
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.uploadAzure]
-#. defaultMessage is:
-#. Upload to Azure
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2244258572]
-#. defaultMessage is:
-#. Upload to Azure
-msgid "Upload to Azure"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.3418449520]
-#. defaultMessage is:
-#. Upload to OCI
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.uploadOCI]
-#. defaultMessage is:
-#. Upload to OCI
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3418449520]
-#. defaultMessage is:
-#. Upload to OCI
-msgid "Upload to OCI"
-msgstr ""
-
-#: build/messages/components/Wizard/CreateImageUpload.json
-#. [components.Wizard.3542348520]
-#. defaultMessage is:
-#. Upload to VMWare
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.uploadVMWare]
-#. defaultMessage is:
-#. Upload to VMWare
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.3542348520]
-#. defaultMessage is:
-#. Upload to VMWare
-msgid "Upload to VMWare"
-msgstr ""
-
 #: build/messages/components/ListView/ListItemUploads.json
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
 #. Upload type
 msgid "Upload type"
-msgstr ""
-
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2419068661]
-#. defaultMessage is:
-#. User
-msgid "User"
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [user-help]
-#. defaultMessage is:
-#. User OCID
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.4135109133]
-#. defaultMessage is:
-#. User OCID
-msgid "User OCID"
 msgstr ""
 
 #: build/messages/pages/blueprint/index.json
@@ -2574,17 +1249,6 @@ msgstr ""
 msgid "User name"
 msgstr ""
 
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.2663586870]
-#. defaultMessage is:
-#. Username
-#: build/messages/components/Wizard/VMWareAuthStep.json
-#. [components.Wizard.2663586870]
-#. defaultMessage is:
-#. Username
-msgid "Username"
-msgstr ""
-
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
@@ -2592,25 +1256,11 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: build/messages/components/Wizard/ReviewStep.json
-#. [components.Wizard.vmware]
-#. defaultMessage is:
-#. VMWare help
-msgid "VMWare help"
-msgstr ""
-
 #: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
 #. Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen.
 msgid "Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen."
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.ostreeRefHelperText]
-#. defaultMessage is:
-#. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
-msgid "Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number."
 msgstr ""
 
 #: build/messages/components/ListView/ComponentDetailsView.json
@@ -2621,63 +1271,9 @@ msgstr ""
 #. [components.ListView.602883748]
 #. defaultMessage is:
 #. Version
-#: build/messages/components/Toolbar/FilterInput.json
-#. [components.Toolbar.filterVersionTitle]
-#. defaultMessage is:
-#. Version
-#: build/messages/components/Toolbar/ToolbarLayout.json
-#. [components.Toolbar.filterVersionTitle]
-#. defaultMessage is:
-#. Version
 msgid "Version"
 msgstr ""
 
-#: build/messages/components/ListView/ComponentsDataListItem.json
-#. [components.ListView.3097747573]
-#. defaultMessage is:
-#. View
-msgid "View"
-msgstr ""
-
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [components.Wizard.706264916]
-#. defaultMessage is:
-#. You can create and find existing Access key IDs on the {iam} page in the AWS console.
-msgid "You can create and find existing Access key IDs on the {iam} page in the AWS console."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.844662623]
-#. defaultMessage is:
-#. You can find your user OCID {iam} page in the OCI console.
-msgid "You can find your user OCID {iam} page in the OCI console."
-msgstr ""
-
-#: build/messages/components/Wizard/AWSAuthStep.json
-#. [components.Wizard.4206409720]
-#. defaultMessage is:
-#. You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console.
-msgid "You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.285351067]
-#. defaultMessage is:
-#. You can view your deployed RSA keys fingerprint in the API Keys section on the {iam} page in the OCI console.
-msgid "You can view your deployed RSA keys fingerprint in the API Keys section on the {iam} page in the OCI console."
-msgstr ""
-
-#: build/messages/components/Wizard/OCIAuthStep.json
-#. [components.Wizard.182848243]
-#. defaultMessage is:
-#. You can view your deployed RSA keys in the API Keys section on the {iam} page in the OCI console.
-msgid "You can view your deployed RSA keys in the API Keys section on the {iam} page in the OCI console."
-msgstr ""
-
-#: build/messages/components/ListView/BlueprintsDataList.json
-#. [components.ListView.actions]
-#. defaultMessage is:
-#. actions
 #: build/messages/components/ListView/ComponentsDataListItem.json
 #. [components.ListView.actions]
 #. defaultMessage is:
@@ -2690,13 +1286,6 @@ msgstr ""
 #. defaultMessage is:
 #. details
 msgid "details"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.2755325844]
-#. defaultMessage is:
-#. from
-msgid "from"
 msgstr ""
 
 #: build/messages/pages/error/index.json
@@ -2726,27 +1315,6 @@ msgstr ""
 #. defaultMessage is:
 #. mirrorlist
 msgid "mirrorlist"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.paginationPerPage]
-#. defaultMessage is:
-#. per page
-msgid "per page"
-msgstr ""
-
-#: build/messages/components/Wizard/ImageStep.json
-#. [components.Wizard.2454328248]
-#. defaultMessage is:
-#. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
-msgid "rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine"
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.152217691]
-#. defaultMessage is:
-#. to
-msgid "to"
 msgstr ""
 
 #: build/messages/components/ListView/SourcesListItem.json
@@ -2816,39 +1384,11 @@ msgstr ""
 msgid "{count} total components"
 msgstr ""
 
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.3908981070]
-#. defaultMessage is:
-#. {from} {oldVersion} {to} {newVersion}
-msgid "{from} {oldVersion} {to} {newVersion}"
-msgstr ""
-
 #: build/messages/pages/error/index.json
 #. [pages.error.526995878]
 #. defaultMessage is:
 #. {goBack}, or head over to the {homePage} to choose a new direction.
 msgid "{goBack}, or head over to the {homePage} to choose a new direction."
-msgstr ""
-
-#: build/messages/components/Modal/PendingChanges.json
-#. [components.Modal.3141775911]
-#. defaultMessage is:
-#. {heading} {parenthetical}
-msgid "{heading} {parenthetical}"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.4031669927]
-#. defaultMessage is:
-#. {pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}
-msgid "{pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}"
-msgstr ""
-
-#: build/messages/pages/blueprintEdit/index.json
-#. [pages.blueprintEdit.3140434516]
-#. defaultMessage is:
-#. {selectComponents} in this list to add to the blueprint.
-msgid "{selectComponents} in this list to add to the blueprint."
 msgstr ""
 
 #: ./public/manifest.json
