@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-17T04:12:15.062Z\n"
+"POT-Creation-Date: 2022-08-18T04:15:45.890Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -609,14 +609,11 @@ msgid "Images"
 msgstr ""
 
 #: build/messages/pages/blueprint/index.json
-#. [pages.blueprint.3654599626]
-#. defaultMessage is:
-#. Installation Device
-msgid "Installation Device"
-msgstr ""
-
-#: build/messages/pages/blueprint/index.json
 #. [pages.blueprint.deviceInputLabel]
+#. defaultMessage is:
+#. Installation device
+#: build/messages/pages/blueprint/index.json
+#. [pages.blueprint.3834724928]
 #. defaultMessage is:
 #. Installation device
 msgid "Installation device"
