@@ -3,7 +3,7 @@
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-09T03:57:25.301Z\n"
+"POT-Creation-Date: 2022-08-19T18:31:19.371Z\n"
 "PO-Revision-Date: 2020-04-02 20:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -16,13 +16,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.11.3\n"
 
-#. [components.Modal.parenthetical] - Describes the sort order of the pending changes
-#. defaultMessage is:
-#. (most recent first)
-#: build/messages/components/Modal/PendingChanges.json
-msgid "(most recent first)"
-msgstr "(Самый недавний в начале)"
-
 #. [components.Modal.4177685254]
 #. defaultMessage is:
 #. A blueprint name is required.
@@ -30,80 +23,36 @@ msgstr "(Самый недавний в начале)"
 msgid "A blueprint name is required."
 msgstr "Требуется название проекта."
 
-#. [components.Wizard.warningEmptyBlueprintDesc]
-#. defaultMessage is:
-#. A minimal image will be created with only the packages needed to support the selected image type.
-#: build/messages/components/Wizard/ImageStep.json
-msgid ""
-"A minimal image will be created with only the packages needed to support the "
-"selected image type."
-msgstr ""
-
-#. [components.Wizard.warningSizeEmpty]
-#. defaultMessage is:
-#. A value is required.
-#: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "A blueprint name is required."
-msgid "A value is required."
-msgstr "Требуется название проекта."
-
-#. [fingerprint-help]
-#. defaultMessage is:
-#. API private key's fingerprint
-#: build/messages/components/Wizard/OCIAuthStep.json
-msgid "API private key's fingerprint"
-msgstr ""
-
-#. [components.Wizard.aws]
-#. defaultMessage is:
-#. AWS help
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "AWS help"
-msgstr ""
-
-#. [components.Wizard.4193750875]
+#. [wizard.review.awsRegion]
 #. defaultMessage is:
 #. AWS region
-#. [components.Wizard.4193750875]
+#. [wizard.aws.region.label]
 #. defaultMessage is:
 #. AWS region
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/awsDest.json
 msgid "AWS region"
 msgstr ""
 
-#. [components.Wizard.region]
-#. defaultMessage is:
-#. AWS region help
-#: build/messages/components/Wizard/AWSDestinationStep.json
-msgid "AWS region help"
-msgstr ""
-
-#. [components.Wizard.1635272069]
+#. [wizard.review.accessKeyID]
 #. defaultMessage is:
 #. Access key ID
-#. [components.Wizard.1635272069]
+#. [wizard.aws.accessKey.label]
 #. defaultMessage is:
 #. Access key ID
-#: build/messages/components/Wizard/AWSAuthStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/awsAuth.json
 msgid "Access key ID"
 msgstr ""
 
-#. [access-key-id-help]
+#. [wizard.aws.accessKey.popoverAria]
 #. defaultMessage is:
-#. Access key ID help
-#: build/messages/components/Wizard/AWSAuthStep.json
-msgid "Access key ID help"
-msgstr ""
-
-#. [components.Wizard.accessKeys]
-#. defaultMessage is:
-#. Access keys
-#: build/messages/components/Wizard/AzureAuthStep.json
-msgid "Access keys"
-msgstr ""
+#. Access key help
+#: build/messages/components/Wizard/steps/awsAuth.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Access key help"
+msgstr "Имя образа"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -116,13 +65,6 @@ msgstr ""
 msgid "Actions"
 msgstr "Действия"
 
-#. [components.Toolbar.2872798476]
-#. defaultMessage is:
-#. Active filters
-#: build/messages/components/Toolbar/ToolbarLayout.json
-msgid "Active filters"
-msgstr ""
-
 #. [components.ListView.3099331554]
 #. defaultMessage is:
 #. Add
@@ -130,14 +72,12 @@ msgstr ""
 msgid "Add"
 msgstr "Добавить"
 
-#. [pages.blueprintEdit.addComponentTitle]
+#. [wizard.packages.addAll]
 #. defaultMessage is:
-#. Add blueprint components
-#: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Add Blueprint Components"
-msgid "Add blueprint components"
-msgstr "Добавить компоненты Blueprint"
+#. Add all
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Add all"
+msgstr ""
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
@@ -145,6 +85,24 @@ msgstr "Добавить компоненты Blueprint"
 #: build/messages/components/ListView/ComponentInputs.json
 msgid "Add latest version"
 msgstr "Добавить последнюю версию"
+
+#. [wizard.packages.info]
+#. defaultMessage is:
+#. Add optional additional packages to your image by searching available packages.
+#: build/messages/components/Wizard/steps/packages.json
+msgid ""
+"Add optional additional packages to your image by searching available "
+"packages."
+msgstr ""
+
+#. [wizard.packages.addSelected]
+#. defaultMessage is:
+#. Add selected
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Add Source"
+msgid "Add selected"
+msgstr "Добавить источник"
 
 #. [components.Modal.add]
 #. defaultMessage is:
@@ -161,49 +119,25 @@ msgstr "Добавить последнюю версию"
 msgid "Add source"
 msgstr "Добавить источник"
 
-#. [components.Modal.1362724042] - Identifies the change as a component that was added
+#. [wizard.customizations.buttons.add]
 #. defaultMessage is:
-#. Added
-#: build/messages/components/Modal/PendingChanges.json
-msgid "Added"
-msgstr "Добавлено"
-
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#. [components.Wizard.1175512155]
-#. defaultMessage is:
-#. All fields are required.
-#: build/messages/components/Wizard/AWSAuthStep.json
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#: build/messages/components/Wizard/AzureAuthStep.json
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#: build/messages/components/Wizard/OCIAuthStep.json
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/VMWareAuthStep.json
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. Add user
+#: build/messages/components/Wizard/steps/users.json
 #, fuzzy
-#| msgid "The fields marked with {val} are required."
-msgid "All fields are required."
-msgstr "Поля, отмеченные {val} являются обязательными."
+#| msgid "Add Source"
+msgid "Add user"
+msgstr "Добавить источник"
+
+#. [wizard.review.amazonS3Bucket]
+#. defaultMessage is:
+#. Amazon S3 bucket
+#. [wizard.aws.bucket.label]
+#. defaultMessage is:
+#. Amazon S3 bucket
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/awsDest.json
+msgid "Amazon S3 bucket"
+msgstr ""
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -247,6 +181,15 @@ msgstr "Произошла ошибка при попытке получить �
 msgid "An error occurred while trying to get sources."
 msgstr "Произошла ошибка при попытке получить источники."
 
+#. [wizard.review.createImageTooltip]
+#. defaultMessage is:
+#. An image can only be created after saving the blueprint
+#: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
+#, fuzzy
+#| msgid "No images have been created from this blueprint."
+msgid "An image can only be created after saving the blueprint"
+msgstr "Из этого чертежа не было создано никаких изображений."
+
 #. [components.ListView.3998303130]
 #. defaultMessage is:
 #. Apply change
@@ -277,10 +220,22 @@ msgstr "Вы действительно хотите удалить изобра
 msgid "Are you sure you want to stop the build process for {blueprintName}?"
 msgstr "Вы действительно хотите остановить процесс сборки для {blueprintName}?"
 
-#. [components.Wizard.160751819]
+#. [wizard.aws.authTitle]
 #. defaultMessage is:
 #. Authentication
-#: build/messages/components/Wizard/CreateImageUpload.json
+#. [wizard.azure.authTitle]
+#. defaultMessage is:
+#. Authentication
+#. [wizard.oci.authTitle]
+#. defaultMessage is:
+#. Authentication
+#. [wizard.vmware.authTitle]
+#. defaultMessage is:
+#. Authentication
+#: build/messages/components/Wizard/steps/awsAuth.json
+#: build/messages/components/Wizard/steps/azureAuth.json
+#: build/messages/components/Wizard/steps/ociAuth.json
+#: build/messages/components/Wizard/steps/vmwareAuth.json
 msgid "Authentication"
 msgstr ""
 
@@ -291,37 +246,19 @@ msgstr ""
 msgid "Automatically start osbuild-composer on boot"
 msgstr "Автоматически запускать osbuild-composer при загрузке"
 
-#. [pages.blueprintEdit.listTitleAvailableComps]
+#. [wizard.packages.availablePackages]
 #. defaultMessage is:
-#. Available components
-#: build/messages/pages/blueprintEdit/index.json
+#. Available packages
+#: build/messages/components/Wizard/formComponents/Packages.json
 #, fuzzy
 #| msgid "Available Components"
-msgid "Available components"
+msgid "Available packages"
 msgstr "Доступные компоненты"
-
-#. [components.Wizard.azure]
-#. defaultMessage is:
-#. Azure help
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "Azure help"
-msgstr ""
-
-#. [components.Wizard.1347475195]
-#. defaultMessage is:
-#. Back
-#: build/messages/components/Wizard/CreateImageUpload.json
-msgid "Back"
-msgstr ""
 
 #. [pages.blueprint.2057444273]
 #. defaultMessage is:
 #. Back to blueprints
-#. [pages.blueprintEdit.2057444273]
-#. defaultMessage is:
-#. Back to blueprints
 #: build/messages/pages/blueprint/index.json
-#: build/messages/pages/blueprintEdit/index.json
 #, fuzzy
 #| msgid "Back to Blueprints"
 msgid "Back to blueprints"
@@ -334,44 +271,34 @@ msgstr "Назад к проектам"
 msgid "Back to {blueprint}"
 msgstr "Назад к {blueprint}"
 
-#. [components.Wizard.blobService]
-#. defaultMessage is:
-#. Blob service
-#: build/messages/components/Wizard/AzureDestinationStep.json
-msgid "Blob service"
-msgstr ""
-
 #. [components.Modal.1281198655]
-#. defaultMessage is:
-#. Blueprint
-#. [components.Modal.blueprint]
-#. defaultMessage is:
-#. Blueprint
-#. [components.Wizard.1281198655]
 #. defaultMessage is:
 #. Blueprint
 #. [pages.blueprint.blueprint]
 #. defaultMessage is:
 #. Blueprint
-#. [pages.blueprintEdit.blueprintTitle]
-#. defaultMessage is:
-#. Blueprint
 #: build/messages/components/Modal/ExportBlueprint.json
-#: build/messages/components/Modal/PendingChanges.json
-#: build/messages/components/Wizard/ImageStep.json
 #: build/messages/pages/blueprint/index.json
-#: build/messages/pages/blueprintEdit/index.json
 msgid "Blueprint"
 msgstr "Проект"
 
-#. [pages.blueprintEdit.966788260]
+#. [toolbar.blueprint.filter.aria]
 #. defaultMessage is:
-#. Blueprint components
-#: build/messages/pages/blueprintEdit/index.json
+#. Blueprint filter select
+#: build/messages/components/Toolbar/BlueprintToolbar.json
 #, fuzzy
-#| msgid "Blueprint Components"
-msgid "Blueprint components"
-msgstr "Компоненты проекта"
+#| msgid "Blueprints"
+msgid "Blueprint filter select"
+msgstr "Проекты"
+
+#. [wizard.review.blueprintName]
+#. defaultMessage is:
+#. Blueprint name
+#: build/messages/components/Wizard/formComponents/Review.json
+#, fuzzy
+#| msgid "Blueprint"
+msgid "Blueprint name"
+msgstr "Проект"
 
 #. [components.Modal.2544705954]
 #. defaultMessage is:
@@ -408,6 +335,15 @@ msgstr "Имена проектов не могут содержать симв�
 msgid "Blueprint names cannot contain the characters: {invalidChar}"
 msgstr "Имена проектов не могут содержать символы: {invalidChar}"
 
+#. [toolbar.blueprint.search.aria]
+#. defaultMessage is:
+#. Blueprint search input
+#: build/messages/components/Toolbar/BlueprintToolbar.json
+#, fuzzy
+#| msgid "Blueprints"
+msgid "Blueprint search input"
+msgstr "Проекты"
+
 #. [pages.blueprints.blueprintsTitle]
 #. defaultMessage is:
 #. Blueprints
@@ -415,71 +351,96 @@ msgstr "Имена проектов не могут содержать симв�
 msgid "Blueprints"
 msgstr "Проекты"
 
-#. [pages.blueprintEdit.addComponentMessageOne]
+#. [toolbar.blueprints.search.aria]
 #. defaultMessage is:
-#. Browse or search for components, then add them to the blueprint. Or leave the blueprint empty to create a minimal image.
-#: build/messages/pages/blueprintEdit/index.json
+#. Blueprints search input
+#: build/messages/components/Toolbar/BlueprintsToolbar.json
 #, fuzzy
-#| msgid "Browse or search for components, then add them to the blueprint."
-msgid ""
-"Browse or search for components, then add them to the blueprint. Or leave "
-"the blueprint empty to create a minimal image."
-msgstr "Просмотрите или найдите компоненты, а затем добавьте их в проект."
+#| msgid "Blueprints"
+msgid "Blueprints search input"
+msgstr "Проекты"
 
-#. [components.Wizard.992376537]
+#. [wizard.review.bucketCompartment]
 #. defaultMessage is:
 #. Bucket compartment
-#. [components.Wizard.992376537]
+#. [wizard.oci.bucketCompartment.label]
 #. defaultMessage is:
 #. Bucket compartment
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociDest.json
 #, fuzzy
 #| msgid "Blueprint Components"
 msgid "Bucket compartment"
 msgstr "Компоненты проекта"
 
-#. [components.Wizard.bucket]
+#. [wizard.oci.compartment.popoverAria]
 #. defaultMessage is:
-#. Bucket help
-#: build/messages/components/Wizard/OCIDestinationStep.json
+#. Bucket compartment help
+#: build/messages/components/Wizard/steps/ociDest.json
 #, fuzzy
-#| msgid "Image name"
-msgid "Bucket help"
-msgstr "Имя образа"
+#| msgid "Blueprint Components"
+msgid "Bucket compartment help"
+msgstr "Компоненты проекта"
 
-#. [components.Wizard.3386954132]
+#. [wizard.review.bucketNamespace]
 #. defaultMessage is:
 #. Bucket namespace
-#. [components.Wizard.3386954132]
+#. [wizard.oci.bucketNamespace.label]
 #. defaultMessage is:
 #. Bucket namespace
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid "Bucket namespace"
 msgstr ""
 
-#. [components.Wizard.2790265886]
+#. [wizard.oci.namespace.popoverAria]
+#. defaultMessage is:
+#. Bucket namespace help
+#: build/messages/components/Wizard/steps/ociDest.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Bucket namespace help"
+msgstr "Имя образа"
+
+#. [wizard.review.bucketRegion]
 #. defaultMessage is:
 #. Bucket region
-#. [components.Wizard.2790265886]
+#. [wizard.oci.bucketRegion.label]
 #. defaultMessage is:
 #. Bucket region
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid "Bucket region"
 msgstr ""
 
-#. [components.Wizard.1601119828]
+#. [wizard.oci.region.popoverAria]
+#. defaultMessage is:
+#. Bucket region help
+#: build/messages/components/Wizard/steps/ociDest.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Bucket region help"
+msgstr "Имя образа"
+
+#. [wizard.review.bucketTenancy]
 #. defaultMessage is:
 #. Bucket tenancy
-#. [components.Wizard.1601119828]
+#. [wizard.oci.bucketTenancy.label]
 #. defaultMessage is:
 #. Bucket tenancy
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid "Bucket tenancy"
 msgstr ""
+
+#. [wizard.oci.tenancy.popoverAria]
+#. defaultMessage is:
+#. Bucket tenancy help
+#: build/messages/components/Wizard/steps/ociDest.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Bucket tenancy help"
+msgstr "Имя образа"
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -505,9 +466,6 @@ msgstr ""
 #. [components.Modal.3528672691]
 #. defaultMessage is:
 #. Cancel
-#. [components.Wizard.3528672691]
-#. defaultMessage is:
-#. Cancel
 #: build/messages/components/Form/TextInlineEdit.json
 #: build/messages/components/Modal/CreateBlueprint.json
 #: build/messages/components/Modal/DeleteBlueprint.json
@@ -516,37 +474,8 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Modal/StopBuild.json
 #: build/messages/components/Modal/UserAccount.json
-#: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Cancel"
 msgstr "Отмена"
-
-#. [components.Modal.683130131]
-#. defaultMessage is:
-#. Changes made in a previous session
-#: build/messages/components/Modal/PendingChanges.json
-msgid "Changes made in a previous session"
-msgstr "Изменения, сделанные в предыдущем сеансе"
-
-#. [components.Modal.previousSessionInfotip]
-#. defaultMessage is:
-#. Changes made in a previous session are not listed in the order they were made. If you choose to undo these changes, they are undone as a group.
-#: build/messages/components/Modal/PendingChanges.json
-msgid ""
-"Changes made in a previous session are not listed in the order they were "
-"made. If you choose to undo these changes, they are undone as a group."
-msgstr ""
-"Изменения, внесенные в предыдущий сеанс, не указаны в том порядке, в котором "
-"они были сделаны. Если вы решите отменить эти изменения, они будут отменены "
-"как группа."
-
-#. [components.Modal.92001050]
-#. defaultMessage is:
-#. Changes pending commit
-#: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Changes Pending Commit"
-msgid "Changes pending commit"
-msgstr "Изменения в ожидании"
 
 #. [components.Modal.check_gpg]
 #. defaultMessage is:
@@ -562,26 +491,37 @@ msgstr "Проверить ключ GPG"
 msgid "Check SSL certificate"
 msgstr "Проверить сертификат SSL"
 
+#. [wizard.packages.chosenPackages]
+#. defaultMessage is:
+#. Chosen packages
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Edit Packages"
+msgid "Chosen packages"
+msgstr "Редактировать пакеты"
+
 #. [components.ListView.1634835134]
 #. defaultMessage is:
 #. Clear all filters
-#. [components.Toolbar.1634835134]
-#. defaultMessage is:
-#. Clear all filters
-#. [pages.blueprintEdit.1634835134]
-#. defaultMessage is:
-#. Clear all filters
-#. [pages.blueprints.1634835134]
-#. defaultMessage is:
-#. Clear all filters
 #: build/messages/components/ListView/BlueprintContents.json
-#: build/messages/components/Toolbar/ToolbarLayout.json
-#: build/messages/pages/blueprintEdit/index.json
-#: build/messages/pages/blueprints/index.json
 #, fuzzy
 #| msgid "Clear All Filters"
 msgid "Clear all filters"
 msgstr "Очистить все фильтры"
+
+#. [wizard.packages.clearAvailablePackagesSearch]
+#. defaultMessage is:
+#. Clear available packages search
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Clear available packages search"
+msgstr ""
+
+#. [wizard.packages.clearChosenPackagesSearch]
+#. defaultMessage is:
+#. Clear chosen packages search
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Clear chosen packages search"
+msgstr ""
 
 # translation auto-copied from project subscription-manager, version 1.11.X, document keys
 #. [components.Modal.2324218928]
@@ -593,77 +533,33 @@ msgstr "Очистить все фильтры"
 #. [components.Modal.2324218928]
 #. defaultMessage is:
 #. Close
-#. [components.Modal.closeButtonLabel]
-#. defaultMessage is:
-#. Close
 #: build/messages/components/Modal/ExportBlueprint.json
 #: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Modal/PendingChanges.json
 msgid "Close"
 msgstr "Закрыть"
 
-#. [components.Wizard.103343714]
+#. [wizard.review.cluster]
 #. defaultMessage is:
 #. Cluster
-#. [components.Wizard.103343714]
+#. [wizard.vmware.cluster.label]
 #. defaultMessage is:
 #. Cluster
-#: build/messages/components/Wizard/ReviewStep.json
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Cluster"
 msgstr ""
 
-#. [components.Wizard.cluster]
+#. [wizard.vmware.cluster.popoverAria]
 #. defaultMessage is:
 #. Cluster help
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Cluster help"
 msgstr ""
-
-#. [components.Modal.2299254306]
-#. defaultMessage is:
-#. Comment
-#: build/messages/components/Modal/PendingChanges.json
-msgid "Comment"
-msgstr "Комментарий"
-
-#. [components.Modal.commitButtonLabel]
-#. defaultMessage is:
-#. Commit
-#. [pages.blueprintEdit.1951088698]
-#. defaultMessage is:
-#. Commit
-#: build/messages/components/Modal/PendingChanges.json
-#: build/messages/pages/blueprintEdit/index.json
-msgid "Commit"
-msgstr "Сохранить"
-
-#. [components.Wizard.1126783419]
-#. defaultMessage is:
-#. Commit and create
-#: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
-msgid "Commit and create"
-msgstr "Завершить и создать"
-
-#. [components.Wizard.552112481]
-#. defaultMessage is:
-#. Commit and next
-#: build/messages/components/Wizard/CreateImageUpload.json
-#, fuzzy
-#| msgid "Commit and Create"
-msgid "Commit and next"
-msgstr "Завершить и создать"
 
 #. [pages.blueprint.3956908315]
 #. defaultMessage is:
 #. Component details
-#. [pages.blueprintEdit.3956908315]
-#. defaultMessage is:
-#. Component details
 #: build/messages/pages/blueprint/index.json
-#: build/messages/pages/blueprintEdit/index.json
 #, fuzzy
 #| msgid "Component Details"
 msgid "Component details"
@@ -705,12 +601,8 @@ msgstr "Копировать"
 #. [components.Modal.4120989039]
 #. defaultMessage is:
 #. Create
-#. [components.Wizard.4120989039]
-#. defaultMessage is:
-#. Create
 #: build/messages/components/Modal/CreateBlueprint.json
 #: build/messages/components/Modal/UserAccount.json
-#: build/messages/components/Wizard/CreateImageUpload.json
 msgid "Create"
 msgstr "Создать"
 
@@ -726,15 +618,6 @@ msgstr ""
 "создаваемые вами изображения. Изображения могут быть созданы в различных "
 "форматах вывода."
 
-#. [components.Wizard.1723482220]
-#. defaultMessage is:
-#. Create and upload image
-#: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Create Image"
-msgid "Create and upload image"
-msgstr "Создать изображение"
-
 #. [components.Modal.994816806]
 #. defaultMessage is:
 #. Create blueprint
@@ -744,13 +627,10 @@ msgstr "Создать изображение"
 msgid "Create blueprint"
 msgstr "Создать проект"
 
-#. [components.Wizard.title]
+#. [wizard.createImage]
 #. defaultMessage is:
 #. Create image
-#. [components.Wizard.2020427956]
-#. defaultMessage is:
-#. Create image
-#: build/messages/components/Wizard/CreateImageUpload.json
+#: build/messages/components/Wizard/CreateImageWizard.json
 #, fuzzy
 #| msgid "Create Image"
 msgid "Create image"
@@ -772,54 +652,73 @@ msgstr "Создать учетную запись пользователя"
 msgid "Created"
 msgstr "Создано"
 
+#. [wizard.review.creatingImage]
+#. defaultMessage is:
+#. Creating image
+#: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
+#, fuzzy
+#| msgid "Create Image"
+msgid "Creating image"
+msgstr "Создать изображение"
+
+#. [wizard.customizations.title]
+#. defaultMessage is:
+#. Customizations
+#. [wizard.customizations.title]
+#. defaultMessage is:
+#. Customizations
 #. [pages.blueprint.customizationsTitle]
 #. defaultMessage is:
 #. Customizations
+#: build/messages/components/Wizard/steps/system.json
+#: build/messages/components/Wizard/steps/users.json
 #: build/messages/pages/blueprint/index.json
 msgid "Customizations"
 msgstr "Настройки"
 
-#. [components.Wizard.2877310487]
-#. defaultMessage is:
-#. Data Center
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "Data Center"
-msgstr ""
-
-#. [components.Wizard.3747912914]
-#. defaultMessage is:
-#. Data Store
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "Data Store"
-msgstr ""
-
-#. [components.Wizard.4278711264]
+#. [wizard.review.dataCenter]
 #. defaultMessage is:
 #. Data center
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
 msgid "Data center"
 msgstr ""
 
-#. [components.Wizard.3717439361]
+#. [wizard.review.dataStore]
 #. defaultMessage is:
 #. Data store
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
 msgid "Data store"
 msgstr ""
 
-#. [components.Wizard.dataCenter]
+#. [wizard.vmware.dataCenter.label]
+#. defaultMessage is:
+#. Datacenter
+#: build/messages/components/Wizard/steps/vmwareDest.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Datacenter"
+msgstr "Имя образа"
+
+#. [wizard.vmware.dataCenter.popoverAria]
 #. defaultMessage is:
 #. Datacenter help
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 #, fuzzy
 #| msgid "Image name"
 msgid "Datacenter help"
 msgstr "Имя образа"
 
-#. [components.Wizard.dataStore]
+#. [wizard.vmware.dataStore.label]
+#. defaultMessage is:
+#. Datastore
+#: build/messages/components/Wizard/steps/vmwareDest.json
+msgid "Datastore"
+msgstr ""
+
+#. [wizard.vmware.datastore.popoverAria]
 #. defaultMessage is:
 #. Datastore help
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Datastore help"
 msgstr ""
 
@@ -873,9 +772,13 @@ msgstr "Удалить учетную запись пользователя"
 #. [components.ListView.3727965333]
 #. defaultMessage is:
 #. Dependencies
+#. [wizard.review.dependencies]
+#. defaultMessage is:
+#. Dependencies
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentSummaryList.json
+#: build/messages/components/Wizard/formComponents/Review.json
 msgid "Dependencies"
 msgstr "Зависимости"
 
@@ -894,10 +797,22 @@ msgstr "Зависимости"
 msgid "Description"
 msgstr "Описание"
 
-#. [components.Wizard.2515932130]
+#. [wizard.aws.destTitle]
 #. defaultMessage is:
 #. Destination
-#: build/messages/components/Wizard/CreateImageUpload.json
+#. [wizard.azure.destTitle]
+#. defaultMessage is:
+#. Destination
+#. [wizard.oci.destTitle]
+#. defaultMessage is:
+#. Destination
+#. [wizard.vmware.destTitle]
+#. defaultMessage is:
+#. Destination
+#: build/messages/components/Wizard/steps/awsDest.json
+#: build/messages/components/Wizard/steps/azureDest.json
+#: build/messages/components/Wizard/steps/ociDest.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 #, fuzzy
 #| msgid "Description"
 msgid "Destination"
@@ -912,23 +827,6 @@ msgstr "Описание"
 msgid "Details"
 msgstr "подробности"
 
-# translation auto-copied from project Customer Portal Translations, version PortalCaseManagementStrings, document PortalCaseManagementStrings, author ypoyarko
-#. [pages.blueprintEdit.1469729075]
-#. defaultMessage is:
-#. Discard changes
-#: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Discard Changes"
-msgid "Discard changes"
-msgstr "Отменить"
-
-#. [components.Wizard.labelTar]
-#. defaultMessage is:
-#. Disk Archive (.tar)
-#: build/messages/components/Wizard/ImageStep.json
-msgid "Disk Archive (.tar)"
-msgstr ""
-
 #. [components.ListView.1982430146]
 #. defaultMessage is:
 #. Download
@@ -936,10 +834,10 @@ msgstr ""
 msgid "Download"
 msgstr "Загрузить"
 
-#. [filename-placeholder]
+#. [wizard.uploadFile.filenamePlaceholder]
 #. defaultMessage is:
 #. Drag and drop a file or upload one
-#: build/messages/components/Wizard/OCIAuthStep.json
+#: build/messages/components/Wizard/formComponents/UploadFile.json
 msgid "Drag and drop a file or upload one"
 msgstr ""
 
@@ -968,23 +866,6 @@ msgstr "Редактировать имя узла"
 msgid "Edit installation device"
 msgstr ""
 
-#. [components.ListView.1908303378]
-#. defaultMessage is:
-#. Edit packages
-#. [pages.blueprint.1908303378]
-#. defaultMessage is:
-#. Edit packages
-#. [pages.blueprintEdit.1908303378]
-#. defaultMessage is:
-#. Edit packages
-#: build/messages/components/ListView/BlueprintsDataList.json
-#: build/messages/pages/blueprint/index.json
-#: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Edit Packages"
-msgid "Edit packages"
-msgstr "Редактировать пакеты"
-
 #. [components.ListView.edit]
 #. defaultMessage is:
 #. Edit source
@@ -1011,10 +892,10 @@ msgstr "Редактировать источник"
 msgid "Edit user account"
 msgstr "Редактировать учетную запись пользователя"
 
-#. [components.Wizard.4173021643]
+#. [wizard.ostree.validationError]
 #. defaultMessage is:
 #. Either the parent commit or repository url can be specified. Not both.
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/validators/ostreeValidator.json
 msgid "Either the parent commit or repository url can be specified. Not both."
 msgstr ""
 
@@ -1027,9 +908,13 @@ msgstr ""
 msgid "Empty blueprint"
 msgstr "Пустой план"
 
+#. [wizard.customizations.installDevice.helperText]
+#. defaultMessage is:
+#. Enter valid device node such as /dev/sda1
 #. [pages.blueprint.deviceHelp]
 #. defaultMessage is:
 #. Enter valid device node such as /dev/sda1
+#: build/messages/components/Wizard/steps/system.json
 #: build/messages/pages/blueprint/index.json
 msgid "Enter valid device node such as /dev/sda1"
 msgstr ""
@@ -1064,70 +949,27 @@ msgstr "Экспорт как"
 msgid "Export blueprint"
 msgstr "Экспортный план"
 
-#. [pages.blueprintEdit.filterByLabel]
-#. defaultMessage is:
-#. Filter available components by name
-#: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter Available Components by Name"
-msgid "Filter available components by name"
-msgstr "Фильтровать имеющиеся компоненты по имени"
-
-#. [components.Toolbar.filterNamePlaceholder]
-#. defaultMessage is:
-#. Filter by name
-#: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
-msgid "Filter by name"
-msgstr "Фильтровать по имени ..."
-
-#. [pages.blueprintEdit.filterByPlaceholder]
-#. defaultMessage is:
-#. Filter by name...
-#: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "Filter By Name..."
-msgid "Filter by name..."
-msgstr "Фильтровать по имени ..."
-
-#. [components.Toolbar.filterReleasePlaceholder]
-#. defaultMessage is:
-#. Filter by release
-#: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
-msgid "Filter by release"
-msgstr "Фильтровать по имени ..."
-
-#. [components.Toolbar.filterVersionPlaceholder]
-#. defaultMessage is:
-#. Filter by version
-#: build/messages/components/Toolbar/FilterInput.json
-#, fuzzy
-#| msgid "Filter By Name..."
-msgid "Filter by version"
-msgstr "Фильтровать по имени ..."
-
-#. [components.Wizard.244381809]
+#. [wizard.review.fingerprint]
 #. defaultMessage is:
 #. Fingerprint
-#. [components.Wizard.244381809]
+#. [wizard.oci.fingerprint.label]
 #. defaultMessage is:
 #. Fingerprint
-#: build/messages/components/Wizard/OCIAuthStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociAuth.json
 #, fuzzy
 #| msgid "Blueprint"
 msgid "Fingerprint"
 msgstr "Проект"
 
-#. [components.Wizard.787186999]
+#. [wizard.oci.fingerprint.popoverAria]
 #. defaultMessage is:
-#. Finish
-#: build/messages/components/Wizard/CreateImageUpload.json
-msgid "Finish"
-msgstr ""
+#. Fingerprint help
+#: build/messages/components/Wizard/steps/ociAuth.json
+#, fuzzy
+#| msgid "Blueprint"
+msgid "Fingerprint help"
+msgstr "Проект"
 
 #. [components.Modal.labelName]
 #. defaultMessage is:
@@ -1156,118 +998,110 @@ msgstr "Назад"
 msgid "Hide details"
 msgstr "Скрыть подробности"
 
-#. [components.Wizard.644347739]
+#. [wizard.review.host]
 #. defaultMessage is:
 #. Host
-#. [components.Wizard.644347739]
+#. [wizard.vmware.host.label]
 #. defaultMessage is:
 #. Host
-#: build/messages/components/Wizard/ReviewStep.json
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 #, fuzzy
 #| msgid "Hostname"
 msgid "Host"
 msgstr "Имя узла"
 
-#. [components.Wizard.host]
+#. [wizard.vmware.host.popoverAria]
 #. defaultMessage is:
 #. Host help
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Host help"
 msgstr ""
 
+#. [wizard.review.hostname]
+#. defaultMessage is:
+#. Hostname
+#. [wizard.customizations.hostname.label]
+#. defaultMessage is:
+#. Hostname
 #. [pages.blueprint.hostnameInputLabel]
 #. defaultMessage is:
 #. Hostname
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/system.json
 #: build/messages/pages/blueprint/index.json
 msgid "Hostname"
 msgstr "Имя узла"
 
+#. [wizard.customizations.hostname.helperText]
+#. defaultMessage is:
+#. If no hostname is provided, the hostname will be determined by the OS.
 #. [pages.blueprint.hostnameHelpEmpty]
 #. defaultMessage is:
 #. If no hostname is provided, the hostname will be determined by the OS.
+#: build/messages/components/Wizard/steps/system.json
 #: build/messages/pages/blueprint/index.json
 msgid "If no hostname is provided, the hostname will be determined by the OS."
 msgstr "Если имя узла не указано, оно будет назначено операционной системой."
 
-#. [components.Wizard.327045352]
+#. [wizard.imageOutput.uploadVMWare.popoverBody]
 #. defaultMessage is:
-#. Image Builder can upload images you create to VMWare vSphere.
-#.                       When the image build is complete and the upload action is successful,
-#.                       the image file is available in the Cluster on the vSphere instance that you specified.
-#. [components.Wizard.327045352]
-#. defaultMessage is:
-#. Image Builder can upload images you create to VMWare vSphere.
-#.                       When the image build is complete and the upload action is successful,
-#.                       the image file is available in the Cluster on the vSphere instance that you specified.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. Image Builder can upload images you create to VMWare vSphere. When the image build is complete and the upload action is successful, the image file is available in the Cluster on the vSphere instance that you specified.
+#: build/messages/components/Wizard/steps/imageOutput.json
 msgid ""
-"Image Builder can upload images you create to VMWare vSphere.\n"
-"                      When the image build is complete and the upload action "
-"is successful,\n"
-"                      the image file is available in the Cluster on the "
-"vSphere instance that you specified."
+"Image Builder can upload images you create to VMWare vSphere. When the image "
+"build is complete and the upload action is successful, the image file is "
+"available in the Cluster on the vSphere instance that you specified."
 msgstr ""
 
-#. [components.Wizard.3501375619]
+#. [wizard.imageOutput.uploadAzure.popoverBody]
 #. defaultMessage is:
-#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete
-#.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
-#. [components.Wizard.3501375619]
-#. defaultMessage is:
-#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete
-#.                       and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
+#: build/messages/components/Wizard/steps/imageOutput.json
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
-"When the image build is complete\n"
-"                      and the upload action is successful, the image file is "
-"available in the Storage account and Blob container that you specified."
+"When the image build is complete and the upload action is successful, the "
+"image file is available in the Storage account and Blob container that you "
+"specified."
 msgstr ""
 
-#. [components.Wizard.1007547894]
+#. [wizard.imageOutput.uploadOCI.popoverBody]
 #. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete
-#.                         and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload
-#.                         the image can be found in the {console}.
-#. [components.Wizard.1007547894]
-#. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in AWS and then import them into EC2. When the image build is complete
-#.                         and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload
-#.                         the image can be found in the {console}.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}.
+#: build/messages/components/Wizard/steps/imageOutput.json
 msgid ""
-"Image Builder can upload images you create to an {bucket} in AWS and then "
-"import them into EC2. When the image build is complete\n"
-"                        and the upload action is successful, the image file "
-"is available in the AMI section of EC2. Most of the values required to "
-"upload\n"
-"                        the image can be found in the {console}."
+"Image Builder can upload images you create to an OCI bucket in OCI and "
+"register it as a custom image. When the image build is complete and the "
+"upload action is successful, the image should be available under custom "
+"images. Most of the values required to upload the image can be found in the "
+"{console}.{br}{br}This upload process requires that you have an Identity and "
+"Access Management (IAM) with attached policy to manage custom images to "
+"ensure that the image can be imported as a custom image from the bucket. For "
+"more details, refer to the {policy}."
 msgstr ""
 
-#. [components.Wizard.3213107448]
+#. [wizard.imageOutput.uploadAWS.popoverBody]
 #. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
-#.                         and the upload action is successful, the image should be available under custom images.
-#.                         Most of the values required to upload the image can be found in the {console}.
-#. [components.Wizard.3213107448]
-#. defaultMessage is:
-#. Image Builder can upload images you create to an {bucket} in OCI and register it as a custom image. When the image build is complete
-#.                         and the upload action is successful, the image should be available under custom images.
-#.                         Most of the values required to upload the image can be found in the {console}.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}.
+#: build/messages/components/Wizard/steps/imageOutput.json
 msgid ""
-"Image Builder can upload images you create to an {bucket} in OCI and "
-"register it as a custom image. When the image build is complete\n"
-"                        and the upload action is successful, the image "
-"should be available under custom images.\n"
-"                        Most of the values required to upload the image can "
-"be found in the {console}."
+"Image Builder can upload images you create to an S3 bucket in AWS and then "
+"import them into EC2. When the image build is complete and the upload action "
+"is successful, the image file is available in the AMI section of EC2. Most "
+"of the values required to upload the image can be found in the {console}. "
+"{br}{br}This upload process requires that you have an Identity and Access "
+"Management (IAM) role named {vmimport} to ensure that the image can be "
+"imported from the S3 bucket into EC2. For more details, refer to the {role}."
 msgstr ""
+
+#. [wizard.imageOutput.imageSize.label]
+#. defaultMessage is:
+#. Image Size
+#: build/messages/components/Wizard/steps/imageOutput.json
+#, fuzzy
+#| msgid "Images"
+msgid "Image Size"
+msgstr "Образы"
 
 #. [components.ListView.imageStatusFinished] - Image build status when process is finished
 #. defaultMessage is:
@@ -1309,94 +1143,86 @@ msgstr "Служба сборки образов неактивна"
 #. [components.ListView.imageName] - The name given by the user for an image
 #. defaultMessage is:
 #. Image name
-#. [components.Wizard.2794911472]
+#. [wizard.review.imageName]
 #. defaultMessage is:
 #. Image name
-#. [components.Wizard.2794911472]
+#. [wizard.aws.imageName.label]
 #. defaultMessage is:
 #. Image name
-#. [components.Wizard.2794911472]
+#. [wizard.azure.imageName.label]
 #. defaultMessage is:
 #. Image name
-#. [components.Wizard.2794911472]
+#. [wizard.oci.imageName.label]
 #. defaultMessage is:
 #. Image name
-#. [components.Wizard.2794911472]
+#. [wizard.vmware.imageName.label]
 #. defaultMessage is:
 #. Image name
 #: build/messages/components/ListView/ListItemUploads.json
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/awsDest.json
+#: build/messages/components/Wizard/steps/azureDest.json
+#: build/messages/components/Wizard/steps/ociDest.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Image name"
 msgstr "Имя образа"
 
-#. [components.Wizard.imageName]
+#. [wizard.aws.imageName.popoverAria]
 #. defaultMessage is:
 #. Image name help
-#. [components.Wizard.imageName]
+#. [wizard.azure.imageName.popoverAria]
 #. defaultMessage is:
 #. Image name help
-#. [components.Wizard.imageName]
+#. [wizard.oci.imageName.popoverAria]
 #. defaultMessage is:
 #. Image name help
-#. [components.Wizard.imageName]
+#. [wizard.vmware.imageName.popoverAria]
 #. defaultMessage is:
 #. Image name help
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/awsDest.json
+#: build/messages/components/Wizard/steps/azureDest.json
+#: build/messages/components/Wizard/steps/ociDest.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 #, fuzzy
 #| msgid "Image name"
 msgid "Image name help"
 msgstr "Имя образа"
 
-#. [components.Wizard.1005710141]
+#. [wizard.imageOutput.title]
 #. defaultMessage is:
 #. Image output
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/steps/imageOutput.json
 #, fuzzy
 #| msgid "Image uploads"
 msgid "Image output"
 msgstr "Отправка образа"
 
-#. [components.Wizard.1905943231]
+#. [wizard.imageOutput.type]
+#. defaultMessage is:
+#. Image output type
+#: build/messages/components/Wizard/steps/imageOutput.json
+#, fuzzy
+#| msgid "Image uploads"
+msgid "Image output type"
+msgstr "Отправка образа"
+
+#. [wizard.review.imageSize]
 #. defaultMessage is:
 #. Image size
-#. [components.Wizard.1905943231]
-#. defaultMessage is:
-#. Image size
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
 #, fuzzy
 #| msgid "Images"
 msgid "Image size"
 msgstr "Образы"
 
-#. [components.Wizard.imageSize]
+#. [wizard.imageOutput.imageSize.popoverAria]
 #. defaultMessage is:
 #. Image size help
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/imageOutput.json
 #, fuzzy
 #| msgid "Images"
 msgid "Image size help"
 msgstr "Образы"
-
-#. [components.Wizard.1813441558]
-#. defaultMessage is:
-#. Image type
-#. [components.Wizard.1813441558]
-#. defaultMessage is:
-#. Image type
-#: build/messages/components/Wizard/CreateImageUpload.json
-#: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Image Type"
-msgid "Image type"
-msgstr "Тип изображения"
 
 #. [components.ListView.imageUploads] - A label for the section that lists the upload actions initiated by the user
 #. defaultMessage is:
@@ -1412,16 +1238,30 @@ msgstr "Отправка образа"
 msgid "Images"
 msgstr "Образы"
 
-#. [pages.blueprint.3654599626]
+#. [wizard.customizations.installDevice.label]
 #. defaultMessage is:
 #. Installation Device
-#: build/messages/pages/blueprint/index.json
+#: build/messages/components/Wizard/steps/system.json
 msgid "Installation Device"
 msgstr ""
 
+#. [wizard.customizations.installDevice.popoverAria]
+#. defaultMessage is:
+#. Installation Device help
+#: build/messages/components/Wizard/steps/system.json
+msgid "Installation Device help"
+msgstr ""
+
+#. [wizard.review.installationDevice]
+#. defaultMessage is:
+#. Installation device
 #. [pages.blueprint.deviceInputLabel]
 #. defaultMessage is:
 #. Installation device
+#. [pages.blueprint.3834724928]
+#. defaultMessage is:
+#. Installation device
+#: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device"
 msgstr ""
@@ -1433,12 +1273,14 @@ msgstr ""
 msgid "Installation device help"
 msgstr ""
 
-#. [components.Wizard.labelLiveIso]
+#. [wizard.packages.loadAdditionalPackages]
 #. defaultMessage is:
-#. Installer, suitable for USB and DVD (.iso)
-#: build/messages/components/Wizard/ImageStep.json
-msgid "Installer, suitable for USB and DVD (.iso)"
-msgstr ""
+#. Load additional packages
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Edit Packages"
+msgid "Load additional packages"
+msgstr "Редактировать пакеты"
 
 #. [components.Loading.2617450248]
 #. defaultMessage is:
@@ -1446,6 +1288,13 @@ msgstr ""
 #: build/messages/components/Loading/Loading.json
 msgid "Loading"
 msgstr "Загружается"
+
+#. [wizard.packages.loadingAdditionalPackages]
+#. defaultMessage is:
+#. Loading additional packages...
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Loading additional packages..."
+msgstr ""
 
 #. [components.ListView.imageLogs] - Log content that gets generated as part of the image creation process
 #. defaultMessage is:
@@ -1474,31 +1323,20 @@ msgstr "Управление источниками"
 msgid "Message"
 msgstr "Сообщение"
 
-#. [components.Wizard.warningSizeSmall]
+#. [wizard.imageOutput.imageSize.inputHelp]
 #. defaultMessage is:
-#. Minimum size is {size} GB
-#: build/messages/components/Wizard/ImageStep.json
-msgid "Minimum size is {size} GB"
-msgstr ""
-
-#. [components.Wizard.warningSizeSmall]
-#. defaultMessage is:
-#. Minimum size is {size} GB.
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "Minimum size is {size} GB."
+#. Minimum image size is {size}GB.
+#: build/messages/components/Wizard/steps/imageOutput.json
+msgid "Minimum image size is {size}GB."
 msgstr ""
 
 #. [components.ListView.emptyStateNoResultsMessage]
-#. defaultMessage is:
-#. Modify your filter criteria to get results.
-#. [pages.blueprintEdit.emptyStateNoResultsMessage]
 #. defaultMessage is:
 #. Modify your filter criteria to get results.
 #. [pages.blueprints.noResultsMessage]
 #. defaultMessage is:
 #. Modify your filter criteria to get results.
 #: build/messages/components/ListView/BlueprintContents.json
-#: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
 msgid "Modify your filter criteria to get results."
 msgstr "Измените критерии фильтра, чтобы получить результаты."
@@ -1509,41 +1347,14 @@ msgstr "Измените критерии фильтра, чтобы получ�
 #. [components.Modal.name] - Name of source
 #. defaultMessage is:
 #. Name
-#. [components.Toolbar.filterNameTitle]
-#. defaultMessage is:
-#. Name
-#. [components.Toolbar.filterNameTitle]
+#. [toolbar.blueprint.filter.name]
 #. defaultMessage is:
 #. Name
 #: build/messages/components/Modal/CreateBlueprint.json
 #: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Toolbar/FilterInput.json
-#: build/messages/components/Toolbar/ToolbarLayout.json
+#: build/messages/components/Toolbar/BlueprintToolbar.json
 msgid "Name"
 msgstr "Имя"
-
-#. [pages.blueprintEdit.3059610115]
-#. defaultMessage is:
-#. Name: {name}
-#: build/messages/pages/blueprintEdit/index.json
-msgid "Name: {name}"
-msgstr "Название: {name}"
-
-#. [components.Wizard.namespace]
-#. defaultMessage is:
-#. Namespace help
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#, fuzzy
-#| msgid "Image name"
-msgid "Namespace help"
-msgstr "Имя образа"
-
-#. [components.Wizard.3673120330]
-#. defaultMessage is:
-#. Next
-#: build/messages/components/Wizard/CreateImageUpload.json
-msgid "Next"
-msgstr ""
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
@@ -1586,78 +1397,63 @@ msgstr "Из этого чертежа не было создано никаки
 msgid "No log available"
 msgstr "Нет журналов"
 
-#. [components.ListView.emptyStateNoResultsTitle]
+#. [wizard.packages.noPackagesAdded]
 #. defaultMessage is:
-#. No results match the filter criteria
-#. [pages.blueprintEdit.emptyStateNoResultsTitle]
+#. No packages added
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Edit Packages"
+msgid "No packages added"
+msgstr "Редактировать пакеты"
+
+#. [wizard.packages.noPackagesFound]
+#. defaultMessage is:
+#. No packages found
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Edit Packages"
+msgid "No packages found"
+msgstr "Редактировать пакеты"
+
+#. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
 #. No results match the filter criteria
 #. [pages.blueprints.noResultsTitle]
 #. defaultMessage is:
 #. No results match the filter criteria
 #: build/messages/components/ListView/BlueprintContents.json
-#: build/messages/pages/blueprintEdit/index.json
 #: build/messages/pages/blueprints/index.json
 #, fuzzy
 #| msgid "No Results Match the Filter Criteria"
 msgid "No results match the filter criteria"
 msgstr "Нет результатов Соответствие критериям фильтра"
 
-#. [components.Wizard.1666805205]
+#. [wizard.review.ociBucket]
 #. defaultMessage is:
 #. OCI bucket
-#: build/messages/components/Wizard/ReviewStep.json
+#. [wizard.oci.bucket.label]
+#. defaultMessage is:
+#. OCI bucket
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid "OCI bucket"
 msgstr ""
 
-#. [components.Wizard.compartment]
+#. [wizard.oci.bucket.popoverAria]
 #. defaultMessage is:
-#. OCI compartment help
-#: build/messages/components/Wizard/OCIDestinationStep.json
-msgid "OCI compartment help"
-msgstr ""
+#. OCI bucket help
+#: build/messages/components/Wizard/steps/ociDest.json
+#, fuzzy
+#| msgid "Image name"
+msgid "OCI bucket help"
+msgstr "Имя образа"
 
-#. [components.Wizard.region]
+#. [wizard.ostree.title]
 #. defaultMessage is:
-#. OCI region help
-#: build/messages/components/Wizard/OCIDestinationStep.json
-msgid "OCI region help"
+#. OSTree settings
+#: build/messages/components/Wizard/steps/ostreeSettings.json
+msgid "OSTree settings"
 msgstr ""
-
-#. [components.Wizard.tenancy]
-#. defaultMessage is:
-#. OCI tenancy help
-#: build/messages/components/Wizard/OCIDestinationStep.json
-msgid "OCI tenancy help"
-msgstr ""
-
-#. [components.Wizard.ostreeParent]
-#. defaultMessage is:
-#. OSTree parent help
-#: build/messages/components/Wizard/ImageStep.json
-msgid "OSTree parent help"
-msgstr ""
-
-#. [components.Wizard.ostreeRef]
-#. defaultMessage is:
-#. OSTree ref help
-#: build/messages/components/Wizard/ImageStep.json
-msgid "OSTree ref help"
-msgstr ""
-
-#. [components.Wizard.ostreeURL]
-#. defaultMessage is:
-#. OSTree repo url help
-#: build/messages/components/Wizard/ImageStep.json
-msgid "OSTree repo url help"
-msgstr ""
-
-#. [components.Modal.1475836573]
-#. defaultMessage is:
-#. Only changes to selected components are shown.
-#: build/messages/components/Modal/PendingChanges.json
-msgid "Only changes to selected components are shown."
-msgstr "Отображаются только изменения выбранных компонентов."
 
 #. [pages.error.oupsTitle]
 #. defaultMessage is:
@@ -1666,9 +1462,24 @@ msgstr "Отображаются только изменения выбранн�
 msgid "Oups, something went wrong"
 msgstr "Oups, что-то пошло не так"
 
+#. [wizard.review.outputType]
+#. defaultMessage is:
+#. Output type
+#: build/messages/components/Wizard/formComponents/Review.json
+msgid "Output type"
+msgstr ""
+
+#. [wizard.review.packages]
+#. defaultMessage is:
+#. Packages
+#. [wizard.packages.title]
+#. defaultMessage is:
+#. Packages
 #. [pages.blueprint.packagesTitle]
 #. defaultMessage is:
 #. Packages
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/packages.json
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
 msgstr "Пакеты"
@@ -1683,25 +1494,36 @@ msgstr "Пакеты"
 msgid "Page not found"
 msgstr "Страница не найдена"
 
-#. [components.Wizard.3070030782]
+#. [wizard.ostree.parentCommit.label]
 #. defaultMessage is:
 #. Parent commit
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "Parent commit"
+msgstr ""
+
+#. [wizard.ostree.parentCommit.popoverAria]
+#. defaultMessage is:
+#. Parent commit help
+#: build/messages/components/Wizard/steps/ostreeSettings.json
+msgid "Parent commit help"
 msgstr ""
 
 #. [components.Modal.labelPassword]
 #. defaultMessage is:
 #. Password
-#. [components.Wizard.2237029987]
+#. [wizard.review.password]
 #. defaultMessage is:
 #. Password
-#. [components.Wizard.2237029987]
+#. [wizard.customizations.password.label]
+#. defaultMessage is:
+#. Password
+#. [wizard.vmware.password.label]
 #. defaultMessage is:
 #. Password
 #: build/messages/components/Modal/UserAccount.json
-#: build/messages/components/Wizard/ReviewStep.json
-#: build/messages/components/Wizard/VMWareAuthStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/users.json
+#: build/messages/components/Wizard/steps/vmwareAuth.json
 msgid "Password"
 msgstr "Пароль"
 
@@ -1712,264 +1534,250 @@ msgstr "Пароль"
 msgid "Paste the contents of your public SSH key file here."
 msgstr "Вставьте сюда содержимое файла вашего открытого ключа SSH."
 
-#. [components.Modal.3226997558]
-#. defaultMessage is:
-#. Pending changes
-#: build/messages/components/Modal/PendingChanges.json
-#, fuzzy
-#| msgid "Pending Changes"
-msgid "Pending changes"
-msgstr "Ожидающие изменения"
-
-#. [key-help]
+#. [wizard.oci.privateKey.label]
 #. defaultMessage is:
 #. Private key
-#. [components.Wizard.1443428038]
-#. defaultMessage is:
-#. Private key
-#: build/messages/components/Wizard/OCIAuthStep.json
+#: build/messages/components/Wizard/steps/ociAuth.json
 msgid "Private key"
 msgstr ""
 
-#. [components.Wizard.3157862487]
+#. [wizard.review.privateKey]
 #. defaultMessage is:
 #. Private key filename
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
 msgid "Private key filename"
 msgstr ""
 
-#. [components.Wizard.processLength]
+#. [wizard.oci.privateKey.popoverAria]
+#. defaultMessage is:
+#. Private key help
+#: build/messages/components/Wizard/steps/ociAuth.json
+msgid "Private key help"
+msgstr ""
+
+#. [wizard.blueprintName.popover.aria]
 #. defaultMessage is:
 #. Process length help
-#. [components.Wizard.processLength]
-#. defaultMessage is:
-#. Process length help
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/BlueprintName.json
 msgid "Process length help"
 msgstr ""
 
-#. [components.Wizard.4277042358]
+#. [wizard.aws.imageName.popoverBody]
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
-#. [components.Wizard.4277042358]
+#. [wizard.azure.imageName.popoverBody]
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
-#. [components.Wizard.4277042358]
+#. [wizard.oci.imageName.popoverBody]
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
-#. [components.Wizard.4277042358]
+#. [wizard.vmware.imageName.popoverBody]
 #. defaultMessage is:
 #. Provide a file name to be used for the image file that will be uploaded.
-#: build/messages/components/Wizard/AWSDestinationStep.json
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#: build/messages/components/Wizard/OCIDestinationStep.json
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/awsDest.json
+#: build/messages/components/Wizard/steps/azureDest.json
+#: build/messages/components/Wizard/steps/ociDest.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid ""
 "Provide a file name to be used for the image file that will be uploaded."
 msgstr ""
 
-#. [components.Wizard.2186792528]
+#. [wizard.aws.region.popoverBody]
 #. defaultMessage is:
-#. Provide the AWS Region where you want to import your image. This must be the same region where the {bucket} exists.
-#: build/messages/components/Wizard/AWSDestinationStep.json
+#. Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists.
+#: build/messages/components/Wizard/steps/awsDest.json
 msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
-"same region where the {bucket} exists."
+"same region where the S3 bucket exists."
 msgstr ""
 
-#. [components.Wizard.517158149]
+#. [wizard.azure.storageContainer.popoverBody]
 #. defaultMessage is:
-#. Provide the Blob container to which the image file will be uploaded. You can find containers under the {blobService} 
-#.                     section of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
-#: build/messages/components/Wizard/AzureDestinationStep.json
+#. Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
+#: build/messages/components/Wizard/steps/azureDest.json
 msgid ""
 "Provide the Blob container to which the image file will be uploaded. You can "
-"find containers under the {blobService} \n"
-"                    section of a storage account. You can find storage "
-"accounts on the {storageAccounts} page in the {azure} portal."
+"find containers under the <strong>Blob service</strong> section of a storage "
+"account. You can find storage accounts on the <strong>Storage accounts</"
+"strong> page in the Azure portal."
 msgstr ""
 
-#. [components.Wizard.4044130958]
+#. [wizard.ostree.parentCommit.popoverBody]
 #. defaultMessage is:
-#. Provide the ID of the latest commit in the updates repository for which this commit provides an update.
-#.                     If no commit is specified it will be inferred from the parent repository.
-#: build/messages/components/Wizard/ImageStep.json
+#. Provide the ID of the latest commit in the updates repository for which this commit provides an update. If no commit is specified it will be inferred from the parent repository.
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid ""
 "Provide the ID of the latest commit in the updates repository for which this "
-"commit provides an update.\n"
-"                    If no commit is specified it will be inferred from the "
-"parent repository."
+"commit provides an update. If no commit is specified it will be inferred "
+"from the parent repository."
 msgstr ""
 
-#. [components.Wizard.1901372247]
+#. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
-#. Provide the S3 {bucket} name to which the image file will be uploaded before being imported into EC2. 
-#.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
-#.                         {bucketsPage} page in the {amazon} S3 storage service in the AWS console.
-#: build/messages/components/Wizard/AWSDestinationStep.json
+#. Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console.
+#: build/messages/components/Wizard/steps/awsDest.json
 msgid ""
-"Provide the S3 {bucket} name to which the image file will be uploaded before "
-"being imported into EC2. \n"
-"                        The {bucket} must already exist in the Region where "
-"you want to import your image. You can find a list of {buckets} on the\n"
-"                        {bucketsPage} page in the {amazon} S3 storage "
-"service in the AWS console."
+"Provide the S3 bucket name to which the image file will be uploaded before "
+"being imported into EC2. The bucket must already exist in the Region where "
+"you want to import your image. You can find a list of buckets on the "
+"<strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS "
+"console."
 msgstr ""
 
-#. [components.Wizard.1170512263]
+#. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
 #. Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from.
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid ""
 "Provide the URL of the upstream repository. This repository is where the "
 "parent OSTree commit will be pulled from."
 msgstr ""
 
-#. [components.Wizard.2706552502]
+#. [wizard.azure.storageAccessKey.popoverBody]
 #. defaultMessage is:
-#. Provide the access key for the desired storage account. You can find the access key on the {accessKeys} 
-#.                         page of the storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
-#: build/messages/components/Wizard/AzureAuthStep.json
+#. Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
+#: build/messages/components/Wizard/steps/azureAuth.json
 msgid ""
 "Provide the access key for the desired storage account. You can find the "
-"access key on the {accessKeys} \n"
-"                        page of the storage account. You can find storage "
-"accounts on the {storageAccounts} page in the {azure} portal."
+"access key on the <strong>Access keys</strong> page of the storage account. "
+"You can find storage accounts on the <strong>Storage accounts</strong> page "
+"in the Azure portal."
 msgstr ""
 
-#. [components.Wizard.2831983558]
+#. [wizard.oci.bucket.popoverBody]
 #. defaultMessage is:
-#. Provide the compartment of the {bucket} your uploading to. You can find the compartment in the bucket details.
-#: build/messages/components/Wizard/OCIDestinationStep.json
+#. Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console.
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid ""
-"Provide the compartment of the {bucket} your uploading to. You can find the "
-"compartment in the bucket details."
+"Provide the bucket name to which the image file will be uploaded before "
+"being imported as a custom image. The bucket must already exist in the "
+"Region where you want to import your image. You can find a list of buckets "
+"on the <strong>OCI buckets</strong> page in the OCI storage service in the "
+"OCI console."
 msgstr ""
 
-#. [components.Wizard.1434969769]
+#. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
-#. Provide the name of a storage account. You can find storage accounts on the {storageAccounts} page in the {azure} portal.
-#: build/messages/components/Wizard/AzureAuthStep.json
+#. Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details.
+#: build/messages/components/Wizard/steps/ociDest.json
+msgid ""
+"Provide the compartment of the OCI bucket compartment your uploading to. You "
+"can find the compartment in the bucket details."
+msgstr ""
+
+#. [wizard.azure.storageAccount.popoverBody]
+#. defaultMessage is:
+#. Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
+#: build/messages/components/Wizard/steps/azureAuth.json
 msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
-"{storageAccounts} page in the {azure} portal."
+"<strong>Storage accounts</strong> page in the Azure portal."
 msgstr ""
 
-#. [components.Wizard.1891777230]
+#. [wizard.vmware.cluster.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the Cluster to which the image file will be uploaded.
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid ""
 "Provide the name of the Cluster to which the image file will be uploaded."
 msgstr ""
 
-#. [components.Wizard.1217327836]
+#. [wizard.vmware.dataCenter.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the Datacenter to which the image file will be uploaded.
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid ""
 "Provide the name of the Datacenter to which the image file will be uploaded."
 msgstr ""
 
-#. [components.Wizard.4014474612]
+#. [wizard.vmware.datastore.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the Datastore to which the image file will be uploaded.
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid ""
 "Provide the name of the Datastore to which the image file will be uploaded."
 msgstr ""
 
-#. [components.Wizard.1476874820]
+#. [wizard.ostree.ref.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created.
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created."
 msgstr ""
 
-#. [components.Wizard.3701635592]
+#. [wizard.oci.namespace.popoverBody]
 #. defaultMessage is:
-#. Provide the namespace of the {bucket} your uploading to. You can find the namespace in the bucket details.
-#: build/messages/components/Wizard/OCIDestinationStep.json
+#. Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details.
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid ""
-"Provide the namespace of the {bucket} your uploading to. You can find the "
+"Provide the namespace of the OCI bucket your uploading to. You can find the "
 "namespace in the bucket details."
 msgstr ""
 
-#. [components.Wizard.3286165321]
+#. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
-#. Provide the region of the {bucket} your uploading to. You can find the region in the bucket details.
-#: build/messages/components/Wizard/OCIDestinationStep.json
+#. Provide the region of the Bucket region your uploading to. You can find the region in the bucket details.
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid ""
-"Provide the region of the {bucket} your uploading to. You can find the "
+"Provide the region of the Bucket region your uploading to. You can find the "
 "region in the bucket details."
 msgstr ""
 
-#. [components.Wizard.3854501928]
+#. [wizard.oci.tenancy.popoverBody]
 #. defaultMessage is:
-#. Provide the tenancy of the {bucket} your uploading to. You can find the tenancy in the bucket details.
-#: build/messages/components/Wizard/OCIDestinationStep.json
+#. Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details.
+#: build/messages/components/Wizard/steps/ociDest.json
 msgid ""
-"Provide the tenancy of the {bucket} your uploading to. You can find the "
+"Provide the tenancy of the OCI bucket your uploading to. You can find the "
 "tenancy in the bucket details."
 msgstr ""
 
-#. [components.Wizard.3387354708]
+#. [wizard.vmware.host.popoverBody]
 #. defaultMessage is:
-#. Provide the url of your {vmware} instance to which the image file will be uploaded.
-#: build/messages/components/Wizard/VMWareDestinationStep.json
+#. Provide the url of your VMWare vSphere instance to which the image file will be uploaded.
+#: build/messages/components/Wizard/steps/vmwareDest.json
 msgid ""
-"Provide the url of your {vmware} instance to which the image file will be "
-"uploaded."
+"Provide the url of your VMWare vSphere instance to which the image file will "
+"be uploaded."
 msgstr ""
 
-#. [components.Wizard.577410027]
-#. defaultMessage is:
-#. Provide the {bucket} name to which the image file will be uploaded before being imported as a custom image. 
-#.                         The {bucket} must already exist in the Region where you want to import your image. You can find a list of {buckets} on the
-#.                         {bucketsPage} page in the OCI storage service in the OCI console.
-#: build/messages/components/Wizard/OCIDestinationStep.json
-msgid ""
-"Provide the {bucket} name to which the image file will be uploaded before "
-"being imported as a custom image. \n"
-"                        The {bucket} must already exist in the Region where "
-"you want to import your image. You can find a list of {buckets} on the\n"
-"                        {bucketsPage} page in the OCI storage service in the "
-"OCI console."
-msgstr ""
-
-#. [components.Wizard.labelqcow]
-#. defaultMessage is:
-#. QEMU Image (.qcow2)
-#: build/messages/components/Wizard/ImageStep.json
-msgid "QEMU Image (.qcow2)"
-msgstr ""
-
-#. [components.Wizard.31026111]
+#. [wizard.ostree.ref.label]
 #. defaultMessage is:
 #. Ref
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "Ref"
 msgstr ""
 
+#. [wizard.ostree.ref.popoverAria]
+#. defaultMessage is:
+#. Ref help
+#: build/messages/components/Wizard/steps/ostreeSettings.json
+#, fuzzy
+#| msgid "Image name"
+msgid "Ref help"
+msgstr "Имя образа"
+
+#. [wizard.aws.region.popoverAria]
+#. defaultMessage is:
+#. Region help
+#: build/messages/components/Wizard/steps/awsDest.json
+msgid "Region help"
+msgstr ""
+
 #. [components.ListView.423140743]
 #. defaultMessage is:
 #. Release
 #. [components.ListView.423140743]
 #. defaultMessage is:
 #. Release
-#. [components.Toolbar.filterReleaseTitle]
-#. defaultMessage is:
-#. Release
-#. [components.Toolbar.filterReleaseTitle]
+#. [toolbar.blueprint.filter.release]
 #. defaultMessage is:
 #. Release
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentsDataListItem.json
-#: build/messages/components/Toolbar/FilterInput.json
-#: build/messages/components/Toolbar/ToolbarLayout.json
+#: build/messages/components/Toolbar/BlueprintToolbar.json
 msgid "Release"
 msgstr "Релиз"
 
@@ -1979,14 +1787,28 @@ msgstr "Релиз"
 #. [components.ListView.2703758654]
 #. defaultMessage is:
 #. Remove
-#. [components.ListView.2703758654]
-#. defaultMessage is:
-#. Remove
 #: build/messages/components/ListView/ComponentDetailsView.json
-#: build/messages/components/ListView/ComponentsDataListItem.json
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Remove"
 msgstr "Удалить зону"
+
+#. [wizard.packages.removeAll]
+#. defaultMessage is:
+#. Remove all
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove all"
+msgstr "Удалить зону"
+
+#. [wizard.customizations.buttons.removeAll]
+#. defaultMessage is:
+#. Remove all users
+#: build/messages/components/Wizard/steps/users.json
+#, fuzzy
+#| msgid "Remove Password"
+msgid "Remove all users"
+msgstr "Удалить пароль"
 
 #. [components.ListView.removeComponent]
 #. defaultMessage is:
@@ -2006,6 +1828,15 @@ msgstr "Удалить компонент из проекта"
 msgid "Remove from blueprint"
 msgstr "Удалить из проекта"
 
+#. [wizard.packages.removeSelected]
+#. defaultMessage is:
+#. Remove selected
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Remove Source"
+msgid "Remove selected"
+msgstr "Удалить источник"
+
 #. [components.ListView.remove]
 #. defaultMessage is:
 #. Remove source
@@ -2015,12 +1846,14 @@ msgstr "Удалить из проекта"
 msgid "Remove source"
 msgstr "Удалить источник"
 
-#. [components.Modal.2291868453] - Identifies the change as a component that was removed
+#. [wizard.customizations.buttons.remove]
 #. defaultMessage is:
-#. Removed
-#: build/messages/components/Modal/PendingChanges.json
-msgid "Removed"
-msgstr "Удалены"
+#. Remove user
+#: build/messages/components/Wizard/steps/users.json
+#, fuzzy
+#| msgid "Remove Source"
+msgid "Remove user"
+msgstr "Удалить источник"
 
 #. [components.ListView.2663433025]
 #. defaultMessage is:
@@ -2029,13 +1862,22 @@ msgstr "Удалены"
 msgid "Removing source"
 msgstr "Удаление источника"
 
-#. [components.Wizard.2238384022]
+#. [wizard.ostree.repoURL.label]
 #. defaultMessage is:
 #. Repository URL
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 #, fuzzy
 #| msgid "yum repository"
 msgid "Repository URL"
+msgstr "репозиторий yum"
+
+#. [wizard.ostree.repoURL.popoverAria]
+#. defaultMessage is:
+#. Repository URL help
+#: build/messages/components/Wizard/steps/ostreeSettings.json
+#, fuzzy
+#| msgid "yum repository"
+msgid "Repository URL help"
 msgstr "репозиторий yum"
 
 #. [components.Modal.128739785]
@@ -2045,20 +1887,20 @@ msgstr "репозиторий yum"
 msgid "Required information is missing."
 msgstr "Необходимая информация отсутствует."
 
-#. [components.Wizard.3835894881]
+#. [wizard.review.title]
 #. defaultMessage is:
 #. Review
-#: build/messages/components/Wizard/CreateImageUpload.json
+#: build/messages/components/Wizard/steps/review.json
 msgid "Review"
 msgstr ""
 
-#. [components.Wizard.review]
+#. [wizard.review.review]
 #. defaultMessage is:
-#. Review the information below and click Finish to create the image and complete the tasks that were selected.
-#: build/messages/components/Wizard/ReviewStep.json
+#. Review the information and click "Create image" to create the image using the following criteria.
+#: build/messages/components/Wizard/formComponents/Review.json
 msgid ""
-"Review the information below and click Finish to create the image and "
-"complete the tasks that were selected."
+"Review the information and click \"Create image\" to create the image using "
+"the following criteria."
 msgstr ""
 
 #. [components.Modal.labelRole]
@@ -2068,17 +1910,23 @@ msgstr ""
 msgid "Role"
 msgstr "Роль"
 
-#. [components.Wizard.bucket]
+#. [wizard.aws.bucket.popoverAria]
 #. defaultMessage is:
-#. S3 Bucket help
-#: build/messages/components/Wizard/AWSDestinationStep.json
-msgid "S3 Bucket help"
-msgstr ""
+#. S3 bucket help
+#: build/messages/components/Wizard/steps/awsDest.json
+#, fuzzy
+#| msgid "Image name"
+msgid "S3 bucket help"
+msgstr "Имя образа"
 
 #. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
+#. [wizard.customizations.sshKey.label]
+#. defaultMessage is:
+#. SSH key
 #: build/messages/components/Modal/UserAccount.json
+#: build/messages/components/Wizard/steps/users.json
 msgid "SSH key"
 msgstr "Ключ SSH"
 
@@ -2093,6 +1941,15 @@ msgstr "Ключ SSH"
 msgid "Save"
 msgstr "Сохранить"
 
+#. [wizard.review.saveBlueprint]
+#. defaultMessage is:
+#. Save blueprint
+#: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
+#, fuzzy
+#| msgid "Create Blueprint"
+msgid "Save blueprint"
+msgstr "Создать проект"
+
 #. [components.Modal.1820273720]
 #. defaultMessage is:
 #. Saving source
@@ -2100,21 +1957,42 @@ msgstr "Сохранить"
 msgid "Saving source"
 msgstr "Сохранение источника"
 
-#. [components.Wizard.135579143]
+#. [wizard.packages.searchAbove]
+#. defaultMessage is:
+#. Search above to add additional{br}packages to your image
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Search above to add additional{br}packages to your image"
+msgstr ""
+
+#. [wizard.packages.availablePackagesSearch]
+#. defaultMessage is:
+#. Search button for available packages
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Search button for available packages"
+msgstr ""
+
+#. [wizard.packages.searchPackages]
+#. defaultMessage is:
+#. Search for a package
+#: build/messages/components/Wizard/formComponents/Packages.json
+msgid "Search for a package"
+msgstr ""
+
+#. [wizard.review.secretAccessKey]
 #. defaultMessage is:
 #. Secret access key
-#. [components.Wizard.135579143]
+#. [wizard.aws.secretAccessKey.label]
 #. defaultMessage is:
 #. Secret access key
-#: build/messages/components/Wizard/AWSAuthStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/awsAuth.json
 msgid "Secret access key"
 msgstr ""
 
-#. [secret-access-key-help]
+#. [wizard.aws.secretAccessKey.popoverAria]
 #. defaultMessage is:
 #. Secret access key help
-#: build/messages/components/Wizard/AWSAuthStep.json
+#: build/messages/components/Wizard/steps/awsAuth.json
 msgid "Secret access key help"
 msgstr ""
 
@@ -2125,22 +2003,20 @@ msgstr ""
 msgid "Security"
 msgstr "Безопасность"
 
-#. [pages.blueprintEdit.1513086105]
-#. defaultMessage is:
-#. Select components
-#: build/messages/pages/blueprintEdit/index.json
-msgid "Select components"
-msgstr "Выберите компоненты"
-
 #. [components.Modal.selectOne]
 #. defaultMessage is:
 #. Select one
-#. [components.Wizard.selectOne]
-#. defaultMessage is:
-#. Select one
 #: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Wizard/ImageStep.json
 msgid "Select one"
+msgstr "Выберите один"
+
+#. [wizard.imageOutput.selectType]
+#. defaultMessage is:
+#. Select output type
+#: build/messages/components/Wizard/formComponents/ImageOutputSelect.json
+#, fuzzy
+#| msgid "Select one"
+msgid "Select output type"
 msgstr "Выберите один"
 
 #. [components.ListView.selectedTabTitle]
@@ -2151,6 +2027,24 @@ msgstr "Выберите один"
 #| msgid "Selected Components"
 msgid "Selected components"
 msgstr "Выбранные компоненты"
+
+#. [wizard.packages.selectedPackages]
+#. defaultMessage is:
+#. Selected packages
+#: build/messages/components/Wizard/steps/packages.json
+#, fuzzy
+#| msgid "Edit Packages"
+msgid "Selected packages"
+msgstr "Редактировать пакеты"
+
+#. [wizard.packages.selectorControls]
+#. defaultMessage is:
+#. Selector controls
+#: build/messages/components/Wizard/formComponents/Packages.json
+#, fuzzy
+#| msgid "Select components"
+msgid "Selector controls"
+msgstr "Выберите компоненты"
 
 #. [components.Modal.adminCheckbox]
 #. defaultMessage is:
@@ -2164,14 +2058,18 @@ msgstr "Администратор сервера"
 #. [components.Modal.labelAdmin]
 #. defaultMessage is:
 #. Server administrator
+#. [wizard.customizations.serverAdmin.label]
+#. defaultMessage is:
+#. Server administrator
 #: build/messages/components/Modal/UserAccount.json
+#: build/messages/components/Wizard/steps/users.json
 msgid "Server administrator"
 msgstr "Администратор сервера"
 
-#. [components.Wizard.imageSizePopover]
+#. [wizard.imageOutput.imageSize.popoverBody]
 #. defaultMessage is:
 #. Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size.
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/imageOutput.json
 msgid ""
 "Set the size that you want the image to be when instantiated. The total "
 "package size and target destination of your image should be considered when "
@@ -2211,6 +2109,32 @@ msgstr "Показывай меньше"
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Size"
 msgstr "Размер"
+
+#. [toolbar.blueprints.sort.asc]
+#. defaultMessage is:
+#. Sort blueprints ascending
+#. [toolbar.blueprints.sort.asc]
+#. defaultMessage is:
+#. Sort blueprints ascending
+#: build/messages/components/Toolbar/BlueprintsToolbar.json
+#: build/messages/components/Toolbar/BlueprintToolbar.json
+#, fuzzy
+#| msgid "Export Blueprint"
+msgid "Sort blueprints ascending"
+msgstr "Экспортный план"
+
+#. [toolbar.blueprints.sort.desc]
+#. defaultMessage is:
+#. Sort blueprints descending
+#. [toolbar.blueprints.sort.desc]
+#. defaultMessage is:
+#. Sort blueprints descending
+#: build/messages/components/Toolbar/BlueprintsToolbar.json
+#: build/messages/components/Toolbar/BlueprintToolbar.json
+#, fuzzy
+#| msgid "Export Blueprint"
+msgid "Sort blueprints descending"
+msgstr "Экспортный план"
 
 #. [components.ListView.kebab]
 #. defaultMessage is:
@@ -2257,6 +2181,13 @@ msgstr ""
 msgid "Specify a new blueprint name."
 msgstr "Укажите новое название проекта."
 
+#. [wizard.customizations.installDevice.popoverBody]
+#. defaultMessage is:
+#. Specify which device the image will be installed onto.
+#: build/messages/components/Wizard/steps/system.json
+msgid "Specify which device the image will be installed onto."
+msgstr ""
+
 #. [components.EmptyState.errorInactivePrimary]
 #. defaultMessage is:
 #. Start
@@ -2294,72 +2225,70 @@ msgstr "Прекратить сборку"
 msgid "Stopping"
 msgstr "остановка"
 
-#. [components.Wizard.4127941395]
+#. [wizard.review.storageAccessKey]
 #. defaultMessage is:
 #. Storage access key
-#. [components.Wizard.4127941395]
+#. [wizard.azure.storageAccessKey.label]
 #. defaultMessage is:
 #. Storage access key
-#: build/messages/components/Wizard/AzureAuthStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/azureAuth.json
 msgid "Storage access key"
 msgstr ""
 
-#. [components.Wizard.storageAccessKey]
+#. [wizard.azure.storageAccessKey.popoverAria]
 #. defaultMessage is:
 #. Storage access key help
-#: build/messages/components/Wizard/AzureAuthStep.json
+#: build/messages/components/Wizard/steps/azureAuth.json
 msgid "Storage access key help"
 msgstr ""
 
-#. [components.Wizard.1624497518]
+#. [wizard.review.storageAccount]
 #. defaultMessage is:
 #. Storage account
-#. [components.Wizard.1624497518]
+#. [wizard.azure.storageAccount.label]
 #. defaultMessage is:
 #. Storage account
-#: build/messages/components/Wizard/AzureAuthStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/azureAuth.json
 msgid "Storage account"
 msgstr ""
 
-#. [components.Wizard.storageAccount]
+#. [wizard.azure.storageAccount.popoverAria]
 #. defaultMessage is:
 #. Storage account help
-#: build/messages/components/Wizard/AzureAuthStep.json
+#: build/messages/components/Wizard/steps/azureAuth.json
 msgid "Storage account help"
 msgstr ""
 
-#. [components.Wizard.storageAccounts]
-#. defaultMessage is:
-#. Storage accounts
-#. [components.Wizard.storageAccounts]
-#. defaultMessage is:
-#. Storage accounts
-#: build/messages/components/Wizard/AzureAuthStep.json
-#: build/messages/components/Wizard/AzureDestinationStep.json
-msgid "Storage accounts"
-msgstr ""
-
-#. [components.Wizard.1249927125]
+#. [wizard.review.storageContainer]
 #. defaultMessage is:
 #. Storage container
-#. [components.Wizard.1249927125]
+#. [wizard.azure.storageContainer.label]
 #. defaultMessage is:
 #. Storage container
-#: build/messages/components/Wizard/AzureDestinationStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/azureDest.json
 msgid "Storage container"
 msgstr ""
 
-#. [components.Wizard.storageContainer]
+#. [wizard.azure.storageContainer.popoverAria]
 #. defaultMessage is:
 #. Storage container help
-#: build/messages/components/Wizard/AzureDestinationStep.json
+#: build/messages/components/Wizard/steps/azureDest.json
 #, fuzzy
 #| msgid "Image name"
 msgid "Storage container help"
 msgstr "Имя образа"
+
+#. [wizard.customizations.systemTitle]
+#. defaultMessage is:
+#. System
+#: build/messages/components/Wizard/steps/system.json
+#, fuzzy
+#| msgid "System source"
+msgid "System"
+msgstr "Системный источник"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2413,15 +2342,6 @@ msgstr ""
 msgid "The name {name} already exists."
 msgstr "Имя {name} уже существует."
 
-#. [pages.blueprintEdit.addComponentMessageTwo]
-#. defaultMessage is:
-#. The packages needed to support the selected image type are automatically included when creating an image.
-#: build/messages/pages/blueprintEdit/index.json
-msgid ""
-"The packages needed to support the selected image type are automatically "
-"included when creating an image."
-msgstr ""
-
 #. [pages.error.26562577]
 #. defaultMessage is:
 #. The page you're looking for does not exist or an another error occurred.
@@ -2436,19 +2356,6 @@ msgstr "Страница, которую вы ищете, не существу�
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "The service osbuild-composer was not started."
 msgstr "Служба osbuild-composer не запущена."
-
-#. [components.Wizard.warningSizeLarge]
-#. defaultMessage is:
-#. The size specified is large. We recommend that you check whether your target destination has any restrictions on image size.
-#. [components.Wizard.warningSizeLarge]
-#. defaultMessage is:
-#. The size specified is large. We recommend that you check whether your target destination has any restrictions on image size.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
-msgid ""
-"The size specified is large. We recommend that you check whether your target "
-"destination has any restrictions on image size."
-msgstr ""
 
 #. [components.Modal.usernameValidChars]
 #. defaultMessage is:
@@ -2490,20 +2397,15 @@ msgstr "Указанные пароли не совпадают."
 
 #. [pages.blueprint.emptyBlueprintMessage]
 #. defaultMessage is:
-#. There are no components listed in the blueprint. Edit the blueprint to add components.
+#. There are no components listed in the blueprint.
 #: build/messages/pages/blueprint/index.json
-msgid ""
-"There are no components listed in the blueprint. Edit the blueprint to add "
-"components."
+#, fuzzy
+#| msgid ""
+#| "There are no components listed in the blueprint. Edit the blueprint to "
+#| "add components."
+msgid "There are no components listed in the blueprint."
 msgstr ""
 "В проекте нет компонентов. Отредактируйте чертеж, чтобы добавить компоненты."
-
-#. [components.Wizard.warningReview]
-#. defaultMessage is:
-#. There are one or more fields that require your attention.
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "There are one or more fields that require your attention."
-msgstr ""
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
@@ -2516,24 +2418,6 @@ msgstr ""
 msgid "This action cannot be undone."
 msgstr "Это действие не может быть отменено."
 
-#. [components.Wizard.warningUnsaved]
-#. defaultMessage is:
-#. This blueprint has changes that are not committed. These changes will be committed before the image is created.
-#: build/messages/components/Wizard/ImageStep.json
-msgid ""
-"This blueprint has changes that are not committed. These changes will be "
-"committed before the image is created."
-msgstr ""
-"Этот проект имеет изменения, которые не выполняются. Эти изменения будут "
-"зафиксированы до создания изображения."
-
-#. [empty-blueprint-alert]
-#. defaultMessage is:
-#. This blueprint is empty.
-#: build/messages/components/Wizard/ImageStep.json
-msgid "This blueprint is empty."
-msgstr "Этот проект пуст."
-
 #. [components.ListView.noDepsMessage]
 #. defaultMessage is:
 #. This component has no dependencies.
@@ -2541,21 +2425,10 @@ msgstr "Этот проект пуст."
 msgid "This component has no dependencies."
 msgstr "У этого компонента зависимостей нет."
 
-#. [components.Wizard.requiredField]
-#. defaultMessage is:
-#. This is a required field
-#: build/messages/components/Wizard/ImageStep.json
-msgid "This is a required field"
-msgstr ""
-
-#. [components.Wizard.infotip]
+#. [wizard.blueprintName.popover.content]
 #. defaultMessage is:
 #. This process can take a while. Images are built in the order they are started.
-#. [components.Wizard.infotip]
-#. defaultMessage is:
-#. This process can take a while. Images are built in the order they are started.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#: build/messages/components/Wizard/formComponents/BlueprintName.json
 msgid ""
 "This process can take a while. Images are built in the order they are "
 "started."
@@ -2584,40 +2457,6 @@ msgstr "Этот путь к источнику уже использован."
 msgid "This system does not have any valid subscriptions."
 msgstr ""
 
-#. [components.Wizard.1727762289]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can
-#.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
-#. [components.Wizard.1727762289]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} role named {vmimport} to ensure that the image can
-#.                         be imported from the S3 {bucket} into EC2. For more details, refer to the {role}.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
-msgid ""
-"This upload process requires that you have an {iam} role named {vmimport} to "
-"ensure that the image can\n"
-"                        be imported from the S3 {bucket} into EC2. For more "
-"details, refer to the {role}."
-msgstr ""
-
-#. [components.Wizard.50730016]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} with attached policy to manage custom images
-#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
-#. [components.Wizard.50730016]
-#. defaultMessage is:
-#. This upload process requires that you have an {iam} with attached policy to manage custom images
-#.                         to ensure that the image can be import as a custom image from the {bucket}. For more details, refer to the {policies}.
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
-msgid ""
-"This upload process requires that you have an {iam} with attached policy to "
-"manage custom images\n"
-"                        to ensure that the image can be import as a custom "
-"image from the {bucket}. For more details, refer to the {policies}."
-msgstr ""
-
 #. [components.Modal.usernameDuplicate]
 #. defaultMessage is:
 #. This user name already exists.
@@ -2644,14 +2483,10 @@ msgstr "Диагностика проблем"
 #. [components.Modal.type] - Type of source
 #. defaultMessage is:
 #. Type
-#. [components.Wizard.type]
-#. defaultMessage is:
-#. Type
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentTypeIcons.json
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Wizard/ImageStep.json
 msgid "Type"
 msgstr "Тип"
 
@@ -2694,13 +2529,6 @@ msgstr "Обновить"
 msgid "Update source"
 msgstr "Обновить источник"
 
-#. [components.Modal.562988552] - Identifies the change as a component that was updated
-#. defaultMessage is:
-#. Updated
-#: build/messages/components/Modal/PendingChanges.json
-msgid "Updated"
-msgstr "Обновлено"
-
 #. [components.ListView.uploadStatusFinished] - Upload status when process is finished
 #. defaultMessage is:
 #. Upload complete
@@ -2714,28 +2542,6 @@ msgstr "Загрузка завершена"
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Upload failed"
 msgstr "Ошибка загрузки"
-
-#. [components.Wizard.3057159632]
-#. defaultMessage is:
-#. Upload image
-#: build/messages/components/Wizard/ImageStep.json
-#, fuzzy
-#| msgid "Upload failed"
-msgid "Upload image"
-msgstr "Ошибка загрузки"
-
-#. [components.Wizard.uploadImage]
-#. defaultMessage is:
-#. Upload image help
-#. [components.Wizard.uploadImage]
-#. defaultMessage is:
-#. Upload image help
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Upload complete"
-msgid "Upload image help"
-msgstr "Загрузка завершена"
 
 #. [components.ListView.uploadStatusRunning] - Upload status when process is in progress
 #. defaultMessage is:
@@ -2751,72 +2557,124 @@ msgstr "Идет загрузка"
 msgid "Upload pending"
 msgstr "Ожидание загрузки"
 
-#. [components.Wizard.3235936248]
+#. [wizard.review.uploadToAWS]
 #. defaultMessage is:
 #. Upload to AWS
-#. [components.Wizard.uploadAWS]
+#. [wizard.aws.title]
 #. defaultMessage is:
 #. Upload to AWS
-#. [components.Wizard.3235936248]
+#. [wizard.aws.title]
 #. defaultMessage is:
 #. Upload to AWS
-#: build/messages/components/Wizard/CreateImageUpload.json
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. [wizard.imageOutput.uploadAWS]
+#. defaultMessage is:
+#. Upload to AWS
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/awsAuth.json
+#: build/messages/components/Wizard/steps/awsDest.json
+#: build/messages/components/Wizard/steps/imageOutput.json
 #, fuzzy
 #| msgid "Upload type"
 msgid "Upload to AWS"
 msgstr "Тип загрузки"
 
-#. [components.Wizard.2244258572]
+#. [wizard.imageOutput.uploadAWS.popoverAria]
+#. defaultMessage is:
+#. Upload to AWS help
+#: build/messages/components/Wizard/steps/imageOutput.json
+#, fuzzy
+#| msgid "Upload type"
+msgid "Upload to AWS help"
+msgstr "Тип загрузки"
+
+#. [wizard.review.uploadToAzure]
 #. defaultMessage is:
 #. Upload to Azure
-#. [components.Wizard.uploadAzure]
+#. [wizard.azure.title]
 #. defaultMessage is:
 #. Upload to Azure
-#. [components.Wizard.2244258572]
+#. [wizard.azure.title]
 #. defaultMessage is:
 #. Upload to Azure
-#: build/messages/components/Wizard/CreateImageUpload.json
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. [wizard.imageOutput.uploadAzure]
+#. defaultMessage is:
+#. Upload to Azure
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/azureAuth.json
+#: build/messages/components/Wizard/steps/azureDest.json
+#: build/messages/components/Wizard/steps/imageOutput.json
 #, fuzzy
 #| msgid "Upload type"
 msgid "Upload to Azure"
 msgstr "Тип загрузки"
 
-#. [components.Wizard.3418449520]
+#. [wizard.imageOutput.uploadAzure.popoverAria]
+#. defaultMessage is:
+#. Upload to Azure help
+#: build/messages/components/Wizard/steps/imageOutput.json
+#, fuzzy
+#| msgid "Upload type"
+msgid "Upload to Azure help"
+msgstr "Тип загрузки"
+
+#. [wizard.review.uploadToOCI]
 #. defaultMessage is:
 #. Upload to OCI
-#. [components.Wizard.uploadOCI]
+#. [wizard.imageOutput.uploadOCI]
 #. defaultMessage is:
 #. Upload to OCI
-#. [components.Wizard.3418449520]
+#. [wizard.oci.title]
 #. defaultMessage is:
 #. Upload to OCI
-#: build/messages/components/Wizard/CreateImageUpload.json
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. [wizard.oci.title]
+#. defaultMessage is:
+#. Upload to OCI
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/imageOutput.json
+#: build/messages/components/Wizard/steps/ociAuth.json
+#: build/messages/components/Wizard/steps/ociDest.json
 #, fuzzy
 #| msgid "Upload type"
 msgid "Upload to OCI"
 msgstr "Тип загрузки"
 
-#. [components.Wizard.3542348520]
+#. [wizard.imageOutput.uploadOCI.popoverAria]
+#. defaultMessage is:
+#. Upload to OCI help
+#: build/messages/components/Wizard/steps/imageOutput.json
+#, fuzzy
+#| msgid "Upload type"
+msgid "Upload to OCI help"
+msgstr "Тип загрузки"
+
+#. [wizard.review.uploadToVMWare]
 #. defaultMessage is:
 #. Upload to VMWare
-#. [components.Wizard.uploadVMWare]
+#. [wizard.imageOutput.uploadVMWare]
 #. defaultMessage is:
 #. Upload to VMWare
-#. [components.Wizard.3542348520]
+#. [wizard.vmware.title]
 #. defaultMessage is:
 #. Upload to VMWare
-#: build/messages/components/Wizard/CreateImageUpload.json
-#: build/messages/components/Wizard/ImageStep.json
-#: build/messages/components/Wizard/ReviewStep.json
+#. [wizard.vmware.title]
+#. defaultMessage is:
+#. Upload to VMWare
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/imageOutput.json
+#: build/messages/components/Wizard/steps/vmwareAuth.json
+#: build/messages/components/Wizard/steps/vmwareDest.json
 #, fuzzy
 #| msgid "Upload type"
 msgid "Upload to VMWare"
+msgstr "Тип загрузки"
+
+#. [wizard.imageOutput.uploadVMWare.popoverAria]
+#. defaultMessage is:
+#. Upload to VMWare help
+#: build/messages/components/Wizard/steps/imageOutput.json
+#, fuzzy
+#| msgid "Upload type"
+msgid "Upload to VMWare help"
 msgstr "Тип загрузки"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
@@ -2826,22 +2684,14 @@ msgstr "Тип загрузки"
 msgid "Upload type"
 msgstr "Тип загрузки"
 
-#. [components.Wizard.2419068661]
-#. defaultMessage is:
-#. User
-#: build/messages/components/Wizard/ReviewStep.json
-#, fuzzy
-#| msgid "Users"
-msgid "User"
-msgstr "Пользователи"
-
-#. [user-help]
+#. [wizard.review.userOCID]
 #. defaultMessage is:
 #. User OCID
-#. [components.Wizard.4135109133]
+#. [wizard.oci.userOCID.label]
 #. defaultMessage is:
 #. User OCID
-#: build/messages/components/Wizard/OCIAuthStep.json
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/ociAuth.json
 msgid "User OCID"
 msgstr ""
 
@@ -2861,31 +2711,54 @@ msgstr "Действия над аккаунтом пользователя"
 msgid "User name"
 msgstr "Имя пользователя"
 
-#. [components.Wizard.2663586870]
+#. [wizard.oci.userOCID.popoverAria]
+#. defaultMessage is:
+#. User ocid help
+#: build/messages/components/Wizard/steps/ociAuth.json
+msgid "User ocid help"
+msgstr ""
+
+#. [wizard.review.username]
 #. defaultMessage is:
 #. Username
-#. [components.Wizard.2663586870]
+#. [wizard.customizations.username.label]
 #. defaultMessage is:
 #. Username
-#: build/messages/components/Wizard/ReviewStep.json
-#: build/messages/components/Wizard/VMWareAuthStep.json
+#. [wizard.vmware.username.label]
+#. defaultMessage is:
+#. Username
+#: build/messages/components/Wizard/formComponents/Review.json
+#: build/messages/components/Wizard/steps/users.json
+#: build/messages/components/Wizard/steps/vmwareAuth.json
 #, fuzzy
 #| msgid "User name"
 msgid "Username"
 msgstr "Имя пользователя"
 
+#. [wizard.customizations.usersTitle]
+#. defaultMessage is:
+#. Users
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
+#: build/messages/components/Wizard/steps/users.json
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
 msgstr "Пользователи"
 
-#. [components.Wizard.vmware]
+#. [wizard.customizations.hostname.validationError]
 #. defaultMessage is:
-#. VMWare help
-#: build/messages/components/Wizard/ReviewStep.json
-msgid "VMWare help"
+#. Valid characters are letters from a to z, the digits from 0 to 9, and the hyphen (-). 
+#.                         A hostname may not start with a hyphen. Each element of the hostname must be from 1 to 63 characters long 
+#.                         and the entire hostname can be at most 253 characters long.
+#: build/messages/components/Wizard/validators/hostnameValidator.json
+msgid ""
+"Valid characters are letters from a to z, the digits from 0 to 9, and the "
+"hyphen (-). \n"
+"                        A hostname may not start with a hyphen. Each element "
+"of the hostname must be from 1 to 63 characters long \n"
+"                        and the entire hostname can be at most 253 "
+"characters long."
 msgstr ""
 
 #. [pages.blueprint.hostnameHelp]
@@ -2899,10 +2772,10 @@ msgstr ""
 "Название узла может содержать буквы от a до z, цифры от 0 до 9 и дефис (-), "
 "но не может начинаться с дефиса."
 
-#. [components.Wizard.ostreeRefHelperText]
+#. [wizard.ostree.ref.helpText]
 #. defaultMessage is:
 #. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
-#: build/messages/components/Wizard/ImageStep.json
+#: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid ""
 "Valid characters for ref are letters from a to z, the digits from 0 to 9, "
 "the hyphen (-), the underscore (_), the period (.), and the forward slash "
@@ -2916,79 +2789,78 @@ msgstr ""
 #. [components.ListView.602883748]
 #. defaultMessage is:
 #. Version
-#. [components.Toolbar.filterVersionTitle]
-#. defaultMessage is:
-#. Version
-#. [components.Toolbar.filterVersionTitle]
+#. [toolbar.blueprint.filter.version]
 #. defaultMessage is:
 #. Version
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ComponentsDataListItem.json
-#: build/messages/components/Toolbar/FilterInput.json
-#: build/messages/components/Toolbar/ToolbarLayout.json
+#: build/messages/components/Toolbar/BlueprintToolbar.json
 msgid "Version"
 msgstr "Версия"
 
-#. [components.ListView.3097747573]
+#. [wizard.aws.accessKey.popoverBody]
 #. defaultMessage is:
-#. View
-#: build/messages/components/ListView/ComponentsDataListItem.json
-msgid "View"
-msgstr "Просмотр"
-
-#. [components.Wizard.706264916]
-#. defaultMessage is:
-#. You can create and find existing Access key IDs on the {iam} page in the AWS console.
-#: build/messages/components/Wizard/AWSAuthStep.json
+#. You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
+#: build/messages/components/Wizard/steps/awsAuth.json
 msgid ""
-"You can create and find existing Access key IDs on the {iam} page in the AWS "
+"You can create and find existing Access key IDs on the <strong>Identity and "
+"Access Management (IAM)</strong> page in the AWS console."
+msgstr ""
+
+#. [wizard.oci.userOCID.popoverBody]
+#. defaultMessage is:
+#. You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
+#: build/messages/components/Wizard/steps/ociAuth.json
+msgid ""
+"You can find your user OCID <strong>Identity and Access Management (IAM)</"
+"strong> page in the OCI console."
+msgstr ""
+
+#. [wizard.aws.secretAccessKey.popoverBody]
+#. defaultMessage is:
+#. You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
+#: build/messages/components/Wizard/steps/awsAuth.json
+msgid ""
+"You can view the Secret access key only when you create a new Access key ID "
+"on the <strong>Identity and Access Management (IAM)</strong> page in the AWS "
 "console."
 msgstr ""
 
-#. [components.Wizard.844662623]
+#. [wizard.oci.fingerprint.popoverBody]
 #. defaultMessage is:
-#. You can find your user OCID {iam} page in the OCI console.
-#: build/messages/components/Wizard/OCIAuthStep.json
-msgid "You can find your user OCID {iam} page in the OCI console."
-msgstr ""
-
-#. [components.Wizard.4206409720]
-#. defaultMessage is:
-#. You can view the Secret access key only when you create a new Access key ID on the {iam} page in the AWS console.
-#: build/messages/components/Wizard/AWSAuthStep.json
-msgid ""
-"You can view the Secret access key only when you create a new Access key ID "
-"on the {iam} page in the AWS console."
-msgstr ""
-
-#. [components.Wizard.285351067]
-#. defaultMessage is:
-#. You can view your deployed RSA keys fingerprint in the API Keys section on the {iam} page in the OCI console.
-#: build/messages/components/Wizard/OCIAuthStep.json
+#. You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
+#: build/messages/components/Wizard/steps/ociAuth.json
 msgid ""
 "You can view your deployed RSA keys fingerprint in the API Keys section on "
-"the {iam} page in the OCI console."
+"the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
+"console."
 msgstr ""
 
-#. [components.Wizard.182848243]
+#. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
-#. You can view your deployed RSA keys in the API Keys section on the {iam} page in the OCI console.
-#: build/messages/components/Wizard/OCIAuthStep.json
+#. You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
+#: build/messages/components/Wizard/steps/ociAuth.json
 msgid ""
-"You can view your deployed RSA keys in the API Keys section on the {iam} "
-"page in the OCI console."
+"You can view your deployed RSA keys in the API Keys section on the "
+"<strong>Identity and Access Management (IAM)</strong> page in the OCI "
+"console."
 msgstr ""
 
 #. [components.ListView.actions]
 #. defaultMessage is:
 #. actions
-#. [components.ListView.actions]
-#. defaultMessage is:
-#. actions
-#: build/messages/components/ListView/BlueprintsDataList.json
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "actions"
 msgstr "действия"
+
+#. [wizard.blueprintName.name]
+#. defaultMessage is:
+#. blueprint
+#: build/messages/components/Wizard/formComponents/BlueprintName.json
+#, fuzzy
+#| msgid "Blueprint"
+msgid "blueprint"
+msgstr "Проект"
 
 #. [components.ListView.details]
 #. defaultMessage is:
@@ -2996,13 +2868,6 @@ msgstr "действия"
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "details"
 msgstr "подробности"
-
-#. [components.Modal.2755325844]
-#. defaultMessage is:
-#. from
-#: build/messages/components/Modal/PendingChanges.json
-msgid "from"
-msgstr "от"
 
 #. [pages.error.2054225650]
 #. defaultMessage is:
@@ -3032,31 +2897,6 @@ msgstr "мета-ссылка"
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
 msgstr "список зеркал"
-
-#. [pages.blueprintEdit.paginationPerPage]
-#. defaultMessage is:
-#. per page
-#: build/messages/pages/blueprintEdit/index.json
-#, fuzzy
-#| msgid "home page"
-msgid "per page"
-msgstr "главная страница"
-
-#. [components.Wizard.2454328248]
-#. defaultMessage is:
-#. rhel/8/{arch}/edge is the default, where {arch} is determined by the host machine
-#: build/messages/components/Wizard/ImageStep.json
-msgid ""
-"rhel/8/{arch}/edge is the default, where {arch} is determined by the host "
-"machine"
-msgstr ""
-
-#. [components.Modal.152217691]
-#. defaultMessage is:
-#. to
-#: build/messages/components/Modal/PendingChanges.json
-msgid "to"
-msgstr "в"
 
 #. [components.ListView.baseurl]
 #. defaultMessage is:
@@ -3129,42 +2969,12 @@ msgstr "{blueprint} Создание изображения завершено."
 msgid "{count} total components"
 msgstr "{count} общие компоненты"
 
-#. [components.Modal.3908981070]
-#. defaultMessage is:
-#. {from} {oldVersion} {to} {newVersion}
-#: build/messages/components/Modal/PendingChanges.json
-msgid "{from} {oldVersion} {to} {newVersion}"
-msgstr "{from} {oldVersion} {to} {newVersion}"
-
 #. [pages.error.526995878]
 #. defaultMessage is:
 #. {goBack}, or head over to the {homePage} to choose a new direction.
 #: build/messages/pages/error/index.json
 msgid "{goBack}, or head over to the {homePage} to choose a new direction."
 msgstr "{goBack}, или перейти к {homePage} выбрать новое направление."
-
-#. [components.Modal.3141775911]
-#. defaultMessage is:
-#. {heading} {parenthetical}
-#: build/messages/components/Modal/PendingChanges.json
-msgid "{heading} {parenthetical}"
-msgstr "{heading} {parenthetical}"
-
-#. [pages.blueprintEdit.4031669927]
-#. defaultMessage is:
-#. {pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}
-#: build/messages/pages/blueprintEdit/index.json
-msgid ""
-"{pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}"
-msgstr ""
-"{pendingChanges, plural, one {# Pending Change} Другой {# Pending Changes}}"
-
-#. [pages.blueprintEdit.3140434516]
-#. defaultMessage is:
-#. {selectComponents} in this list to add to the blueprint.
-#: build/messages/pages/blueprintEdit/index.json
-msgid "{selectComponents} in this list to add to the blueprint."
-msgstr "{selectComponents} в этом списке, чтобы добавить к проекту."
 
 #: public/manifest.json
 msgid "Creating system images"
@@ -3174,6 +2984,183 @@ msgstr "Создание образов системы"
 msgid "Image Builder"
 msgstr "Создание Образов"
 
+#~ msgid "(most recent first)"
+#~ msgstr "(Самый недавний в начале)"
+
+#, fuzzy
+#~| msgid "A blueprint name is required."
+#~ msgid "A value is required."
+#~ msgstr "Требуется название проекта."
+
+#, fuzzy
+#~| msgid "Add Blueprint Components"
+#~ msgid "Add blueprint components"
+#~ msgstr "Добавить компоненты Blueprint"
+
+#~ msgid "Added"
+#~ msgstr "Добавлено"
+
+#, fuzzy
+#~| msgid "The fields marked with {val} are required."
+#~ msgid "All fields are required."
+#~ msgstr "Поля, отмеченные {val} являются обязательными."
+
+#, fuzzy
+#~| msgid "Blueprint Components"
+#~ msgid "Blueprint components"
+#~ msgstr "Компоненты проекта"
+
+#, fuzzy
+#~| msgid "Browse or search for components, then add them to the blueprint."
+#~ msgid ""
+#~ "Browse or search for components, then add them to the blueprint. Or leave "
+#~ "the blueprint empty to create a minimal image."
+#~ msgstr "Просмотрите или найдите компоненты, а затем добавьте их в проект."
+
+#~ msgid "Changes made in a previous session"
+#~ msgstr "Изменения, сделанные в предыдущем сеансе"
+
+#~ msgid ""
+#~ "Changes made in a previous session are not listed in the order they were "
+#~ "made. If you choose to undo these changes, they are undone as a group."
+#~ msgstr ""
+#~ "Изменения, внесенные в предыдущий сеанс, не указаны в том порядке, в "
+#~ "котором они были сделаны. Если вы решите отменить эти изменения, они "
+#~ "будут отменены как группа."
+
+#, fuzzy
+#~| msgid "Changes Pending Commit"
+#~ msgid "Changes pending commit"
+#~ msgstr "Изменения в ожидании"
+
+#~ msgid "Comment"
+#~ msgstr "Комментарий"
+
+#~ msgid "Commit"
+#~ msgstr "Сохранить"
+
+#, fuzzy
+#~| msgid "Commit and Create"
+#~ msgid "Commit and create"
+#~ msgstr "Завершить и создать"
+
+#, fuzzy
+#~| msgid "Commit and Create"
+#~ msgid "Commit and next"
+#~ msgstr "Завершить и создать"
+
+#, fuzzy
+#~| msgid "Create Image"
+#~ msgid "Create and upload image"
+#~ msgstr "Создать изображение"
+
+# translation auto-copied from project Customer Portal Translations, version PortalCaseManagementStrings, document PortalCaseManagementStrings, author ypoyarko
+#, fuzzy
+#~| msgid "Discard Changes"
+#~ msgid "Discard changes"
+#~ msgstr "Отменить"
+
+#, fuzzy
+#~| msgid "Filter Available Components by Name"
+#~ msgid "Filter available components by name"
+#~ msgstr "Фильтровать имеющиеся компоненты по имени"
+
+#, fuzzy
+#~| msgid "Filter By Name..."
+#~ msgid "Filter by name"
+#~ msgstr "Фильтровать по имени ..."
+
+#, fuzzy
+#~| msgid "Filter By Name..."
+#~ msgid "Filter by name..."
+#~ msgstr "Фильтровать по имени ..."
+
+#, fuzzy
+#~| msgid "Filter By Name..."
+#~ msgid "Filter by release"
+#~ msgstr "Фильтровать по имени ..."
+
+#, fuzzy
+#~| msgid "Filter By Name..."
+#~ msgid "Filter by version"
+#~ msgstr "Фильтровать по имени ..."
+
+#, fuzzy
+#~| msgid "Image Type"
+#~ msgid "Image type"
+#~ msgstr "Тип изображения"
+
+#~ msgid "Name: {name}"
+#~ msgstr "Название: {name}"
+
+#~ msgid "Only changes to selected components are shown."
+#~ msgstr "Отображаются только изменения выбранных компонентов."
+
+#, fuzzy
+#~| msgid "Pending Changes"
+#~ msgid "Pending changes"
+#~ msgstr "Ожидающие изменения"
+
+#~ msgid "Removed"
+#~ msgstr "Удалены"
+
+#~ msgid ""
+#~ "This blueprint has changes that are not committed. These changes will be "
+#~ "committed before the image is created."
+#~ msgstr ""
+#~ "Этот проект имеет изменения, которые не выполняются. Эти изменения будут "
+#~ "зафиксированы до создания изображения."
+
+#~ msgid "This blueprint is empty."
+#~ msgstr "Этот проект пуст."
+
+#~ msgid "Updated"
+#~ msgstr "Обновлено"
+
+#, fuzzy
+#~| msgid "Upload failed"
+#~ msgid "Upload image"
+#~ msgstr "Ошибка загрузки"
+
+#, fuzzy
+#~| msgid "Upload complete"
+#~ msgid "Upload image help"
+#~ msgstr "Загрузка завершена"
+
+#, fuzzy
+#~| msgid "Users"
+#~ msgid "User"
+#~ msgstr "Пользователи"
+
+#~ msgid "View"
+#~ msgstr "Просмотр"
+
+#~ msgid "from"
+#~ msgstr "от"
+
+#, fuzzy
+#~| msgid "home page"
+#~ msgid "per page"
+#~ msgstr "главная страница"
+
+#~ msgid "to"
+#~ msgstr "в"
+
+#~ msgid "{from} {oldVersion} {to} {newVersion}"
+#~ msgstr "{from} {oldVersion} {to} {newVersion}"
+
+#~ msgid "{heading} {parenthetical}"
+#~ msgstr "{heading} {parenthetical}"
+
+#~ msgid ""
+#~ "{pendingChanges, plural, one {# Pending Change} other {# Pending Changes}}"
+#~ msgstr ""
+#~ "{pendingChanges, plural, one {# Pending Change} Другой {# Pending "
+#~ "Changes}}"
+
+#~ msgid "{selectComponents} in this list to add to the blueprint."
+#~ msgstr "{selectComponents} в этом списке, чтобы добавить к проекту."
+
 #~ msgid "A password is defined for this account."
 #~ msgstr "Для этой учетной записи требуется пароль."
 
@@ -3182,11 +3169,6 @@ msgstr "Создание Образов"
 
 #~ msgid "New password"
 #~ msgstr "Новый пароль"
-
-#, fuzzy
-#~| msgid "Remove Password"
-#~ msgid "Remove password"
-#~ msgstr "Удалить пароль"
 
 #, fuzzy
 #~| msgid "Set New Password"
