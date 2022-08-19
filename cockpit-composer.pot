@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-18T04:15:45.890Z\n"
+"POT-Creation-Date: 2022-08-19T04:04:16.585Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -321,6 +321,13 @@ msgstr ""
 #. defaultMessage is:
 #. Create blueprint
 msgid "Create blueprint"
+msgstr ""
+
+#: build/messages/components/Wizard/CreateImageWizard.json
+#. [wizard.createImage]
+#. defaultMessage is:
+#. Create image
+msgid "Create image"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
@@ -765,6 +772,13 @@ msgstr ""
 msgid "Paste the contents of your public SSH key file here."
 msgstr ""
 
+#: build/messages/components/Wizard/formComponents/BlueprintName.json
+#. [wizard.blueprintName.popover.aria]
+#. defaultMessage is:
+#. Process length help
+msgid "Process length help"
+msgstr ""
+
 #: build/messages/components/ListView/ComponentDetailsView.json
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -866,6 +880,13 @@ msgstr ""
 #. defaultMessage is:
 #. Select one
 msgid "Select one"
+msgstr ""
+
+#: build/messages/components/Wizard/formComponents/ImageOutputSelect.json
+#. [wizard.imageOutput.selectType]
+#. defaultMessage is:
+#. Select output type
+msgid "Select output type"
 msgstr ""
 
 #: build/messages/components/ListView/BlueprintContents.json
@@ -1108,6 +1129,13 @@ msgstr ""
 msgid "This component has no dependencies."
 msgstr ""
 
+#: build/messages/components/Wizard/formComponents/BlueprintName.json
+#. [wizard.blueprintName.popover.content]
+#. defaultMessage is:
+#. This process can take a while. Images are built in the order they are started.
+msgid "This process can take a while. Images are built in the order they are started."
+msgstr ""
+
 #: build/messages/components/Modal/ManageSources.json
 #. [components.Modal.2969976976]
 #. defaultMessage is:
@@ -1276,6 +1304,13 @@ msgstr ""
 #. defaultMessage is:
 #. actions
 msgid "actions"
+msgstr ""
+
+#: build/messages/components/Wizard/formComponents/BlueprintName.json
+#. [wizard.blueprintName.name]
+#. defaultMessage is:
+#. blueprint
+msgid "blueprint"
 msgstr ""
 
 #: build/messages/components/ListView/ComponentsDataListItem.json
