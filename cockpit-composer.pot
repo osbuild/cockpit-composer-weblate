@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-19T19:45:07.826Z\n"
+"POT-Creation-Date: 2022-08-19T20:07:08.895Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -109,6 +109,13 @@ msgstr ""
 #. defaultMessage is:
 #. Add user
 msgid "Add user"
+msgstr ""
+
+#: build/messages/components/Wizard/formComponents/Review.json
+#. [wizard.review.admin]
+#. defaultMessage is:
+#. Administrator
+msgid "Administrator"
 msgstr ""
 
 #: build/messages/components/Wizard/formComponents/Review.json
@@ -591,6 +598,10 @@ msgstr ""
 msgid "Creating image"
 msgstr ""
 
+#: build/messages/components/Wizard/formComponents/Review.json
+#. [wizard.review.customizations.title]
+#. defaultMessage is:
+#. Customizations
 #: build/messages/components/Wizard/steps/system.json
 #. [wizard.customizations.title]
 #. defaultMessage is:
@@ -1061,6 +1072,10 @@ msgstr ""
 msgid "Image name help"
 msgstr ""
 
+#: build/messages/components/Wizard/formComponents/Review.json
+#. [wizard.review.target.title]
+#. defaultMessage is:
+#. Image output
 #: build/messages/components/Wizard/steps/imageOutput.json
 #. [wizard.imageOutput.title]
 #. defaultMessage is:
@@ -1319,6 +1334,10 @@ msgstr ""
 
 #: build/messages/components/Wizard/formComponents/Review.json
 #. [wizard.review.packages]
+#. defaultMessage is:
+#. Packages
+#: build/messages/components/Wizard/formComponents/Review.json
+#. [wizard.review.packages.title]
 #. defaultMessage is:
 #. Packages
 #: build/messages/components/Wizard/steps/packages.json
@@ -1703,6 +1722,10 @@ msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
 #. [components.Modal.labelSSHKey]
+#. defaultMessage is:
+#. SSH key
+#: build/messages/components/Wizard/formComponents/Review.json
+#. [wizard.review.sshKey]
 #. defaultMessage is:
 #. SSH key
 #: build/messages/components/Wizard/steps/users.json
@@ -2434,6 +2457,10 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
+#: build/messages/components/Wizard/formComponents/Review.json
+#. [customizations.user.title]
+#. defaultMessage is:
+#. Users
 #: build/messages/components/Wizard/steps/users.json
 #. [wizard.customizations.usersTitle]
 #. defaultMessage is:
