@@ -7,11 +7,11 @@
 # 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-19T18:31:19.371Z\n"
+"POT-Creation-Date: 2022-08-22T04:16:19.717Z\n"
 "PO-Revision-Date: 2022-08-22 06:52+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,6 +122,15 @@ msgstr "원천 추가"
 #: build/messages/components/Wizard/steps/users.json
 msgid "Add user"
 msgstr "사용자 추가"
+
+#. [wizard.review.admin]
+#. defaultMessage is:
+#. Administrator
+#: build/messages/components/Wizard/formComponents/Review.json
+#, fuzzy
+#| msgid "Server administrator"
+msgid "Administrator"
+msgstr "서버 관리자"
 
 #. [wizard.review.amazonS3Bucket]
 #. defaultMessage is:
@@ -630,6 +639,9 @@ msgstr "생성 일시"
 msgid "Creating image"
 msgstr "이미지 만들기"
 
+#. [wizard.review.customizations.title]
+#. defaultMessage is:
+#. Customizations
 #. [wizard.customizations.title]
 #. defaultMessage is:
 #. Customizations
@@ -639,6 +651,7 @@ msgstr "이미지 만들기"
 #. [pages.blueprint.customizationsTitle]
 #. defaultMessage is:
 #. Customizations
+#: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/system.json
 #: build/messages/components/Wizard/steps/users.json
 #: build/messages/pages/blueprint/index.json
@@ -999,8 +1012,8 @@ msgid ""
 "available in the Cluster on the vSphere instance that you specified."
 msgstr ""
 "이미지 빌더는 사용자가 생성한 이미지를 VMWare vSphere에 적재 할 수 있습니다. "
-"이미지 빌드가 완료되고 적재 작업이 성공하면, 이미지 파일은 지정한 vSphere "
-"인스턴스 클러스터에서 사용 할 수 있습니다."
+"이미지 빌드가 완료되고 적재 작업이 성공하면, 이미지 파일은 지정한 vSphere 인"
+"스턴스 클러스터에서 사용 할 수 있습니다."
 
 #. [wizard.imageOutput.uploadAzure.popoverBody]
 #. defaultMessage is:
@@ -1162,9 +1175,13 @@ msgstr "이미지 이름"
 msgid "Image name help"
 msgstr "이미지 이름 도움말"
 
+#. [wizard.review.target.title]
+#. defaultMessage is:
+#. Image output
 #. [wizard.imageOutput.title]
 #. defaultMessage is:
 #. Image output
+#: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/imageOutput.json
 msgid "Image output"
 msgstr "이미지 출력"
@@ -1432,6 +1449,9 @@ msgid "Output type"
 msgstr ""
 
 #. [wizard.review.packages]
+#. defaultMessage is:
+#. Packages
+#. [wizard.review.packages.title]
 #. defaultMessage is:
 #. Packages
 #. [wizard.packages.title]
@@ -1987,10 +2007,14 @@ msgstr "S3 버킷 도움말"
 #. [components.Modal.labelSSHKey]
 #. defaultMessage is:
 #. SSH key
+#. [wizard.review.sshKey]
+#. defaultMessage is:
+#. SSH key
 #. [wizard.customizations.sshKey.label]
 #. defaultMessage is:
 #. SSH key
 #: build/messages/components/Modal/UserAccount.json
+#: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/users.json
 msgid "SSH key"
 msgstr "SSH 키"
@@ -2771,12 +2795,16 @@ msgstr "클러스터 도움말"
 msgid "Username"
 msgstr "사용자 이름"
 
+#. [customizations.user.title]
+#. defaultMessage is:
+#. Users
 #. [wizard.customizations.usersTitle]
 #. defaultMessage is:
 #. Users
 #. [pages.blueprint.443046426]
 #. defaultMessage is:
 #. Users
+#: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/users.json
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
