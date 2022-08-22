@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-08-22T04:16:19.717Z\n"
-"PO-Revision-Date: 2022-08-22 06:52+0000\n"
+"PO-Revision-Date: 2022-08-24 05:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/main/uk/>\n"
@@ -125,10 +125,8 @@ msgstr "Додати користувача"
 #. defaultMessage is:
 #. Administrator
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid "Server administrator"
 msgid "Administrator"
-msgstr "Адміністратор сервера"
+msgstr "Адміністратор"
 
 #. [wizard.review.amazonS3Bucket]
 #. defaultMessage is:
