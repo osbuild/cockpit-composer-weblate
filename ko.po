@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-08-22T04:16:19.717Z\n"
-"PO-Revision-Date: 2022-08-22 06:52+0000\n"
+"PO-Revision-Date: 2022-08-24 05:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,7 +94,8 @@ msgstr "최신 버전 추가"
 msgid ""
 "Add optional additional packages to your image by searching available "
 "packages."
-msgstr ""
+msgstr "사용 가능한 꾸러미 검색하여 자신의 이미지에 선택적인 추가 꾸러미를 "
+"추가합니다."
 
 #. [wizard.packages.addSelected]
 #. defaultMessage is:
@@ -127,10 +128,8 @@ msgstr "사용자 추가"
 #. defaultMessage is:
 #. Administrator
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid "Server administrator"
 msgid "Administrator"
-msgstr "서버 관리자"
+msgstr "관리자"
 
 #. [wizard.review.amazonS3Bucket]
 #. defaultMessage is:
@@ -333,10 +332,8 @@ msgstr "블루프린트 이름에 다음 문자를 사용할 수 없습니다: {
 #. defaultMessage is:
 #. Blueprint search input
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Blueprints"
 msgid "Blueprint search input"
-msgstr "블루프린트"
+msgstr "블루프린트 검색 입력"
 
 #. [pages.blueprints.blueprintsTitle]
 #. defaultMessage is:
@@ -349,10 +346,8 @@ msgstr "블루프린트"
 #. defaultMessage is:
 #. Blueprints search input
 #: build/messages/components/Toolbar/BlueprintsToolbar.json
-#, fuzzy
-#| msgid "Blueprints"
 msgid "Blueprints search input"
-msgstr "블루프린트"
+msgstr "블루프린트 검색 입력"
 
 #. [wizard.review.bucketCompartment]
 #. defaultMessage is:
@@ -369,10 +364,8 @@ msgstr "버킷 구성 요소"
 #. defaultMessage is:
 #. Bucket compartment help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket compartment"
 msgid "Bucket compartment help"
-msgstr "버킷 구성 요소"
+msgstr "버킷 구성 요소 도움말"
 
 #. [wizard.review.bucketNamespace]
 #. defaultMessage is:
@@ -389,10 +382,8 @@ msgstr "버킷 네임스페이스"
 #. defaultMessage is:
 #. Bucket namespace help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket namespace"
 msgid "Bucket namespace help"
-msgstr "버킷 네임스페이스"
+msgstr "버킷 이름공간 도움말"
 
 #. [wizard.review.bucketRegion]
 #. defaultMessage is:
@@ -409,10 +400,8 @@ msgstr "버킷 지역"
 #. defaultMessage is:
 #. Bucket region help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket region"
 msgid "Bucket region help"
-msgstr "버킷 지역"
+msgstr "버킷 지역 도움말"
 
 #. [wizard.review.bucketTenancy]
 #. defaultMessage is:
@@ -429,10 +418,8 @@ msgstr "버킷 테넌시"
 #. defaultMessage is:
 #. Bucket tenancy help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket tenancy"
 msgid "Bucket tenancy help"
-msgstr "버킷 테넌시"
+msgstr "버킷 테넌시 도움말"
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -487,10 +474,8 @@ msgstr "SSL 인증서 확인"
 #. defaultMessage is:
 #. Chosen packages
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "Chosen packages"
-msgstr "꾸러미(package) 편집"
+msgstr "선택한 꾸러미"
 
 #. [components.ListView.1634835134]
 #. defaultMessage is:
@@ -504,14 +489,14 @@ msgstr "모든 필터 지우기"
 #. Clear available packages search
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Clear available packages search"
-msgstr ""
+msgstr "사용 가능한 꾸러미 검색을 지우기"
 
 #. [wizard.packages.clearChosenPackagesSearch]
 #. defaultMessage is:
 #. Clear chosen packages search
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Clear chosen packages search"
-msgstr ""
+msgstr "선택된 꾸러미 검색을 지우기"
 
 #. [components.Modal.2324218928]
 #. defaultMessage is:
@@ -634,10 +619,8 @@ msgstr "생성 일시"
 #. defaultMessage is:
 #. Creating image
 #: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
-#, fuzzy
-#| msgid "Create image"
 msgid "Creating image"
-msgstr "이미지 만들기"
+msgstr "이미지 생성하기"
 
 #. [wizard.review.customizations.title]
 #. defaultMessage is:
@@ -676,8 +659,6 @@ msgstr "데이터 저장소"
 #. defaultMessage is:
 #. Datacenter
 #: build/messages/components/Wizard/steps/vmwareDest.json
-#, fuzzy
-#| msgid "Data center"
 msgid "Datacenter"
 msgstr "데이터 센터"
 
@@ -692,8 +673,6 @@ msgstr "데이터 센터 도움말"
 #. defaultMessage is:
 #. Datastore
 #: build/messages/components/Wizard/steps/vmwareDest.json
-#, fuzzy
-#| msgid "Data store"
 msgid "Datastore"
 msgstr "데이터 저장소"
 
@@ -928,10 +907,8 @@ msgstr "지문"
 #. defaultMessage is:
 #. Fingerprint help
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "Fingerprint"
 msgid "Fingerprint help"
-msgstr "지문"
+msgstr "지문 도움말"
 
 #. [components.Modal.labelName]
 #. defaultMessage is:
@@ -1089,8 +1066,6 @@ msgstr ""
 #. defaultMessage is:
 #. Image Size
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Image size"
 msgid "Image Size"
 msgstr "이미지 크기"
 
@@ -1190,10 +1165,8 @@ msgstr "이미지 출력"
 #. defaultMessage is:
 #. Image output type
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Image output"
 msgid "Image output type"
-msgstr "이미지 출력"
+msgstr "이미지 출력 유형"
 
 #. [wizard.review.imageSize]
 #. defaultMessage is:
@@ -1234,8 +1207,6 @@ msgstr "설치 장치"
 #. defaultMessage is:
 #. Installation Device help
 #: build/messages/components/Wizard/steps/system.json
-#, fuzzy
-#| msgid "Installation device help"
 msgid "Installation Device help"
 msgstr "설치 장치 도움말"
 
@@ -1264,10 +1235,8 @@ msgstr "설치 장치 도움말"
 #. defaultMessage is:
 #. Load additional packages
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "Load additional packages"
-msgstr "꾸러미(package) 편집"
+msgstr "추가적인 꾸러미 적재"
 
 #. [components.Loading.2617450248]
 #. defaultMessage is:
@@ -1281,7 +1250,7 @@ msgstr "로딩 중"
 #. Loading additional packages...
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Loading additional packages..."
-msgstr ""
+msgstr "추가적인 꾸러미를 적재하기..."
 
 #. [components.ListView.imageLogs] - Log content that gets generated as part of the image creation process
 #. defaultMessage is:
@@ -1312,10 +1281,8 @@ msgstr "메세지"
 #. defaultMessage is:
 #. Minimum image size is {size}GB.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Minimum size is {size} GB."
 msgid "Minimum image size is {size}GB."
-msgstr "최소 크기는 {size} GB 입니다."
+msgstr "최소 이미지 크기는 {size}GB입니다."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -1382,19 +1349,15 @@ msgstr "사용 가능한 로그가 없음"
 #. defaultMessage is:
 #. No packages added
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "No packages added"
-msgstr "꾸러미(package) 편집"
+msgstr "추가된 꾸러미가 없습니다"
 
 #. [wizard.packages.noPackagesFound]
 #. defaultMessage is:
 #. No packages found
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "No packages found"
-msgstr "꾸러미(package) 편집"
+msgstr "꾸러미를 찾을 수 없습니다"
 
 #. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
@@ -1422,17 +1385,15 @@ msgstr "OCI 버킷"
 #. defaultMessage is:
 #. OCI bucket help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "OCI bucket"
 msgid "OCI bucket help"
-msgstr "OCI 버킷"
+msgstr "OCI 버킷 도움말"
 
 #. [wizard.ostree.title]
 #. defaultMessage is:
 #. OSTree settings
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "OSTree settings"
-msgstr ""
+msgstr "OSTree 설정"
 
 #. [pages.error.oupsTitle]
 #. defaultMessage is:
@@ -1446,7 +1407,7 @@ msgstr "문제가 발생했습니다"
 #. Output type
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Output type"
-msgstr ""
+msgstr "출력 유형"
 
 #. [wizard.review.packages]
 #. defaultMessage is:
@@ -1464,7 +1425,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/packages.json
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
-msgstr "꾸러미(packages)"
+msgstr "꾸러미"
 
 #. [pages.error.pageNotFoundMessage]
 #. defaultMessage is:
@@ -1487,10 +1448,8 @@ msgstr "상위 커밋"
 #. defaultMessage is:
 #. Parent commit help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit"
 msgid "Parent commit help"
-msgstr "상위 커밋"
+msgstr "상위 커밋 도움말"
 
 #. [components.Modal.labelPassword]
 #. defaultMessage is:
@@ -1536,10 +1495,8 @@ msgstr "개인 키 파일이름"
 #. defaultMessage is:
 #. Private key help
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "Private key"
 msgid "Private key help"
-msgstr "개인 키"
+msgstr "개인 키 도움말"
 
 #. [wizard.blueprintName.popover.aria]
 #. defaultMessage is:
@@ -1572,16 +1529,11 @@ msgstr "이미지 파일을 업로드하는데 사용할 파일 이름을 제공
 #. defaultMessage is:
 #. Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists.
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the AWS Region where you want to import your image. This must be "
-#| "the same region where the {bucket} exists."
 msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the S3 bucket exists."
-msgstr ""
-"이미지를 가져올 AWS 리전을 제공하십시오. 이는 {bucket}이 위치한 리전과 동일해"
-"야 합니다."
+msgstr "자신의 이미지를 가져올 AWS 지역을 제공하세요. 이는 S3 bucket이 위치한 지역과 "
+"동일해야 합니다."
 
 #. [wizard.azure.storageContainer.popoverBody]
 #. defaultMessage is:
@@ -1607,20 +1559,13 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the ID of the latest commit in the updates repository for which this commit provides an update. If no commit is specified it will be inferred from the parent repository.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the ID of the latest commit in the updates repository for which "
-#| "this commit provides an update.\n"
-#| "                    If no commit is specified it will be inferred from "
-#| "the parent repository."
 msgid ""
 "Provide the ID of the latest commit in the updates repository for which this "
 "commit provides an update. If no commit is specified it will be inferred "
 "from the parent repository."
 msgstr ""
-"이 커밋이 업데이트를 제공하는 업데이트 저장소에서 최신 커밋의 ID를 제공합니"
-"다.\n"
-"                    커밋이 지정되지 않은 경우 상위 저장소에서 유추됩니다."
+"이 커밋이 최신화를 제공하는 최신화 저장소에서 최신 커밋의 ID를 "
+"제공합니다.만약 커밋이 지정되지 않은 경우 상위 저장소에서 유추됩니다."
 
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
@@ -1710,16 +1655,11 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the compartment of the {bucket} your uploading to. You can find "
-#| "the compartment in the bucket details."
 msgid ""
 "Provide the compartment of the OCI bucket compartment your uploading to. You "
 "can find the compartment in the bucket details."
-msgstr ""
-"당신의 업로드 하고자 하는 {bucket}의 구획 부분을 제공합니다. 당신은 버킷 세"
-"부 정보에서 구획을 찾을 수 있습니다."
+msgstr "자신이 적재 하고자 하는 OCI 버킷 구성부분의 구획을 제공합니다. 당신은 버킷 "
+"세부 정보에서 구획을 찾을 수 있습니다."
 
 #. [wizard.azure.storageAccount.popoverBody]
 #. defaultMessage is:
@@ -1774,16 +1714,11 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the namespace of the {bucket} your uploading to. You can find the "
-#| "namespace in the bucket details."
 msgid ""
 "Provide the namespace of the OCI bucket your uploading to. You can find the "
 "namespace in the bucket details."
-msgstr ""
-"당신의 업로드 하고자 하는 {bucket}의 이름공간을 제공합니다. 당신은 버킷 세부"
-"정보에서 이름공간을 찾을 수 있습니다."
+msgstr "당신이 적재 하고자 하는 OCI bucket의 이름공간을 제공합니다. 당신은 버킷 "
+"세부정보에서 이름공간을 찾을 수 있습니다."
 
 #. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
@@ -1839,10 +1774,8 @@ msgstr "참조"
 #. defaultMessage is:
 #. Ref help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Azure help"
 msgid "Ref help"
-msgstr "Azure 도움말"
+msgstr "Ref 도움말"
 
 #. [wizard.aws.region.popoverAria]
 #. defaultMessage is:
@@ -1883,19 +1816,15 @@ msgstr "제거"
 #. defaultMessage is:
 #. Remove all
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Remove"
 msgid "Remove all"
-msgstr "제거"
+msgstr "모두 제거"
 
 #. [wizard.customizations.buttons.removeAll]
 #. defaultMessage is:
 #. Remove all users
 #: build/messages/components/Wizard/steps/users.json
-#, fuzzy
-#| msgid "Remove password"
 msgid "Remove all users"
-msgstr "암호 제거"
+msgstr "모든 사용자 제거"
 
 #. [components.ListView.removeComponent]
 #. defaultMessage is:
@@ -1915,10 +1844,8 @@ msgstr "블루프린트에서 삭제"
 #. defaultMessage is:
 #. Remove selected
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Remove source"
 msgid "Remove selected"
-msgstr "소스 제거"
+msgstr "선택된 제거"
 
 #. [components.ListView.remove]
 #. defaultMessage is:
@@ -1931,10 +1858,8 @@ msgstr "소스 제거"
 #. defaultMessage is:
 #. Remove user
 #: build/messages/components/Wizard/steps/users.json
-#, fuzzy
-#| msgid "Remove source"
 msgid "Remove user"
-msgstr "소스 제거"
+msgstr "사용자 제거"
 
 #. [components.ListView.2663433025]
 #. defaultMessage is:
@@ -1954,10 +1879,8 @@ msgstr "저장소 URL"
 #. defaultMessage is:
 #. Repository URL help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Repository URL"
 msgid "Repository URL help"
-msgstr "저장소 URL"
+msgstr "저장소 URL 도움말"
 
 #. [components.Modal.128739785]
 #. defaultMessage is:
@@ -1999,8 +1922,6 @@ msgstr "역할"
 #. defaultMessage is:
 #. S3 bucket help
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid "S3 Bucket help"
 msgid "S3 bucket help"
 msgstr "S3 버킷 도움말"
 
@@ -2034,10 +1955,8 @@ msgstr "저장"
 #. defaultMessage is:
 #. Save blueprint
 #: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
-#, fuzzy
-#| msgid "Create blueprint"
 msgid "Save blueprint"
-msgstr "블루프린트 만들기"
+msgstr "블루프린트 저장"
 
 #. [components.Modal.1820273720]
 #. defaultMessage is:
@@ -2051,21 +1970,21 @@ msgstr "원천 저장 중"
 #. Search above to add additional{br}packages to your image
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Search above to add additional{br}packages to your image"
-msgstr ""
+msgstr "자신의 이미지에 추가적인{br} 꾸러미를 넣으려면 위에서 검색하세요"
 
 #. [wizard.packages.availablePackagesSearch]
 #. defaultMessage is:
 #. Search button for available packages
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Search button for available packages"
-msgstr ""
+msgstr "사용 가능한 꾸러미를 위해 누름 단추 검색"
 
 #. [wizard.packages.searchPackages]
 #. defaultMessage is:
 #. Search for a package
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Search for a package"
-msgstr ""
+msgstr "꾸러미 검색"
 
 #. [wizard.review.secretAccessKey]
 #. defaultMessage is:
@@ -2103,10 +2022,8 @@ msgstr "하나만 선택"
 #. defaultMessage is:
 #. Select output type
 #: build/messages/components/Wizard/formComponents/ImageOutputSelect.json
-#, fuzzy
-#| msgid "Select one"
 msgid "Select output type"
-msgstr "하나만 선택"
+msgstr "출력 유형 선택"
 
 #. [components.ListView.selectedTabTitle]
 #. defaultMessage is:
@@ -2119,19 +2036,15 @@ msgstr "선택된 구성 요소"
 #. defaultMessage is:
 #. Selected packages
 #: build/messages/components/Wizard/steps/packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "Selected packages"
-msgstr "꾸러미(package) 편집"
+msgstr "선택된 꾸러미"
 
 #. [wizard.packages.selectorControls]
 #. defaultMessage is:
 #. Selector controls
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Select components"
 msgid "Selector controls"
-msgstr "구성 요소 선택"
+msgstr "선택기 제어"
 
 #. [components.Modal.adminCheckbox]
 #. defaultMessage is:
@@ -2200,10 +2113,8 @@ msgstr "크기"
 #. Sort blueprints ascending
 #: build/messages/components/Toolbar/BlueprintsToolbar.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Export blueprint"
 msgid "Sort blueprints ascending"
-msgstr "블루프린트 내보내기"
+msgstr "블루프린트 오름차순 정렬"
 
 #. [toolbar.blueprints.sort.desc]
 #. defaultMessage is:
@@ -2213,10 +2124,8 @@ msgstr "블루프린트 내보내기"
 #. Sort blueprints descending
 #: build/messages/components/Toolbar/BlueprintsToolbar.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Export blueprint"
 msgid "Sort blueprints descending"
-msgstr "블루프린트 내보내기"
+msgstr "블루프린트 내림차순 정렬"
 
 #. [components.ListView.kebab]
 #. defaultMessage is:
@@ -2265,7 +2174,7 @@ msgstr "새 블루프린트 이름을 지정하십시오."
 #. Specify which device the image will be installed onto.
 #: build/messages/components/Wizard/steps/system.json
 msgid "Specify which device the image will be installed onto."
-msgstr ""
+msgstr "이미지를 설치 하려는 장치를 지정하세요."
 
 #. [components.EmptyState.errorInactivePrimary]
 #. defaultMessage is:
@@ -2360,10 +2269,8 @@ msgstr "저장소 컨테이너 도움말"
 #. defaultMessage is:
 #. System
 #: build/messages/components/Wizard/steps/system.json
-#, fuzzy
-#| msgid "System source"
 msgid "System"
-msgstr "시스템 원천"
+msgstr "시스템"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2472,14 +2379,8 @@ msgstr "암호로 입력한 값이 일치하지 않습니다."
 #. defaultMessage is:
 #. There are no components listed in the blueprint.
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid ""
-#| "There are no components listed in the blueprint. Edit the blueprint to "
-#| "add components."
 msgid "There are no components listed in the blueprint."
-msgstr ""
-"블루프린트에 나열된 구성 요소가 없습니다. 블루프린트를 편집하여 구성 요소를 "
-"추가하십시오."
+msgstr "블루프린트에 나열된 구성 요소가 없습니다."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
@@ -2650,10 +2551,8 @@ msgstr "AWS에 업로드"
 #. defaultMessage is:
 #. Upload to AWS help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to AWS"
 msgid "Upload to AWS help"
-msgstr "AWS에 업로드"
+msgstr "AWS 도움말에 적재"
 
 #. [wizard.review.uploadToAzure]
 #. defaultMessage is:
@@ -2678,10 +2577,8 @@ msgstr "Azure에 업로드"
 #. defaultMessage is:
 #. Upload to Azure help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to Azure"
 msgid "Upload to Azure help"
-msgstr "Azure에 업로드"
+msgstr "Azure 도움말에 적재"
 
 #. [wizard.review.uploadToOCI]
 #. defaultMessage is:
@@ -2706,10 +2603,8 @@ msgstr "OCI에 업로드"
 #. defaultMessage is:
 #. Upload to OCI help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to OCI"
 msgid "Upload to OCI help"
-msgstr "OCI에 업로드"
+msgstr "OCI 도움말에 적재"
 
 #. [wizard.review.uploadToVMWare]
 #. defaultMessage is:
@@ -2734,10 +2629,8 @@ msgstr "VMWare에 업로드"
 #. defaultMessage is:
 #. Upload to VMWare help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to VMWare"
 msgid "Upload to VMWare help"
-msgstr "VMWare에 업로드"
+msgstr "VMWare 도움말에 적재"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
@@ -2775,10 +2668,8 @@ msgstr "사용자 이름"
 #. defaultMessage is:
 #. User ocid help
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "Cluster help"
 msgid "User ocid help"
-msgstr "클러스터 도움말"
+msgstr "사용자 ocid 도움말"
 
 #. [wizard.review.username]
 #. defaultMessage is:
@@ -2824,6 +2715,12 @@ msgid ""
 "                        and the entire hostname can be at most 253 "
 "characters long."
 msgstr ""
+"유효한 문자는 a에서 z까지의 문자, 0에서 9까지의 숫자, 그리고 붙임표(-)"
+"입니다. \n"
+"                         호스트 이름은 붙임표로 시작 할 수 없습니다. 호스트 "
+"이름의 각 요소는 1에서 63개의 문자 길이여야 합니다. \n"
+"                         그리고 전체 호스트 이름은 최대 253자 길이로 할 수 "
+"있습니다."
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -2927,17 +2824,13 @@ msgstr ""
 #. defaultMessage is:
 #. You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can view your deployed RSA keys in the API Keys section on the {iam} "
-#| "page in the OCI console."
 msgid ""
 "You can view your deployed RSA keys in the API Keys section on the "
 "<strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"당신은 OCI 콘솔의 {iam} 부분에서 API 키 부분에서 자신에게 배포된 RSA 키를 볼 "
-"수 있습니다."
+"당신은 OCI 콘솔에 있는 <strong>식별과 접근 관리(IAM)</strong>의 API 키 "
+"부분에서 자신의 배포된 RSA 키를 볼 수 있습니다."
 
 #. [components.ListView.actions]
 #. defaultMessage is:
@@ -2950,8 +2843,6 @@ msgstr "동작"
 #. defaultMessage is:
 #. blueprint
 #: build/messages/components/Wizard/formComponents/BlueprintName.json
-#, fuzzy
-#| msgid "Blueprint"
 msgid "blueprint"
 msgstr "블루프린트"
 
