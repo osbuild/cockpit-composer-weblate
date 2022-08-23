@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-23T04:30:21.802Z\n"
+"POT-Creation-Date: 2022-08-23T17:22:59.538Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -1365,15 +1365,15 @@ msgstr ""
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 #. [wizard.ostree.parentCommit.label]
 #. defaultMessage is:
-#. Parent commit
-msgid "Parent commit"
+#. Parent
+msgid "Parent"
 msgstr ""
 
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 #. [wizard.ostree.parentCommit.popoverAria]
 #. defaultMessage is:
-#. Parent commit help
-msgid "Parent commit help"
+#. Parent help
+msgid "Parent help"
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
@@ -1463,13 +1463,6 @@ msgstr ""
 msgid "Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
 msgstr ""
 
-#: build/messages/components/Wizard/steps/ostreeSettings.json
-#. [wizard.ostree.parentCommit.popoverBody]
-#. defaultMessage is:
-#. Provide the ID of the latest commit in the updates repository for which this commit provides an update. If no commit is specified it will be inferred from the parent repository.
-msgid "Provide the ID of the latest commit in the updates repository for which this commit provides an update. If no commit is specified it will be inferred from the parent repository."
-msgstr ""
-
 #: build/messages/components/Wizard/steps/awsDest.json
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
@@ -1496,6 +1489,13 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console.
 msgid "Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console."
+msgstr ""
+
+#: build/messages/components/Wizard/steps/ostreeSettings.json
+#. [wizard.ostree.parentCommit.popoverBody]
+#. defaultMessage is:
+#. Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref.
+msgid "Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref."
 msgstr ""
 
 #: build/messages/components/Wizard/steps/ociDest.json
@@ -1536,8 +1536,8 @@ msgstr ""
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 #. [wizard.ostree.ref.popoverBody]
 #. defaultMessage is:
-#. Provide the name of the branch for the content. If the ref does not already exist it will be created.
-msgid "Provide the name of the branch for the content. If the ref does not already exist it will be created."
+#. Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used.
+msgid "Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used."
 msgstr ""
 
 #: build/messages/components/Wizard/steps/ociDest.json
@@ -1702,8 +1702,8 @@ msgstr ""
 #: build/messages/components/Wizard/formComponents/Review.json
 #. [wizard.review.review]
 #. defaultMessage is:
-#. Review the information and click "Create image" to create the image using the following criteria.
-msgid "Review the information and click \"Create image\" to create the image using the following criteria."
+#. Review the information and click "Save blueprint" to save the customizations and then click "Create image" to create the image.
+msgid "Review the information and click \"Save blueprint\" to save the customizations and then click \"Create image\" to create the image."
 msgstr ""
 
 #: build/messages/components/Modal/UserAccount.json
