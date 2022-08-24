@@ -7,11 +7,11 @@
 # 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-22T04:16:19.717Z\n"
+"POT-Creation-Date: 2022-08-24T04:23:14.127Z\n"
 "PO-Revision-Date: 2022-08-24 05:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,8 +94,9 @@ msgstr "최신 버전 추가"
 msgid ""
 "Add optional additional packages to your image by searching available "
 "packages."
-msgstr "사용 가능한 꾸러미 검색하여 자신의 이미지에 선택적인 추가 꾸러미를 "
-"추가합니다."
+msgstr ""
+"사용 가능한 꾸러미 검색하여 자신의 이미지에 선택적인 추가 꾸러미를 추가합니"
+"다."
 
 #. [wizard.packages.addSelected]
 #. defaultMessage is:
@@ -1439,16 +1440,20 @@ msgstr "페이지를 찾을 수 없음"
 
 #. [wizard.ostree.parentCommit.label]
 #. defaultMessage is:
-#. Parent commit
+#. Parent
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid "Parent commit"
+#, fuzzy
+#| msgid "Parent commit"
+msgid "Parent"
 msgstr "상위 커밋"
 
 #. [wizard.ostree.parentCommit.popoverAria]
 #. defaultMessage is:
-#. Parent commit help
+#. Parent help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid "Parent commit help"
+#, fuzzy
+#| msgid "Parent commit help"
+msgid "Parent help"
 msgstr "상위 커밋 도움말"
 
 #. [components.Modal.labelPassword]
@@ -1532,7 +1537,8 @@ msgstr "이미지 파일을 업로드하는데 사용할 파일 이름을 제공
 msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the S3 bucket exists."
-msgstr "자신의 이미지를 가져올 AWS 지역을 제공하세요. 이는 S3 bucket이 위치한 지역과 "
+msgstr ""
+"자신의 이미지를 가져올 AWS 지역을 제공하세요. 이는 S3 bucket이 위치한 지역과 "
 "동일해야 합니다."
 
 #. [wizard.azure.storageContainer.popoverBody]
@@ -1554,18 +1560,6 @@ msgstr ""
 "이미지 파일을 적재 할 Blob 컨테이너를 제공합니다. 저장소 계정의 {blobService}"
 "에서 컨테이너를 찾을 수 있습니다.\n"
 "저장소 계정은 {azure} 포털의 {storageAccounts} 페이지에서 찾을 수 있습니다."
-
-#. [wizard.ostree.parentCommit.popoverBody]
-#. defaultMessage is:
-#. Provide the ID of the latest commit in the updates repository for which this commit provides an update. If no commit is specified it will be inferred from the parent repository.
-#: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid ""
-"Provide the ID of the latest commit in the updates repository for which this "
-"commit provides an update. If no commit is specified it will be inferred "
-"from the parent repository."
-msgstr ""
-"이 커밋이 최신화를 제공하는 최신화 저장소에서 최신 커밋의 ID를 "
-"제공합니다.만약 커밋이 지정되지 않은 경우 상위 저장소에서 유추됩니다."
 
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
@@ -1651,6 +1645,23 @@ msgstr ""
 " OCI 콘솔의 OCI 저장소 서비스에 있는 {bucketsPage} 페이지에서 찾을 수 있습니"
 "다."
 
+#. [wizard.ostree.parentCommit.popoverBody]
+#. defaultMessage is:
+#. Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref.
+#: build/messages/components/Wizard/steps/ostreeSettings.json
+#, fuzzy
+#| msgid ""
+#| "Provide the ID of the latest commit in the updates repository for which "
+#| "this commit provides an update. If no commit is specified it will be "
+#| "inferred from the parent repository."
+msgid ""
+"Provide the commit id or ref of the parent in the repository for which this "
+"commit provides an update. If no parent is specified it will be inferred "
+"from the user-defined ref."
+msgstr ""
+"이 커밋이 최신화를 제공하는 최신화 저장소에서 최신 커밋의 ID를 제공합니다.만"
+"약 커밋이 지정되지 않은 경우 상위 저장소에서 유추됩니다."
+
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
 #. Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details.
@@ -1658,8 +1669,9 @@ msgstr ""
 msgid ""
 "Provide the compartment of the OCI bucket compartment your uploading to. You "
 "can find the compartment in the bucket details."
-msgstr "자신이 적재 하고자 하는 OCI 버킷 구성부분의 구획을 제공합니다. 당신은 버킷 "
-"세부 정보에서 구획을 찾을 수 있습니다."
+msgstr ""
+"자신이 적재 하고자 하는 OCI 버킷 구성부분의 구획을 제공합니다. 당신은 버킷 세"
+"부 정보에서 구획을 찾을 수 있습니다."
 
 #. [wizard.azure.storageAccount.popoverBody]
 #. defaultMessage is:
@@ -1702,11 +1714,16 @@ msgstr "이미지 파일을 업로드할 데이터 저장소 이름을 제공합
 
 #. [wizard.ostree.ref.popoverBody]
 #. defaultMessage is:
-#. Provide the name of the branch for the content. If the ref does not already exist it will be created.
+#. Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
+#, fuzzy
+#| msgid ""
+#| "Provide the name of the branch for the content. If the ref does not "
+#| "already exist it will be created."
 msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
-"exist it will be created."
+"exist it will be created. If the ref is not specified, the default ref for "
+"the distro will be used."
 msgstr ""
 "콘텐츠의 분기 이름을 제공합니다. ref가 아직 존재하지 않으면 생성됩니다."
 
@@ -1717,8 +1734,9 @@ msgstr ""
 msgid ""
 "Provide the namespace of the OCI bucket your uploading to. You can find the "
 "namespace in the bucket details."
-msgstr "당신이 적재 하고자 하는 OCI bucket의 이름공간을 제공합니다. 당신은 버킷 "
-"세부정보에서 이름공간을 찾을 수 있습니다."
+msgstr ""
+"당신이 적재 하고자 하는 OCI bucket의 이름공간을 제공합니다. 당신은 버킷 세부"
+"정보에서 이름공간을 찾을 수 있습니다."
 
 #. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
@@ -1898,15 +1916,15 @@ msgstr "리뷰"
 
 #. [wizard.review.review]
 #. defaultMessage is:
-#. Review the information and click "Create image" to create the image using the following criteria.
+#. Review the information and click "Save blueprint" to save the customizations and then click "Create image" to create the image.
 #: build/messages/components/Wizard/formComponents/Review.json
 #, fuzzy
 #| msgid ""
 #| "Review the information below and click Finish to create the image and "
 #| "complete the tasks that were selected."
 msgid ""
-"Review the information and click \"Create image\" to create the image using "
-"the following criteria."
+"Review the information and click \"Save blueprint\" to save the "
+"customizations and then click \"Create image\" to create the image."
 msgstr ""
 "아래 정보를 검토하고 완료를 눌로 이미지를 작성하고 선택한 작업을 완료하십시"
 "오."
@@ -2715,12 +2733,12 @@ msgid ""
 "                        and the entire hostname can be at most 253 "
 "characters long."
 msgstr ""
-"유효한 문자는 a에서 z까지의 문자, 0에서 9까지의 숫자, 그리고 붙임표(-)"
-"입니다. \n"
+"유효한 문자는 a에서 z까지의 문자, 0에서 9까지의 숫자, 그리고 붙임표(-)입니"
+"다. \n"
 "                         호스트 이름은 붙임표로 시작 할 수 없습니다. 호스트 "
 "이름의 각 요소는 1에서 63개의 문자 길이여야 합니다. \n"
-"                         그리고 전체 호스트 이름은 최대 253자 길이로 할 수 "
-"있습니다."
+"                         그리고 전체 호스트 이름은 최대 253자 길이로 할 수 있"
+"습니다."
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -2829,8 +2847,8 @@ msgid ""
 "<strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"당신은 OCI 콘솔에 있는 <strong>식별과 접근 관리(IAM)</strong>의 API 키 "
-"부분에서 자신의 배포된 RSA 키를 볼 수 있습니다."
+"당신은 OCI 콘솔에 있는 <strong>식별과 접근 관리(IAM)</strong>의 API 키 부분에"
+"서 자신의 배포된 RSA 키를 볼 수 있습니다."
 
 #. [components.ListView.actions]
 #. defaultMessage is:
