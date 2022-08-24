@@ -4,10 +4,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-08-24T04:23:14.127Z\n"
-"PO-Revision-Date: 2022-08-24 05:19+0000\n"
+"PO-Revision-Date: 2022-08-26 04:19+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1420,19 +1420,15 @@ msgstr "Sayfa bulunamadı"
 #. defaultMessage is:
 #. Parent
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit"
 msgid "Parent"
-msgstr "Üst işleme"
+msgstr "Üst"
 
 #. [wizard.ostree.parentCommit.popoverAria]
 #. defaultMessage is:
 #. Parent help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit help"
 msgid "Parent help"
-msgstr "Üst işleme yardımı"
+msgstr "Üst yardımı"
 
 #. [components.Modal.labelPassword]
 #. defaultMessage is:
@@ -1597,19 +1593,14 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the ID of the latest commit in the updates repository for which "
-#| "this commit provides an update. If no commit is specified it will be "
-#| "inferred from the parent repository."
 msgid ""
 "Provide the commit id or ref of the parent in the repository for which this "
 "commit provides an update. If no parent is specified it will be inferred "
 "from the user-defined ref."
 msgstr ""
-"Bu işlemenin bir güncelleme sağladığı güncellemeler deposundaki en son "
-"işlemenin kimliğini girin. Eğer hiç bir işleme belirtilmezse, üst depodan "
-"çıkarılacaktır."
+"Bu işleme bir güncelleme sağladığı depodaki üst öğenin işleme kimliğini veya "
+"referansını girin. Eğer üst öğe belirtilmemişse, kullanıcı tanımlı "
+"referanstan çıkarılacaktır."
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
@@ -1661,17 +1652,14 @@ msgstr "Kalıp dosyasının yükleneceği Veri Deposunun adını girin."
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the name of the branch for the content. If the ref does not "
-#| "already exist it will be created."
 msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created. If the ref is not specified, the default ref for "
 "the distro will be used."
 msgstr ""
-"İçerik için dalın adını girin. Referans zaten mevcut değilse "
-"oluşturulacaktır."
+"İçerik için dalın adını girin. Eğer referans zaten mevcut değilse, "
+"oluşturulacaktır. Eğer referans belirtilmezse, dağıtım için varsayılan "
+"referans kullanılacaktır."
 
 #. [wizard.oci.namespace.popoverBody]
 #. defaultMessage is:
@@ -1851,16 +1839,12 @@ msgstr "Gözden Geçir"
 #. defaultMessage is:
 #. Review the information and click "Save blueprint" to save the customizations and then click "Create image" to create the image.
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid ""
-#| "Review the information and click \"Create image\" to create the image "
-#| "using the following criteria."
 msgid ""
 "Review the information and click \"Save blueprint\" to save the "
 "customizations and then click \"Create image\" to create the image."
 msgstr ""
-"Bilgileri gözden geçirin ve aşağıdaki ölçütleri kullanarak kalıp oluşturmak "
-"için \"Kalıp oluştur\"a tıklayın."
+"Bilgileri gözden geçirin ve özelleştirmeleri kaydetmek için \"Planı kaydet\"e"
+" tıklayın ve ardından kalıbı oluşturmak için \"Kalıp oluştur\"a tıklayın."
 
 #. [components.Modal.labelRole]
 #. defaultMessage is:
