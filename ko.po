@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-08-24T04:23:14.127Z\n"
-"PO-Revision-Date: 2022-08-24 05:19+0000\n"
+"PO-Revision-Date: 2022-08-26 04:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1011,14 +1011,6 @@ msgstr ""
 #. defaultMessage is:
 #. Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in OCI and "
-#| "register it as a custom image. When the image build is complete\n"
-#| "                        and the upload action is successful, the image "
-#| "should be available under custom images.\n"
-#| "                        Most of the values required to upload the image "
-#| "can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an OCI bucket in OCI and "
 "register it as a custom image. When the image build is complete and the "
@@ -1029,25 +1021,18 @@ msgid ""
 "ensure that the image can be imported as a custom image from the bucket. For "
 "more details, refer to the {policy}."
 msgstr ""
-"이미지 빌더는 생성한 이미지를 OCI의 {bucket}에 업로드한 다음 사용자 정의 이미"
-"지로 등록합니다. 이미지 빌드가 완료되고\n"
-"                       업로드 작업이 성공하면, 이미지는 사용자 정의 이미지에"
-"서 사용 할 수 있습니다.\n"
-"                       이미지를 업로드하는 데 필요한 대부분의 값은 {console}"
-"에 있습니다."
+"이미지 빌더는 생성한 이미지를 OCI의 ock 버킷에 적재한 다음 사용자 정의 "
+"이미지로 등록합니다. 이미지 빌드가 완료되고 적재 작업이 성공하면, 이미지는 "
+"사용자 정의 이미지에서 사용 할 수 있습니다. 이미지를 적재하는 데 필요한 "
+"대부분의 값은 {console}에 있습니다. {br}{br}이 적재 처리는 버킷에서 이미지를 "
+"사용자 정의 이미지로 가져올 수 있도록 사용자 정의 이미지를 관리하는 정책이 "
+"연결된 식별과 접근관리(IAM)가 필요합니다. 보다 자세한 내용은 {policy}를 "
+"참조하세요."
 
 #. [wizard.imageOutput.uploadAWS.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                        and the upload action is successful, the image "
-#| "file is available in the AMI section of EC2. Most of the values required "
-#| "to upload\n"
-#| "                        the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an S3 bucket in AWS and then "
 "import them into EC2. When the image build is complete and the upload action "
@@ -1057,11 +1042,12 @@ msgid ""
 "Management (IAM) role named {vmimport} to ensure that the image can be "
 "imported from the S3 bucket into EC2. For more details, refer to the {role}."
 msgstr ""
-"이미지 빌더는 생성한 이미지를 AWS의 {bucket}에 업로드한 다음 EC2로 가져올 수 "
-"있습니다. 이미지 빌드가 완료되고\n"
-"                       업로드 작업이 성공하면 EC2의 AMI 섹션에서 이미지 파일"
-"을 사용할 수 있습니다. 이미지를 업로드하는 데\n"
-"                      필요한 대부분의 값은 {console}에 있습니다."
+"이미지 빌더는 생성한 이미지를 AWS의 S3 버킷에 적재한 다음 EC2로 가져올 수 "
+"있습니다. 이미지 빌드가 완료되고 적재 작업이 성공하면, 이미지 파일은 EC2의 "
+"AMI 부분에서 사용 할 수 있습니다. 이미지를 적재하는 데 필요한 대부분의 값은 "
+"{console}에서 찾을 수 있습니다. {br}{br}이 적재 처리를 수행하려면 S3 "
+"버킷에서 EC2로 이미지를 가져올 수 있도록 {vmimport}라는 식별과 접근관리(IAM) "
+"역할이 있어야 합니다. 자세한 내용은 {role}을 참조하세요."
 
 #. [wizard.imageOutput.imageSize.label]
 #. defaultMessage is:
@@ -1442,19 +1428,15 @@ msgstr "페이지를 찾을 수 없음"
 #. defaultMessage is:
 #. Parent
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit"
 msgid "Parent"
-msgstr "상위 커밋"
+msgstr "상위"
 
 #. [wizard.ostree.parentCommit.popoverAria]
 #. defaultMessage is:
 #. Parent help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit help"
 msgid "Parent help"
-msgstr "상위 커밋 도움말"
+msgstr "상위 도움말"
 
 #. [components.Modal.labelPassword]
 #. defaultMessage is:
@@ -1545,21 +1527,15 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the Blob container to which the image file will be uploaded. You "
-#| "can find containers under the {blobService} \n"
-#| "                    section of a storage account. You can find storage "
-#| "accounts on the {storageAccounts} page in the {azure} portal."
 msgid ""
 "Provide the Blob container to which the image file will be uploaded. You can "
 "find containers under the <strong>Blob service</strong> section of a storage "
 "account. You can find storage accounts on the <strong>Storage accounts</"
 "strong> page in the Azure portal."
 msgstr ""
-"이미지 파일을 적재 할 Blob 컨테이너를 제공합니다. 저장소 계정의 {blobService}"
-"에서 컨테이너를 찾을 수 있습니다.\n"
-"저장소 계정은 {azure} 포털의 {storageAccounts} 페이지에서 찾을 수 있습니다."
+"이미지 파일을 적재 할 Blob 컨테이너를 제공합니다. 저장소 계정의 <strong>Blob "
+"서버</strong> 부분에서 컨테이너를 찾을 수 있습니다. Azure 포털에서 "
+"<strong>저장소 계정</strong> 부분에서 저장소 계정을 찾을 수 있습니다."
 
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
@@ -1757,29 +1733,20 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the tenancy of the {bucket} your uploading to. You can find the "
-#| "tenancy in the bucket details."
 msgid ""
 "Provide the tenancy of the OCI bucket your uploading to. You can find the "
 "tenancy in the bucket details."
-msgstr ""
-"당신의 업로드 하고자 하는 {bucket}의 테넌시를 제공하세요. 당신은 버킷 세부정"
-"보에서 테넌시를 찾을 수 있습니다."
+msgstr "당신의 적재 하고자 하는 OCI 버킷의 차용을 제공하세요. 당신은 버킷 "
+"세부정보에서 차용부분를 찾을 수 있습니다."
 
 #. [wizard.vmware.host.popoverBody]
 #. defaultMessage is:
 #. Provide the url of your VMWare vSphere instance to which the image file will be uploaded.
 #: build/messages/components/Wizard/steps/vmwareDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the url of your {vmware} instance to which the image file will be "
-#| "uploaded."
 msgid ""
 "Provide the url of your VMWare vSphere instance to which the image file will "
 "be uploaded."
-msgstr "이미지 파일을 업로드할 {vmware} 인스턴스의 url을 제공합니다."
+msgstr "이미지 파일을 적재 할 자신의 VMWare vSphere 인스턴스의 url을 제공합니다."
 
 #. [wizard.ostree.ref.label]
 #. defaultMessage is:
@@ -1799,10 +1766,8 @@ msgstr "Ref 도움말"
 #. defaultMessage is:
 #. Region help
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid "AWS region help"
 msgid "Region help"
-msgstr "AWS 리전 도움말"
+msgstr "지역 도움말"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1918,16 +1883,11 @@ msgstr "리뷰"
 #. defaultMessage is:
 #. Review the information and click "Save blueprint" to save the customizations and then click "Create image" to create the image.
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid ""
-#| "Review the information below and click Finish to create the image and "
-#| "complete the tasks that were selected."
 msgid ""
 "Review the information and click \"Save blueprint\" to save the "
 "customizations and then click \"Create image\" to create the image."
-msgstr ""
-"아래 정보를 검토하고 완료를 눌로 이미지를 작성하고 선택한 작업을 완료하십시"
-"오."
+msgstr "정보를 검토하고 \"블루프린트 저장\"을 사용자 정의로 저장되고 이 후에 \"이미지"
+" 생성\"을 눌러 이미지를 생성합니다."
 
 #. [components.Modal.labelRole]
 #. defaultMessage is:
