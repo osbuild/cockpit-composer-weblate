@@ -3,7 +3,7 @@
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-24T04:23:14.127Z\n"
+"POT-Creation-Date: 2022-08-25T04:26:50.093Z\n"
 "PO-Revision-Date: 2021-03-19 16:01+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
