@@ -8,16 +8,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-08-25T04:26:50.093Z\n"
-"PO-Revision-Date: 2022-08-26 04:19+0000\n"
+"PO-Revision-Date: 2022-08-28 03:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #. [components.Modal.4177685254]
 #. defaultMessage is:
@@ -1540,15 +1540,6 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console.
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                        The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                        {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 bucket name to which the image file will be uploaded before "
 "being imported into EC2. The bucket must already exist in the Region where "
@@ -1556,11 +1547,10 @@ msgid ""
 "<strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS "
 "console."
 msgstr ""
-"EC2로 가져 오기 전에 이미지 파일을 업로드해야 하는 S3 {bucket} 이름을 지정하"
-"십시오.\n"
-" 이미지를 가져 오려는 리전에 {bucket}이 이미 존재해야 합니다. {buckets} 목록"
-"은\n"
-" AWS 콘솔의 {amazon} S3 저장소 서비스에 있는 {bucketsPage} 페이지에 있습니다."
+"EC2로 가져 오기 전에 이미지 파일을 적재해야 하는 S3 버킷 이름을 지정하세요. "
+"버킷은 이미지를 가져 오려는 지역에 이미 존재해야 합니다. 당신은 AWS 콘솔의 "
+"amazon S3 저장소 서비스에서 <strong>S3 버킷</strong> 부분에서 버킷 목록을 "
+"찾을 수 있습니다."
 
 #. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
@@ -1577,35 +1567,20 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureAuth.json
-#, fuzzy
-#| msgid ""
-#| "Provide the access key for the desired storage account. You can find the "
-#| "access key on the {accessKeys} \n"
-#| "                        page of the storage account. You can find storage "
-#| "accounts on the {storageAccounts} page in the {azure} portal."
 msgid ""
 "Provide the access key for the desired storage account. You can find the "
 "access key on the <strong>Access keys</strong> page of the storage account. "
 "You can find storage accounts on the <strong>Storage accounts</strong> page "
 "in the Azure portal."
 msgstr ""
-"원하는 저장소 계정에 대한 접근 키를 제공합니다. 접근 키는 저장소 계정의 "
-"{accessKeys} 페이지에서 찾을 수 있습니다.\n"
-"저장소 계정은 {azure} 포털의 {storageAccounts} 페이지에서 찾을 수 있습니다."
+"원하는 저장소 계정을 위한 접근 키를 제공합니다. 당신은 저장소 계정의 "
+"<strong>접근 키</strong> 부분에서 접근 키를 찾을 수 있습니다. 당신은 Azure "
+"포털의 <strong>저장소 계정</strong> 부분에서 저장소 계정을 찾을 수 있습니다."
 
 #. [wizard.oci.bucket.popoverBody]
 #. defaultMessage is:
 #. Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the {bucket} name to which the image file will be uploaded before "
-#| "being imported as a custom image. \n"
-#| "                        The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                        {bucketsPage} page in the OCI storage service in "
-#| "the OCI console."
 msgid ""
 "Provide the bucket name to which the image file will be uploaded before "
 "being imported as a custom image. The bucket must already exist in the "
@@ -1613,29 +1588,22 @@ msgid ""
 "on the <strong>OCI buckets</strong> page in the OCI storage service in the "
 "OCI console."
 msgstr ""
-"사용자 정의 이미지로 가져 오기 전에 이미지 파일을 업로드해야 하는 {bucket} 이"
-"름을 지정하십시오.\n"
-" 이미지를 가져 오려는 지역에 {bucket}이 이미 존재해야 합니다. {buckets} 목록"
-"은\n"
-" OCI 콘솔의 OCI 저장소 서비스에 있는 {bucketsPage} 페이지에서 찾을 수 있습니"
-"다."
+"사용자 정의 이미지로 가져 오기 전에 이미지 파일을 적재해야 하는 bucket "
+"이름을 제공하세요. 버킷은 이미지를 가져 오려는 지역에서 이미 존재해야 "
+"합니다. 당신은 OCI 콘솔의 OCI 저장소 서비스에 있는 <strong>OCI 버킷</strong> "
+"부분에서 버킷의 목록을 찾을 수 있습니다."
 
 #. [wizard.ostree.parentCommit.popoverBody]
 #. defaultMessage is:
 #. Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the ID of the latest commit in the updates repository for which "
-#| "this commit provides an update. If no commit is specified it will be "
-#| "inferred from the parent repository."
 msgid ""
 "Provide the commit id or ref of the parent in the repository for which this "
 "commit provides an update. If no parent is specified it will be inferred "
 "from the user-defined ref."
 msgstr ""
-"이 커밋이 최신화를 제공하는 최신화 저장소에서 최신 커밋의 ID를 제공합니다.만"
-"약 커밋이 지정되지 않은 경우 상위 저장소에서 유추됩니다."
+"이 커밋이 최신화를 제공하는 저장소에서 상위의 커밋 ID 또는 ref를 "
+"제공합니다.만약 상위에 지정되지 않은 이는 사용자-정의된 ref에서 유추됩니다."
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
@@ -1652,16 +1620,12 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureAuth.json
-#, fuzzy
-#| msgid ""
-#| "Provide the name of a storage account. You can find storage accounts on "
-#| "the {storageAccounts} page in the {azure} portal."
 msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "<strong>Storage accounts</strong> page in the Azure portal."
 msgstr ""
-"저장소 계정의 이름을 제공하십시오. 저장소 계정은 {azure} 포털의 {azure} 페이"
-"지에서 찾을 수 있습니다."
+"저장소 계정의 이름을 제공하세요. 당신은 Azure 포털의 <strong>저장소 계정</"
+"strong> 부분에서 저장소 계정을 찾을 수 있습니다."
 
 #. [wizard.vmware.cluster.popoverBody]
 #. defaultMessage is:
@@ -1691,16 +1655,14 @@ msgstr "이미지 파일을 업로드할 데이터 저장소 이름을 제공합
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the name of the branch for the content. If the ref does not "
-#| "already exist it will be created."
 msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created. If the ref is not specified, the default ref for "
 "the distro will be used."
 msgstr ""
-"콘텐츠의 분기 이름을 제공합니다. ref가 아직 존재하지 않으면 생성됩니다."
+"콘텐츠의 분기 이름을 제공합니다. 만약 ref가 아직 존재하지 않으면 이는 "
+"생성됩니다. 만약 ref가 지정되지 않으면, distro를 위해 기본값 ref로 "
+"사용됩니다."
 
 #. [wizard.oci.namespace.popoverBody]
 #. defaultMessage is:
@@ -1717,16 +1679,11 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the region of the Bucket region your uploading to. You can find the region in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the region of the {bucket} your uploading to. You can find the "
-#| "region in the bucket details."
 msgid ""
 "Provide the region of the Bucket region your uploading to. You can find the "
 "region in the bucket details."
-msgstr ""
-"당신의 업로드 하고자 하는 {bucket}의 지역을 제공하세요. 당신은 버킷 세부정보"
-"에서 지역을 찾을 수 있습니다."
+msgstr "당신이 적재 하고자 하는 버킷 지역을 위치를 제공하세요. 당신은 버킷 "
+"세부정보에서 지역을 찾을 수 있습니다."
 
 #. [wizard.oci.tenancy.popoverBody]
 #. defaultMessage is:
@@ -2747,58 +2704,47 @@ msgstr "버전"
 #. defaultMessage is:
 #. You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
 #: build/messages/components/Wizard/steps/awsAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can create and find existing Access key IDs on the {iam} page in the "
-#| "AWS console."
 msgid ""
 "You can create and find existing Access key IDs on the <strong>Identity and "
 "Access Management (IAM)</strong> page in the AWS console."
 msgstr ""
-"AWS 콘솔의 {iam}페이지에서 기존 액세스 키 ID를 만들고 찾을 수 있습니다."
+"당신은 AWS 콘솔의 <strong>대상과 접근 관리(IAM)</strong> 부분에서 기존 접근 "
+"키 ID를 생성하고 찾을 수 있습니다."
 
 #. [wizard.oci.userOCID.popoverBody]
 #. defaultMessage is:
 #. You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "You can find your user OCID {iam} page in the OCI console."
 msgid ""
 "You can find your user OCID <strong>Identity and Access Management (IAM)</"
 "strong> page in the OCI console."
-msgstr "당신은 OCI 콘솔에서 자신의 사용자 OCID {iam} 부분을 찾을 수 있습니다."
+msgstr ""
+"당신은 OCI 콘솔에서 자신의 사용자 OCID <strong>대상과 식별 관리(IAM)</"
+"strong> 부분을 찾을 수 있습니다."
 
 #. [wizard.aws.secretAccessKey.popoverBody]
 #. defaultMessage is:
 #. You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
 #: build/messages/components/Wizard/steps/awsAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can view the Secret access key only when you create a new Access key "
-#| "ID on the {iam} page in the AWS console."
 msgid ""
 "You can view the Secret access key only when you create a new Access key ID "
 "on the <strong>Identity and Access Management (IAM)</strong> page in the AWS "
 "console."
 msgstr ""
-"AWS 콘솔의 {iam}페이지에서 새 액세스 키 ID를 생성할 때만 비밀 액세스 키를 볼 "
-"수 있습니다."
+"당신은 AWS 콘솔의 <strong>대상과 접근 관리(IAM)</strong> 부분에서 신규 접근 "
+"키 ID를 생성 할 때만 비밀 접근 키를 볼 수 있습니다."
 
 #. [wizard.oci.fingerprint.popoverBody]
 #. defaultMessage is:
 #. You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can view your deployed RSA keys fingerprint in the API Keys section "
-#| "on the {iam} page in the OCI console."
 msgid ""
 "You can view your deployed RSA keys fingerprint in the API Keys section on "
 "the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"당신은 OCI 콘솔의 {iam} 부분에 있는 API 키 부분에서 자신의 배포된 RSA 키 지문"
-"을 볼 수 있습니다."
+"당신은 OCI 콘솔의 <strong>대상과 접근관리(IAM)</strong> 부분에 있는 API 키 "
+"부분에서 자신의 배포된 RSA 키 지문을 볼 수 있습니다."
 
 #. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
