@@ -6,7 +6,7 @@
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-25T04:26:50.093Z\n"
+"POT-Creation-Date: 2022-08-27T04:13:24.569Z\n"
 "PO-Revision-Date: 2020-05-15 08:50+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"

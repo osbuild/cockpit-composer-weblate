@@ -10,7 +10,7 @@
 # Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-25T04:26:50.093Z\n"
+"POT-Creation-Date: 2022-08-27T04:13:24.569Z\n"
 "PO-Revision-Date: 2022-05-02 19:18+0000\n"
 "Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"

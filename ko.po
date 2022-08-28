@@ -7,11 +7,11 @@
 # 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-25T04:26:50.093Z\n"
+"POT-Creation-Date: 2022-08-27T04:13:24.569Z\n"
 "PO-Revision-Date: 2022-08-28 03:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-composer/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"composer/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1549,8 +1549,8 @@ msgid ""
 msgstr ""
 "EC2로 가져 오기 전에 이미지 파일을 적재해야 하는 S3 버킷 이름을 지정하세요. "
 "버킷은 이미지를 가져 오려는 지역에 이미 존재해야 합니다. 당신은 AWS 콘솔의 "
-"amazon S3 저장소 서비스에서 <strong>S3 버킷</strong> 부분에서 버킷 목록을 "
-"찾을 수 있습니다."
+"amazon S3 저장소 서비스에서 <strong>S3 버킷</strong> 부분에서 버킷 목록을 찾"
+"을 수 있습니다."
 
 #. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
@@ -1573,9 +1573,9 @@ msgid ""
 "You can find storage accounts on the <strong>Storage accounts</strong> page "
 "in the Azure portal."
 msgstr ""
-"원하는 저장소 계정을 위한 접근 키를 제공합니다. 당신은 저장소 계정의 "
-"<strong>접근 키</strong> 부분에서 접근 키를 찾을 수 있습니다. 당신은 Azure "
-"포털의 <strong>저장소 계정</strong> 부분에서 저장소 계정을 찾을 수 있습니다."
+"원하는 저장소 계정을 위한 접근 키를 제공합니다. 당신은 저장소 계정의 <strong>"
+"접근 키</strong> 부분에서 접근 키를 찾을 수 있습니다. 당신은 Azure 포털의 "
+"<strong>저장소 계정</strong> 부분에서 저장소 계정을 찾을 수 있습니다."
 
 #. [wizard.oci.bucket.popoverBody]
 #. defaultMessage is:
@@ -1588,10 +1588,10 @@ msgid ""
 "on the <strong>OCI buckets</strong> page in the OCI storage service in the "
 "OCI console."
 msgstr ""
-"사용자 정의 이미지로 가져 오기 전에 이미지 파일을 적재해야 하는 bucket "
-"이름을 제공하세요. 버킷은 이미지를 가져 오려는 지역에서 이미 존재해야 "
-"합니다. 당신은 OCI 콘솔의 OCI 저장소 서비스에 있는 <strong>OCI 버킷</strong> "
-"부분에서 버킷의 목록을 찾을 수 있습니다."
+"사용자 정의 이미지로 가져 오기 전에 이미지 파일을 적재해야 하는 bucket 이름"
+"을 제공하세요. 버킷은 이미지를 가져 오려는 지역에서 이미 존재해야 합니다. 당"
+"신은 OCI 콘솔의 OCI 저장소 서비스에 있는 <strong>OCI 버킷</strong> 부분에서 "
+"버킷의 목록을 찾을 수 있습니다."
 
 #. [wizard.ostree.parentCommit.popoverBody]
 #. defaultMessage is:
@@ -1602,8 +1602,8 @@ msgid ""
 "commit provides an update. If no parent is specified it will be inferred "
 "from the user-defined ref."
 msgstr ""
-"이 커밋이 최신화를 제공하는 저장소에서 상위의 커밋 ID 또는 ref를 "
-"제공합니다.만약 상위에 지정되지 않은 이는 사용자-정의된 ref에서 유추됩니다."
+"이 커밋이 최신화를 제공하는 저장소에서 상위의 커밋 ID 또는 ref를 제공합니다."
+"만약 상위에 지정되지 않은 이는 사용자-정의된 ref에서 유추됩니다."
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
@@ -1660,9 +1660,8 @@ msgid ""
 "exist it will be created. If the ref is not specified, the default ref for "
 "the distro will be used."
 msgstr ""
-"콘텐츠의 분기 이름을 제공합니다. 만약 ref가 아직 존재하지 않으면 이는 "
-"생성됩니다. 만약 ref가 지정되지 않으면, distro를 위해 기본값 ref로 "
-"사용됩니다."
+"콘텐츠의 분기 이름을 제공합니다. 만약 ref가 아직 존재하지 않으면 이는 생성됩"
+"니다. 만약 ref가 지정되지 않으면, distro를 위해 기본값 ref로 사용됩니다."
 
 #. [wizard.oci.namespace.popoverBody]
 #. defaultMessage is:
@@ -1682,8 +1681,9 @@ msgstr ""
 msgid ""
 "Provide the region of the Bucket region your uploading to. You can find the "
 "region in the bucket details."
-msgstr "당신이 적재 하고자 하는 버킷 지역을 위치를 제공하세요. 당신은 버킷 "
-"세부정보에서 지역을 찾을 수 있습니다."
+msgstr ""
+"당신이 적재 하고자 하는 버킷 지역을 위치를 제공하세요. 당신은 버킷 세부정보에"
+"서 지역을 찾을 수 있습니다."
 
 #. [wizard.oci.tenancy.popoverBody]
 #. defaultMessage is:
@@ -2743,8 +2743,8 @@ msgid ""
 "the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"당신은 OCI 콘솔의 <strong>대상과 접근관리(IAM)</strong> 부분에 있는 API 키 "
-"부분에서 자신의 배포된 RSA 키 지문을 볼 수 있습니다."
+"당신은 OCI 콘솔의 <strong>대상과 접근관리(IAM)</strong> 부분에 있는 API 키 부"
+"분에서 자신의 배포된 RSA 키 지문을 볼 수 있습니다."
 
 #. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
