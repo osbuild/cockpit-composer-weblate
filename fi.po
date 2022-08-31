@@ -1,7 +1,7 @@
 # Jan Kuparinen <copper_fin@hotmail.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-08-27T04:13:24.569Z\n"
+"POT-Creation-Date: 2022-08-31T04:50:31.075Z\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,7 +80,9 @@ msgstr ""
 #. defaultMessage is:
 #. Add optional additional packages to your image by searching available packages.
 #: build/messages/components/Wizard/steps/packages.json
-msgid "Add optional additional packages to your image by searching available packages."
+msgid ""
+"Add optional additional packages to your image by searching available "
+"packages."
 msgstr ""
 
 #. [wizard.packages.addSelected]
@@ -99,8 +101,6 @@ msgstr ""
 #. [components.Modal.4044066101]
 #. defaultMessage is:
 #. Add source
-#: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "Add source"
 msgstr ""
@@ -149,7 +149,9 @@ msgstr ""
 #. defaultMessage is:
 #. An error occurred when saving the source. Check that the path is valid and try again.
 #: build/messages/components/Modal/ManageSources.json
-msgid "An error occurred when saving the source. Check that the path is valid and try again."
+msgid ""
+"An error occurred when saving the source. Check that the path is valid and "
+"try again."
 msgstr ""
 
 #. [components.ListView.emptyStateErrorMessage]
@@ -489,7 +491,6 @@ msgstr ""
 #. Close
 #: build/messages/components/Modal/ExportBlueprint.json
 #: build/messages/components/Modal/ManageSources.json
-#: build/messages/components/Modal/ManageSources.json
 msgid "Close"
 msgstr ""
 
@@ -561,7 +562,9 @@ msgstr ""
 #. defaultMessage is:
 #. Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats.
 #: build/messages/pages/blueprints/index.json
-msgid "Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats."
+msgid ""
+"Create a blueprint to define the contents that will be included in the "
+"images you create. Images can be produced in a variety of output formats."
 msgstr ""
 
 #. [components.Modal.994816806]
@@ -709,7 +712,6 @@ msgstr ""
 #. Dependencies
 #: build/messages/components/ListView/BlueprintContents.json
 #: build/messages/components/ListView/ComponentDetailsView.json
-#: build/messages/components/ListView/ComponentSummaryList.json
 #: build/messages/components/ListView/ComponentSummaryList.json
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Dependencies"
@@ -961,28 +963,50 @@ msgstr ""
 #. defaultMessage is:
 #. Image Builder can upload images you create to VMWare vSphere. When the image build is complete and the upload action is successful, the image file is available in the Cluster on the vSphere instance that you specified.
 #: build/messages/components/Wizard/steps/imageOutput.json
-msgid "Image Builder can upload images you create to VMWare vSphere. When the image build is complete and the upload action is successful, the image file is available in the Cluster on the vSphere instance that you specified."
+msgid ""
+"Image Builder can upload images you create to VMWare vSphere. When the image "
+"build is complete and the upload action is successful, the image file is "
+"available in the Cluster on the vSphere instance that you specified."
 msgstr ""
 
 #. [wizard.imageOutput.uploadAzure.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/steps/imageOutput.json
-msgid "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
+msgid ""
+"Image Builder can upload images you create to a Blob container in {azure}. "
+"When the image build is complete and the upload action is successful, the "
+"image file is available in the Storage account and Blob container that you "
+"specified."
 msgstr ""
 
 #. [wizard.imageOutput.uploadOCI.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}.
 #: build/messages/components/Wizard/steps/imageOutput.json
-msgid "Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}."
+msgid ""
+"Image Builder can upload images you create to an OCI bucket in OCI and "
+"register it as a custom image. When the image build is complete and the "
+"upload action is successful, the image should be available under custom "
+"images. Most of the values required to upload the image can be found in the "
+"{console}.{br}{br}This upload process requires that you have an Identity and "
+"Access Management (IAM) with attached policy to manage custom images to "
+"ensure that the image can be imported as a custom image from the bucket. For "
+"more details, refer to the {policy}."
 msgstr ""
 
 #. [wizard.imageOutput.uploadAWS.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/steps/imageOutput.json
-msgid "Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}."
+msgid ""
+"Image Builder can upload images you create to an S3 bucket in AWS and then "
+"import them into EC2. When the image build is complete and the upload action "
+"is successful, the image file is available in the AMI section of EC2. Most "
+"of the values required to upload the image can be found in the {console}. "
+"{br}{br}This upload process requires that you have an Identity and Access "
+"Management (IAM) role named {vmimport} to ensure that the image can be "
+"imported from the S3 bucket into EC2. For more details, refer to the {role}."
 msgstr ""
 
 #. [wizard.imageOutput.imageSize.label]
@@ -1143,7 +1167,6 @@ msgstr ""
 #. defaultMessage is:
 #. Installation device
 #: build/messages/components/Wizard/formComponents/Review.json
-#: build/messages/pages/blueprint/index.json
 #: build/messages/pages/blueprint/index.json
 msgid "Installation device"
 msgstr ""
@@ -1346,7 +1369,6 @@ msgstr ""
 #. defaultMessage is:
 #. Packages
 #: build/messages/components/Wizard/formComponents/Review.json
-#: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/packages.json
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
@@ -1358,7 +1380,6 @@ msgstr ""
 #. [pages.error.pageNotFoundTitle]
 #. defaultMessage is:
 #. Page not found
-#: build/messages/pages/error/index.json
 #: build/messages/pages/error/index.json
 msgid "Page not found"
 msgstr ""
@@ -1447,126 +1468,170 @@ msgstr ""
 #: build/messages/components/Wizard/steps/azureDest.json
 #: build/messages/components/Wizard/steps/ociDest.json
 #: build/messages/components/Wizard/steps/vmwareDest.json
-msgid "Provide a file name to be used for the image file that will be uploaded."
+msgid ""
+"Provide a file name to be used for the image file that will be uploaded."
 msgstr ""
 
 #. [wizard.aws.region.popoverBody]
 #. defaultMessage is:
 #. Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists.
 #: build/messages/components/Wizard/steps/awsDest.json
-msgid "Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists."
+msgid ""
+"Provide the AWS Region where you want to import your image. This must be the "
+"same region where the S3 bucket exists."
 msgstr ""
 
 #. [wizard.azure.storageContainer.popoverBody]
 #. defaultMessage is:
 #. Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureDest.json
-msgid "Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
+msgid ""
+"Provide the Blob container to which the image file will be uploaded. You can "
+"find containers under the <strong>Blob service</strong> section of a storage "
+"account. You can find storage accounts on the <strong>Storage accounts</"
+"strong> page in the Azure portal."
 msgstr ""
 
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
 #. Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console.
 #: build/messages/components/Wizard/steps/awsDest.json
-msgid "Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console."
+msgid ""
+"Provide the S3 bucket name to which the image file will be uploaded before "
+"being imported into EC2. The bucket must already exist in the Region where "
+"you want to import your image. You can find a list of buckets on the "
+"<strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS "
+"console."
 msgstr ""
 
 #. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
 #. Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid "Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from."
+msgid ""
+"Provide the URL of the upstream repository. This repository is where the "
+"parent OSTree commit will be pulled from."
 msgstr ""
 
 #. [wizard.azure.storageAccessKey.popoverBody]
 #. defaultMessage is:
 #. Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureAuth.json
-msgid "Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
+msgid ""
+"Provide the access key for the desired storage account. You can find the "
+"access key on the <strong>Access keys</strong> page of the storage account. "
+"You can find storage accounts on the <strong>Storage accounts</strong> page "
+"in the Azure portal."
 msgstr ""
 
 #. [wizard.oci.bucket.popoverBody]
 #. defaultMessage is:
 #. Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console.
 #: build/messages/components/Wizard/steps/ociDest.json
-msgid "Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console."
+msgid ""
+"Provide the bucket name to which the image file will be uploaded before "
+"being imported as a custom image. The bucket must already exist in the "
+"Region where you want to import your image. You can find a list of buckets "
+"on the <strong>OCI buckets</strong> page in the OCI storage service in the "
+"OCI console."
 msgstr ""
 
 #. [wizard.ostree.parentCommit.popoverBody]
 #. defaultMessage is:
 #. Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid "Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref."
+msgid ""
+"Provide the commit id or ref of the parent in the repository for which this "
+"commit provides an update. If no parent is specified it will be inferred "
+"from the user-defined ref."
 msgstr ""
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
 #. Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-msgid "Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details."
+msgid ""
+"Provide the compartment of the OCI bucket compartment your uploading to. You "
+"can find the compartment in the bucket details."
 msgstr ""
 
 #. [wizard.azure.storageAccount.popoverBody]
 #. defaultMessage is:
 #. Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureAuth.json
-msgid "Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
+msgid ""
+"Provide the name of a storage account. You can find storage accounts on the "
+"<strong>Storage accounts</strong> page in the Azure portal."
 msgstr ""
 
 #. [wizard.vmware.cluster.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the Cluster to which the image file will be uploaded.
 #: build/messages/components/Wizard/steps/vmwareDest.json
-msgid "Provide the name of the Cluster to which the image file will be uploaded."
+msgid ""
+"Provide the name of the Cluster to which the image file will be uploaded."
 msgstr ""
 
 #. [wizard.vmware.dataCenter.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the Datacenter to which the image file will be uploaded.
 #: build/messages/components/Wizard/steps/vmwareDest.json
-msgid "Provide the name of the Datacenter to which the image file will be uploaded."
+msgid ""
+"Provide the name of the Datacenter to which the image file will be uploaded."
 msgstr ""
 
 #. [wizard.vmware.datastore.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the Datastore to which the image file will be uploaded.
 #: build/messages/components/Wizard/steps/vmwareDest.json
-msgid "Provide the name of the Datastore to which the image file will be uploaded."
+msgid ""
+"Provide the name of the Datastore to which the image file will be uploaded."
 msgstr ""
 
 #. [wizard.ostree.ref.popoverBody]
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid "Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used."
+msgid ""
+"Provide the name of the branch for the content. If the ref does not already "
+"exist it will be created. If the ref is not specified, the default ref for "
+"the distro will be used."
 msgstr ""
 
 #. [wizard.oci.namespace.popoverBody]
 #. defaultMessage is:
 #. Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-msgid "Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details."
+msgid ""
+"Provide the namespace of the OCI bucket your uploading to. You can find the "
+"namespace in the bucket details."
 msgstr ""
 
 #. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
 #. Provide the region of the Bucket region your uploading to. You can find the region in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-msgid "Provide the region of the Bucket region your uploading to. You can find the region in the bucket details."
+msgid ""
+"Provide the region of the Bucket region your uploading to. You can find the "
+"region in the bucket details."
 msgstr ""
 
 #. [wizard.oci.tenancy.popoverBody]
 #. defaultMessage is:
 #. Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-msgid "Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details."
+msgid ""
+"Provide the tenancy of the OCI bucket your uploading to. You can find the "
+"tenancy in the bucket details."
 msgstr ""
 
 #. [wizard.vmware.host.popoverBody]
 #. defaultMessage is:
 #. Provide the url of your VMWare vSphere instance to which the image file will be uploaded.
 #: build/messages/components/Wizard/steps/vmwareDest.json
-msgid "Provide the url of your VMWare vSphere instance to which the image file will be uploaded."
+msgid ""
+"Provide the url of your VMWare vSphere instance to which the image file will "
+"be uploaded."
 msgstr ""
 
 #. [wizard.ostree.ref.label]
@@ -1704,7 +1769,9 @@ msgstr ""
 #. defaultMessage is:
 #. Review the information and click "Save blueprint" to save the customizations and then click "Create image" to create the image.
 #: build/messages/components/Wizard/formComponents/Review.json
-msgid "Review the information and click \"Save blueprint\" to save the customizations and then click \"Create image\" to create the image."
+msgid ""
+"Review the information and click \"Save blueprint\" to save the "
+"customizations and then click \"Create image\" to create the image."
 msgstr ""
 
 #. [components.Modal.labelRole]
@@ -1864,7 +1931,10 @@ msgstr ""
 #. defaultMessage is:
 #. Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size.
 #: build/messages/components/Wizard/steps/imageOutput.json
-msgid "Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size."
+msgid ""
+"Set the size that you want the image to be when instantiated. The total "
+"package size and target destination of your image should be considered when "
+"setting the image size."
 msgstr ""
 
 #. [components.ListView.4147597655]
@@ -1942,7 +2012,11 @@ msgstr ""
 #. defaultMessage is:
 #. Sources are used for resolving blueprint dependencies and for composing images. When adding custom sources you must make sure that the packages in the source do not conflict with any other package sources, otherwise resolving dependencies and composing images will fail.
 #: build/messages/components/Modal/ManageSources.json
-msgid "Sources are used for resolving blueprint dependencies and for composing images. When adding custom sources you must make sure that the packages in the source do not conflict with any other package sources, otherwise resolving dependencies and composing images will fail."
+msgid ""
+"Sources are used for resolving blueprint dependencies and for composing "
+"images. When adding custom sources you must make sure that the packages in "
+"the source do not conflict with any other package sources, otherwise "
+"resolving dependencies and composing images will fail."
 msgstr ""
 
 #. [components.Modal.540971304]
@@ -2095,7 +2169,9 @@ msgstr ""
 #. defaultMessage is:
 #. The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto.
 #: build/messages/pages/blueprint/index.json
-msgid "The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto."
+msgid ""
+"The installation device is used by the RHEL for Edge Simplified Installer. "
+"It specifies which device the image will be installed onto."
 msgstr ""
 
 #. [components.Modal.2580689893]
@@ -2109,7 +2185,8 @@ msgstr ""
 #. defaultMessage is:
 #. The page you're looking for does not exist or an another error occurred.
 #: build/messages/pages/error/index.json
-msgid "The page you're looking for does not exist or an another error occurred."
+msgid ""
+"The page you're looking for does not exist or an another error occurred."
 msgstr ""
 
 #. [components.EmptyState.alertTitleEnableServiceFailure]
@@ -2123,7 +2200,9 @@ msgstr ""
 #. defaultMessage is:
 #. The user name can only consist of letters from a-z, digits, dots, dashes and underscores.
 #: build/messages/components/Modal/UserAccount.json
-msgid "The user name can only consist of letters from a-z, digits, dots, dashes and underscores."
+msgid ""
+"The user name can only consist of letters from a-z, digits, dots, dashes and "
+"underscores."
 msgstr ""
 
 #. [components.Modal.usernameEmpty]
@@ -2180,7 +2259,9 @@ msgstr ""
 #. defaultMessage is:
 #. This process can take a while. Images are built in the order they are started.
 #: build/messages/components/Wizard/formComponents/BlueprintName.json
-msgid "This process can take a while. Images are built in the order they are started."
+msgid ""
+"This process can take a while. Images are built in the order they are "
+"started."
 msgstr ""
 
 #. [components.Modal.2969976976]
@@ -2479,21 +2560,33 @@ msgstr ""
 #.                         A hostname may not start with a hyphen. Each element of the hostname must be from 1 to 63 characters long 
 #.                         and the entire hostname can be at most 253 characters long.
 #: build/messages/components/Wizard/validators/hostnameValidator.json
-msgid "Valid characters are letters from a to z, the digits from 0 to 9, and the hyphen (-). \n                        A hostname may not start with a hyphen. Each element of the hostname must be from 1 to 63 characters long \n                        and the entire hostname can be at most 253 characters long."
+msgid ""
+"Valid characters are letters from a to z, the digits from 0 to 9, and the "
+"hyphen (-). \n"
+"                        A hostname may not start with a hyphen. Each element "
+"of the hostname must be from 1 to 63 characters long \n"
+"                        and the entire hostname can be at most 253 "
+"characters long."
 msgstr ""
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
 #. Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen.
 #: build/messages/pages/blueprint/index.json
-msgid "Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen."
+msgid ""
+"Valid characters for hostname are letters from a to z, the digits from 0 to "
+"9, and the hyphen (-). A hostname may not start with a hyphen."
 msgstr ""
 
 #. [wizard.ostree.ref.helpText]
 #. defaultMessage is:
 #. Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-msgid "Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number."
+msgid ""
+"Valid characters for ref are letters from a to z, the digits from 0 to 9, "
+"the hyphen (-), the underscore (_), the period (.), and the forward slash "
+"(/). A ref must start with a letter, a number, or an underscore. Slashes "
+"must also be followed by a letter or number."
 msgstr ""
 
 #. [components.ListView.602883748]
@@ -2515,35 +2608,48 @@ msgstr ""
 #. defaultMessage is:
 #. You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
 #: build/messages/components/Wizard/steps/awsAuth.json
-msgid "You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console."
+msgid ""
+"You can create and find existing Access key IDs on the <strong>Identity and "
+"Access Management (IAM)</strong> page in the AWS console."
 msgstr ""
 
 #. [wizard.oci.userOCID.popoverBody]
 #. defaultMessage is:
 #. You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-msgid "You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
+msgid ""
+"You can find your user OCID <strong>Identity and Access Management (IAM)</"
+"strong> page in the OCI console."
 msgstr ""
 
 #. [wizard.aws.secretAccessKey.popoverBody]
 #. defaultMessage is:
 #. You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
 #: build/messages/components/Wizard/steps/awsAuth.json
-msgid "You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console."
+msgid ""
+"You can view the Secret access key only when you create a new Access key ID "
+"on the <strong>Identity and Access Management (IAM)</strong> page in the AWS "
+"console."
 msgstr ""
 
 #. [wizard.oci.fingerprint.popoverBody]
 #. defaultMessage is:
 #. You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-msgid "You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
+msgid ""
+"You can view your deployed RSA keys fingerprint in the API Keys section on "
+"the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
+"console."
 msgstr ""
 
 #. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
 #. You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-msgid "You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
+msgid ""
+"You can view your deployed RSA keys in the API Keys section on the "
+"<strong>Identity and Access Management (IAM)</strong> page in the OCI "
+"console."
 msgstr ""
 
 #. [components.ListView.actions]
@@ -2670,10 +2776,10 @@ msgstr ""
 msgid "{goBack}, or head over to the {homePage} to choose a new direction."
 msgstr ""
 
-#: ./public/manifest.json
+#: public/manifest.json
 msgid "Creating system images"
 msgstr ""
 
-#: ./public/manifest.json
+#: public/manifest.json
 msgid "Image Builder"
 msgstr ""
