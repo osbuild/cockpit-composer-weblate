@@ -6,7 +6,7 @@
 # Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-09-01T04:23:10.293Z\n"
+"POT-Creation-Date: 2022-09-05T18:37:46.587Z\n"
 "PO-Revision-Date: 2022-09-05 18:39+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -979,9 +979,8 @@ msgid ""
 "build is complete and the upload action is successful, the image file is "
 "available in the Cluster on the vSphere instance that you specified."
 msgstr ""
-"镜像构建器可以将您创建的镜像上传到 VMWare "
-"vSphere。镜像构建完成且上传操作成功后，镜像文件在您指定的 vSphere 实例上的 "
-"Cluster 中提供。"
+"镜像构建器可以将您创建的镜像上传到 VMWare vSphere。镜像构建完成且上传操作成功"
+"后，镜像文件在您指定的 vSphere 实例上的 Cluster 中提供。"
 
 #. [wizard.imageOutput.uploadAzure.popoverBody]
 #. defaultMessage is:
@@ -993,9 +992,8 @@ msgid ""
 "image file is available in the Storage account and Blob container that you "
 "specified."
 msgstr ""
-"镜像构建器可以将您创建的镜像上传到 {azure} 中的 Blob "
-"容器。镜像构建完成且上传操作成功后，镜像文件在您指定的 Storage 帐户和 Blob "
-"容器中可用。"
+"镜像构建器可以将您创建的镜像上传到 {azure} 中的 Blob 容器。镜像构建完成且上传"
+"操作成功后，镜像文件在您指定的 Storage 帐户和 Blob 容器中可用。"
 
 #. [wizard.imageOutput.uploadOCI.popoverBody]
 #. defaultMessage is:
@@ -1012,11 +1010,10 @@ msgid ""
 "more details, refer to the {policy}."
 msgstr ""
 "镜像构建器可以将您创建的镜像上传到 OCI 中的 OCI 存储桶，并将其注册为自定义镜"
-"像。当镜像构建完成且上传操作成功时，镜像应在自定义镜像下可用。"
-"上传镜像所需的大多数值都可在 {console} 中找到。{br}{br}这个上传过程需要您有身"
-"份和附加了策略的访问权限管理(IAM)来管理自定义镜像，以确保镜像可以作为存储桶中"
-"的自定义镜像导入，请参阅从存储桶导入的存储桶。如需了解详细信息，请参阅 "
-"{policy}。"
+"像。当镜像构建完成且上传操作成功时，镜像应在自定义镜像下可用。上传镜像所需的"
+"大多数值都可在 {console} 中找到。{br}{br}这个上传过程需要您有身份和附加了策略"
+"的访问权限管理(IAM)来管理自定义镜像，以确保镜像可以作为存储桶中的自定义镜像导"
+"入，请参阅从存储桶导入的存储桶。如需了解详细信息，请参阅 {policy}。"
 
 #. [wizard.imageOutput.uploadAWS.popoverBody]
 #. defaultMessage is:
@@ -1032,10 +1029,10 @@ msgid ""
 "imported from the S3 bucket into EC2. For more details, refer to the {role}."
 msgstr ""
 "镜像构建器可以将您创建的镜像上传到 AWS 中的 S3 存储桶，然后将它们导入到 EC2 "
-"中。当镜像构建完成且上传操作成功后，镜像文件就可在 EC2 的 AMI 部分中提供，"
-"上传镜像所需的大多数值都可在 {console} "
-"中找到。{br}{br}这个上传过程需要您有身份和指定的访问管理(IAM)角色{vmimport}，"
-"来确保镜像可从 S3 存储桶导入到 EC2 。如需了解更多详情，请参阅{role}。"
+"中。当镜像构建完成且上传操作成功后，镜像文件就可在 EC2 的 AMI 部分中提供，上"
+"传镜像所需的大多数值都可在 {console} 中找到。{br}{br}这个上传过程需要您有身份"
+"和指定的访问管理(IAM)角色{vmimport}，来确保镜像可从 S3 存储桶导入到 EC2 。如"
+"需了解更多详情，请参阅{role}。"
 
 #. [wizard.imageOutput.imageSize.label]
 #. defaultMessage is:
@@ -1534,9 +1531,9 @@ msgid ""
 "<strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS "
 "console."
 msgstr ""
-"提供镜像文件导入到 EC2 之前将上传到的 S3 "
-"存储桶名称。存储桶必须已在您要导入镜像的区域中存在。您可以在 AWS 控制台中的 "
-"Amazon S3 存储桶服务中的 <strong>S3 buckets</strong> 页面上找到存储桶列表。"
+"提供镜像文件导入到 EC2 之前将上传到的 S3 存储桶名称。存储桶必须已在您要导入镜"
+"像的区域中存在。您可以在 AWS 控制台中的 Amazon S3 存储桶服务中的 <strong>S3 "
+"buckets</strong> 页面上找到存储桶列表。"
 
 #. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
@@ -1584,8 +1581,9 @@ msgid ""
 "Provide the commit id or ref of the parent in the repository for which this "
 "commit provides an update. If no parent is specified it will be inferred "
 "from the user-defined ref."
-msgstr "提供此提交提供更新的存储库中的提交 id 或 ref。如果没有指定父级，"
-"它将从用户定义的 ref 中推断出来。"
+msgstr ""
+"提供此提交提供更新的存储库中的提交 id 或 ref。如果没有指定父级，它将从用户定"
+"义的 ref 中推断出来。"
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
@@ -1603,7 +1601,8 @@ msgstr "提供您上传的 OCI 存储桶隔层的隔层。您可以在存储桶�
 msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "<strong>Storage accounts</strong> page in the Azure portal."
-msgstr "提供存储帐户的名称。您可以在 Azure 门户中的 <strong>Storage accounts</"
+msgstr ""
+"提供存储帐户的名称。您可以在 Azure 门户中的 <strong>Storage accounts</"
 "strong> 页面上找到存储帐户。"
 
 #. [wizard.vmware.cluster.popoverBody]
@@ -1638,7 +1637,8 @@ msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created. If the ref is not specified, the default ref for "
 "the distro will be used."
-msgstr "提供内容的分支名称。如果 ref 不存在，它将被创建。如果没有指定 ref，则将使用 "
+msgstr ""
+"提供内容的分支名称。如果 ref 不存在，它将被创建。如果没有指定 ref，则将使用 "
 "distro 的默认 ref。"
 
 #. [wizard.oci.namespace.popoverBody]
@@ -1648,7 +1648,8 @@ msgstr "提供内容的分支名称。如果 ref 不存在，它将被创建。�
 msgid ""
 "Provide the namespace of the OCI bucket your uploading to. You can find the "
 "namespace in the bucket details."
-msgstr "提供您上传到的 OCI 存储桶的命名空间。您可以在存储桶详情中找到命名空间。"
+msgstr ""
+"提供您上传到的 OCI 存储桶的命名空间。您可以在存储桶详情中找到命名空间。"
 
 #. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
@@ -1815,8 +1816,9 @@ msgstr "回顾"
 msgid ""
 "Review the information and click \"Save blueprint\" to save the "
 "customizations and then click \"Create image\" to create the image."
-msgstr "查看信息并点击 \"Save blueprint\" 来保存自定义，然后点击 \"Create image\" "
-"来创建镜像。"
+msgstr ""
+"查看信息并点击 \"Save blueprint\" 来保存自定义，然后点击 \"Create image\" 来"
+"创建镜像。"
 
 #. [components.Modal.labelRole]
 #. defaultMessage is:
@@ -2620,8 +2622,8 @@ msgid ""
 msgstr ""
 "有效字符是从 a 到 z 的字母、从 0 到 9 的数字以及连字符(-)。\n"
 "主机名不能以连字符开头。\n"
-"主机名的每个元素的长度必须是 1 到 63 个字符，整个主机名长度最多为 253 "
-"个字符。"
+"主机名的每个元素的长度必须是 1 到 63 个字符，整个主机名长度最多为 253 个字"
+"符。"
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -2704,8 +2706,8 @@ msgid ""
 "the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"您可以在 OCI 控制台的 <strong>Identity and Access Management(IAM)</strong> "
-"页面上的 API 密钥部分中查看部署的 RSA 密钥指纹。"
+"您可以在 OCI 控制台的 <strong>Identity and Access Management(IAM)</strong> 页"
+"面上的 API 密钥部分中查看部署的 RSA 密钥指纹。"
 
 #. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
@@ -2716,8 +2718,8 @@ msgid ""
 "<strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"您可以在 OCI 控制台中 <strong>Identity and Access Management(IAM)</strong> "
-"页面上的 API 密钥部分中查看部署的 RSA 密钥。"
+"您可以在 OCI 控制台中 <strong>Identity and Access Management(IAM)</strong> 页"
+"面上的 API 密钥部分中查看部署的 RSA 密钥。"
 
 #. [components.ListView.actions]
 #. defaultMessage is:

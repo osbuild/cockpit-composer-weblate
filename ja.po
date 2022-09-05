@@ -7,7 +7,7 @@
 # Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-09-01T04:23:10.293Z\n"
+"POT-Creation-Date: 2022-09-05T18:37:46.587Z\n"
 "PO-Revision-Date: 2022-09-05 18:39+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -94,7 +94,8 @@ msgstr "最新バージョンの追加"
 msgid ""
 "Add optional additional packages to your image by searching available "
 "packages."
-msgstr "利用可能なパッケージを検索して、オプションの追加パッケージをイメージに追加し"
+msgstr ""
+"利用可能なパッケージを検索して、オプションの追加パッケージをイメージに追加し"
 "ます。"
 
 #. [wizard.packages.addSelected]
@@ -995,8 +996,8 @@ msgid ""
 msgstr ""
 "Image Builder は、作成したイメージを AWS の VMWare vSphere にアップロードでき"
 "ます。イメージのビルドが完了してアップロードアクションが成功すると、イメージ"
-"ファイルが、指定した vSphere "
-"インスタンスのクラスターで利用できるようになります。"
+"ファイルが、指定した vSphere インスタンスのクラスターで利用できるようになりま"
+"す。"
 
 #. [wizard.imageOutput.uploadAzure.popoverBody]
 #. defaultMessage is:
@@ -1028,11 +1029,11 @@ msgid ""
 msgstr ""
 "Image Builder は、作成したイメージを OCI の OCI バケットにアップロードして、"
 "カスタムイメージとして登録できます。イメージのビルドが完了し、アップロードア"
-"クションに成功すると、カスタムイメージの下にそのイメージが表示されます。イメ"
-"ージのアップロードに必要な値のほとんどは、{console} にあります。{br}{br}この"
-"アップロードプロセスでは、バケットからイメージをカスタムイメージとしてインポ"
-"ートするために、カスタムイメージの管理ポリシーが割り当てられた Identity and "
-"Access Management (IAM) が必要です。詳細は、{policy} を参照してください。"
+"クションに成功すると、カスタムイメージの下にそのイメージが表示されます。イ"
+"メージのアップロードに必要な値のほとんどは、{console} にあります。{br}{br}こ"
+"のアップロードプロセスでは、バケットからイメージをカスタムイメージとしてイン"
+"ポートするために、カスタムイメージの管理ポリシーが割り当てられた Identity "
+"and Access Management (IAM) が必要です。詳細は、{policy} を参照してください。"
 
 #. [wizard.imageOutput.uploadAWS.popoverBody]
 #. defaultMessage is:
@@ -1050,10 +1051,10 @@ msgstr ""
 "Image Builder は、作成したイメージを AWS の S3 バケットにアップロードして、"
 "EC2 にインポートできます。イメージのビルドが完了し、アップロードアクションに"
 "成功すると、EC2 の AMI セクションにイメージファイルが表示されます。イメージの"
-"アップロードに必要な値のほとんどは、{console} "
-"にあります。{br}{br}このアップロードプロセスでは、S3 バケットから EC2 "
-"にイメージをインポートするために、{vmimport} という名前の Identity and "
-"Access Management (IAM) ロールが必要です。詳細は、{role}を参照してください。"
+"アップロードに必要な値のほとんどは、{console} にあります。{br}{br}このアップ"
+"ロードプロセスでは、S3 バケットから EC2 にイメージをインポートするために、"
+"{vmimport} という名前の Identity and Access Management (IAM) ロールが必要で"
+"す。詳細は、{role}を参照してください。"
 
 # auto translated by TM merge from project: Openshift Enterprise Installation & Configuration, version: 3.9-Outsourced, DocId: week_1_2
 #. [wizard.imageOutput.imageSize.label]
@@ -1529,8 +1530,9 @@ msgstr "アップロードするイメージファイルに使用するファイ
 msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the S3 bucket exists."
-msgstr "イメージをインポートする AWS リージョンを指定します。これは、S3 "
-"バケットが存在するリージョンと同じである必要があります。"
+msgstr ""
+"イメージをインポートする AWS リージョンを指定します。これは、S3 バケットが存"
+"在するリージョンと同じである必要があります。"
 
 #. [wizard.azure.storageContainer.popoverBody]
 #. defaultMessage is:
@@ -1543,9 +1545,9 @@ msgid ""
 "strong> page in the Azure portal."
 msgstr ""
 "イメージファイルをアップロードする Blob コンテナーを指定します。コンテナは、"
-"ストレージアカウントの <strong>Blob service</strong> "
-"セクションにあります。ストレージアカウントは、Azure ポータルの "
-"<strong>Storage accounts</strong> ページにあります。"
+"ストレージアカウントの <strong>Blob service</strong> セクションにあります。ス"
+"トレージアカウントは、Azure ポータルの <strong>Storage accounts</strong> ペー"
+"ジにあります。"
 
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
@@ -1560,8 +1562,8 @@ msgid ""
 msgstr ""
 "EC2 にインポートされる前にアップロードされるイメージファイルに S3 バケット名"
 "を指定します。バケットはイメージをインポートするリージョンにすでに存在してい"
-"る必要があります。バケットのリストは、AWS コンソールの Amazon S3 "
-"ストレージサービスの <strong>S3 buckets</strong> ページにあります。"
+"る必要があります。バケットのリストは、AWS コンソールの Amazon S3 ストレージ"
+"サービスの <strong>S3 buckets</strong> ページにあります。"
 
 #. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
@@ -1584,10 +1586,10 @@ msgid ""
 "You can find storage accounts on the <strong>Storage accounts</strong> page "
 "in the Azure portal."
 msgstr ""
-"目的のストレージアカウントのアクセスキーを提供します。"
-"アクセスキーはストレージアカウントの <strong>Access keys</strong> "
-"ページにあります。ストレージアカウントは、Azure ポータル内の <strong>Storage "
-"accounts</strong> ページにあります。"
+"目的のストレージアカウントのアクセスキーを提供します。アクセスキーはストレー"
+"ジアカウントの <strong>Access keys</strong> ページにあります。ストレージアカ"
+"ウントは、Azure ポータル内の <strong>Storage accounts</strong> ページにありま"
+"す。"
 
 #. [wizard.oci.bucket.popoverBody]
 #. defaultMessage is:
@@ -1602,8 +1604,8 @@ msgid ""
 msgstr ""
 "カスタムイメージとしてインポートされる前にイメージファイルをアップロードする"
 "バケット名を指定します。バケットは、イメージをインポートするリージョンにすで"
-"に存在している必要があります。バケットのリストは、OCI コンソールの OCI "
-"ストレージサービスの <strong>OCI buckets</strong> ページにあります。"
+"に存在している必要があります。バケットのリストは、OCI コンソールの OCI スト"
+"レージサービスの <strong>OCI buckets</strong> ページにあります。"
 
 #. [wizard.ostree.parentCommit.popoverBody]
 #. defaultMessage is:
@@ -1615,8 +1617,8 @@ msgid ""
 "from the user-defined ref."
 msgstr ""
 "このコミットによって更新が提供されるリポジトリーの親のコミット ID または ref "
-"を指定します。親が指定されていない場合は、ユーザー定義の ref "
-"から推測されます。"
+"を指定します。親が指定されていない場合は、ユーザー定義の ref から推測されま"
+"す。"
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
@@ -1625,7 +1627,8 @@ msgstr ""
 msgid ""
 "Provide the compartment of the OCI bucket compartment your uploading to. You "
 "can find the compartment in the bucket details."
-msgstr "アップロードする OCI バケットコンパートメントのコンパートメントを指定します。"
+msgstr ""
+"アップロードする OCI バケットコンパートメントのコンパートメントを指定します。"
 "コンパートメントはバケットの詳細で確認できます。"
 
 #. [wizard.azure.storageAccount.popoverBody]
@@ -1636,8 +1639,8 @@ msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "<strong>Storage accounts</strong> page in the Azure portal."
 msgstr ""
-"ストレージアカウントの名前を指定します。ストレージアカウントは、Azure "
-"ポータルの <strong>Storage accounts</strong> ページで確認できます。"
+"ストレージアカウントの名前を指定します。ストレージアカウントは、Azure ポータ"
+"ルの <strong>Storage accounts</strong> ページで確認できます。"
 
 #. [wizard.vmware.cluster.popoverBody]
 #. defaultMessage is:
@@ -1682,8 +1685,9 @@ msgstr ""
 msgid ""
 "Provide the namespace of the OCI bucket your uploading to. You can find the "
 "namespace in the bucket details."
-msgstr "アップロード先の OCI バケットの namespace を指定します。namespace "
-"はバケットの詳細で確認できます。"
+msgstr ""
+"アップロード先の OCI バケットの namespace を指定します。namespace はバケット"
+"の詳細で確認できます。"
 
 #. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
@@ -1692,7 +1696,8 @@ msgstr "アップロード先の OCI バケットの namespace を指定しま�
 msgid ""
 "Provide the region of the Bucket region your uploading to. You can find the "
 "region in the bucket details."
-msgstr "アップロード先のバケットのリージョンを指定します。リージョンはバケットの詳細"
+msgstr ""
+"アップロード先のバケットのリージョンを指定します。リージョンはバケットの詳細"
 "で確認できます。"
 
 #. [wizard.oci.tenancy.popoverBody]
@@ -1702,8 +1707,9 @@ msgstr "アップロード先のバケットのリージョンを指定します
 msgid ""
 "Provide the tenancy of the OCI bucket your uploading to. You can find the "
 "tenancy in the bucket details."
-msgstr "アップロード先の OCI "
-"バケットのテナンシーを指定します。テナンシーはバケットの詳細で確認できます。"
+msgstr ""
+"アップロード先の OCI バケットのテナンシーを指定します。テナンシーはバケットの"
+"詳細で確認できます。"
 
 #. [wizard.vmware.host.popoverBody]
 #. defaultMessage is:
@@ -1712,8 +1718,9 @@ msgstr "アップロード先の OCI "
 msgid ""
 "Provide the url of your VMWare vSphere instance to which the image file will "
 "be uploaded."
-msgstr "イメージファイルをアップロードする VMWare vSphere インスタンスの URL "
-"を指定します。"
+msgstr ""
+"イメージファイルをアップロードする VMWare vSphere インスタンスの URL を指定し"
+"ます。"
 
 #. [wizard.ostree.ref.label]
 #. defaultMessage is:
@@ -1853,7 +1860,8 @@ msgstr "レビュー"
 msgid ""
 "Review the information and click \"Save blueprint\" to save the "
 "customizations and then click \"Create image\" to create the image."
-msgstr "情報を確認し、Save blueprint をクリックしてカスタマイズを保存し、Create "
+msgstr ""
+"情報を確認し、Save blueprint をクリックしてカスタマイズを保存し、Create "
 "image をクリックしてイメージを作成します。"
 
 #. [components.Modal.labelRole]
@@ -2663,9 +2671,8 @@ msgid ""
 "characters long."
 msgstr ""
 "有効な文字は、a から z の英字、0 から 9 の数字、およびハイフン (-) です。\n"
-"                        "
-"ホスト名をハイフンで開始することはできません。ホスト名の各要素は、1 から 63 "
-"文字の長さにする必要があります\n"
+"                        ホスト名をハイフンで開始することはできません。ホスト"
+"名の各要素は、1 から 63 文字の長さにする必要があります\n"
 "                        また、ホスト名全体の長さは最大 253 文字です。"
 
 #. [pages.blueprint.hostnameHelp]
@@ -2717,8 +2724,8 @@ msgid ""
 "You can create and find existing Access key IDs on the <strong>Identity and "
 "Access Management (IAM)</strong> page in the AWS console."
 msgstr ""
-"AWS コンソールの <strong>Identity and Access Management (IAM)</strong> "
-"ページでは、アクセスキー ID の作成や既存の ID の検索を行うことができます。"
+"AWS コンソールの <strong>Identity and Access Management (IAM)</strong> ページ"
+"では、アクセスキー ID の作成や既存の ID の検索を行うことができます。"
 
 #. [wizard.oci.userOCID.popoverBody]
 #. defaultMessage is:
@@ -2741,8 +2748,8 @@ msgid ""
 "console."
 msgstr ""
 "シークレットアクセスキーは、AWS コンソールの <strong>Identity and Access "
-"Management (IAM)</strong> ページ上に新しいアクセスキー ID "
-"を作成するときにのみ表示できます。"
+"Management (IAM)</strong> ページ上に新しいアクセスキー ID を作成するときにの"
+"み表示できます。"
 
 #. [wizard.oci.fingerprint.popoverBody]
 #. defaultMessage is:
@@ -2753,9 +2760,9 @@ msgid ""
 "the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"OCI コンソールの <strong>Identity and Access Management (IAM)</strong> "
-"ページの API Keys セクションで、デプロイされた RSA "
-"鍵のフィンガープリントを表示できます。"
+"OCI コンソールの <strong>Identity and Access Management (IAM)</strong> ページ"
+"の API Keys セクションで、デプロイされた RSA 鍵のフィンガープリントを表示でき"
+"ます。"
 
 #. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
@@ -2766,8 +2773,8 @@ msgid ""
 "<strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"OCI コンソールの <strong>Identity and Access Management (IAM)</strong> "
-"ページの API Keys セクションで、デプロイされた RSA 鍵を表示できます。"
+"OCI コンソールの <strong>Identity and Access Management (IAM)</strong> ページ"
+"の API Keys セクションで、デプロイされた RSA 鍵を表示できます。"
 
 #. [components.ListView.actions]
 #. defaultMessage is:
