@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-09-05T18:37:46.587Z\n"
-"PO-Revision-Date: 2022-09-01 07:19+0000\n"
+"PO-Revision-Date: 2022-09-07 18:19+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -108,21 +108,21 @@ msgstr ""
 #. Add source
 #: build/messages/components/Modal/ManageSources.json
 msgid "Add source"
-msgstr ""
+msgstr "Lisää lähde"
 
 #. [wizard.customizations.buttons.add]
 #. defaultMessage is:
 #. Add user
 #: build/messages/components/Wizard/steps/users.json
 msgid "Add user"
-msgstr ""
+msgstr "Lisää käyttäjä"
 
 #. [wizard.review.admin]
 #. defaultMessage is:
 #. Administrator
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Administrator"
-msgstr ""
+msgstr "Ylläpitäjä"
 
 #. [wizard.review.amazonS3Bucket]
 #. defaultMessage is:
@@ -148,7 +148,7 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/pages/blueprints/index.json
 msgid "An error occurred"
-msgstr ""
+msgstr "Tapahtui virhe"
 
 #. [components.Modal.1417078254]
 #. defaultMessage is:
@@ -225,7 +225,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/ociAuth.json
 #: build/messages/components/Wizard/steps/vmwareAuth.json
 msgid "Authentication"
-msgstr ""
+msgstr "Tunnistautuminen"
 
 #. [components.EmptyState.errorInactiveCheckbox]
 #. defaultMessage is:
@@ -239,7 +239,7 @@ msgstr ""
 #. Available packages
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Available packages"
-msgstr ""
+msgstr "Saatavilla olevat paketit"
 
 #. [pages.blueprint.2057444273]
 #. defaultMessage is:
@@ -441,7 +441,7 @@ msgstr ""
 #: build/messages/components/Modal/StopBuild.json
 #: build/messages/components/Modal/UserAccount.json
 msgid "Cancel"
-msgstr ""
+msgstr "Peru"
 
 #. [components.Modal.check_gpg]
 #. defaultMessage is:
@@ -469,7 +469,7 @@ msgstr ""
 #. Clear all filters
 #: build/messages/components/ListView/BlueprintContents.json
 msgid "Clear all filters"
-msgstr ""
+msgstr "Tyhjennä kaikki suodattimet"
 
 #. [wizard.packages.clearAvailablePackagesSearch]
 #. defaultMessage is:
@@ -497,7 +497,7 @@ msgstr ""
 #: build/messages/components/Modal/ExportBlueprint.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "Close"
-msgstr ""
+msgstr "Sulje"
 
 #. [wizard.review.cluster]
 #. defaultMessage is:
@@ -508,7 +508,7 @@ msgstr ""
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Cluster"
-msgstr ""
+msgstr "Klusteri"
 
 #. [wizard.vmware.cluster.popoverAria]
 #. defaultMessage is:
@@ -536,21 +536,21 @@ msgstr ""
 #. Confirm password
 #: build/messages/components/Modal/UserAccount.json
 msgid "Confirm password"
-msgstr ""
+msgstr "Vahvista salasana"
 
 #. [components.Modal.956699920]
 #. defaultMessage is:
 #. Contents
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Contents"
-msgstr ""
+msgstr "Sisältö"
 
 #. [components.Modal.383867403]
 #. defaultMessage is:
 #. Copy
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Copy"
-msgstr ""
+msgstr "Kopio"
 
 #. [components.Modal.4120989039]
 #. defaultMessage is:
@@ -561,7 +561,7 @@ msgstr ""
 #: build/messages/components/Modal/CreateBlueprint.json
 #: build/messages/components/Modal/UserAccount.json
 msgid "Create"
-msgstr ""
+msgstr "Luo"
 
 #. [pages.blueprints.emptyMessage]
 #. defaultMessage is:
@@ -591,14 +591,14 @@ msgstr ""
 #. Create user account
 #: build/messages/components/Modal/UserAccount.json
 msgid "Create user account"
-msgstr ""
+msgstr "Luo käyttäjätili"
 
 #. [components.ListView.imageCreated] - A label for the date that an image file was created
 #. defaultMessage is:
 #. Created
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Created"
-msgstr ""
+msgstr "Luotu"
 
 #. [wizard.review.creatingImage]
 #. defaultMessage is:
@@ -677,7 +677,7 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/Modal/DeleteBlueprint.json
 msgid "Delete"
-msgstr ""
+msgstr "Poista"
 
 #. [components.Modal.1567722925]
 #. defaultMessage is:
@@ -691,7 +691,7 @@ msgstr ""
 #. Delete image
 #: build/messages/components/Modal/DeleteImage.json
 msgid "Delete image"
-msgstr ""
+msgstr "Poista levykuva"
 
 #. [pages.blueprint.userDelete]
 #. defaultMessage is:
@@ -720,7 +720,7 @@ msgstr ""
 #: build/messages/components/ListView/ComponentSummaryList.json
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Dependencies"
-msgstr ""
+msgstr "Riippuvuudet"
 
 #. [components.Modal.3374163063]
 #. defaultMessage is:
@@ -735,7 +735,7 @@ msgstr ""
 #: build/messages/components/Modal/EditDescription.json
 #: build/messages/pages/blueprint/index.json
 msgid "Description"
-msgstr ""
+msgstr "Kuvaus"
 
 #. [wizard.aws.destTitle]
 #. defaultMessage is:
@@ -754,21 +754,21 @@ msgstr ""
 #: build/messages/components/Wizard/steps/ociDest.json
 #: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Destination"
-msgstr ""
+msgstr "Kohde"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. Details
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "Details"
-msgstr ""
+msgstr "Yksityiskohdat"
 
 #. [components.ListView.1982430146]
 #. defaultMessage is:
 #. Download
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Download"
-msgstr ""
+msgstr "Lataa"
 
 #. [wizard.uploadFile.filenamePlaceholder]
 #. defaultMessage is:
@@ -811,7 +811,7 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "Edit source"
-msgstr ""
+msgstr "Muokkaa lähdettä"
 
 #. [components.Modal.2685045824]
 #. defaultMessage is:
@@ -854,14 +854,14 @@ msgstr ""
 #. Error
 #: build/messages/pages/error/index.json
 msgid "Error"
-msgstr ""
+msgstr "Virhe"
 
 #. [components.Modal.3590336714]
 #. defaultMessage is:
 #. Export
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Export"
-msgstr ""
+msgstr "Vie"
 
 #. [components.Modal.3658760324]
 #. defaultMessage is:
@@ -886,7 +886,7 @@ msgstr ""
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/ociAuth.json
 msgid "Fingerprint"
-msgstr ""
+msgstr "Sormenjälki"
 
 #. [wizard.oci.fingerprint.popoverAria]
 #. defaultMessage is:
@@ -900,7 +900,7 @@ msgstr ""
 #. Full name
 #: build/messages/components/Modal/UserAccount.json
 msgid "Full name"
-msgstr ""
+msgstr "Koko nimi"
 
 #. [pages.error.2333299345]
 #. defaultMessage is:
@@ -929,7 +929,7 @@ msgstr ""
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Host"
-msgstr ""
+msgstr "Kone"
 
 #. [wizard.vmware.host.popoverAria]
 #. defaultMessage is:
@@ -951,7 +951,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/system.json
 #: build/messages/pages/blueprint/index.json
 msgid "Hostname"
-msgstr ""
+msgstr "Koneen nimi"
 
 #. [wizard.customizations.hostname.helperText]
 #. defaultMessage is:
@@ -1081,7 +1081,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/ociDest.json
 #: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Image name"
-msgstr ""
+msgstr "Levykuvan nimi"
 
 #. [wizard.aws.imageName.popoverAria]
 #. defaultMessage is:
@@ -1125,7 +1125,7 @@ msgstr ""
 #. Image size
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Image size"
-msgstr ""
+msgstr "Levykuvan koko"
 
 #. [wizard.imageOutput.imageSize.popoverAria]
 #. defaultMessage is:
@@ -1146,7 +1146,7 @@ msgstr ""
 #. Images
 #: build/messages/pages/blueprint/index.json
 msgid "Images"
-msgstr ""
+msgstr "Levykuvat"
 
 #. [wizard.customizations.installDevice.label]
 #. defaultMessage is:
@@ -1213,7 +1213,7 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Logs"
-msgstr ""
+msgstr "Lokit"
 
 #. [components.Modal.3594196712] - User action for displaying the list of source repositories
 #. defaultMessage is:
@@ -1227,7 +1227,7 @@ msgstr ""
 #. Message
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Message"
-msgstr ""
+msgstr "Viesti"
 
 #. [wizard.imageOutput.imageSize.inputHelp]
 #. defaultMessage is:
@@ -1260,7 +1260,7 @@ msgstr ""
 #: build/messages/components/Modal/ManageSources.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #. [pages.blueprints.emptyTitle]
 #. defaultMessage is:
@@ -1281,7 +1281,7 @@ msgstr ""
 #. No images
 #: build/messages/pages/blueprint/index.json
 msgid "No images"
-msgstr ""
+msgstr "Ei levykuvia"
 
 #. [pages.blueprint.noImagesMessage]
 #. defaultMessage is:
@@ -1377,7 +1377,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/packages.json
 #: build/messages/pages/blueprint/index.json
 msgid "Packages"
-msgstr ""
+msgstr "paketteja"
 
 #. [pages.error.pageNotFoundMessage]
 #. defaultMessage is:
@@ -1394,7 +1394,7 @@ msgstr ""
 #. Parent
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "Parent"
-msgstr ""
+msgstr "Vanhempi"
 
 #. [wizard.ostree.parentCommit.popoverAria]
 #. defaultMessage is:
@@ -1420,14 +1420,14 @@ msgstr ""
 #: build/messages/components/Wizard/steps/users.json
 #: build/messages/components/Wizard/steps/vmwareAuth.json
 msgid "Password"
-msgstr ""
+msgstr "Salasana"
 
 #. [components.Modal.sshKeyHelp]
 #. defaultMessage is:
 #. Paste the contents of your public SSH key file here.
 #: build/messages/components/Modal/UserAccount.json
 msgid "Paste the contents of your public SSH key file here."
-msgstr ""
+msgstr "Liitä julkisen SSH-avaintiedostosi sisältö tähän."
 
 #. [wizard.oci.privateKey.label]
 #. defaultMessage is:
@@ -1673,7 +1673,7 @@ msgstr ""
 #: build/messages/components/ListView/ComponentsDataListItem.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
 msgid "Release"
-msgstr ""
+msgstr "Julkaisu"
 
 #. [components.ListView.2703758654]
 #. defaultMessage is:
@@ -1684,7 +1684,7 @@ msgstr ""
 #: build/messages/components/ListView/ComponentDetailsView.json
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Remove"
-msgstr ""
+msgstr "Poista"
 
 #. [wizard.packages.removeAll]
 #. defaultMessage is:
@@ -1726,14 +1726,14 @@ msgstr ""
 #. Remove source
 #: build/messages/components/ListView/SourcesListItem.json
 msgid "Remove source"
-msgstr ""
+msgstr "Poista lähde"
 
 #. [wizard.customizations.buttons.remove]
 #. defaultMessage is:
 #. Remove user
 #: build/messages/components/Wizard/steps/users.json
 msgid "Remove user"
-msgstr ""
+msgstr "Poista käyttäjä"
 
 #. [components.ListView.2663433025]
 #. defaultMessage is:
@@ -1747,7 +1747,7 @@ msgstr ""
 #. Repository URL
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "Repository URL"
-msgstr ""
+msgstr "Asennuslähteen URL"
 
 #. [wizard.ostree.repoURL.popoverAria]
 #. defaultMessage is:
@@ -1768,7 +1768,7 @@ msgstr ""
 #. Review
 #: build/messages/components/Wizard/steps/review.json
 msgid "Review"
-msgstr ""
+msgstr "Katselmoi"
 
 #. [wizard.review.review]
 #. defaultMessage is:
@@ -1784,7 +1784,7 @@ msgstr ""
 #. Role
 #: build/messages/components/Modal/UserAccount.json
 msgid "Role"
-msgstr ""
+msgstr "Rooli"
 
 #. [wizard.aws.bucket.popoverAria]
 #. defaultMessage is:
@@ -1806,7 +1806,7 @@ msgstr ""
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/users.json
 msgid "SSH key"
-msgstr ""
+msgstr "SSH-avain"
 
 #. [components.Form.save]
 #. defaultMessage is:
@@ -1817,7 +1817,7 @@ msgstr ""
 #: build/messages/components/Form/TextInlineEdit.json
 #: build/messages/components/Modal/EditDescription.json
 msgid "Save"
-msgstr ""
+msgstr "Tallenna"
 
 #. [wizard.review.saveBlueprint]
 #. defaultMessage is:
@@ -1877,7 +1877,7 @@ msgstr ""
 #. Security
 #: build/messages/components/Modal/ManageSources.json
 msgid "Security"
-msgstr ""
+msgstr "Turvallisuus"
 
 #. [components.Modal.selectOne]
 #. defaultMessage is:
@@ -1930,7 +1930,7 @@ msgstr ""
 #: build/messages/components/Modal/UserAccount.json
 #: build/messages/components/Wizard/steps/users.json
 msgid "Server administrator"
-msgstr ""
+msgstr "Palvelimen ylläpitäjä"
 
 #. [wizard.imageOutput.imageSize.popoverBody]
 #. defaultMessage is:
@@ -1947,7 +1947,7 @@ msgstr ""
 #. Show all
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Show all"
-msgstr ""
+msgstr "Näytä kaikki"
 
 #. [components.ListView.showDetails]
 #. defaultMessage is:
@@ -1961,14 +1961,14 @@ msgstr ""
 #. Show less
 #: build/messages/components/ListView/ComponentSummaryList.json
 msgid "Show less"
-msgstr ""
+msgstr "Näytä vähemmän"
 
 #. [components.ListView.imageSize] - A label for the size of an image file
 #. defaultMessage is:
 #. Size
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #. [toolbar.blueprints.sort.asc]
 #. defaultMessage is:
@@ -2004,14 +2004,14 @@ msgstr ""
 #. Source path
 #: build/messages/components/Modal/ManageSources.json
 msgid "Source path"
-msgstr ""
+msgstr "Lähteen polku"
 
 #. [components.Modal.3025955497] - Sources provide the contents from which components are selected
 #. defaultMessage is:
 #. Sources
 #: build/messages/components/Modal/ManageSources.json
 msgid "Sources"
-msgstr ""
+msgstr "Lähteet"
 
 #. [components.Modal.infotip]
 #. defaultMessage is:
@@ -2043,21 +2043,21 @@ msgstr ""
 #. Start
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Start"
-msgstr ""
+msgstr "Käynnistä"
 
 #. [components.ListView.timeStarted] - A label for the date that an image upload was started
 #. defaultMessage is:
 #. Started
 #: build/messages/components/ListView/ListItemUploads.json
 msgid "Started"
-msgstr ""
+msgstr "Aloitettu"
 
 #. [components.ListView.2989081855]
 #. defaultMessage is:
 #. Stop
 #: build/messages/components/ListView/ListItemImages.json
 msgid "Stop"
-msgstr ""
+msgstr "Pysäytä"
 
 #. [components.Modal.154017637]
 #. defaultMessage is:
@@ -2132,7 +2132,7 @@ msgstr ""
 #. System
 #: build/messages/components/Wizard/steps/system.json
 msgid "System"
-msgstr ""
+msgstr "Järjestelmä"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2146,7 +2146,7 @@ msgstr ""
 #. Text
 #: build/messages/components/Modal/ExportBlueprint.json
 msgid "Text"
-msgstr ""
+msgstr "Teksti"
 
 #. [components.Modal.3426018028]
 #. defaultMessage is:
@@ -2209,13 +2209,15 @@ msgid ""
 "The user name can only consist of letters from a-z, digits, dots, dashes and "
 "underscores."
 msgstr ""
+"Käyttäjänimi voi koostua vain a–z-kirjaimista, numeroista, pisteistä, "
+"viivoista ja alaviivoista."
 
 #. [components.Modal.usernameEmpty]
 #. defaultMessage is:
 #. The user name cannot be empty.
 #: build/messages/components/Modal/UserAccount.json
 msgid "The user name cannot be empty."
-msgstr ""
+msgstr "Käyttäjätunnus ei voi olla tyhjä."
 
 #. [components.EmptyState.1947371795]
 #. defaultMessage is:
@@ -2274,7 +2276,7 @@ msgstr ""
 #. This source name already exists.
 #: build/messages/components/Modal/ManageSources.json
 msgid "This source name already exists."
-msgstr ""
+msgstr "Lähteen nimi on jo olemassa."
 
 #. [components.Modal.1932541555]
 #. defaultMessage is:
@@ -2295,14 +2297,14 @@ msgstr ""
 #. This user name already exists.
 #: build/messages/components/Modal/UserAccount.json
 msgid "This user name already exists."
-msgstr ""
+msgstr "Käyttäjätunnus on jo olemassa."
 
 #. [components.EmptyState.errorInactiveSecondary]
 #. defaultMessage is:
 #. Troubleshoot
 #: build/messages/components/EmptyState/EmptyStateInactive.json
 msgid "Troubleshoot"
-msgstr ""
+msgstr "Vianetsintä"
 
 #. [components.ListView.1952810469]
 #. defaultMessage is:
@@ -2321,7 +2323,7 @@ msgstr ""
 #: build/messages/components/ListView/ListItemImages.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "Type"
-msgstr ""
+msgstr "Tyyppi"
 
 #. [components.ListView.1508102472]
 #. defaultMessage is:
@@ -2335,7 +2337,7 @@ msgstr ""
 #. URL
 #: build/messages/components/ListView/ComponentDetailsView.json
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. [components.ListView.4008580262]
 #. defaultMessage is:
@@ -2349,7 +2351,7 @@ msgstr ""
 #. Update
 #: build/messages/components/Modal/UserAccount.json
 msgid "Update"
-msgstr ""
+msgstr "Päivitä"
 
 #. [components.Modal.update]
 #. defaultMessage is:
@@ -2520,7 +2522,7 @@ msgstr ""
 #. User name
 #: build/messages/components/Modal/UserAccount.json
 msgid "User name"
-msgstr ""
+msgstr "Käyttäjätunnus"
 
 #. [wizard.oci.userOCID.popoverAria]
 #. defaultMessage is:
@@ -2542,7 +2544,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/users.json
 #: build/messages/components/Wizard/steps/vmwareAuth.json
 msgid "Username"
-msgstr ""
+msgstr "Käyttäjätunnus"
 
 #. [customizations.user.title]
 #. defaultMessage is:
@@ -2557,7 +2559,7 @@ msgstr ""
 #: build/messages/components/Wizard/steps/users.json
 #: build/messages/pages/blueprint/index.json
 msgid "Users"
-msgstr ""
+msgstr "Käyttäjät"
 
 #. [wizard.customizations.hostname.validationError]
 #. defaultMessage is:
@@ -2607,7 +2609,7 @@ msgstr ""
 #: build/messages/components/ListView/ComponentsDataListItem.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #. [wizard.aws.accessKey.popoverBody]
 #. defaultMessage is:
@@ -2662,7 +2664,7 @@ msgstr ""
 #. actions
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "actions"
-msgstr ""
+msgstr "Toimet"
 
 #. [wizard.blueprintName.name]
 #. defaultMessage is:
@@ -2676,7 +2678,7 @@ msgstr ""
 #. details
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "details"
-msgstr ""
+msgstr "yksityiskohdat"
 
 #. [pages.error.2054225650]
 #. defaultMessage is:
@@ -2694,7 +2696,7 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "metalink"
-msgstr ""
+msgstr "metalinkki"
 
 #. [components.ListView.mirrorlist]
 #. defaultMessage is:
@@ -2705,7 +2707,7 @@ msgstr ""
 #: build/messages/components/ListView/SourcesListItem.json
 #: build/messages/components/Modal/ManageSources.json
 msgid "mirrorlist"
-msgstr ""
+msgstr "peililuettelo"
 
 #. [components.ListView.baseurl]
 #. defaultMessage is:
@@ -2787,4 +2789,4 @@ msgstr ""
 
 #: public/manifest.json
 msgid "Image Builder"
-msgstr ""
+msgstr "Levykuvan rakentaja"
