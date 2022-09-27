@@ -12,79 +12,31 @@
         "message": ""
     },
     "wizard": {
-        "vmware": {
-            "username": {
-                "label": {
-                    "message": "Benutzername"
-                }
-            },
-            "title": {
-                "message": "Zu VMWare hochladen"
-            },
-            "password": {
-                "label": {
-                    "message": "Passwort"
-                }
-            },
-            "imageName": {
-                "popoverBody": {
-                    "message": "Geben Sie einen Dateinamen an, der für die hochzuladende Abbilddatei verwendet werden soll."
-                },
-                "popoverAria": {
-                    "message": "Hilfe zum Abbildnamen"
-                },
-                "label": {
-                    "message": "Abbildname"
-                }
-            },
-            "host": {
-                "popoverAria": {
-                    "message": "Host-Hilfe"
-                },
-                "label": {
-                    "message": "Host"
-                }
-            },
-            "destTitle": {
-                "message": "Ziel"
-            },
-            "datastore": {
-                "popoverBody": {
-                    "message": "Geben Sie den Namen des Datenspeichers an, in den die Abbilddatei hochgeladen werden soll."
-                },
-                "popoverAria": {
-                    "message": "Hilfe zum Datenspeicher"
-                }
-            },
+        "message": "",
+        "review": {
             "dataCenter": {
-                "popoverBody": {
-                    "message": "Geben Sie den Namen des Datenzentrums an, in das die Abbilddatei hochgeladen werden soll."
-                },
-                "popoverAria": {
-                    "message": "Hilfe zum Datenzentrum"
+                "message": "Datenzentrum"
+            },
+            "customizations": {
+                "title": {
+                    "message": "Anpassungen"
                 }
             },
             "cluster": {
-                "popoverBody": {
-                    "message": "Geben Sie den Namen des Clusters an, in den die Abbilddatei hochgeladen werden soll."
-                },
-                "popoverAria": {
-                    "message": "Cluster-Hilfe"
-                },
-                "label": {
-                    "message": "Cluster"
-                }
+                "message": "Cluster"
             },
-            "authTitle": {
-                "message": "Authentifizierung"
-            }
-        },
-        "uploadFile": {
-            "filenamePlaceholder": {
-                "message": "Ziehen und Ablegen einer Datei oder Hochladen einer Datei"
-            }
-        },
-        "review": {
+            "bucketRegion": {
+                "message": "Bucket-Region"
+            },
+            "bucketNamespace": {
+                "message": "Bucket-Namensraum"
+            },
+            "awsRegion": {
+                "message": "AWS-Region"
+            },
+            "accessKeyID": {
+                "message": "Zugangsschlüssel-ID"
+            },
             "username": {
                 "message": "Benutzername"
             },
@@ -155,29 +107,6 @@
             },
             "dataStore": {
                 "message": "Datenspeicher"
-            },
-            "dataCenter": {
-                "message": "Datenzentrum"
-            },
-            "customizations": {
-                "title": {
-                    "message": "Anpassungen"
-                }
-            },
-            "cluster": {
-                "message": "Cluster"
-            },
-            "bucketRegion": {
-                "message": "Bucket-Region"
-            },
-            "bucketNamespace": {
-                "message": "Bucket-Namensraum"
-            },
-            "awsRegion": {
-                "message": "AWS-Region"
-            },
-            "accessKeyID": {
-                "message": "Zugangsschlüssel-ID"
             }
         },
         "packages": {
@@ -406,9 +335,82 @@
                     "message": "Zugangsschlüssel-ID"
                 }
             }
+        },
+        "vmware": {
+            "username": {
+                "label": {
+                    "message": "Benutzername"
+                }
+            },
+            "title": {
+                "message": "Zu VMWare hochladen"
+            },
+            "password": {
+                "label": {
+                    "message": "Passwort"
+                }
+            },
+            "imageName": {
+                "popoverBody": {
+                    "message": "Geben Sie einen Dateinamen an, der für die hochzuladende Abbilddatei verwendet werden soll."
+                },
+                "popoverAria": {
+                    "message": "Hilfe zum Abbildnamen"
+                },
+                "label": {
+                    "message": "Abbildname"
+                }
+            },
+            "host": {
+                "popoverAria": {
+                    "message": "Host-Hilfe"
+                },
+                "label": {
+                    "message": "Host"
+                }
+            },
+            "destTitle": {
+                "message": "Ziel"
+            },
+            "datastore": {
+                "popoverBody": {
+                    "message": "Geben Sie den Namen des Datenspeichers an, in den die Abbilddatei hochgeladen werden soll."
+                },
+                "popoverAria": {
+                    "message": "Hilfe zum Datenspeicher"
+                }
+            },
+            "dataCenter": {
+                "popoverBody": {
+                    "message": "Geben Sie den Namen des Datenzentrums an, in das die Abbilddatei hochgeladen werden soll."
+                },
+                "popoverAria": {
+                    "message": "Hilfe zum Datenzentrum"
+                }
+            },
+            "cluster": {
+                "popoverBody": {
+                    "message": "Geben Sie den Namen des Clusters an, in den die Abbilddatei hochgeladen werden soll."
+                },
+                "popoverAria": {
+                    "message": "Cluster-Hilfe"
+                },
+                "label": {
+                    "message": "Cluster"
+                }
+            },
+            "authTitle": {
+                "message": "Authentifizierung"
+            }
+        },
+        "uploadFile": {
+            "filenamePlaceholder": {
+                "message": "Ziehen und Ablegen einer Datei oder Hochladen einer Datei"
+            }
         }
     },
     "toolbar": {
+        "message": "",
         "blueprint": {
             "filter": {
                 "version": {
@@ -424,6 +426,7 @@
         }
     },
     "customizations": {
+        "message": "",
         "user": {
             "title": {
                 "message": "Benutzer"
