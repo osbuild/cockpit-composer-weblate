@@ -1,1173 +1,1173 @@
 {
   "+5tJmw": {
-    "message": "Show details and more options"
+    "defaultMessage": "Show details and more options"
   },
   "+U6ozc": {
-    "message": "Type"
+    "defaultMessage": "Type"
   },
   "+au4ys": {
-    "message": "Image build in progress",
+    "defaultMessage": "Image build in progress",
     "description": "Image build status when process is in progress"
   },
   "+rGIg+": {
-    "message": "Selected components"
+    "defaultMessage": "Selected components"
   },
   "/f2U0m": {
-    "message": "{blueprint} Image creation is {queue}."
+    "defaultMessage": "{blueprint} Image creation is {queue}."
   },
   "0RKB20": {
-    "message": "Paste the contents of your public SSH key file here."
+    "defaultMessage": "Paste the contents of your public SSH key file here."
   },
   "1EXxHp": {
-    "message": "Back to {blueprint}"
+    "defaultMessage": "Back to {blueprint}"
   },
   "1JrFAf": {
-    "message": "{blueprint} Committing blueprint."
+    "defaultMessage": "{blueprint} Committing blueprint."
   },
   "1XYBqQ": {
-    "message": "Type",
+    "defaultMessage": "Type",
     "description": "A label for the type of image file was created"
   },
   "1ZgrhW": {
-    "message": "Role"
+    "defaultMessage": "Role"
   },
   "2/2yg+": {
-    "message": "Add"
+    "defaultMessage": "Add"
   },
   "2oRJfL": {
-    "message": "Are you sure you want to stop the build process for {blueprintName}?"
+    "defaultMessage": "Are you sure you want to stop the build process for {blueprintName}?"
   },
   "30d/i3": {
-    "message": "Are you sure you want to delete the image for {blueprintName}?"
+    "defaultMessage": "Are you sure you want to delete the image for {blueprintName}?"
   },
   "37P8mu": {
-    "message": "The values entered for password do not match."
+    "defaultMessage": "The values entered for password do not match."
   },
   "37Z5zj": {
-    "message": "Dependencies"
+    "defaultMessage": "Dependencies"
   },
   "3X47fT": {
-    "message": "Customizations"
+    "defaultMessage": "Customizations"
   },
   "40p537": {
-    "message": "An error occurred when saving the source. Check that the path is valid and try again."
+    "defaultMessage": "An error occurred when saving the source. Check that the path is valid and try again."
   },
   "47FYwb": {
-    "message": "Cancel"
+    "defaultMessage": "Cancel"
   },
   "4l6vz1": {
-    "message": "Copy"
+    "defaultMessage": "Copy"
   },
   "4pttvV": {
-    "message": "SSH key"
+    "defaultMessage": "SSH key"
   },
   "58AMgs": {
-    "message": "Upload failed",
+    "defaultMessage": "Upload failed",
     "description": "Upload status when process failed"
   },
   "5mEfSx": {
-    "message": "Type",
+    "defaultMessage": "Type",
     "description": "Type of source"
   },
   "5q3qC0": {
-    "message": "Download"
+    "defaultMessage": "Download"
   },
   "5sg7KC": {
-    "message": "Password"
+    "defaultMessage": "Password"
   },
   "6+HPX4": {
-    "message": "{count} total components"
+    "defaultMessage": "{count} total components"
   },
   "8HimVK": {
-    "message": "Confirm password"
+    "defaultMessage": "Confirm password"
   },
   "8JV1eg": {
-    "message": "Source actions"
+    "defaultMessage": "Source actions"
   },
   "8vEZxT": {
-    "message": "Add latest version"
+    "defaultMessage": "Add latest version"
   },
   "8vp7hD": {
-    "message": "Create user account"
+    "defaultMessage": "Create user account"
   },
   "97rY6L": {
-    "message": "No images have been created from this blueprint."
+    "defaultMessage": "No images have been created from this blueprint."
   },
   "9GzCxs": {
-    "message": "Logs",
+    "defaultMessage": "Logs",
     "description": "Log content that gets generated as part of the image creation process"
   },
   "9zOqa2": {
-    "message": "Export blueprint"
+    "defaultMessage": "Export blueprint"
   },
   "A+y/qn": {
-    "message": "Type {sourceType}"
+    "defaultMessage": "Type {sourceType}"
   },
   "AZSxPR": {
-    "message": "Packages"
+    "defaultMessage": "Packages"
   },
   "Aae1Ty": {
-    "message": "There are no components listed in the blueprint."
+    "defaultMessage": "There are no components listed in the blueprint."
   },
   "Ac9kyC": {
-    "message": "Size",
+    "defaultMessage": "Size",
     "description": "A label for the size of an image file"
   },
   "B+KgPL": {
-    "message": "Image uploads",
+    "defaultMessage": "Image uploads",
     "description": "A label for the section that lists the upload actions initiated by the user"
   },
   "BKTNN9": {
-    "message": "mirrorlist"
+    "defaultMessage": "mirrorlist"
   },
   "BWpuKl": {
-    "message": "Update"
+    "defaultMessage": "Update"
   },
   "Cjq7y/": {
-    "message": "{blueprint} Commit failed."
+    "defaultMessage": "{blueprint} Commit failed."
   },
   "Cos0fs": {
-    "message": "User account actions"
+    "defaultMessage": "User account actions"
   },
   "CvWvf+": {
-    "message": "actions"
+    "defaultMessage": "actions"
   },
   "E6oPLr": {
-    "message": "Image build pending",
+    "defaultMessage": "Image build pending",
     "description": "Image build status when process is waiting"
   },
   "E8zzIG": {
-    "message": "Release"
+    "defaultMessage": "Release"
   },
   "EKnBOw": {
-    "message": "Export as"
+    "defaultMessage": "Export as"
   },
   "F/h91l": {
-    "message": "Blueprint names cannot contain spaces or the characters: {invalidChar}"
+    "defaultMessage": "Blueprint names cannot contain spaces or the characters: {invalidChar}"
   },
   "FLRtby": {
-    "message": "Image build failed",
+    "defaultMessage": "Image build failed",
     "description": "Image build status when process failed"
   },
   "Fip4H8": {
-    "message": "Images"
+    "defaultMessage": "Images"
   },
   "FnbFs1": {
-    "message": "If no hostname is provided, the hostname will be determined by the OS."
+    "defaultMessage": "If no hostname is provided, the hostname will be determined by the OS."
   },
   "G/yZLu": {
-    "message": "Remove"
+    "defaultMessage": "Remove"
   },
   "GIx47G": {
-    "message": "{goBack}, or head over to the&nbsp;{homePage} to choose a new direction."
+    "defaultMessage": "{goBack}, or head over to the&nbsp;{homePage} to choose a new direction."
   },
   "Got+mi": {
-    "message": "Remove component from blueprint"
+    "defaultMessage": "Remove component from blueprint"
   },
   "HAlOn1": {
-    "message": "Name"
+    "defaultMessage": "Name"
   },
   "I3b4hn": {
-    "message": "Version"
+    "defaultMessage": "Version"
   },
   "IFGPaR": {
-    "message": "metalink"
+    "defaultMessage": "metalink"
   },
   "ISKH65": {
-    "message": "No dependencies"
+    "defaultMessage": "No dependencies"
   },
   "IZj6jp": {
-    "message": "The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto."
+    "defaultMessage": "The installation device is used by the RHEL for Edge Simplified Installer. It specifies which device the image will be installed onto."
   },
   "Ito++a": {
-    "message": "Component details"
+    "defaultMessage": "Component details"
   },
   "JDJoIZ": {
-    "message": "This action cannot be undone."
+    "defaultMessage": "This action cannot be undone."
   },
   "JMac37": {
-    "message": "Show all"
+    "defaultMessage": "Show all"
   },
   "JS2thV": {
-    "message": "An error occurred while trying to get sources."
+    "defaultMessage": "An error occurred while trying to get sources."
   },
   "JvAfJL": {
-    "message": "Create blueprint"
+    "defaultMessage": "Create blueprint"
   },
   "K/cUVZ": {
-    "message": "Started",
+    "defaultMessage": "Started",
     "description": "A label for the date that an image upload was started"
   },
   "K3r6DQ": {
-    "message": "Delete"
+    "defaultMessage": "Delete"
   },
   "K5gJ4I": {
-    "message": "Actions",
+    "defaultMessage": "Actions",
     "description": "A label for the menu that displays the actions available"
   },
   "KN7zKn": {
-    "message": "Error"
+    "defaultMessage": "Error"
   },
   "KVL+St": {
-    "message": "An error occurred while trying to get blueprint contents."
+    "defaultMessage": "An error occurred while trying to get blueprint contents."
   },
   "Lv0zJu": {
-    "message": "Details"
+    "defaultMessage": "Details"
   },
   "M+T+k5": {
-    "message": "Server administrator"
+    "defaultMessage": "Server administrator"
   },
   "MJhDhz": {
-    "message": "Edit hostname"
+    "defaultMessage": "Edit hostname"
   },
   "MhK+00": {
-    "message": "Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen."
+    "defaultMessage": "Valid characters for hostname are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen."
   },
   "MyIJbr": {
-    "message": "Contents"
+    "defaultMessage": "Contents"
   },
   "N26JOi": {
-    "message": "{blueprint} Image creation has been added to the {queue}."
+    "defaultMessage": "{blueprint} Image creation has been added to the {queue}."
   },
   "NHFedT": {
-    "message": "The service osbuild-composer was not started."
+    "defaultMessage": "The service osbuild-composer was not started."
   },
   "NSDMOB": {
-    "message": "Blueprint names cannot contain spaces or the character: {invalidChar}"
+    "defaultMessage": "Blueprint names cannot contain spaces or the character: {invalidChar}"
   },
   "P1obxx": {
-    "message": "This source name already exists."
+    "defaultMessage": "This source name already exists."
   },
   "PANWvL": {
-    "message": "The fields marked with {val} are required."
+    "defaultMessage": "The fields marked with {val} are required."
   },
   "Py189G": {
-    "message": "Security"
+    "defaultMessage": "Security"
   },
   "Q8Qw5B": {
-    "message": "Description"
+    "defaultMessage": "Description"
   },
   "QRccCM": {
-    "message": "Page not found"
+    "defaultMessage": "Page not found"
   },
   "Qtf9Pv": {
-    "message": "Check GPG key"
+    "defaultMessage": "Check GPG key"
   },
   "RNMNBp": {
-    "message": "A blueprint name is required."
+    "defaultMessage": "A blueprint name is required."
   },
   "SIfZl2": {
-    "message": "Image build complete",
+    "defaultMessage": "Image build complete",
     "description": "Image build status when process is finished"
   },
   "SVwJTM": {
-    "message": "Export"
+    "defaultMessage": "Export"
   },
   "T7Ry38": {
-    "message": "Message"
+    "defaultMessage": "Message"
   },
   "TPv12m": {
-    "message": "{blueprint} Image creation has {queue}."
+    "defaultMessage": "{blueprint} Image creation has {queue}."
   },
   "U4wZ9a": {
-    "message": "Server admin checkbox"
+    "defaultMessage": "Server admin checkbox"
   },
   "V7qFHp": {
-    "message": "Remove from blueprint"
+    "defaultMessage": "Remove from blueprint"
   },
   "VJ1Ofk": {
-    "message": "Specify a new blueprint name."
+    "defaultMessage": "Specify a new blueprint name."
   },
   "VcpIj8": {
-    "message": "No blueprints"
+    "defaultMessage": "No blueprints"
   },
   "VvNSPf": {
-    "message": "Saving source"
+    "defaultMessage": "Saving source"
   },
   "VzWTJu": {
-    "message": "Blueprints"
+    "defaultMessage": "Blueprints"
   },
   "VzzYJk": {
-    "message": "Create"
+    "defaultMessage": "Create"
   },
   "W42s+Y": {
-    "message": "Are you sure you want to delete the blueprint {name}?"
+    "defaultMessage": "Are you sure you want to delete the blueprint {name}?"
   },
   "WgnzEk": {
-    "message": "The user {userName} is not permitted to start services."
+    "defaultMessage": "The user {userName} is not permitted to start services."
   },
   "X5Q310": {
-    "message": "Hide details"
+    "defaultMessage": "Hide details"
   },
   "X7VzHG": {
-    "message": "Enter valid device node such as /dev/sda1"
+    "defaultMessage": "Enter valid device node such as /dev/sda1"
   },
   "XVUE2S": {
-    "message": "Upload complete",
+    "defaultMessage": "Upload complete",
     "description": "Upload status when process is finished"
   },
   "Xnr7w+": {
-    "message": "Delete user account"
+    "defaultMessage": "Delete user account"
   },
   "XuXnjA": {
-    "message": "{blueprint} Blueprint changes are committed."
+    "defaultMessage": "{blueprint} Blueprint changes are committed."
   },
   "Y8ROGQ": {
-    "message": "Blueprint names cannot contain the characters: {invalidChar}"
+    "defaultMessage": "Blueprint names cannot contain the characters: {invalidChar}"
   },
   "YA7Jsl": {
-    "message": "Sources are used for resolving blueprint dependencies and for composing images. When adding custom sources you must make sure that the packages in the source do not conflict with any other package sources, otherwise resolving dependencies and composing images will fail."
+    "defaultMessage": "Sources are used for resolving blueprint dependencies and for composing images. When adding custom sources you must make sure that the packages in the source do not conflict with any other package sources, otherwise resolving dependencies and composing images will fail."
   },
   "YDMrKK": {
-    "message": "Users"
+    "defaultMessage": "Users"
   },
   "YcwpgZ": {
-    "message": "Modify your filter criteria to get results."
+    "defaultMessage": "Modify your filter criteria to get results."
   },
   "aA8bDw": {
-    "message": "Text"
+    "defaultMessage": "Text"
   },
   "aJxdzZ": {
-    "message": "Select one"
+    "defaultMessage": "Select one"
   },
   "bWjdfa": {
-    "message": "URL"
+    "defaultMessage": "URL"
   },
   "bdBO1o": {
-    "message": "details"
+    "defaultMessage": "details"
   },
   "bio3a7": {
-    "message": "Manage sources",
+    "defaultMessage": "Manage sources",
     "description": "User action for displaying the list of source repositories"
   },
   "cBc0mu": {
-    "message": "Installation device help"
+    "defaultMessage": "Installation device help"
   },
   "cpW2uO": {
-    "message": "Blueprint"
+    "defaultMessage": "Blueprint"
   },
   "customizations.user.title": {
-    "message": "Users"
+    "defaultMessage": "Users"
   },
   "dO/Asa": {
-    "message": "Name",
+    "defaultMessage": "Name",
     "description": "Name of source"
   },
   "ejDbk/": {
-    "message": "Stopping",
+    "defaultMessage": "Stopping",
     "description": "Image build status when user selected to end the process"
   },
   "ey4Emq": {
-    "message": "Logs",
+    "defaultMessage": "Logs",
     "description": "Log content that gets generated as part of the upload process"
   },
   "f3funQ": {
-    "message": "Installation device"
+    "defaultMessage": "Installation device"
   },
   "fC003Y": {
-    "message": "Component options"
+    "defaultMessage": "Component options"
   },
   "fD/10F": {
-    "message": "Image building service is not active"
+    "defaultMessage": "Image building service is not active"
   },
   "fltwyt": {
-    "message": "No log available"
+    "defaultMessage": "No log available"
   },
   "futKXS": {
-    "message": "Removing source"
+    "defaultMessage": "Removing source"
   },
   "griaXu": {
-    "message": "This component has no dependencies."
+    "defaultMessage": "This component has no dependencies."
   },
   "hFrCaW": {
-    "message": "Upload in progress",
+    "defaultMessage": "Upload in progress",
     "description": "Upload status when process is in progress"
   },
   "i/jBY4": {
-    "message": "The page you're looking for does not exist or an another error occurred."
+    "defaultMessage": "The page you're looking for does not exist or an another error occurred."
   },
   "i7KMlN": {
-    "message": "Empty blueprint"
+    "defaultMessage": "Empty blueprint"
   },
   "iFsDVR": {
-    "message": "Loading"
+    "defaultMessage": "Loading"
   },
   "iMmT22": {
-    "message": "The user name can only consist of letters from a-z, digits, dots, dashes and underscores."
+    "defaultMessage": "The user name can only consist of letters from a-z, digits, dots, dashes and underscores."
   },
   "iYXTZF": {
-    "message": "Blueprint names cannot contain spaces."
+    "defaultMessage": "Blueprint names cannot contain spaces."
   },
   "imoqgZ": {
-    "message": "Blueprint names cannot contain the character: {invalidChar}"
+    "defaultMessage": "Blueprint names cannot contain the character: {invalidChar}"
   },
   "ip8ZAd": {
-    "message": "Source path",
+    "defaultMessage": "Source path",
     "description": "The path or url to the source repository"
   },
   "jKKg2o": {
-    "message": "Clear all filters"
+    "defaultMessage": "Clear all filters"
   },
   "jvo0vs": {
-    "message": "Save"
+    "defaultMessage": "Save"
   },
   "kBfhZh": {
-    "message": "This source path already exists."
+    "defaultMessage": "This source path already exists."
   },
   "kUbXea": {
-    "message": "Edit user account"
+    "defaultMessage": "Edit user account"
   },
   "kbaA+5": {
-    "message": "Check SSL certificate"
+    "defaultMessage": "Check SSL certificate"
   },
   "lQZbCb": {
-    "message": "This user name already exists."
+    "defaultMessage": "This user name already exists."
   },
   "llmDU9": {
-    "message": "yum repository"
+    "defaultMessage": "yum repository"
   },
   "mA1RDm": {
-    "message": "Edit source"
+    "defaultMessage": "Edit source"
   },
   "mOFG3K": {
-    "message": "Start"
+    "defaultMessage": "Start"
   },
   "mOvhC0": {
-    "message": "No images"
+    "defaultMessage": "No images"
   },
   "mOvlDe": {
-    "message": "Edit description"
+    "defaultMessage": "Edit description"
   },
   "nizegm": {
-    "message": "home page"
+    "defaultMessage": "home page"
   },
   "o7nzDs": {
-    "message": "User name"
+    "defaultMessage": "User name"
   },
   "oKNN04": {
-    "message": "This system does not have any valid subscriptions."
+    "defaultMessage": "This system does not have any valid subscriptions."
   },
   "orvpWh": {
-    "message": "Go back"
+    "defaultMessage": "Go back"
   },
   "ox304v": {
-    "message": "An error occurred"
+    "defaultMessage": "An error occurred"
   },
   "oypk76": {
-    "message": "Remove source"
+    "defaultMessage": "Remove source"
   },
   "pWwsxm": {
-    "message": "Delete image"
+    "defaultMessage": "Delete image"
   },
   "pel3Pk": {
-    "message": "Sources",
+    "defaultMessage": "Sources",
     "description": "Sources provide the contents from which components are selected"
   },
   "q/uwLT": {
-    "message": "Stop"
+    "defaultMessage": "Stop"
   },
   "qE3pHt": {
-    "message": "Oups, something went wrong"
+    "defaultMessage": "Oups, something went wrong"
   },
   "qe8aJj": {
-    "message": "Image name",
+    "defaultMessage": "Image name",
     "description": "The name given by the user for an image"
   },
   "qrHpeh": {
-    "message": "Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats."
+    "defaultMessage": "Create a blueprint to define the contents that will be included in the images you create. Images can be produced in a variety of output formats."
   },
   "qyJtWy": {
-    "message": "Show less"
+    "defaultMessage": "Show less"
   },
   "rO0j0f": {
-    "message": "Upload pending",
+    "defaultMessage": "Upload pending",
     "description": "Upload status when process is waiting"
   },
   "rbrahO": {
-    "message": "Close"
+    "defaultMessage": "Close"
   },
   "rhDqUf": {
-    "message": "The build process cannot resume after it stops."
+    "defaultMessage": "The build process cannot resume after it stops."
   },
   "rwqR5K": {
-    "message": "Back to blueprints"
+    "defaultMessage": "Back to blueprints"
   },
   "sDLgb+": {
-    "message": "Update source"
+    "defaultMessage": "Update source"
   },
   "sXuAh9": {
-    "message": "Undo last change"
+    "defaultMessage": "Undo last change"
   },
   "scq+Oe": {
-    "message": "Edit installation device"
+    "defaultMessage": "Edit installation device"
   },
   "toolbar.blueprint.filter.aria": {
-    "message": "Blueprint filter select"
+    "defaultMessage": "Blueprint filter select"
   },
   "toolbar.blueprint.filter.name": {
-    "message": "Name"
+    "defaultMessage": "Name"
   },
   "toolbar.blueprint.filter.release": {
-    "message": "Release"
+    "defaultMessage": "Release"
   },
   "toolbar.blueprint.filter.version": {
-    "message": "Version"
+    "defaultMessage": "Version"
   },
   "toolbar.blueprint.search.aria": {
-    "message": "Blueprint search input"
+    "defaultMessage": "Blueprint search input"
   },
   "toolbar.blueprints.search.aria": {
-    "message": "Blueprints search input"
+    "defaultMessage": "Blueprints search input"
   },
   "toolbar.blueprints.sort.asc": {
-    "message": "Sort blueprints ascending"
+    "defaultMessage": "Sort blueprints ascending"
   },
   "toolbar.blueprints.sort.desc": {
-    "message": "Sort blueprints descending"
+    "defaultMessage": "Sort blueprints descending"
   },
   "uA+F/o": {
-    "message": "Troubleshoot"
+    "defaultMessage": "Troubleshoot"
   },
   "uFMn+q": {
-    "message": "System source",
+    "defaultMessage": "System source",
     "description": "System sources are configured repositories that were found on the host machine"
   },
   "uPDgth": {
-    "message": "Hostname"
+    "defaultMessage": "Hostname"
   },
   "vr2saa": {
-    "message": "{blueprint} Image creation failed."
+    "defaultMessage": "{blueprint} Image creation failed."
   },
   "wV8yqy": {
-    "message": "Stop build"
+    "defaultMessage": "Stop build"
   },
   "wWSLJz": {
-    "message": "Apply change"
+    "defaultMessage": "Apply change"
   },
   "wizard.aws.accessKey.label": {
-    "message": "Access key ID"
+    "defaultMessage": "Access key ID"
   },
   "wizard.aws.accessKey.popoverAria": {
-    "message": "Access key help"
+    "defaultMessage": "Access key help"
   },
   "wizard.aws.accessKey.popoverBody": {
-    "message": "You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console."
+    "defaultMessage": "You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console."
   },
   "wizard.aws.authTitle": {
-    "message": "Authentication"
+    "defaultMessage": "Authentication"
   },
   "wizard.aws.bucket.label": {
-    "message": "Amazon S3 bucket"
+    "defaultMessage": "Amazon S3 bucket"
   },
   "wizard.aws.bucket.popoverAria": {
-    "message": "S3 bucket help"
+    "defaultMessage": "S3 bucket help"
   },
   "wizard.aws.bucket.popoverBody": {
-    "message": "Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console."
+    "defaultMessage": "Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console."
   },
   "wizard.aws.destTitle": {
-    "message": "Destination"
+    "defaultMessage": "Destination"
   },
   "wizard.aws.imageName.label": {
-    "message": "Image name"
+    "defaultMessage": "Image name"
   },
   "wizard.aws.imageName.popoverAria": {
-    "message": "Image name help"
+    "defaultMessage": "Image name help"
   },
   "wizard.aws.imageName.popoverBody": {
-    "message": "Provide a file name to be used for the image file that will be uploaded."
+    "defaultMessage": "Provide a file name to be used for the image file that will be uploaded."
   },
   "wizard.aws.region.label": {
-    "message": "AWS region"
+    "defaultMessage": "AWS region"
   },
   "wizard.aws.region.popoverAria": {
-    "message": "Region help"
+    "defaultMessage": "Region help"
   },
   "wizard.aws.region.popoverBody": {
-    "message": "Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists."
+    "defaultMessage": "Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists."
   },
   "wizard.aws.secretAccessKey.label": {
-    "message": "Secret access key"
+    "defaultMessage": "Secret access key"
   },
   "wizard.aws.secretAccessKey.popoverAria": {
-    "message": "Secret access key help"
+    "defaultMessage": "Secret access key help"
   },
   "wizard.aws.secretAccessKey.popoverBody": {
-    "message": "You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console."
+    "defaultMessage": "You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console."
   },
   "wizard.aws.title": {
-    "message": "Upload to AWS"
+    "defaultMessage": "Upload to AWS"
   },
   "wizard.azure.authTitle": {
-    "message": "Authentication"
+    "defaultMessage": "Authentication"
   },
   "wizard.azure.destTitle": {
-    "message": "Destination"
+    "defaultMessage": "Destination"
   },
   "wizard.azure.imageName.label": {
-    "message": "Image name"
+    "defaultMessage": "Image name"
   },
   "wizard.azure.imageName.popoverAria": {
-    "message": "Image name help"
+    "defaultMessage": "Image name help"
   },
   "wizard.azure.imageName.popoverBody": {
-    "message": "Provide a file name to be used for the image file that will be uploaded."
+    "defaultMessage": "Provide a file name to be used for the image file that will be uploaded."
   },
   "wizard.azure.storageAccessKey.label": {
-    "message": "Storage access key"
+    "defaultMessage": "Storage access key"
   },
   "wizard.azure.storageAccessKey.popoverAria": {
-    "message": "Storage access key help"
+    "defaultMessage": "Storage access key help"
   },
   "wizard.azure.storageAccessKey.popoverBody": {
-    "message": "Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
+    "defaultMessage": "Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
   },
   "wizard.azure.storageAccount.label": {
-    "message": "Storage account"
+    "defaultMessage": "Storage account"
   },
   "wizard.azure.storageAccount.popoverAria": {
-    "message": "Storage account help"
+    "defaultMessage": "Storage account help"
   },
   "wizard.azure.storageAccount.popoverBody": {
-    "message": "Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
+    "defaultMessage": "Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
   },
   "wizard.azure.storageContainer.label": {
-    "message": "Storage container"
+    "defaultMessage": "Storage container"
   },
   "wizard.azure.storageContainer.popoverAria": {
-    "message": "Storage container help"
+    "defaultMessage": "Storage container help"
   },
   "wizard.azure.storageContainer.popoverBody": {
-    "message": "Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
+    "defaultMessage": "Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal."
   },
   "wizard.azure.title": {
-    "message": "Upload to Azure"
+    "defaultMessage": "Upload to Azure"
   },
   "wizard.blueprintName.name": {
-    "message": "blueprint"
+    "defaultMessage": "blueprint"
   },
   "wizard.blueprintName.popover.aria": {
-    "message": "Process length help"
+    "defaultMessage": "Process length help"
   },
   "wizard.blueprintName.popover.content": {
-    "message": "This process can take a while. Images are built in the order they are started."
+    "defaultMessage": "This process can take a while. Images are built in the order they are started."
   },
   "wizard.createImage": {
-    "message": "Create image"
+    "defaultMessage": "Create image"
   },
   "wizard.customizations.buttons.add": {
-    "message": "Add user"
+    "defaultMessage": "Add user"
   },
   "wizard.customizations.buttons.remove": {
-    "message": "Remove user"
+    "defaultMessage": "Remove user"
   },
   "wizard.customizations.buttons.removeAll": {
-    "message": "Remove all users"
+    "defaultMessage": "Remove all users"
   },
   "wizard.customizations.hostname.helperText": {
-    "message": "If no hostname is provided, the hostname will be determined by the OS."
+    "defaultMessage": "If no hostname is provided, the hostname will be determined by the OS."
   },
   "wizard.customizations.hostname.label": {
-    "message": "Hostname"
+    "defaultMessage": "Hostname"
   },
   "wizard.customizations.hostname.validationError": {
-    "message": "Valid characters are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen. Each element of the hostname must be from 1 to 63 characters long and the entire hostname can be at most 253 characters long."
+    "defaultMessage": "Valid characters are letters from a to z, the digits from 0 to 9, and the hyphen (-). A hostname may not start with a hyphen. Each element of the hostname must be from 1 to 63 characters long and the entire hostname can be at most 253 characters long."
   },
   "wizard.customizations.installDevice.helperText": {
-    "message": "Enter valid device node such as /dev/sda1"
+    "defaultMessage": "Enter valid device node such as /dev/sda1"
   },
   "wizard.customizations.installDevice.label": {
-    "message": "Installation Device"
+    "defaultMessage": "Installation Device"
   },
   "wizard.customizations.installDevice.popoverAria": {
-    "message": "Installation Device help"
+    "defaultMessage": "Installation Device help"
   },
   "wizard.customizations.installDevice.popoverBody": {
-    "message": "Specify which device the image will be installed onto."
+    "defaultMessage": "Specify which device the image will be installed onto."
   },
   "wizard.customizations.password.label": {
-    "message": "Password"
+    "defaultMessage": "Password"
   },
   "wizard.customizations.serverAdmin.label": {
-    "message": "Server administrator"
+    "defaultMessage": "Server administrator"
   },
   "wizard.customizations.sshKey.label": {
-    "message": "SSH key"
+    "defaultMessage": "SSH key"
   },
   "wizard.customizations.systemTitle": {
-    "message": "System"
+    "defaultMessage": "System"
   },
   "wizard.customizations.title": {
-    "message": "Customizations"
+    "defaultMessage": "Customizations"
   },
   "wizard.customizations.username.label": {
-    "message": "Username"
+    "defaultMessage": "Username"
   },
   "wizard.customizations.usersTitle": {
-    "message": "Users"
+    "defaultMessage": "Users"
   },
   "wizard.imageOutput.imageSize.inputHelp": {
-    "message": "Minimum image size is {size}GB."
+    "defaultMessage": "Minimum image size is {size}GB."
   },
   "wizard.imageOutput.imageSize.label": {
-    "message": "Image Size"
+    "defaultMessage": "Image Size"
   },
   "wizard.imageOutput.imageSize.popoverAria": {
-    "message": "Image size help"
+    "defaultMessage": "Image size help"
   },
   "wizard.imageOutput.imageSize.popoverBody": {
-    "message": "Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size."
+    "defaultMessage": "Set the size that you want the image to be when instantiated. The total package size and target destination of your image should be considered when setting the image size."
   },
   "wizard.imageOutput.selectType": {
-    "message": "Select output type"
+    "defaultMessage": "Select output type"
   },
   "wizard.imageOutput.title": {
-    "message": "Image output"
+    "defaultMessage": "Image output"
   },
   "wizard.imageOutput.type": {
-    "message": "Image output type"
+    "defaultMessage": "Image output type"
   },
   "wizard.imageOutput.uploadAWS": {
-    "message": "Upload to AWS"
+    "defaultMessage": "Upload to AWS"
   },
   "wizard.imageOutput.uploadAWS.popoverAria": {
-    "message": "Upload to AWS help"
+    "defaultMessage": "Upload to AWS help"
   },
   "wizard.imageOutput.uploadAWS.popoverBody": {
-    "message": "Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}."
+    "defaultMessage": "Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}."
   },
   "wizard.imageOutput.uploadAzure": {
-    "message": "Upload to Azure"
+    "defaultMessage": "Upload to Azure"
   },
   "wizard.imageOutput.uploadAzure.popoverAria": {
-    "message": "Upload to Azure help"
+    "defaultMessage": "Upload to Azure help"
   },
   "wizard.imageOutput.uploadAzure.popoverBody": {
-    "message": "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
+    "defaultMessage": "Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete and the upload action is successful, the image file is available in the Storage account and Blob container that you specified."
   },
   "wizard.imageOutput.uploadOCI": {
-    "message": "Upload to OCI"
+    "defaultMessage": "Upload to OCI"
   },
   "wizard.imageOutput.uploadOCI.popoverAria": {
-    "message": "Upload to OCI help"
+    "defaultMessage": "Upload to OCI help"
   },
   "wizard.imageOutput.uploadOCI.popoverBody": {
-    "message": "Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}."
+    "defaultMessage": "Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}."
   },
   "wizard.imageOutput.uploadVMWare": {
-    "message": "Upload to VMWare"
+    "defaultMessage": "Upload to VMWare"
   },
   "wizard.imageOutput.uploadVMWare.popoverAria": {
-    "message": "Upload to VMWare help"
+    "defaultMessage": "Upload to VMWare help"
   },
   "wizard.imageOutput.uploadVMWare.popoverBody": {
-    "message": "Image Builder can upload images you create to VMWare vSphere. When the image build is complete and the upload action is successful, the image file is available in the Cluster on the vSphere instance that you specified."
+    "defaultMessage": "Image Builder can upload images you create to VMWare vSphere. When the image build is complete and the upload action is successful, the image file is available in the Cluster on the vSphere instance that you specified."
   },
   "wizard.oci.authTitle": {
-    "message": "Authentication"
+    "defaultMessage": "Authentication"
   },
   "wizard.oci.bucket.label": {
-    "message": "OCI bucket"
+    "defaultMessage": "OCI bucket"
   },
   "wizard.oci.bucket.popoverAria": {
-    "message": "OCI bucket help"
+    "defaultMessage": "OCI bucket help"
   },
   "wizard.oci.bucket.popoverBody": {
-    "message": "Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console."
+    "defaultMessage": "Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console."
   },
   "wizard.oci.bucketCompartment.label": {
-    "message": "Bucket compartment"
+    "defaultMessage": "Bucket compartment"
   },
   "wizard.oci.bucketNamespace.label": {
-    "message": "Bucket namespace"
+    "defaultMessage": "Bucket namespace"
   },
   "wizard.oci.bucketRegion.label": {
-    "message": "Bucket region"
+    "defaultMessage": "Bucket region"
   },
   "wizard.oci.bucketTenancy.label": {
-    "message": "Bucket tenancy"
+    "defaultMessage": "Bucket tenancy"
   },
   "wizard.oci.compartment.popoverAria": {
-    "message": "Bucket compartment help"
+    "defaultMessage": "Bucket compartment help"
   },
   "wizard.oci.compartment.popoverBody": {
-    "message": "Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details."
+    "defaultMessage": "Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details."
   },
   "wizard.oci.destTitle": {
-    "message": "Destination"
+    "defaultMessage": "Destination"
   },
   "wizard.oci.fingerprint.label": {
-    "message": "Fingerprint"
+    "defaultMessage": "Fingerprint"
   },
   "wizard.oci.fingerprint.popoverAria": {
-    "message": "Fingerprint help"
+    "defaultMessage": "Fingerprint help"
   },
   "wizard.oci.fingerprint.popoverBody": {
-    "message": "You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
+    "defaultMessage": "You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
   },
   "wizard.oci.imageName.label": {
-    "message": "Image name"
+    "defaultMessage": "Image name"
   },
   "wizard.oci.imageName.popoverAria": {
-    "message": "Image name help"
+    "defaultMessage": "Image name help"
   },
   "wizard.oci.imageName.popoverBody": {
-    "message": "Provide a file name to be used for the image file that will be uploaded."
+    "defaultMessage": "Provide a file name to be used for the image file that will be uploaded."
   },
   "wizard.oci.namespace.popoverAria": {
-    "message": "Bucket namespace help"
+    "defaultMessage": "Bucket namespace help"
   },
   "wizard.oci.namespace.popoverBody": {
-    "message": "Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details."
+    "defaultMessage": "Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details."
   },
   "wizard.oci.privateKey.label": {
-    "message": "Private key"
+    "defaultMessage": "Private key"
   },
   "wizard.oci.privateKey.popoverAria": {
-    "message": "Private key help"
+    "defaultMessage": "Private key help"
   },
   "wizard.oci.privateKey.popoverBody": {
-    "message": "You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
+    "defaultMessage": "You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
   },
   "wizard.oci.region.popoverAria": {
-    "message": "Bucket region help"
+    "defaultMessage": "Bucket region help"
   },
   "wizard.oci.region.popoverBody": {
-    "message": "Provide the region of the Bucket region your uploading to. You can find the region in the bucket details."
+    "defaultMessage": "Provide the region of the Bucket region your uploading to. You can find the region in the bucket details."
   },
   "wizard.oci.tenancy.popoverAria": {
-    "message": "Bucket tenancy help"
+    "defaultMessage": "Bucket tenancy help"
   },
   "wizard.oci.tenancy.popoverBody": {
-    "message": "Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details."
+    "defaultMessage": "Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details."
   },
   "wizard.oci.title": {
-    "message": "Upload to OCI"
+    "defaultMessage": "Upload to OCI"
   },
   "wizard.oci.userOCID.label": {
-    "message": "User OCID"
+    "defaultMessage": "User OCID"
   },
   "wizard.oci.userOCID.popoverAria": {
-    "message": "User ocid help"
+    "defaultMessage": "User ocid help"
   },
   "wizard.oci.userOCID.popoverBody": {
-    "message": "You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
+    "defaultMessage": "You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console."
   },
   "wizard.ostree.parentCommit.label": {
-    "message": "Parent"
+    "defaultMessage": "Parent"
   },
   "wizard.ostree.parentCommit.popoverAria": {
-    "message": "Parent help"
+    "defaultMessage": "Parent help"
   },
   "wizard.ostree.parentCommit.popoverBody": {
-    "message": "Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref."
+    "defaultMessage": "Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref."
   },
   "wizard.ostree.ref.helpText": {
-    "message": "Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number."
+    "defaultMessage": "Valid characters for ref are letters from a to z, the digits from 0 to 9, the hyphen (-), the underscore (_), the period (.), and the forward slash (/). A ref must start with a letter, a number, or an underscore. Slashes must also be followed by a letter or number."
   },
   "wizard.ostree.ref.label": {
-    "message": "Ref"
+    "defaultMessage": "Ref"
   },
   "wizard.ostree.ref.popoverAria": {
-    "message": "Ref help"
+    "defaultMessage": "Ref help"
   },
   "wizard.ostree.ref.popoverBody": {
-    "message": "Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used."
+    "defaultMessage": "Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used."
   },
   "wizard.ostree.repoURL.label": {
-    "message": "Repository URL"
+    "defaultMessage": "Repository URL"
   },
   "wizard.ostree.repoURL.popoverAria": {
-    "message": "Repository URL help"
+    "defaultMessage": "Repository URL help"
   },
   "wizard.ostree.repoURL.popoverBody": {
-    "message": "Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from."
+    "defaultMessage": "Provide the URL of the upstream repository. This repository is where the parent OSTree commit will be pulled from."
   },
   "wizard.ostree.title": {
-    "message": "OSTree settings"
+    "defaultMessage": "OSTree settings"
   },
   "wizard.ostree.validationError": {
-    "message": "Either the parent commit or repository url can be specified. Not both."
+    "defaultMessage": "Either the parent commit or repository url can be specified. Not both."
   },
   "wizard.packages.addAll": {
-    "message": "Add all"
+    "defaultMessage": "Add all"
   },
   "wizard.packages.addSelected": {
-    "message": "Add selected"
+    "defaultMessage": "Add selected"
   },
   "wizard.packages.availablePackages": {
-    "message": "Available packages"
+    "defaultMessage": "Available packages"
   },
   "wizard.packages.availablePackagesSearch": {
-    "message": "Search button for available packages"
+    "defaultMessage": "Search button for available packages"
   },
   "wizard.packages.chosenPackages": {
-    "message": "Chosen packages"
+    "defaultMessage": "Chosen packages"
   },
   "wizard.packages.clearAvailablePackagesSearch": {
-    "message": "Clear available packages search"
+    "defaultMessage": "Clear available packages search"
   },
   "wizard.packages.clearChosenPackagesSearch": {
-    "message": "Clear chosen packages search"
+    "defaultMessage": "Clear chosen packages search"
   },
   "wizard.packages.info": {
-    "message": "Add optional additional packages to your image by searching available packages."
+    "defaultMessage": "Add optional additional packages to your image by searching available packages."
   },
   "wizard.packages.loadAdditionalPackages": {
-    "message": "Load additional packages"
+    "defaultMessage": "Load additional packages"
   },
   "wizard.packages.loadingAdditionalPackages": {
-    "message": "Loading additional packages..."
+    "defaultMessage": "Loading additional packages..."
   },
   "wizard.packages.noPackagesAdded": {
-    "message": "No packages added"
+    "defaultMessage": "No packages added"
   },
   "wizard.packages.noPackagesFound": {
-    "message": "No packages found"
+    "defaultMessage": "No packages found"
   },
   "wizard.packages.removeAll": {
-    "message": "Remove all"
+    "defaultMessage": "Remove all"
   },
   "wizard.packages.removeSelected": {
-    "message": "Remove selected"
+    "defaultMessage": "Remove selected"
   },
   "wizard.packages.searchAbove": {
-    "message": "Search above to add additional{br}packages to your image"
+    "defaultMessage": "Search above to add additional{br}packages to your image"
   },
   "wizard.packages.searchPackages": {
-    "message": "Search for a package"
+    "defaultMessage": "Search for a package"
   },
   "wizard.packages.selectedPackages": {
-    "message": "Selected packages"
+    "defaultMessage": "Selected packages"
   },
   "wizard.packages.selectorControls": {
-    "message": "Selector controls"
+    "defaultMessage": "Selector controls"
   },
   "wizard.packages.title": {
-    "message": "Packages"
+    "defaultMessage": "Packages"
   },
   "wizard.review.accessKeyID": {
-    "message": "Access key ID"
+    "defaultMessage": "Access key ID"
   },
   "wizard.review.admin": {
-    "message": "Administrator"
+    "defaultMessage": "Administrator"
   },
   "wizard.review.amazonS3Bucket": {
-    "message": "Amazon S3 bucket"
+    "defaultMessage": "Amazon S3 bucket"
   },
   "wizard.review.awsRegion": {
-    "message": "AWS region"
+    "defaultMessage": "AWS region"
   },
   "wizard.review.blueprintName": {
-    "message": "Blueprint name"
+    "defaultMessage": "Blueprint name"
   },
   "wizard.review.bucketCompartment": {
-    "message": "Bucket compartment"
+    "defaultMessage": "Bucket compartment"
   },
   "wizard.review.bucketNamespace": {
-    "message": "Bucket namespace"
+    "defaultMessage": "Bucket namespace"
   },
   "wizard.review.bucketRegion": {
-    "message": "Bucket region"
+    "defaultMessage": "Bucket region"
   },
   "wizard.review.bucketTenancy": {
-    "message": "Bucket tenancy"
+    "defaultMessage": "Bucket tenancy"
   },
   "wizard.review.cluster": {
-    "message": "Cluster"
+    "defaultMessage": "Cluster"
   },
   "wizard.review.createImageTooltip": {
-    "message": "An image can only be created after saving the blueprint"
+    "defaultMessage": "An image can only be created after saving the blueprint"
   },
   "wizard.review.creatingImage": {
-    "message": "Creating image"
+    "defaultMessage": "Creating image"
   },
   "wizard.review.customizations.title": {
-    "message": "Customizations"
+    "defaultMessage": "Customizations"
   },
   "wizard.review.dataCenter": {
-    "message": "Data center"
+    "defaultMessage": "Data center"
   },
   "wizard.review.dataStore": {
-    "message": "Data store"
+    "defaultMessage": "Data store"
   },
   "wizard.review.dependencies": {
-    "message": "Dependencies"
+    "defaultMessage": "Dependencies"
   },
   "wizard.review.fingerprint": {
-    "message": "Fingerprint"
+    "defaultMessage": "Fingerprint"
   },
   "wizard.review.host": {
-    "message": "Host"
+    "defaultMessage": "Host"
   },
   "wizard.review.hostname": {
-    "message": "Hostname"
+    "defaultMessage": "Hostname"
   },
   "wizard.review.imageName": {
-    "message": "Image name"
+    "defaultMessage": "Image name"
   },
   "wizard.review.imageSize": {
-    "message": "Image size"
+    "defaultMessage": "Image size"
   },
   "wizard.review.installationDevice": {
-    "message": "Installation device"
+    "defaultMessage": "Installation device"
   },
   "wizard.review.ociBucket": {
-    "message": "OCI bucket"
+    "defaultMessage": "OCI bucket"
   },
   "wizard.review.outputType": {
-    "message": "Output type"
+    "defaultMessage": "Output type"
   },
   "wizard.review.packages": {
-    "message": "Packages"
+    "defaultMessage": "Packages"
   },
   "wizard.review.packages.title": {
-    "message": "Packages"
+    "defaultMessage": "Packages"
   },
   "wizard.review.password": {
-    "message": "Password"
+    "defaultMessage": "Password"
   },
   "wizard.review.privateKey": {
-    "message": "Private key filename"
+    "defaultMessage": "Private key filename"
   },
   "wizard.review.review": {
-    "message": "Review the information and click \"Save blueprint\" to save the customizations and then click \"Create image\" to create the image."
+    "defaultMessage": "Review the information and click \"Save blueprint\" to save the customizations and then click \"Create image\" to create the image."
   },
   "wizard.review.saveBlueprint": {
-    "message": "Save blueprint"
+    "defaultMessage": "Save blueprint"
   },
   "wizard.review.secretAccessKey": {
-    "message": "Secret access key"
+    "defaultMessage": "Secret access key"
   },
   "wizard.review.sshKey": {
-    "message": "SSH key"
+    "defaultMessage": "SSH key"
   },
   "wizard.review.storageAccessKey": {
-    "message": "Storage access key"
+    "defaultMessage": "Storage access key"
   },
   "wizard.review.storageAccount": {
-    "message": "Storage account"
+    "defaultMessage": "Storage account"
   },
   "wizard.review.storageContainer": {
-    "message": "Storage container"
+    "defaultMessage": "Storage container"
   },
   "wizard.review.target.title": {
-    "message": "Image output"
+    "defaultMessage": "Image output"
   },
   "wizard.review.title": {
-    "message": "Review"
+    "defaultMessage": "Review"
   },
   "wizard.review.uploadToAWS": {
-    "message": "Upload to AWS"
+    "defaultMessage": "Upload to AWS"
   },
   "wizard.review.uploadToAzure": {
-    "message": "Upload to Azure"
+    "defaultMessage": "Upload to Azure"
   },
   "wizard.review.uploadToOCI": {
-    "message": "Upload to OCI"
+    "defaultMessage": "Upload to OCI"
   },
   "wizard.review.uploadToVMWare": {
-    "message": "Upload to VMWare"
+    "defaultMessage": "Upload to VMWare"
   },
   "wizard.review.userOCID": {
-    "message": "User OCID"
+    "defaultMessage": "User OCID"
   },
   "wizard.review.username": {
-    "message": "Username"
+    "defaultMessage": "Username"
   },
   "wizard.uploadFile.filenamePlaceholder": {
-    "message": "Drag and drop a file or upload one"
+    "defaultMessage": "Drag and drop a file or upload one"
   },
   "wizard.vmware.authTitle": {
-    "message": "Authentication"
+    "defaultMessage": "Authentication"
   },
   "wizard.vmware.cluster.label": {
-    "message": "Cluster"
+    "defaultMessage": "Cluster"
   },
   "wizard.vmware.cluster.popoverAria": {
-    "message": "Cluster help"
+    "defaultMessage": "Cluster help"
   },
   "wizard.vmware.cluster.popoverBody": {
-    "message": "Provide the name of the Cluster to which the image file will be uploaded."
+    "defaultMessage": "Provide the name of the Cluster to which the image file will be uploaded."
   },
   "wizard.vmware.dataCenter.label": {
-    "message": "Datacenter"
+    "defaultMessage": "Datacenter"
   },
   "wizard.vmware.dataCenter.popoverAria": {
-    "message": "Datacenter help"
+    "defaultMessage": "Datacenter help"
   },
   "wizard.vmware.dataCenter.popoverBody": {
-    "message": "Provide the name of the Datacenter to which the image file will be uploaded."
+    "defaultMessage": "Provide the name of the Datacenter to which the image file will be uploaded."
   },
   "wizard.vmware.dataStore.label": {
-    "message": "Datastore"
+    "defaultMessage": "Datastore"
   },
   "wizard.vmware.datastore.popoverAria": {
-    "message": "Datastore help"
+    "defaultMessage": "Datastore help"
   },
   "wizard.vmware.datastore.popoverBody": {
-    "message": "Provide the name of the Datastore to which the image file will be uploaded."
+    "defaultMessage": "Provide the name of the Datastore to which the image file will be uploaded."
   },
   "wizard.vmware.destTitle": {
-    "message": "Destination"
+    "defaultMessage": "Destination"
   },
   "wizard.vmware.host.label": {
-    "message": "Host"
+    "defaultMessage": "Host"
   },
   "wizard.vmware.host.popoverAria": {
-    "message": "Host help"
+    "defaultMessage": "Host help"
   },
   "wizard.vmware.host.popoverBody": {
-    "message": "Provide the url of your VMWare vSphere instance to which the image file will be uploaded."
+    "defaultMessage": "Provide the url of your VMWare vSphere instance to which the image file will be uploaded."
   },
   "wizard.vmware.imageName.label": {
-    "message": "Image name"
+    "defaultMessage": "Image name"
   },
   "wizard.vmware.imageName.popoverAria": {
-    "message": "Image name help"
+    "defaultMessage": "Image name help"
   },
   "wizard.vmware.imageName.popoverBody": {
-    "message": "Provide a file name to be used for the image file that will be uploaded."
+    "defaultMessage": "Provide a file name to be used for the image file that will be uploaded."
   },
   "wizard.vmware.password.label": {
-    "message": "Password"
+    "defaultMessage": "Password"
   },
   "wizard.vmware.title": {
-    "message": "Upload to VMWare"
+    "defaultMessage": "Upload to VMWare"
   },
   "wizard.vmware.username.label": {
-    "message": "Username"
+    "defaultMessage": "Username"
   },
   "wnFuyu": {
-    "message": "No results match the filter criteria"
+    "defaultMessage": "No results match the filter criteria"
   },
   "xDOWuy": {
-    "message": "Required information is missing."
+    "defaultMessage": "Required information is missing."
   },
   "yQ3Gm4": {
-    "message": "Add source"
+    "defaultMessage": "Add source"
   },
   "yk4PT9": {
-    "message": "Full name"
+    "defaultMessage": "Full name"
   },
   "yvCu2U": {
-    "message": "The name {name} already exists."
+    "defaultMessage": "The name {name} already exists."
   },
   "zDP4eJ": {
-    "message": "Automatically start osbuild-composer on boot"
+    "defaultMessage": "Automatically start osbuild-composer on boot"
   },
   "zJK/W7": {
-    "message": "Delete blueprint"
+    "defaultMessage": "Delete blueprint"
   },
   "zZnZ6k": {
-    "message": "Created",
+    "defaultMessage": "Created",
     "description": "A label for the date that an image file was created"
   },
   "zmGlbd": {
-    "message": "Upload type",
+    "defaultMessage": "Upload type",
     "description": "A label for the service to which an image was uploaded"
   },
   "zsGSBB": {
-    "message": "The user name cannot be empty."
+    "defaultMessage": "The user name cannot be empty."
   }
 }
