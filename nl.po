@@ -1,7 +1,7 @@
 # Albert B <fedora@norlan.nl>, 2021.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-09-16T04:44:43.826Z\n"
+"POT-Creation-Date: 2022-09-29T04:34:48.763Z\n"
 "PO-Revision-Date: 2021-07-26 08:04+0000\n"
 "Last-Translator: Albert B <fedora@norlan.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit-"

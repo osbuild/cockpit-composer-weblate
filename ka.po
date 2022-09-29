@@ -1,7 +1,7 @@
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-09-16T04:44:43.826Z\n"
+"POT-Creation-Date: 2022-09-29T04:34:48.763Z\n"
 "PO-Revision-Date: 2022-09-16 19:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
