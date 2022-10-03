@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-09-29T04:34:48.763Z\n"
-"PO-Revision-Date: 2022-09-16 19:19+0000\n"
+"PO-Revision-Date: 2022-10-04 18:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-composer/main/ka/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. [components.Modal.4177685254]
 #. defaultMessage is:
@@ -72,7 +72,7 @@ msgstr "დამატება"
 #. Add all
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Add all"
-msgstr ""
+msgstr "ყველას დამატება"
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
@@ -88,7 +88,7 @@ msgstr "ბოლო ვერსიის დამატება"
 msgid ""
 "Add optional additional packages to your image by searching available "
 "packages."
-msgstr ""
+msgstr "დაამატეთ თქვენს ასლს დამატებითი პაკეტები ხელმისაწვდომებში მოძებნით."
 
 #. [wizard.packages.addSelected]
 #. defaultMessage is:
@@ -133,7 +133,7 @@ msgstr "ადმინისტრატორი"
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/awsDest.json
 msgid "Amazon S3 bucket"
-msgstr ""
+msgstr "Amazon S3 ბაკეტი"
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -478,14 +478,14 @@ msgstr "ყველა ფილტრის გასუფთავება"
 #. Clear available packages search
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Clear available packages search"
-msgstr ""
+msgstr "ხელმისაწვდომი პაკეტების ძებნის გასუფთავება"
 
 #. [wizard.packages.clearChosenPackagesSearch]
 #. defaultMessage is:
 #. Clear chosen packages search
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Clear chosen packages search"
-msgstr ""
+msgstr "არჩეული პაკეტების ძებნის გასუფთავება"
 
 #. [components.Modal.2324218928]
 #. defaultMessage is:
@@ -661,7 +661,7 @@ msgstr "დახმარება მონაცემთა დამუშ�
 #. Datastore
 #: build/messages/components/Wizard/steps/vmwareDest.json
 msgid "Datastore"
-msgstr "საცავი"
+msgstr "მონაცემების საცავი"
 
 #. [wizard.vmware.datastore.popoverAria]
 #. defaultMessage is:
@@ -832,6 +832,7 @@ msgstr "მომხმარებლის ანგარიშის ჩა�
 #: build/messages/components/Wizard/validators/ostreeValidator.json
 msgid "Either the parent commit or repository url can be specified. Not both."
 msgstr ""
+"საჭიროა ან მშობელი გადაცემის, ან რეპოზიტორიის URL-ის მითითება და არა ორივესი."
 
 #. [pages.blueprint.emptyBlueprintTitle]
 #. defaultMessage is:
@@ -1204,7 +1205,7 @@ msgstr "ჩატვირთვა"
 #. Loading additional packages...
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Loading additional packages..."
-msgstr ""
+msgstr "დამატებითი პაკეტების ჩატვირთვა..."
 
 #. [components.ListView.imageLogs] - Log content that gets generated as part of the image creation process
 #. defaultMessage is:
@@ -1347,7 +1348,7 @@ msgstr "OCI ბაკეტის დახმარება"
 #. OSTree settings
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "OSTree settings"
-msgstr ""
+msgstr "OSTree -ის მორგება"
 
 #. [pages.error.oupsTitle]
 #. defaultMessage is:
@@ -1361,7 +1362,7 @@ msgstr "რაღაც ცუდი მოხდა"
 #. Output type
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Output type"
-msgstr ""
+msgstr "გამოტანის ტიპი"
 
 #. [wizard.review.packages]
 #. defaultMessage is:
