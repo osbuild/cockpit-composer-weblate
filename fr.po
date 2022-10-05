@@ -1,7 +1,7 @@
 # David Shea <dshea@redhat.com>, 2019. #zanata
 # Lars Karlitski <lars@karlitski.net>, 2019. #zanata
 # corina roe <croe@redhat.com>, 2019. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2020.
+# Ludek Janda <ljanda@redhat.com>, 2020, 2022.
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2020.
@@ -11,16 +11,16 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-10-04T04:04:05.506Z\n"
-"PO-Revision-Date: 2022-05-02 19:18+0000\n"
-"Last-Translator: Alain Nussbaumer <alain.nussbaumer@alleluia.ch>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"composer/main/fr/>\n"
+"PO-Revision-Date: 2022-10-06 07:19+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-composer/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. [components.Modal.4177685254]
 #. defaultMessage is:
@@ -55,10 +55,8 @@ msgstr "ID de la clé d’accès"
 #. defaultMessage is:
 #. Access key help
 #: build/messages/components/Wizard/steps/awsAuth.json
-#, fuzzy
-#| msgid "Access key ID help"
 msgid "Access key help"
-msgstr "Aide sur l’ID de la clé d’accès"
+msgstr "Aide sur la clé d'accès"
 
 #. [components.ListView.imageActions] - A label for the menu that displays the actions available
 #. defaultMessage is:
@@ -83,7 +81,7 @@ msgstr "Ajouter"
 #. Add all
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Add all"
-msgstr ""
+msgstr "Tout ajouter"
 
 #. [components.ListView.addComponent]
 #. defaultMessage is:
@@ -100,15 +98,15 @@ msgid ""
 "Add optional additional packages to your image by searching available "
 "packages."
 msgstr ""
+"Ajoutez des packages supplémentaires optionnels à votre image en recherchant "
+"les packages disponibles."
 
 #. [wizard.packages.addSelected]
 #. defaultMessage is:
 #. Add selected
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Add source"
 msgid "Add selected"
-msgstr "Ajouter une source"
+msgstr "Ajouter une sélection"
 
 #. [components.Modal.add]
 #. defaultMessage is:
@@ -127,19 +125,15 @@ msgstr "Ajouter une source"
 #. defaultMessage is:
 #. Add user
 #: build/messages/components/Wizard/steps/users.json
-#, fuzzy
-#| msgid "Add source"
 msgid "Add user"
-msgstr "Ajouter une source"
+msgstr "Ajouter un utilisateur"
 
 #. [wizard.review.admin]
 #. defaultMessage is:
 #. Administrator
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid "Server administrator"
 msgid "Administrator"
-msgstr "Administrateur de serveur"
+msgstr "Administrateur"
 
 #. [wizard.review.amazonS3Bucket]
 #. defaultMessage is:
@@ -150,7 +144,7 @@ msgstr "Administrateur de serveur"
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/awsDest.json
 msgid "Amazon S3 bucket"
-msgstr ""
+msgstr "Amazon S3 bucket"
 
 #. [components.ListView.emptyStateErrorTitle]
 #. defaultMessage is:
@@ -196,10 +190,8 @@ msgstr "Une erreur a eu lieu quand on a essayé d’obtenir les sources."
 #. defaultMessage is:
 #. An image can only be created after saving the blueprint
 #: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
-#, fuzzy
-#| msgid "No images have been created from this blueprint."
 msgid "An image can only be created after saving the blueprint"
-msgstr "Aucune image n’a été créée à partir de ce modèle."
+msgstr "Une image ne peut être créée qu'après avoir enregistré le modèle"
 
 #. [components.ListView.3998303130]
 #. defaultMessage is:
@@ -260,10 +252,8 @@ msgstr "Lancement automatique de osbuild-composer au démarrage"
 #. defaultMessage is:
 #. Available packages
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Available components"
 msgid "Available packages"
-msgstr "Composants disponibles"
+msgstr "Paquets disponibles"
 
 #. [pages.blueprint.2057444273]
 #. defaultMessage is:
@@ -294,19 +284,15 @@ msgstr "Modèle"
 #. defaultMessage is:
 #. Blueprint filter select
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Blueprints"
 msgid "Blueprint filter select"
-msgstr "Modèles"
+msgstr "Sélection du filtre de modèle"
 
 #. [wizard.review.blueprintName]
 #. defaultMessage is:
 #. Blueprint name
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid "Blueprint"
 msgid "Blueprint name"
-msgstr "Modèle"
+msgstr "Nom du modèle"
 
 #. [components.Modal.2544705954]
 #. defaultMessage is:
@@ -355,10 +341,8 @@ msgstr ""
 #. defaultMessage is:
 #. Blueprint search input
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Blueprints"
 msgid "Blueprint search input"
-msgstr "Modèles"
+msgstr "Saisie de la recherche du modèle"
 
 #. [pages.blueprints.blueprintsTitle]
 #. defaultMessage is:
@@ -371,10 +355,8 @@ msgstr "Modèles"
 #. defaultMessage is:
 #. Blueprints search input
 #: build/messages/components/Toolbar/BlueprintsToolbar.json
-#, fuzzy
-#| msgid "Blueprints"
 msgid "Blueprints search input"
-msgstr "Modèles"
+msgstr "Saisie de la recherche de modèle"
 
 #. [wizard.review.bucketCompartment]
 #. defaultMessage is:
@@ -391,10 +373,8 @@ msgstr "Compartiment Bucket"
 #. defaultMessage is:
 #. Bucket compartment help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket compartment"
 msgid "Bucket compartment help"
-msgstr "Compartiment Bucket"
+msgstr "Aide pour le compartiment Bucket"
 
 #. [wizard.review.bucketNamespace]
 #. defaultMessage is:
@@ -411,10 +391,8 @@ msgstr "Espace de nom Bucket"
 #. defaultMessage is:
 #. Bucket namespace help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket namespace"
 msgid "Bucket namespace help"
-msgstr "Espace de nom Bucket"
+msgstr "Aide sur l'espace de nom Bucket"
 
 #. [wizard.review.bucketRegion]
 #. defaultMessage is:
@@ -431,10 +409,8 @@ msgstr "Région Bucket"
 #. defaultMessage is:
 #. Bucket region help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket region"
 msgid "Bucket region help"
-msgstr "Région Bucket"
+msgstr "Aide pour la région Bucket"
 
 #. [wizard.review.bucketTenancy]
 #. defaultMessage is:
@@ -451,10 +427,8 @@ msgstr "Tenancy Bucket"
 #. defaultMessage is:
 #. Bucket tenancy help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid "Bucket tenancy"
 msgid "Bucket tenancy help"
-msgstr "Tenancy Bucket"
+msgstr "Aide Tenancy Bucket"
 
 #. [components.Form.cancel]
 #. defaultMessage is:
@@ -509,10 +483,8 @@ msgstr "Vérifier le Certificat SSL"
 #. defaultMessage is:
 #. Chosen packages
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "Chosen packages"
-msgstr "Modifier les paquets"
+msgstr "Paquets choisis"
 
 #. [components.ListView.1634835134]
 #. defaultMessage is:
@@ -526,14 +498,14 @@ msgstr "Supprimer tous les filtres"
 #. Clear available packages search
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Clear available packages search"
-msgstr ""
+msgstr "Effacer la recherche des paquets disponibles"
 
 #. [wizard.packages.clearChosenPackagesSearch]
 #. defaultMessage is:
 #. Clear chosen packages search
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Clear chosen packages search"
-msgstr ""
+msgstr "Effacer la recherche des paquets choisis"
 
 #. [components.Modal.2324218928]
 #. defaultMessage is:
@@ -657,10 +629,8 @@ msgstr "Créé"
 #. defaultMessage is:
 #. Creating image
 #: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
-#, fuzzy
-#| msgid "Create image"
 msgid "Creating image"
-msgstr "Créer une image"
+msgstr "Création d'une image"
 
 #. [wizard.review.customizations.title]
 #. defaultMessage is:
@@ -699,10 +669,8 @@ msgstr "Stockage des données"
 #. defaultMessage is:
 #. Datacenter
 #: build/messages/components/Wizard/steps/vmwareDest.json
-#, fuzzy
-#| msgid "Data center"
 msgid "Datacenter"
-msgstr "Centre de données"
+msgstr "Datacenter"
 
 #. [wizard.vmware.dataCenter.popoverAria]
 #. defaultMessage is:
@@ -715,10 +683,8 @@ msgstr "Aide Centre de données"
 #. defaultMessage is:
 #. Datastore
 #: build/messages/components/Wizard/steps/vmwareDest.json
-#, fuzzy
-#| msgid "Data store"
 msgid "Datastore"
-msgstr "Stockage des données"
+msgstr "Datastore"
 
 #. [wizard.vmware.datastore.popoverAria]
 #. defaultMessage is:
@@ -947,16 +913,14 @@ msgstr "Exporter le modèle"
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/ociAuth.json
 msgid "Fingerprint"
-msgstr "Empreinte de la clé"
+msgstr "Empreinte"
 
 #. [wizard.oci.fingerprint.popoverAria]
 #. defaultMessage is:
 #. Fingerprint help
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "Fingerprint"
 msgid "Fingerprint help"
-msgstr "Empreinte de la clé"
+msgstr "Aide pour les empreintes"
 
 #. [components.Modal.labelName]
 #. defaultMessage is:
@@ -1033,58 +997,35 @@ msgstr ""
 #. defaultMessage is:
 #. Image Builder can upload images you create to VMWare vSphere. When the image build is complete and the upload action is successful, the image file is available in the Cluster on the vSphere instance that you specified.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to VMWare vSphere.\n"
-#| "                      When the image build is complete and the upload "
-#| "action is successful,\n"
-#| "                      the image file is available in the Cluster on the "
-#| "vSphere instance that you specified."
 msgid ""
 "Image Builder can upload images you create to VMWare vSphere. When the image "
 "build is complete and the upload action is successful, the image file is "
 "available in the Cluster on the vSphere instance that you specified."
 msgstr ""
-"Image Builder peut télécharger les images que vous créez dans VMWare "
-"vSphere.\n"
-"                      Lorsque la création d'images est terminée et que "
-"l'action de téléchargement est réussie,\n"
-"                      le fichier image est alors disponible dans le Cluster "
+"Image Builder peut télécharger les images que vous créez vers VMWare "
+"vSphere. Lorsque la création de l'image est terminée et que l'action de "
+"téléchargement est réussie, le fichier image est disponible dans le cluster "
 "sur l'instance vSphere que vous avez spécifiée."
 
 #. [wizard.imageOutput.uploadAzure.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to a Blob container in {azure}. When the image build is complete and the upload action is successful, the image file is available in the Storage account and Blob container that you specified.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to a Blob container in "
-#| "{azure}. When the image build is complete\n"
-#| "                      and the upload action is successful, the image file "
-#| "is available in the Storage account and Blob container that you specified."
 msgid ""
 "Image Builder can upload images you create to a Blob container in {azure}. "
 "When the image build is complete and the upload action is successful, the "
 "image file is available in the Storage account and Blob container that you "
 "specified."
 msgstr ""
-"Image Builder peut téléverser des images sur un conteneur Blob dans {azure}. "
-"Lorsque la construction de l’image est complétée\n"
-"et que le téléversement a réussi, le fichier image est disponible dans le "
-"compte de Stockage et le conteneur Blob que vous avez spécifié."
+"Image Builder peut télécharger les images que vous créez vers un conteneur "
+"Blob dans {azure}. Lorsque la création de l'image est terminée et que "
+"l'action de téléchargement est réussie, le fichier image est disponible dans "
+"le compte de stockage et le conteneur Blob que vous avez spécifiés."
 
 #. [wizard.imageOutput.uploadOCI.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to an OCI bucket in OCI and register it as a custom image. When the image build is complete and the upload action is successful, the image should be available under custom images. Most of the values required to upload the image can be found in the {console}.{br}{br}This upload process requires that you have an Identity and Access Management (IAM) with attached policy to manage custom images to ensure that the image can be imported as a custom image from the bucket. For more details, refer to the {policy}.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in OCI and "
-#| "register it as a custom image. When the image build is complete\n"
-#| "                        and the upload action is successful, the image "
-#| "should be available under custom images.\n"
-#| "                        Most of the values required to upload the image "
-#| "can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an OCI bucket in OCI and "
 "register it as a custom image. When the image build is complete and the "
@@ -1095,26 +1036,21 @@ msgid ""
 "ensure that the image can be imported as a custom image from the bucket. For "
 "more details, refer to the {policy}."
 msgstr ""
-"Image Builder permet de télécharger les images que vous créez sur un site "
-"{bucket} dans OCI et de les enregistrer en tant qu'image personnalisée. "
-"Lorsque la construction de l'image est terminée\n"
-"                        et que l'action de téléchargement a réussi, l'image "
-"devrait être disponible sous les images personnalisées.\n"
-"                        La plupart des valeurs requises pour télécharger "
-"l'image se trouvent sur le site {console}."
+"Image Builder peut télécharger les images que vous créez vers un Bucket OCI "
+"dans OCI et l'enregistrer comme image personnalisée. Lorsque la construction "
+"de l'image est terminée et que l'action de téléchargement est réussie, "
+"l'image devrait être disponible sous les images personnalisées. La plupart "
+"des valeurs requises pour télécharger l'image se trouvent dans la section "
+"{console}.{br}{br}Ce processus de téléchargement exige que vous disposiez "
+"d'une gestion des identités et des accès (IAM) avec une politique attachée "
+"pour gérer les images personnalisées afin de garantir que l'image puisse "
+"être importée en tant qu'image personnalisée à partir de Bucket. Pour plus "
+"de détails, consultez le site {policy}."
 
 #. [wizard.imageOutput.uploadAWS.popoverBody]
 #. defaultMessage is:
 #. Image Builder can upload images you create to an S3 bucket in AWS and then import them into EC2. When the image build is complete and the upload action is successful, the image file is available in the AMI section of EC2. Most of the values required to upload the image can be found in the {console}. {br}{br}This upload process requires that you have an Identity and Access Management (IAM) role named {vmimport} to ensure that the image can be imported from the S3 bucket into EC2. For more details, refer to the {role}.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid ""
-#| "Image Builder can upload images you create to an {bucket} in AWS and then "
-#| "import them into EC2. When the image build is complete\n"
-#| "                        and the upload action is successful, the image "
-#| "file is available in the AMI section of EC2. Most of the values required "
-#| "to upload\n"
-#| "                        the image can be found in the {console}."
 msgid ""
 "Image Builder can upload images you create to an S3 bucket in AWS and then "
 "import them into EC2. When the image build is complete and the upload action "
@@ -1124,21 +1060,22 @@ msgid ""
 "Management (IAM) role named {vmimport} to ensure that the image can be "
 "imported from the S3 bucket into EC2. For more details, refer to the {role}."
 msgstr ""
-"Image Builder peut téléverser des images sur un {bucket} dans AWS, puis les "
-"importer dans EC2. Lorsque la construction de l’image est\n"
-"                      complétée et que le téléversement a réussi, le fichier "
-"image est disponible dans la section AMI d’EC2. La plupart des valeurs\n"
-"                      requises pour le téléversement de l’image peuvent être "
-"trouvées dans la {console}."
+"Image Builder peut télécharger les images que vous créez vers un seau S3 "
+"dans AWS, puis les importer dans EC2. Lorsque la construction de l'image est "
+"terminée et que l'action de téléchargement est réussie, le fichier image est "
+"disponible dans la section AMI de EC2. La plupart des valeurs requises pour "
+"télécharger l'image se trouvent dans la section {console}. {br}{br}Ce "
+"processus de téléchargement nécessite que vous disposiez d'un rôle de "
+"gestion des identités et des accès (IAM) nommé {vmimport} afin de garantir "
+"que l'image puisse être importée du seau S3 dans EC2. Pour plus de détails, "
+"consultez le site {role}."
 
 #. [wizard.imageOutput.imageSize.label]
 #. defaultMessage is:
 #. Image Size
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Image size"
 msgid "Image Size"
-msgstr "Taille de l’image"
+msgstr "Taille de l'image"
 
 #. [components.ListView.imageStatusFinished] - Image build status when process is finished
 #. defaultMessage is:
@@ -1236,10 +1173,8 @@ msgstr "Sortie de l’image"
 #. defaultMessage is:
 #. Image output type
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Image output"
 msgid "Image output type"
-msgstr "Sortie de l’image"
+msgstr "Type de sortie d'image"
 
 #. [wizard.review.imageSize]
 #. defaultMessage is:
@@ -1280,8 +1215,6 @@ msgstr "Dispositif d'installation"
 #. defaultMessage is:
 #. Installation Device help
 #: build/messages/components/Wizard/steps/system.json
-#, fuzzy
-#| msgid "Installation device help"
 msgid "Installation Device help"
 msgstr "Aide pour le dispositif d'installation"
 
@@ -1310,10 +1243,8 @@ msgstr "Aide pour le dispositif d'installation"
 #. defaultMessage is:
 #. Load additional packages
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "Load additional packages"
-msgstr "Modifier les paquets"
+msgstr "Charger des paquets supplémentaires"
 
 #. [components.Loading.2617450248]
 #. defaultMessage is:
@@ -1327,7 +1258,7 @@ msgstr "Chargement"
 #. Loading additional packages...
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Loading additional packages..."
-msgstr ""
+msgstr "Chargement de paquets supplémentaires..."
 
 #. [components.ListView.imageLogs] - Log content that gets generated as part of the image creation process
 #. defaultMessage is:
@@ -1358,10 +1289,8 @@ msgstr "Message"
 #. defaultMessage is:
 #. Minimum image size is {size}GB.
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Minimum size is {size} GB."
 msgid "Minimum image size is {size}GB."
-msgstr "La taille minimale est de {size} Go."
+msgstr "La taille minimale des images est de {size}GB."
 
 #. [components.ListView.emptyStateNoResultsMessage]
 #. defaultMessage is:
@@ -1428,19 +1357,15 @@ msgstr "Aucun journal disponible"
 #. defaultMessage is:
 #. No packages added
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "No packages added"
-msgstr "Modifier les paquets"
+msgstr "Aucun paquet ajouté"
 
 #. [wizard.packages.noPackagesFound]
 #. defaultMessage is:
 #. No packages found
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "No packages found"
-msgstr "Modifier les paquets"
+msgstr "Aucun paquet trouvé"
 
 #. [components.ListView.emptyStateNoResultsTitle]
 #. defaultMessage is:
@@ -1461,24 +1386,22 @@ msgstr "Aucun résultat correspondant au critère de filtrage"
 #. OCI bucket
 #: build/messages/components/Wizard/formComponents/Review.json
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
 msgid "OCI bucket"
-msgstr "Bucket OCI"
+msgstr "OCI bucket"
 
 #. [wizard.oci.bucket.popoverAria]
 #. defaultMessage is:
 #. OCI bucket help
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
 msgid "OCI bucket help"
-msgstr "Bucket OCI"
+msgstr "OCI bucket help"
 
 #. [wizard.ostree.title]
 #. defaultMessage is:
 #. OSTree settings
 #: build/messages/components/Wizard/steps/ostreeSettings.json
 msgid "OSTree settings"
-msgstr ""
+msgstr "Paramètres OSTree"
 
 #. [pages.error.oupsTitle]
 #. defaultMessage is:
@@ -1492,7 +1415,7 @@ msgstr "Zut, quelque chose ne va pas"
 #. Output type
 #: build/messages/components/Wizard/formComponents/Review.json
 msgid "Output type"
-msgstr ""
+msgstr "Type de sortie"
 
 #. [wizard.review.packages]
 #. defaultMessage is:
@@ -1526,19 +1449,15 @@ msgstr "Page non trouvée"
 #. defaultMessage is:
 #. Parent
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit"
 msgid "Parent"
-msgstr "Commit parent"
+msgstr "Parent"
 
 #. [wizard.ostree.parentCommit.popoverAria]
 #. defaultMessage is:
 #. Parent help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Parent commit"
 msgid "Parent help"
-msgstr "Commit parent"
+msgstr "Aide Parent"
 
 #. [components.Modal.labelPassword]
 #. defaultMessage is:
@@ -1584,10 +1503,8 @@ msgstr "Fichier de la clé privée"
 #. defaultMessage is:
 #. Private key help
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "Private key"
 msgid "Private key help"
-msgstr "Clé privée"
+msgstr "Aide pour la clé privée"
 
 #. [wizard.blueprintName.popover.aria]
 #. defaultMessage is:
@@ -1622,52 +1539,32 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the AWS Region where you want to import your image. This must be the same region where the S3 bucket exists.
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the AWS Region where you want to import your image. This must be "
-#| "the same region where the {bucket} exists."
 msgid ""
 "Provide the AWS Region where you want to import your image. This must be the "
 "same region where the S3 bucket exists."
 msgstr ""
-"Veuillez indiquer la région AWS où vous souhaitez importer votre image. Il "
-"doit s’agir de la même région que celle du {bucket}."
+"Indiquez la région AWS dans laquelle vous souhaitez importer votre image. Il "
+"doit s'agir de la même région où le seau S3 existe."
 
 #. [wizard.azure.storageContainer.popoverBody]
 #. defaultMessage is:
 #. Provide the Blob container to which the image file will be uploaded. You can find containers under the <strong>Blob service</strong> section of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the Blob container to which the image file will be uploaded. You "
-#| "can find containers under the {blobService} \n"
-#| "                    section of a storage account. You can find storage "
-#| "accounts on the {storageAccounts} page in the {azure} portal."
 msgid ""
 "Provide the Blob container to which the image file will be uploaded. You can "
 "find containers under the <strong>Blob service</strong> section of a storage "
 "account. You can find storage accounts on the <strong>Storage accounts</"
 "strong> page in the Azure portal."
 msgstr ""
-"Fournissez le conteneur Blob vers lequel le fichier image sera téléchargé. "
-"Vous pouvez trouver des conteneurs sous la section\n"
-"                     {blobService} d'un compte de stockage. Vous pouvez "
-"trouver des comptes de stockage sur la page {storageAccounts} du portail "
-"{azure}."
+"Fournissez le conteneur Blob dans lequel le fichier image sera téléchargé. "
+"Vous pouvez trouver les conteneurs sous la section <strong>Blob service</"
+"strong> d'un compte de stockage. Vous pouvez trouver les comptes de stockage "
+"sur la page <strong>Comptes de stockage</strong> dans le portail Azure."
 
 #. [wizard.aws.bucket.popoverBody]
 #. defaultMessage is:
 #. Provide the S3 bucket name to which the image file will be uploaded before being imported into EC2. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS console.
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the S3 {bucket} name to which the image file will be uploaded "
-#| "before being imported into EC2. \n"
-#| "                        The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                        {bucketsPage} page in the {amazon} S3 storage "
-#| "service in the AWS console."
 msgid ""
 "Provide the S3 bucket name to which the image file will be uploaded before "
 "being imported into EC2. The bucket must already exist in the Region where "
@@ -1675,13 +1572,11 @@ msgid ""
 "<strong>S3 buckets</strong> page in the Amazon S3 storage service in the AWS "
 "console."
 msgstr ""
-"Indiquez le nom S3 {bucket} vers lequel le fichier image sera téléchargé "
-"avant d'être importé dans EC2 \n"
-"                          Ce nom {bucket} doit déjà exister dans la région "
-"où vous souhaitez importer votre image. Vous pouvez trouver une liste des "
-"{buckets}\n"
-"                          sur la page {bucketsPage} dans le service de "
-"stockage {amazon} S3 dans la console AWS."
+"Indiquez le nom du seau S3 vers lequel le fichier image sera téléchargé "
+"avant d'être importé dans EC2. Le seau doit déjà exister dans la Région où "
+"vous souhaitez importer votre image. Vous trouverez une liste des seaux sur "
+"la page <strong>S3 buckets</strong> du service de stockage Amazon S3 dans la "
+"console AWS."
 
 #. [wizard.ostree.repoURL.popoverBody]
 #. defaultMessage is:
@@ -1698,12 +1593,6 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the access key for the desired storage account. You can find the access key on the <strong>Access keys</strong> page of the storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureAuth.json
-#, fuzzy
-#| msgid ""
-#| "Provide the access key for the desired storage account. You can find the "
-#| "access key on the {accessKeys} \n"
-#| "                        page of the storage account. You can find storage "
-#| "accounts on the {storageAccounts} page in the {azure} portal."
 msgid ""
 "Provide the access key for the desired storage account. You can find the "
 "access key on the <strong>Access keys</strong> page of the storage account. "
@@ -1711,24 +1600,14 @@ msgid ""
 "in the Azure portal."
 msgstr ""
 "Fournissez la clé d'accès pour le compte de stockage souhaité. Vous pouvez "
-"trouver la clé d'accès sur la page \n"
-"                         {accessKeys} du compte de stockage. Vous pouvez "
-"trouver des comptes de stockage sur la page {storageAccounts} du portail "
-"{azure}."
+"trouver la clé d'accès sur la page <strong>Access keys</strong> du compte de "
+"stockage. Vous pouvez trouver les comptes de stockage sur la page "
+"<strong>Comptes de stockage</strong> du portail Azure."
 
 #. [wizard.oci.bucket.popoverBody]
 #. defaultMessage is:
 #. Provide the bucket name to which the image file will be uploaded before being imported as a custom image. The bucket must already exist in the Region where you want to import your image. You can find a list of buckets on the <strong>OCI buckets</strong> page in the OCI storage service in the OCI console.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the {bucket} name to which the image file will be uploaded before "
-#| "being imported as a custom image. \n"
-#| "                        The {bucket} must already exist in the Region "
-#| "where you want to import your image. You can find a list of {buckets} on "
-#| "the\n"
-#| "                        {bucketsPage} page in the OCI storage service in "
-#| "the OCI console."
 msgid ""
 "Provide the bucket name to which the image file will be uploaded before "
 "being imported as a custom image. The bucket must already exist in the "
@@ -1736,63 +1615,47 @@ msgid ""
 "on the <strong>OCI buckets</strong> page in the OCI storage service in the "
 "OCI console."
 msgstr ""
-"Indiquez le nom du {bucket} sur lequel le fichier image sera téléchargé "
-"avant d'être importé en tant qu'image personnalisée \n"
-"                        Le {bucket} doit déjà exister dans la région où vous "
-"souhaitez importer votre image. Vous trouverez une liste de {buckets} sur la "
-"page\n"
-"                        {bucketsPage} du service de stockage de l'OCI dans "
-"la console de l'OCI."
+"Indiquez le nom de Bucket dans lequel le fichier image sera téléchargé avant "
+"d'être importé en tant qu'image personnalisée. Bucket doit déjà exister dans "
+"la Région où vous voulez importer votre image. Vous pouvez trouver une liste "
+"des buckets sur la page <strong>OCI buckets</strong> dans le service de "
+"stockage OCI dans la console OCI."
 
 #. [wizard.ostree.parentCommit.popoverBody]
 #. defaultMessage is:
 #. Provide the commit id or ref of the parent in the repository for which this commit provides an update. If no parent is specified it will be inferred from the user-defined ref.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the ID of the latest commit in the updates repository for which "
-#| "this commit provides an update.\n"
-#| "                    If no commit is specified it will be inferred from "
-#| "the parent repository."
 msgid ""
 "Provide the commit id or ref of the parent in the repository for which this "
 "commit provides an update. If no parent is specified it will be inferred "
 "from the user-defined ref."
 msgstr ""
-"Fournir l'ID du dernier commit dans le référentiel des mises à jour pour "
-"lequel ce commit fournit une mise à jour.\n"
-"                    Si aucun commit n'est spécifié, il sera déduit du "
-"référentiel parent."
+"Fournit l'identifiant ou la référence du commit du parent dans le "
+"référentiel pour lequel ce commit fournit une mise à jour. Si aucun parent "
+"n'est spécifié, il sera déduit de la référence définie par l'utilisateur."
 
 #. [wizard.oci.compartment.popoverBody]
 #. defaultMessage is:
 #. Provide the compartment of the OCI bucket compartment your uploading to. You can find the compartment in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the compartment of the {bucket} your uploading to. You can find "
-#| "the compartment in the bucket details."
 msgid ""
 "Provide the compartment of the OCI bucket compartment your uploading to. You "
 "can find the compartment in the bucket details."
 msgstr ""
-"Indiquez le compartiment du site {bucket} vers lequel vous téléchargez. Vous "
-"pouvez trouver le compartiment dans les détails Bucket."
+"Indiquez le compartiment du compartiment du seau OCI vers lequel vous "
+"téléchargez. Vous pouvez trouver le compartiment dans les détails de Bucket."
 
 #. [wizard.azure.storageAccount.popoverBody]
 #. defaultMessage is:
 #. Provide the name of a storage account. You can find storage accounts on the <strong>Storage accounts</strong> page in the Azure portal.
 #: build/messages/components/Wizard/steps/azureAuth.json
-#, fuzzy
-#| msgid ""
-#| "Provide the name of a storage account. You can find storage accounts on "
-#| "the {storageAccounts} page in the {azure} portal."
 msgid ""
 "Provide the name of a storage account. You can find storage accounts on the "
 "<strong>Storage accounts</strong> page in the Azure portal."
 msgstr ""
-"Indiquez le nom d'un compte de stockage. Vous pouvez trouver des comptes de "
-"stockage sur la page {storageAccounts} du portail {azure}."
+"Fournissez le nom d'un compte de stockage. Vous pouvez trouver les comptes "
+"de stockage sur la page <strong>Storage accounts</strong> dans le portail "
+"Azure."
 
 #. [wizard.vmware.cluster.popoverBody]
 #. defaultMessage is:
@@ -1826,77 +1689,58 @@ msgstr ""
 #. defaultMessage is:
 #. Provide the name of the branch for the content. If the ref does not already exist it will be created. If the ref is not specified, the default ref for the distro will be used.
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid ""
-#| "Provide the name of the branch for the content. If the ref does not "
-#| "already exist it will be created."
 msgid ""
 "Provide the name of the branch for the content. If the ref does not already "
 "exist it will be created. If the ref is not specified, the default ref for "
 "the distro will be used."
 msgstr ""
 "Indiquez le nom de la branche pour le contenu. Si la référence n'existe pas "
-"déjà, elle sera créée."
+"déjà, elle sera créée. Si la réf n'est pas spécifiée, la réf par défaut de "
+"la distro sera utilisée."
 
 #. [wizard.oci.namespace.popoverBody]
 #. defaultMessage is:
 #. Provide the namespace of the OCI bucket your uploading to. You can find the namespace in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the namespace of the {bucket} your uploading to. You can find the "
-#| "namespace in the bucket details."
 msgid ""
 "Provide the namespace of the OCI bucket your uploading to. You can find the "
 "namespace in the bucket details."
 msgstr ""
-"Indiquez l'espace de nom du site {bucket} vers lequel vous téléchargez. Vous "
-"pouvez trouver l'espace de nom dans les détails Bucket."
+"Indiquez l'espace de nom du seau OCI vers lequel vous téléchargez. Vous "
+"pouvez trouver l'espace de noms dans les détails de Bucket."
 
 #. [wizard.oci.region.popoverBody]
 #. defaultMessage is:
 #. Provide the region of the Bucket region your uploading to. You can find the region in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the region of the {bucket} your uploading to. You can find the "
-#| "region in the bucket details."
 msgid ""
 "Provide the region of the Bucket region your uploading to. You can find the "
 "region in the bucket details."
 msgstr ""
-"Indiquez la région du site {bucket} vers laquelle vous téléchargez. Vous "
-"pouvez trouver la région dans les détails Bucket."
+"Indiquez la région du seau vers lequel vous téléchargez. Vous pouvez trouver "
+"la région dans les détails de Bucket."
 
 #. [wizard.oci.tenancy.popoverBody]
 #. defaultMessage is:
 #. Provide the tenancy of the OCI bucket your uploading to. You can find the tenancy in the bucket details.
 #: build/messages/components/Wizard/steps/ociDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the tenancy of the {bucket} your uploading to. You can find the "
-#| "tenancy in the bucket details."
 msgid ""
 "Provide the tenancy of the OCI bucket your uploading to. You can find the "
 "tenancy in the bucket details."
 msgstr ""
-"Indiquer le «tenant» du site {bucket} vers lequel vous téléchargez. Vous "
-"pouvez trouver ces informations dans les détails de Bucket."
+"Indiquez le bail du seau OCI vers lequel vous téléchargez. Vous pouvez "
+"trouver le bail dans les détails de Bucket."
 
 #. [wizard.vmware.host.popoverBody]
 #. defaultMessage is:
 #. Provide the url of your VMWare vSphere instance to which the image file will be uploaded.
 #: build/messages/components/Wizard/steps/vmwareDest.json
-#, fuzzy
-#| msgid ""
-#| "Provide the url of your {vmware} instance to which the image file will be "
-#| "uploaded."
 msgid ""
 "Provide the url of your VMWare vSphere instance to which the image file will "
 "be uploaded."
 msgstr ""
-"Indiquez l'url de votre instance {vmware} dans laquelle le fichier image "
-"sera téléchargé."
+"Indiquez l'URL de votre instance VMWare vSphere vers laquelle le fichier "
+"image sera téléchargé."
 
 #. [wizard.ostree.ref.label]
 #. defaultMessage is:
@@ -1909,19 +1753,15 @@ msgstr "Ref"
 #. defaultMessage is:
 #. Ref help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Azure help"
 msgid "Ref help"
-msgstr "Aide d’Azure"
+msgstr "Ref Aide"
 
 #. [wizard.aws.region.popoverAria]
 #. defaultMessage is:
 #. Region help
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid "AWS region help"
 msgid "Region help"
-msgstr "Aide sur les régions AWS"
+msgstr "Aide Région"
 
 #. [components.ListView.423140743]
 #. defaultMessage is:
@@ -1953,19 +1793,15 @@ msgstr "Retirer"
 #. defaultMessage is:
 #. Remove all
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Remove"
 msgid "Remove all"
-msgstr "Retirer"
+msgstr "Supprimer tout"
 
 #. [wizard.customizations.buttons.removeAll]
 #. defaultMessage is:
 #. Remove all users
 #: build/messages/components/Wizard/steps/users.json
-#, fuzzy
-#| msgid "Remove password"
 msgid "Remove all users"
-msgstr "Supprimer le mot de passe"
+msgstr "Supprimer tous les utilisateurs"
 
 #. [components.ListView.removeComponent]
 #. defaultMessage is:
@@ -1985,10 +1821,8 @@ msgstr "Supprimer du modèle"
 #. defaultMessage is:
 #. Remove selected
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Remove source"
 msgid "Remove selected"
-msgstr "Supprimer une source"
+msgstr "Supprimer la sélection"
 
 #. [components.ListView.remove]
 #. defaultMessage is:
@@ -2001,10 +1835,8 @@ msgstr "Supprimer une source"
 #. defaultMessage is:
 #. Remove user
 #: build/messages/components/Wizard/steps/users.json
-#, fuzzy
-#| msgid "Remove source"
 msgid "Remove user"
-msgstr "Supprimer une source"
+msgstr "Supprimer l'utilisateur"
 
 #. [components.ListView.2663433025]
 #. defaultMessage is:
@@ -2024,10 +1856,8 @@ msgstr "URL du référentiel"
 #. defaultMessage is:
 #. Repository URL help
 #: build/messages/components/Wizard/steps/ostreeSettings.json
-#, fuzzy
-#| msgid "Repository URL"
 msgid "Repository URL help"
-msgstr "URL du référentiel"
+msgstr "Aide sur l'URL du référentiel"
 
 #. [components.Modal.128739785]
 #. defaultMessage is:
@@ -2047,16 +1877,13 @@ msgstr "Revue"
 #. defaultMessage is:
 #. Review the information and click "Save blueprint" to save the customizations and then click "Create image" to create the image.
 #: build/messages/components/Wizard/formComponents/Review.json
-#, fuzzy
-#| msgid ""
-#| "Review the information below and click Finish to create the image and "
-#| "complete the tasks that were selected."
 msgid ""
 "Review the information and click \"Save blueprint\" to save the "
 "customizations and then click \"Create image\" to create the image."
 msgstr ""
-"Passez en revue les informations ci-dessous et cliquez sur Terminer pour "
-"créer l'image et accomplir les tâches qui ont été sélectionnées."
+"Passez en revue les informations et cliquez sur \"Sauvegarde Modèle\" pour "
+"enregistrer les personnalisations, puis sur \"Créer image\" pour créer "
+"l'image."
 
 #. [components.Modal.labelRole]
 #. defaultMessage is:
@@ -2069,10 +1896,8 @@ msgstr "Role"
 #. defaultMessage is:
 #. S3 bucket help
 #: build/messages/components/Wizard/steps/awsDest.json
-#, fuzzy
-#| msgid "S3 Bucket help"
 msgid "S3 bucket help"
-msgstr "Aide sur S3 Bucket"
+msgstr "S3 bucket help"
 
 #. [components.Modal.labelSSHKey]
 #. defaultMessage is:
@@ -2104,10 +1929,8 @@ msgstr "Sauvegarder"
 #. defaultMessage is:
 #. Save blueprint
 #: build/messages/components/Wizard/formComponents/SubmitButtonsCustom.json
-#, fuzzy
-#| msgid "Create blueprint"
 msgid "Save blueprint"
-msgstr "Créer un modèle"
+msgstr "Sauvegarde Modèle"
 
 #. [components.Modal.1820273720]
 #. defaultMessage is:
@@ -2122,20 +1945,22 @@ msgstr "Sauvegarder une source"
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Search above to add additional{br}packages to your image"
 msgstr ""
+"Recherchez ci-dessus pour ajouter des paquets supplémentaires à votre "
+"image{br}"
 
 #. [wizard.packages.availablePackagesSearch]
 #. defaultMessage is:
 #. Search button for available packages
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Search button for available packages"
-msgstr ""
+msgstr "Bouton de recherche des packages disponibles"
 
 #. [wizard.packages.searchPackages]
 #. defaultMessage is:
 #. Search for a package
 #: build/messages/components/Wizard/formComponents/Packages.json
 msgid "Search for a package"
-msgstr ""
+msgstr "Recherche d'un paquet"
 
 #. [wizard.review.secretAccessKey]
 #. defaultMessage is:
@@ -2173,10 +1998,8 @@ msgstr "En sélectionner un"
 #. defaultMessage is:
 #. Select output type
 #: build/messages/components/Wizard/formComponents/ImageOutputSelect.json
-#, fuzzy
-#| msgid "Select one"
 msgid "Select output type"
-msgstr "En sélectionner un"
+msgstr "Sélectionner le type de sortie"
 
 #. [components.ListView.selectedTabTitle]
 #. defaultMessage is:
@@ -2189,19 +2012,15 @@ msgstr "Composants sélectionnés"
 #. defaultMessage is:
 #. Selected packages
 #: build/messages/components/Wizard/steps/packages.json
-#, fuzzy
-#| msgid "Edit packages"
 msgid "Selected packages"
-msgstr "Modifier les paquets"
+msgstr "Paquets sélectionnés"
 
 #. [wizard.packages.selectorControls]
 #. defaultMessage is:
 #. Selector controls
 #: build/messages/components/Wizard/formComponents/Packages.json
-#, fuzzy
-#| msgid "Select components"
 msgid "Selector controls"
-msgstr "Sélectionner les composants"
+msgstr "Commandes du sélecteur"
 
 #. [components.Modal.adminCheckbox]
 #. defaultMessage is:
@@ -2271,10 +2090,8 @@ msgstr "Taille"
 #. Sort blueprints ascending
 #: build/messages/components/Toolbar/BlueprintsToolbar.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Export blueprint"
 msgid "Sort blueprints ascending"
-msgstr "Exporter le modèle"
+msgstr "Trier les modèles par ordre croissant"
 
 #. [toolbar.blueprints.sort.desc]
 #. defaultMessage is:
@@ -2284,10 +2101,8 @@ msgstr "Exporter le modèle"
 #. Sort blueprints descending
 #: build/messages/components/Toolbar/BlueprintsToolbar.json
 #: build/messages/components/Toolbar/BlueprintToolbar.json
-#, fuzzy
-#| msgid "Export blueprint"
 msgid "Sort blueprints descending"
-msgstr "Exporter le modèle"
+msgstr "Trier les modèles par ordre décroissant"
 
 #. [components.ListView.kebab]
 #. defaultMessage is:
@@ -2338,7 +2153,7 @@ msgstr "Indiquer un nouveau nom de modèle."
 #. Specify which device the image will be installed onto.
 #: build/messages/components/Wizard/steps/system.json
 msgid "Specify which device the image will be installed onto."
-msgstr ""
+msgstr "Indiquez sur quel périphérique l'image sera installée."
 
 #. [components.EmptyState.errorInactivePrimary]
 #. defaultMessage is:
@@ -2433,10 +2248,8 @@ msgstr "Aide sur les conteneurs de stockage"
 #. defaultMessage is:
 #. System
 #: build/messages/components/Wizard/steps/system.json
-#, fuzzy
-#| msgid "System source"
 msgid "System"
-msgstr "Source système"
+msgstr "Système"
 
 #. [components.ListView.3639476303] - System sources are configured repositories that were found on the host machine
 #. defaultMessage is:
@@ -2548,14 +2361,8 @@ msgstr "Les valeurs saisies pour le mot de passe ne correspondent pas."
 #. defaultMessage is:
 #. There are no components listed in the blueprint.
 #: build/messages/pages/blueprint/index.json
-#, fuzzy
-#| msgid ""
-#| "There are no components listed in the blueprint. Edit the blueprint to "
-#| "add components."
 msgid "There are no components listed in the blueprint."
-msgstr ""
-"Il n’y a pas de composants listés dans le modèle. Modifiez le modèle pour "
-"ajouter des composants."
+msgstr "Il n'y a pas de composant listé dans le modèle."
 
 #. [components.Modal.181468144]
 #. defaultMessage is:
@@ -2726,10 +2533,8 @@ msgstr "Télécharger vers AWS"
 #. defaultMessage is:
 #. Upload to AWS help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to AWS"
 msgid "Upload to AWS help"
-msgstr "Télécharger vers AWS"
+msgstr "Télécharger vers Aide AWS"
 
 #. [wizard.review.uploadToAzure]
 #. defaultMessage is:
@@ -2754,10 +2559,8 @@ msgstr "Télécharger vers Azure"
 #. defaultMessage is:
 #. Upload to Azure help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to Azure"
 msgid "Upload to Azure help"
-msgstr "Télécharger vers Azure"
+msgstr "Télécharger vers Aide Azure"
 
 #. [wizard.review.uploadToOCI]
 #. defaultMessage is:
@@ -2782,10 +2585,8 @@ msgstr "Télécharger vers OCI"
 #. defaultMessage is:
 #. Upload to OCI help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to OCI"
 msgid "Upload to OCI help"
-msgstr "Télécharger vers OCI"
+msgstr "Télécharger vers Aide OCI"
 
 #. [wizard.review.uploadToVMWare]
 #. defaultMessage is:
@@ -2810,10 +2611,8 @@ msgstr "Télécharger vers VMWare"
 #. defaultMessage is:
 #. Upload to VMWare help
 #: build/messages/components/Wizard/steps/imageOutput.json
-#, fuzzy
-#| msgid "Upload to VMWare"
 msgid "Upload to VMWare help"
-msgstr "Télécharger vers VMWare"
+msgstr "Télécharger vers Aide de VMWare"
 
 #. [components.ListView.uploadType] - A label for the service to which an image was uploaded
 #. defaultMessage is:
@@ -2851,10 +2650,8 @@ msgstr "Nom d’utilisateur"
 #. defaultMessage is:
 #. User ocid help
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "Cluster help"
 msgid "User ocid help"
-msgstr "Aide Clusters"
+msgstr "Aide utilisateur ocid"
 
 #. [wizard.review.username]
 #. defaultMessage is:
@@ -2900,6 +2697,12 @@ msgid ""
 "                        and the entire hostname can be at most 253 "
 "characters long."
 msgstr ""
+"Les caractères valides sont les lettres de a à z, les chiffres de 0 à 9 et "
+"le trait d'union (-). \n"
+"                        Un nom d'hôte ne peut pas commencer par un trait "
+"d'union. Chaque élément du nom d'hôte doit comporter de 1 à 63 caractères. \n"
+"                        et le nom d'hôte complet peut comporter au maximum "
+"253 caractères."
 
 #. [pages.blueprint.hostnameHelp]
 #. defaultMessage is:
@@ -2947,77 +2750,61 @@ msgstr "Version"
 #. defaultMessage is:
 #. You can create and find existing Access key IDs on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
 #: build/messages/components/Wizard/steps/awsAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can create and find existing Access key IDs on the {iam} page in the "
-#| "AWS console."
 msgid ""
 "You can create and find existing Access key IDs on the <strong>Identity and "
 "Access Management (IAM)</strong> page in the AWS console."
 msgstr ""
-"Vous pouvez créer et trouver les ID de clés d'accès existantes sur la page "
-"{iam} de la console AWS."
+"Vous pouvez créer et trouver les ID de clé d'accès existants sur la page "
+"<strong>Identity and Access Management (IAM)</strong> de la console AWS."
 
 #. [wizard.oci.userOCID.popoverBody]
 #. defaultMessage is:
 #. You can find your user OCID <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid "You can find your user OCID {iam} page in the OCI console."
 msgid ""
 "You can find your user OCID <strong>Identity and Access Management (IAM)</"
 "strong> page in the OCI console."
 msgstr ""
-"Vous pouvez trouver la page de votre utilisateur OCID {iam} dans la console "
-"OCI."
+"Vous pouvez trouver votre OCID d'utilisateur <strong>Gestion des identités "
+"et des accès (IAM)</strong> page dans la console OCI."
 
 #. [wizard.aws.secretAccessKey.popoverBody]
 #. defaultMessage is:
 #. You can view the Secret access key only when you create a new Access key ID on the <strong>Identity and Access Management (IAM)</strong> page in the AWS console.
 #: build/messages/components/Wizard/steps/awsAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can view the Secret access key only when you create a new Access key "
-#| "ID on the {iam} page in the AWS console."
 msgid ""
 "You can view the Secret access key only when you create a new Access key ID "
 "on the <strong>Identity and Access Management (IAM)</strong> page in the AWS "
 "console."
 msgstr ""
-"Vous ne pouvez consulter la clé d'accès secrète que lorsque vous créez un "
-"nouvel ID de clé d'accès sur la page {iam} de la console AWS."
+"Vous pouvez afficher la clé d'accès Secrète uniquement lorsque vous créez un "
+"nouvel ID de clé d'accès sur la page <strong>Identité et Gestion des accès "
+"(IAM)</strong> de la console AWS."
 
 #. [wizard.oci.fingerprint.popoverBody]
 #. defaultMessage is:
 #. You can view your deployed RSA keys fingerprint in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can view your deployed RSA keys fingerprint in the API Keys section "
-#| "on the {iam} page in the OCI console."
 msgid ""
 "You can view your deployed RSA keys fingerprint in the API Keys section on "
 "the <strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"Vous pouvez voir l'empreinte de vos clés RSA déployées dans la section Clés "
-"API sur la page {iam} de la console OCI."
+"Vous pouvez consulter l'empreinte digitale de vos clés RSA déployées dans la "
+"section Clés API sur la page <strong>Identité et Gestion des accès (IAM)</"
+"strong> de la console OCI."
 
 #. [wizard.oci.privateKey.popoverBody]
 #. defaultMessage is:
 #. You can view your deployed RSA keys in the API Keys section on the <strong>Identity and Access Management (IAM)</strong> page in the OCI console.
 #: build/messages/components/Wizard/steps/ociAuth.json
-#, fuzzy
-#| msgid ""
-#| "You can view your deployed RSA keys in the API Keys section on the {iam} "
-#| "page in the OCI console."
 msgid ""
 "You can view your deployed RSA keys in the API Keys section on the "
 "<strong>Identity and Access Management (IAM)</strong> page in the OCI "
 "console."
 msgstr ""
-"Vous pouvez voir vos clés RSA déployées dans la section Clés API sur la page "
-"{iam} de la console OCI."
+"Vous pouvez voir vos clés RSA déployées dans la section Clés API de la page "
+"<strong>Identité et Gestion des accès (IAM)</strong> de la console OCI."
 
 #. [components.ListView.actions]
 #. defaultMessage is:
@@ -3030,17 +2817,15 @@ msgstr "Actions"
 #. defaultMessage is:
 #. blueprint
 #: build/messages/components/Wizard/formComponents/BlueprintName.json
-#, fuzzy
-#| msgid "Blueprint"
 msgid "blueprint"
-msgstr "Modèle"
+msgstr "modèle"
 
 #. [components.ListView.details]
 #. defaultMessage is:
 #. details
 #: build/messages/components/ListView/ComponentsDataListItem.json
 msgid "details"
-msgstr "Détails"
+msgstr "détails"
 
 #. [pages.error.2054225650]
 #. defaultMessage is:
