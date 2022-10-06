@@ -6,7 +6,7 @@
 # Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-10-04T04:04:05.506Z\n"
+"POT-Creation-Date: 2022-10-06T03:53:36.139Z\n"
 "PO-Revision-Date: 2022-09-05 18:39+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
